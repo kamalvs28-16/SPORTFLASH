@@ -7,4 +7,6 @@ yolo11n.pt
 videos/
 runs/
 
+*_heatmap.png
+
 .env
