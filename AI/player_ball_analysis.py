@@ -18,11 +18,11 @@ VIDEO_PATH = "E:\\SPORTFLASH\\videos\\football.mp4"
 #
 # This is in pixels because your video does
 # not have precise field calibration.
-MAX_INTERACTION_DISTANCE = 100
+MAX_INTERACTION_DISTANCE = 180
 
 # Minimum consecutive frames required
 # before counting an interaction.
-MIN_INTERACTION_FRAMES = 5
+MIN_INTERACTION_FRAMES = 3
 
 # ---------------------------------------
 # LOAD MODEL
