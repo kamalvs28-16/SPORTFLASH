@@ -1,194 +1,331 @@
 {
     "1": {
-        "average_speed": 259.01,
-        "maximum_speed": 2516.8
+        "average_speed": 248.01,
+        "maximum_speed": 621.03,
+        "unit": "pixels/sec",
+        "speed_samples": 1056,
+        "detections": 1085
     },
     "2": {
-        "average_speed": 304.59,
-        "maximum_speed": 1771.03
+        "average_speed": 299.51,
+        "maximum_speed": 728.77,
+        "unit": "pixels/sec",
+        "speed_samples": 372,
+        "detections": 386
     },
     "3": {
-        "average_speed": 417.9,
-        "maximum_speed": 728.15
+        "average_speed": 415.71,
+        "maximum_speed": 488.8,
+        "unit": "pixels/sec",
+        "speed_samples": 19,
+        "detections": 20
     },
     "4": {
-        "average_speed": 193.89,
-        "maximum_speed": 909.52
+        "average_speed": 198.16,
+        "maximum_speed": 535.62,
+        "unit": "pixels/sec",
+        "speed_samples": 184,
+        "detections": 194
     },
     "5": {
-        "average_speed": 402.58,
-        "maximum_speed": 1531.96
+        "average_speed": 373.68,
+        "maximum_speed": 943.85,
+        "unit": "pixels/sec",
+        "speed_samples": 111,
+        "detections": 114
     },
     "8": {
-        "average_speed": 147.79,
-        "maximum_speed": 246.79
+        "average_speed": 149.57,
+        "maximum_speed": 178.98,
+        "unit": "pixels/sec",
+        "speed_samples": 19,
+        "detections": 20
     },
     "9": {
-        "average_speed": 328.63,
-        "maximum_speed": 439.42
+        "average_speed": 313.25,
+        "maximum_speed": 350.38,
+        "unit": "pixels/sec",
+        "speed_samples": 8,
+        "detections": 9
     },
     "10": {
-        "average_speed": 476.81,
-        "maximum_speed": 1482.82
+        "average_speed": 463.5,
+        "maximum_speed": 1043.59,
+        "unit": "pixels/sec",
+        "speed_samples": 65,
+        "detections": 67
     },
     "11": {
-        "average_speed": 463.65,
-        "maximum_speed": 2774.3
+        "average_speed": 438.05,
+        "maximum_speed": 884.76,
+        "unit": "pixels/sec",
+        "speed_samples": 182,
+        "detections": 185
     },
     "12": {
-        "average_speed": 335.13,
-        "maximum_speed": 726.42
-    },
-    "13": {
-        "average_speed": 655.62,
-        "maximum_speed": 1908.02
-    },
-    "14": {
-        "average_speed": 365.91,
-        "maximum_speed": 3323.08
-    },
-    "16": {
-        "average_speed": 540.42,
-        "maximum_speed": 1449.92
-    },
-    "17": {
-        "average_speed": 629.39,
-        "maximum_speed": 3446.1
-    },
-    "18": {
-        "average_speed": 298.14,
-        "maximum_speed": 853.44
-    },
-    "19": {
-        "average_speed": 470.3,
-        "maximum_speed": 1879.83
-    },
-    "21": {
-        "average_speed": 1233.55,
-        "maximum_speed": 1233.55
-    },
-    "22": {
-        "average_speed": 313.77,
-        "maximum_speed": 1558.38
+        "average_speed": 341.46,
+        "maximum_speed": 430.39,
+        "unit": "pixels/sec",
+        "speed_samples": 6,
+        "detections": 7
     },
     "25": {
-        "average_speed": 397.04,
-        "maximum_speed": 1670.25
-    },
-    "26": {
-        "average_speed": 264.81,
-        "maximum_speed": 2388.43
-    },
-    "27": {
-        "average_speed": 275.24,
-        "maximum_speed": 1838.85
-    },
-    "28": {
-        "average_speed": 271.54,
-        "maximum_speed": 590.8
+        "average_speed": 444.33,
+        "maximum_speed": 514.84,
+        "unit": "pixels/sec",
+        "speed_samples": 5,
+        "detections": 7
     },
     "29": {
-        "average_speed": 323.42,
-        "maximum_speed": 716.62
-    },
-    "30": {
-        "average_speed": 364.37,
-        "maximum_speed": 1754.04
+        "average_speed": 302.26,
+        "maximum_speed": 520.47,
+        "unit": "pixels/sec",
+        "speed_samples": 53,
+        "detections": 56
     },
     "31": {
-        "average_speed": 265.32,
-        "maximum_speed": 429.97
+        "average_speed": 530.86,
+        "maximum_speed": 798.98,
+        "unit": "pixels/sec",
+        "speed_samples": 30,
+        "detections": 31
     },
     "32": {
-        "average_speed": 202.67,
-        "maximum_speed": 1143.88
+        "average_speed": 616.89,
+        "maximum_speed": 1226.07,
+        "unit": "pixels/sec",
+        "speed_samples": 72,
+        "detections": 74
     },
     "33": {
-        "average_speed": 244.53,
-        "maximum_speed": 1059.91
+        "average_speed": 325.06,
+        "maximum_speed": 602.74,
+        "unit": "pixels/sec",
+        "speed_samples": 57,
+        "detections": 59
     },
     "34": {
-        "average_speed": 219.01,
-        "maximum_speed": 592.96
-    },
-    "35": {
-        "average_speed": 202.12,
-        "maximum_speed": 1596.41
-    },
-    "36": {
-        "average_speed": 210.22,
-        "maximum_speed": 847.33
+        "average_speed": 491.12,
+        "maximum_speed": 763.11,
+        "unit": "pixels/sec",
+        "speed_samples": 71,
+        "detections": 72
     },
     "37": {
-        "average_speed": 192.05,
-        "maximum_speed": 576.98
-    },
-    "38": {
-        "average_speed": 324.92,
-        "maximum_speed": 5535.77
-    },
-    "39": {
-        "average_speed": 432.9,
-        "maximum_speed": 1524.98
+        "average_speed": 302.45,
+        "maximum_speed": 531.03,
+        "unit": "pixels/sec",
+        "speed_samples": 121,
+        "detections": 123
     },
     "40": {
-        "average_speed": 426.99,
-        "maximum_speed": 949.96
+        "average_speed": 400.12,
+        "maximum_speed": 702.73,
+        "unit": "pixels/sec",
+        "speed_samples": 89,
+        "detections": 91
     },
-    "42": {
-        "average_speed": 317.98,
-        "maximum_speed": 1656.22
+    "41": {
+        "average_speed": 260.5,
+        "maximum_speed": 580.26,
+        "unit": "pixels/sec",
+        "speed_samples": 311,
+        "detections": 322
+    },
+    "43": {
+        "average_speed": 268.52,
+        "maximum_speed": 647.85,
+        "unit": "pixels/sec",
+        "speed_samples": 280,
+        "detections": 287
     },
     "44": {
-        "average_speed": 351.77,
-        "maximum_speed": 773.64
+        "average_speed": 260.31,
+        "maximum_speed": 397.24,
+        "unit": "pixels/sec",
+        "speed_samples": 23,
+        "detections": 24
     },
     "45": {
-        "average_speed": 695.55,
-        "maximum_speed": 1105.3
+        "average_speed": 305.27,
+        "maximum_speed": 606.13,
+        "unit": "pixels/sec",
+        "speed_samples": 53,
+        "detections": 54
     },
     "46": {
-        "average_speed": 314.5,
-        "maximum_speed": 590.43
+        "average_speed": 345.24,
+        "maximum_speed": 859.91,
+        "unit": "pixels/sec",
+        "speed_samples": 110,
+        "detections": 113
     },
-    "48": {
-        "average_speed": 231.36,
-        "maximum_speed": 1420.75
+    "47": {
+        "average_speed": 261.46,
+        "maximum_speed": 340.68,
+        "unit": "pixels/sec",
+        "speed_samples": 30,
+        "detections": 31
     },
     "49": {
-        "average_speed": 322.38,
-        "maximum_speed": 2371.15
+        "average_speed": 160.89,
+        "maximum_speed": 282.04,
+        "unit": "pixels/sec",
+        "speed_samples": 16,
+        "detections": 20
     },
     "50": {
-        "average_speed": 546.49,
-        "maximum_speed": 972.45
+        "average_speed": 241.55,
+        "maximum_speed": 678.02,
+        "unit": "pixels/sec",
+        "speed_samples": 73,
+        "detections": 80
     },
     "51": {
-        "average_speed": 303.12,
-        "maximum_speed": 1251.45
+        "average_speed": 224.1,
+        "maximum_speed": 332.18,
+        "unit": "pixels/sec",
+        "speed_samples": 43,
+        "detections": 46
     },
     "53": {
-        "average_speed": 579.9,
-        "maximum_speed": 6229.74
+        "average_speed": 193.46,
+        "maximum_speed": 727.95,
+        "unit": "pixels/sec",
+        "speed_samples": 156,
+        "detections": 167
     },
     "54": {
-        "average_speed": 1078.75,
-        "maximum_speed": 6380.21
+        "average_speed": 197.13,
+        "maximum_speed": 430.16,
+        "unit": "pixels/sec",
+        "speed_samples": 41,
+        "detections": 42
+    },
+    "55": {
+        "average_speed": 197.39,
+        "maximum_speed": 305.66,
+        "unit": "pixels/sec",
+        "speed_samples": 33,
+        "detections": 35
     },
     "56": {
-        "average_speed": 1311.88,
-        "maximum_speed": 4979.44
-    },
-    "57": {
-        "average_speed": 1994.78,
-        "maximum_speed": 5399.47
-    },
-    "58": {
-        "average_speed": 2708.48,
-        "maximum_speed": 6468.57
+        "average_speed": 251.83,
+        "maximum_speed": 524.46,
+        "unit": "pixels/sec",
+        "speed_samples": 479,
+        "detections": 498
     },
     "59": {
-        "average_speed": 1789.65,
-        "maximum_speed": 3341.49
+        "average_speed": 599.82,
+        "maximum_speed": 896.73,
+        "unit": "pixels/sec",
+        "speed_samples": 21,
+        "detections": 22
+    },
+    "60": {
+        "average_speed": 410.65,
+        "maximum_speed": 783.22,
+        "unit": "pixels/sec",
+        "speed_samples": 77,
+        "detections": 78
+    },
+    "62": {
+        "average_speed": 318.33,
+        "maximum_speed": 588.57,
+        "unit": "pixels/sec",
+        "speed_samples": 45,
+        "detections": 46
+    },
+    "64": {
+        "average_speed": 351.23,
+        "maximum_speed": 678.08,
+        "unit": "pixels/sec",
+        "speed_samples": 81,
+        "detections": 83
+    },
+    "65": {
+        "average_speed": 731.38,
+        "maximum_speed": 992.86,
+        "unit": "pixels/sec",
+        "speed_samples": 47,
+        "detections": 48
+    },
+    "67": {
+        "average_speed": 307.72,
+        "maximum_speed": 438.84,
+        "unit": "pixels/sec",
+        "speed_samples": 64,
+        "detections": 65
+    },
+    "69": {
+        "average_speed": 229.8,
+        "maximum_speed": 455.95,
+        "unit": "pixels/sec",
+        "speed_samples": 118,
+        "detections": 125
+    },
+    "70": {
+        "average_speed": 313.24,
+        "maximum_speed": 568.7,
+        "unit": "pixels/sec",
+        "speed_samples": 138,
+        "detections": 139
+    },
+    "71": {
+        "average_speed": 514.63,
+        "maximum_speed": 866.8,
+        "unit": "pixels/sec",
+        "speed_samples": 38,
+        "detections": 39
+    },
+    "72": {
+        "average_speed": 309.46,
+        "maximum_speed": 593.8,
+        "unit": "pixels/sec",
+        "speed_samples": 123,
+        "detections": 128
+    },
+    "74": {
+        "average_speed": 248.66,
+        "maximum_speed": 787.74,
+        "unit": "pixels/sec",
+        "speed_samples": 141,
+        "detections": 150
+    },
+    "75": {
+        "average_speed": 469.72,
+        "maximum_speed": 1516.98,
+        "unit": "pixels/sec",
+        "speed_samples": 68,
+        "detections": 79
+    },
+    "77": {
+        "average_speed": 779.05,
+        "maximum_speed": 1192.77,
+        "unit": "pixels/sec",
+        "speed_samples": 12,
+        "detections": 16
+    },
+    "78": {
+        "average_speed": 683.81,
+        "maximum_speed": 1182.31,
+        "unit": "pixels/sec",
+        "speed_samples": 12,
+        "detections": 18
+    },
+    "79": {
+        "average_speed": 975.22,
+        "maximum_speed": 1644.25,
+        "unit": "pixels/sec",
+        "speed_samples": 13,
+        "detections": 24
+    },
+    "80": {
+        "average_speed": 2030.58,
+        "maximum_speed": 2892.44,
+        "unit": "pixels/sec",
+        "speed_samples": 6,
+        "detections": 8
     }
 }

@@ -1,290 +1,425 @@
 {
     "3": {
         "movement": 132.47,
-        "average_speed": 417.9,
-        "maximum_speed": 728.15,
+        "average_speed": 415.71,
+        "maximum_speed": 488.8,
         "movement_score": 2.83,
-        "average_speed_score": 15.43,
-        "maximum_speed_score": 11.26,
-        "performance_score": 9.35
-    },
-    "9": {
-        "movement": 43.86,
-        "average_speed": 328.63,
-        "maximum_speed": 439.42,
-        "movement_score": 0.94,
-        "average_speed_score": 12.13,
-        "maximum_speed_score": 6.79,
-        "performance_score": 6.32
-    },
-    "46": {
-        "movement": 703.32,
-        "average_speed": 314.5,
-        "maximum_speed": 590.43,
-        "movement_score": 15.02,
-        "average_speed_score": 11.61,
-        "maximum_speed_score": 9.13,
-        "performance_score": 12.35
-    },
-    "34": {
-        "movement": 614.05,
-        "average_speed": 219.01,
-        "maximum_speed": 592.96,
-        "movement_score": 13.11,
-        "average_speed_score": 8.09,
-        "maximum_speed_score": 9.17,
-        "performance_score": 10.37
-    },
-    "1": {
-        "movement": 4684.11,
-        "average_speed": 259.01,
-        "maximum_speed": 2516.8,
-        "movement_score": 100.0,
-        "average_speed_score": 9.56,
-        "maximum_speed_score": 38.91,
-        "performance_score": 53.07
-    },
-    "42": {
-        "movement": 282.64,
-        "average_speed": 317.98,
-        "maximum_speed": 1656.22,
-        "movement_score": 6.03,
-        "average_speed_score": 11.74,
-        "maximum_speed_score": 25.6,
-        "performance_score": 12.92
-    },
-    "51": {
-        "movement": 164.42,
-        "average_speed": 303.12,
-        "maximum_speed": 1251.45,
-        "movement_score": 3.51,
-        "average_speed_score": 11.19,
-        "maximum_speed_score": 19.35,
-        "performance_score": 10.16
-    },
-    "45": {
-        "movement": 285.97,
-        "average_speed": 695.55,
-        "maximum_speed": 1105.3,
-        "movement_score": 6.11,
-        "average_speed_score": 25.68,
-        "maximum_speed_score": 17.09,
-        "performance_score": 15.7
-    },
-    "13": {
-        "movement": 0,
-        "average_speed": 655.62,
-        "maximum_speed": 1908.02,
-        "movement_score": 0.0,
-        "average_speed_score": 24.21,
-        "maximum_speed_score": 29.5,
-        "performance_score": 15.85
-    },
-    "54": {
-        "movement": 143.79,
-        "average_speed": 1078.75,
-        "maximum_speed": 6380.21,
-        "movement_score": 3.07,
-        "average_speed_score": 39.83,
-        "maximum_speed_score": 98.63,
-        "performance_score": 39.83
+        "average_speed_score": 20.47,
+        "maximum_speed_score": 16.9,
+        "performance_score": 12.52
     },
     "2": {
         "movement": 2165.02,
-        "average_speed": 304.59,
-        "maximum_speed": 1771.03,
+        "average_speed": 299.51,
+        "maximum_speed": 728.77,
         "movement_score": 46.22,
-        "average_speed_score": 11.25,
-        "maximum_speed_score": 27.38,
-        "performance_score": 29.27
-    },
-    "49": {
-        "movement": 64.24,
-        "average_speed": 322.38,
-        "maximum_speed": 2371.15,
-        "movement_score": 1.37,
-        "average_speed_score": 11.9,
-        "maximum_speed_score": 36.66,
-        "performance_score": 13.88
-    },
-    "58": {
-        "movement": 33.93,
-        "average_speed": 2708.48,
-        "maximum_speed": 6468.57,
-        "movement_score": 0.72,
-        "average_speed_score": 100.0,
-        "maximum_speed_score": 100.0,
-        "performance_score": 60.29
-    },
-    "4": {
-        "movement": 673.75,
-        "average_speed": 193.89,
-        "maximum_speed": 909.52,
-        "movement_score": 14.38,
-        "average_speed_score": 7.16,
-        "maximum_speed_score": 14.06,
-        "performance_score": 11.77
-    },
-    "10": {
-        "movement": 536.26,
-        "average_speed": 476.81,
-        "maximum_speed": 1482.82,
-        "movement_score": 11.45,
-        "average_speed_score": 17.6,
-        "maximum_speed_score": 22.92,
-        "performance_score": 16.47
-    },
-    "31": {
-        "movement": 270.48,
-        "average_speed": 265.32,
-        "maximum_speed": 429.97,
-        "movement_score": 5.77,
-        "average_speed_score": 9.8,
-        "maximum_speed_score": 6.65,
-        "performance_score": 7.4
+        "average_speed_score": 14.75,
+        "maximum_speed_score": 25.2,
+        "performance_score": 29.95
     },
     "33": {
         "movement": 313.06,
-        "average_speed": 244.53,
-        "maximum_speed": 1059.91,
+        "average_speed": 325.06,
+        "maximum_speed": 602.74,
         "movement_score": 6.68,
-        "average_speed_score": 9.03,
-        "maximum_speed_score": 16.39,
-        "performance_score": 9.93
+        "average_speed_score": 16.01,
+        "maximum_speed_score": 20.84,
+        "performance_score": 13.49
     },
-    "59": {
-        "movement": 217.32,
-        "average_speed": 1789.65,
-        "maximum_speed": 3341.49,
-        "movement_score": 4.64,
-        "average_speed_score": 66.08,
-        "maximum_speed_score": 51.66,
-        "performance_score": 37.9
-    },
-    "36": {
-        "movement": 20.58,
-        "average_speed": 210.22,
-        "maximum_speed": 847.33,
-        "movement_score": 0.44,
-        "average_speed_score": 7.76,
-        "maximum_speed_score": 13.1,
-        "performance_score": 6.17
-    },
-    "5": {
-        "movement": 758.94,
-        "average_speed": 402.58,
-        "maximum_speed": 1531.96,
-        "movement_score": 16.2,
-        "average_speed_score": 14.86,
-        "maximum_speed_score": 23.68,
-        "performance_score": 17.6
-    },
-    "50": {
-        "movement": 322.29,
-        "average_speed": 546.49,
-        "maximum_speed": 972.45,
-        "movement_score": 6.88,
-        "average_speed_score": 20.18,
-        "maximum_speed_score": 15.03,
-        "performance_score": 13.57
-    },
-    "12": {
-        "movement": 33.55,
-        "average_speed": 335.13,
-        "maximum_speed": 726.42,
-        "movement_score": 0.72,
-        "average_speed_score": 12.37,
-        "maximum_speed_score": 11.23,
-        "performance_score": 7.42
-    },
-    "56": {
-        "movement": 2856.41,
-        "average_speed": 1311.88,
-        "maximum_speed": 4979.44,
-        "movement_score": 60.98,
-        "average_speed_score": 48.44,
-        "maximum_speed_score": 76.98,
-        "performance_score": 60.59
-    },
-    "44": {
-        "movement": 104.2,
-        "average_speed": 351.77,
-        "maximum_speed": 773.64,
-        "movement_score": 2.22,
-        "average_speed_score": 12.99,
-        "maximum_speed_score": 11.96,
-        "performance_score": 8.43
-    },
-    "37": {
-        "movement": 638.63,
-        "average_speed": 192.05,
-        "maximum_speed": 576.98,
-        "movement_score": 13.63,
-        "average_speed_score": 7.09,
-        "maximum_speed_score": 8.92,
-        "performance_score": 10.17
-    },
-    "8": {
-        "movement": 46.85,
-        "average_speed": 147.79,
-        "maximum_speed": 246.79,
-        "movement_score": 1.0,
-        "average_speed_score": 5.46,
-        "maximum_speed_score": 3.82,
-        "performance_score": 3.26
-    },
-    "11": {
-        "movement": 1463.5,
-        "average_speed": 463.65,
-        "maximum_speed": 2774.3,
-        "movement_score": 31.24,
-        "average_speed_score": 17.12,
-        "maximum_speed_score": 42.89,
-        "performance_score": 29.21
-    },
-    "32": {
-        "movement": 833.46,
-        "average_speed": 202.67,
-        "maximum_speed": 1143.88,
-        "movement_score": 17.79,
-        "average_speed_score": 7.48,
-        "maximum_speed_score": 17.68,
-        "performance_score": 14.16
-    },
-    "53": {
-        "movement": 634.78,
-        "average_speed": 579.9,
-        "maximum_speed": 6229.74,
-        "movement_score": 13.55,
-        "average_speed_score": 21.41,
-        "maximum_speed_score": 96.31,
-        "performance_score": 36.99
-    },
-    "29": {
-        "movement": 335.75,
-        "average_speed": 323.42,
-        "maximum_speed": 716.62,
-        "movement_score": 7.17,
-        "average_speed_score": 11.94,
-        "maximum_speed_score": 11.08,
-        "performance_score": 9.82
+    "77": {
+        "movement": 420.35,
+        "average_speed": 779.05,
+        "maximum_speed": 1192.77,
+        "movement_score": 8.97,
+        "average_speed_score": 38.37,
+        "maximum_speed_score": 41.24,
+        "performance_score": 27.33
     },
     "40": {
         "movement": 596.16,
-        "average_speed": 426.99,
-        "maximum_speed": 949.96,
+        "average_speed": 400.12,
+        "maximum_speed": 702.73,
         "movement_score": 12.73,
-        "average_speed_score": 15.76,
-        "maximum_speed_score": 14.69,
-        "performance_score": 14.28
+        "average_speed_score": 19.7,
+        "maximum_speed_score": 24.3,
+        "performance_score": 18.06
+    },
+    "43": {
+        "movement": 1330.51,
+        "average_speed": 268.52,
+        "maximum_speed": 647.85,
+        "movement_score": 28.4,
+        "average_speed_score": 13.22,
+        "maximum_speed_score": 22.4,
+        "performance_score": 21.59
+    },
+    "79": {
+        "movement": 1039.29,
+        "average_speed": 975.22,
+        "maximum_speed": 1644.25,
+        "movement_score": 22.19,
+        "average_speed_score": 48.03,
+        "maximum_speed_score": 56.85,
+        "performance_score": 39.9
+    },
+    "56": {
+        "movement": 2856.41,
+        "average_speed": 251.83,
+        "maximum_speed": 524.46,
+        "movement_score": 60.98,
+        "average_speed_score": 12.4,
+        "maximum_speed_score": 18.13,
+        "performance_score": 33.27
+    },
+    "64": {
+        "movement": 481.24,
+        "average_speed": 351.23,
+        "maximum_speed": 678.08,
+        "movement_score": 10.27,
+        "average_speed_score": 17.3,
+        "maximum_speed_score": 23.44,
+        "performance_score": 16.02
+    },
+    "9": {
+        "movement": 43.86,
+        "average_speed": 313.25,
+        "maximum_speed": 350.38,
+        "movement_score": 0.94,
+        "average_speed_score": 15.43,
+        "maximum_speed_score": 12.11,
+        "performance_score": 8.8
+    },
+    "53": {
+        "movement": 634.78,
+        "average_speed": 193.46,
+        "maximum_speed": 727.95,
+        "movement_score": 13.55,
+        "average_speed_score": 9.53,
+        "maximum_speed_score": 25.17,
+        "performance_score": 15.05
+    },
+    "46": {
+        "movement": 703.32,
+        "average_speed": 345.24,
+        "maximum_speed": 859.91,
+        "movement_score": 15.02,
+        "average_speed_score": 17.0,
+        "maximum_speed_score": 29.73,
+        "performance_score": 19.39
+    },
+    "49": {
+        "movement": 64.24,
+        "average_speed": 160.89,
+        "maximum_speed": 282.04,
+        "movement_score": 1.37,
+        "average_speed_score": 7.92,
+        "maximum_speed_score": 9.75,
+        "performance_score": 5.76
     },
     "25": {
         "movement": 97.46,
-        "average_speed": 397.04,
-        "maximum_speed": 1670.25,
+        "average_speed": 444.33,
+        "maximum_speed": 514.84,
         "movement_score": 2.08,
-        "average_speed_score": 14.66,
-        "maximum_speed_score": 25.82,
-        "performance_score": 12.42
+        "average_speed_score": 21.88,
+        "maximum_speed_score": 17.8,
+        "performance_score": 12.94
+    },
+    "29": {
+        "movement": 335.75,
+        "average_speed": 302.26,
+        "maximum_speed": 520.47,
+        "movement_score": 7.17,
+        "average_speed_score": 14.89,
+        "maximum_speed_score": 17.99,
+        "performance_score": 12.58
+    },
+    "8": {
+        "movement": 46.85,
+        "average_speed": 149.57,
+        "maximum_speed": 178.98,
+        "movement_score": 1.0,
+        "average_speed_score": 7.37,
+        "maximum_speed_score": 6.19,
+        "performance_score": 4.53
+    },
+    "45": {
+        "movement": 285.97,
+        "average_speed": 305.27,
+        "maximum_speed": 606.13,
+        "movement_score": 6.11,
+        "average_speed_score": 15.03,
+        "maximum_speed_score": 20.96,
+        "performance_score": 12.94
+    },
+    "62": {
+        "movement": 257.29,
+        "average_speed": 318.33,
+        "maximum_speed": 588.57,
+        "movement_score": 5.49,
+        "average_speed_score": 15.68,
+        "maximum_speed_score": 20.35,
+        "performance_score": 12.77
+    },
+    "4": {
+        "movement": 673.75,
+        "average_speed": 198.16,
+        "maximum_speed": 535.62,
+        "movement_score": 14.38,
+        "average_speed_score": 9.76,
+        "maximum_speed_score": 18.52,
+        "performance_score": 13.8
+    },
+    "70": {
+        "movement": 742.22,
+        "average_speed": 313.24,
+        "maximum_speed": 568.7,
+        "movement_score": 15.85,
+        "average_speed_score": 15.43,
+        "maximum_speed_score": 19.66,
+        "performance_score": 16.65
+    },
+    "32": {
+        "movement": 833.46,
+        "average_speed": 616.89,
+        "maximum_speed": 1226.07,
+        "movement_score": 17.79,
+        "average_speed_score": 30.38,
+        "maximum_speed_score": 42.39,
+        "performance_score": 28.35
+    },
+    "74": {
+        "movement": 1441.53,
+        "average_speed": 248.66,
+        "maximum_speed": 787.74,
+        "movement_score": 30.77,
+        "average_speed_score": 12.25,
+        "maximum_speed_score": 27.23,
+        "performance_score": 23.4
+    },
+    "78": {
+        "movement": 565.75,
+        "average_speed": 683.81,
+        "maximum_speed": 1182.31,
+        "movement_score": 12.08,
+        "average_speed_score": 33.68,
+        "maximum_speed_score": 40.88,
+        "performance_score": 26.84
+    },
+    "55": {
+        "movement": 109.28,
+        "average_speed": 197.39,
+        "maximum_speed": 305.66,
+        "movement_score": 2.33,
+        "average_speed_score": 9.72,
+        "maximum_speed_score": 10.57,
+        "performance_score": 6.98
+    },
+    "50": {
+        "movement": 322.29,
+        "average_speed": 241.55,
+        "maximum_speed": 678.02,
+        "movement_score": 6.88,
+        "average_speed_score": 11.9,
+        "maximum_speed_score": 23.44,
+        "performance_score": 12.78
+    },
+    "34": {
+        "movement": 614.05,
+        "average_speed": 491.12,
+        "maximum_speed": 763.11,
+        "movement_score": 13.11,
+        "average_speed_score": 24.19,
+        "maximum_speed_score": 26.38,
+        "performance_score": 20.3
+    },
+    "47": {
+        "movement": 132.79,
+        "average_speed": 261.46,
+        "maximum_speed": 340.68,
+        "movement_score": 2.83,
+        "average_speed_score": 12.88,
+        "maximum_speed_score": 11.78,
+        "performance_score": 8.59
+    },
+    "37": {
+        "movement": 638.63,
+        "average_speed": 302.45,
+        "maximum_speed": 531.03,
+        "movement_score": 13.63,
+        "average_speed_score": 14.89,
+        "maximum_speed_score": 18.36,
+        "performance_score": 15.26
+    },
+    "75": {
+        "movement": 1423.66,
+        "average_speed": 469.72,
+        "maximum_speed": 1516.98,
+        "movement_score": 30.39,
+        "average_speed_score": 23.13,
+        "maximum_speed_score": 52.45,
+        "performance_score": 33.37
+    },
+    "12": {
+        "movement": 33.55,
+        "average_speed": 341.46,
+        "maximum_speed": 430.39,
+        "movement_score": 0.72,
+        "average_speed_score": 16.82,
+        "maximum_speed_score": 14.88,
+        "performance_score": 9.89
+    },
+    "11": {
+        "movement": 1463.5,
+        "average_speed": 438.05,
+        "maximum_speed": 884.76,
+        "movement_score": 31.24,
+        "average_speed_score": 21.57,
+        "maximum_speed_score": 30.59,
+        "performance_score": 27.7
+    },
+    "59": {
+        "movement": 217.32,
+        "average_speed": 599.82,
+        "maximum_speed": 896.73,
+        "movement_score": 4.64,
+        "average_speed_score": 29.54,
+        "maximum_speed_score": 31.0,
+        "performance_score": 19.95
+    },
+    "65": {
+        "movement": 545.39,
+        "average_speed": 731.38,
+        "maximum_speed": 992.86,
+        "movement_score": 11.64,
+        "average_speed_score": 36.02,
+        "maximum_speed_score": 34.33,
+        "performance_score": 25.85
+    },
+    "44": {
+        "movement": 104.2,
+        "average_speed": 260.31,
+        "maximum_speed": 397.24,
+        "movement_score": 2.22,
+        "average_speed_score": 12.82,
+        "maximum_speed_score": 13.73,
+        "performance_score": 8.81
+    },
+    "71": {
+        "movement": 346.46,
+        "average_speed": 514.63,
+        "maximum_speed": 866.8,
+        "movement_score": 7.4,
+        "average_speed_score": 25.34,
+        "maximum_speed_score": 29.97,
+        "performance_score": 19.32
+    },
+    "72": {
+        "movement": 642.24,
+        "average_speed": 309.46,
+        "maximum_speed": 593.8,
+        "movement_score": 13.71,
+        "average_speed_score": 15.24,
+        "maximum_speed_score": 20.53,
+        "performance_score": 15.95
+    },
+    "31": {
+        "movement": 270.48,
+        "average_speed": 530.86,
+        "maximum_speed": 798.98,
+        "movement_score": 5.77,
+        "average_speed_score": 26.14,
+        "maximum_speed_score": 27.62,
+        "performance_score": 18.37
+    },
+    "60": {
+        "movement": 548.52,
+        "average_speed": 410.65,
+        "maximum_speed": 783.22,
+        "movement_score": 11.71,
+        "average_speed_score": 20.22,
+        "maximum_speed_score": 27.08,
+        "performance_score": 18.53
+    },
+    "10": {
+        "movement": 536.26,
+        "average_speed": 463.5,
+        "maximum_speed": 1043.59,
+        "movement_score": 11.45,
+        "average_speed_score": 22.83,
+        "maximum_speed_score": 36.08,
+        "performance_score": 21.59
+    },
+    "5": {
+        "movement": 758.94,
+        "average_speed": 373.68,
+        "maximum_speed": 943.85,
+        "movement_score": 16.2,
+        "average_speed_score": 18.4,
+        "maximum_speed_score": 32.63,
+        "performance_score": 21.08
+    },
+    "1": {
+        "movement": 4684.11,
+        "average_speed": 248.01,
+        "maximum_speed": 621.03,
+        "movement_score": 100.0,
+        "average_speed_score": 12.21,
+        "maximum_speed_score": 21.47,
+        "performance_score": 49.64
+    },
+    "41": {
+        "movement": 1447.7,
+        "average_speed": 260.5,
+        "maximum_speed": 580.26,
+        "movement_score": 30.91,
+        "average_speed_score": 12.83,
+        "maximum_speed_score": 20.06,
+        "performance_score": 21.87
+    },
+    "54": {
+        "movement": 143.79,
+        "average_speed": 197.13,
+        "maximum_speed": 430.16,
+        "movement_score": 3.07,
+        "average_speed_score": 9.71,
+        "maximum_speed_score": 14.87,
+        "performance_score": 8.34
+    },
+    "67": {
+        "movement": 335.8,
+        "average_speed": 307.72,
+        "maximum_speed": 438.84,
+        "movement_score": 7.17,
+        "average_speed_score": 15.15,
+        "maximum_speed_score": 15.17,
+        "performance_score": 11.96
+    },
+    "80": {
+        "movement": 209.0,
+        "average_speed": 2030.58,
+        "maximum_speed": 2892.44,
+        "movement_score": 4.46,
+        "average_speed_score": 100.0,
+        "maximum_speed_score": 100.0,
+        "performance_score": 61.78
+    },
+    "69": {
+        "movement": 478.62,
+        "average_speed": 229.8,
+        "maximum_speed": 455.95,
+        "movement_score": 10.22,
+        "average_speed_score": 11.32,
+        "maximum_speed_score": 15.76,
+        "performance_score": 11.99
+    },
+    "51": {
+        "movement": 164.42,
+        "average_speed": 224.1,
+        "maximum_speed": 332.18,
+        "movement_score": 3.51,
+        "average_speed_score": 11.04,
+        "maximum_speed_score": 11.48,
+        "performance_score": 8.14
     }
 }

@@ -1,13 +1,13 @@
 {
     "1": {
         "player_id": "1",
-        "performance_score": 53.07,
+        "performance_score": 49.64,
         "performance_level": "Average",
         "activity_level": "High",
         "dominant_zone": "midfield",
         "movement": 4684.11,
-        "average_speed": 259.01,
-        "maximum_speed": 2516.8,
+        "average_speed": 248.01,
+        "maximum_speed": 621.03,
         "recommendations": [
             "Prioritize carbohydrate-rich foods to support high-intensity activity.",
             "Include a protein-rich meal or snack after training to support recovery.",
@@ -36,48 +36,45 @@
     },
     "2": {
         "player_id": "2",
-        "performance_score": 29.27,
+        "performance_score": 29.95,
         "performance_level": "Needs Improvement",
-        "activity_level": "High",
+        "activity_level": "Moderate",
         "dominant_zone": "defensive",
         "movement": 2165.02,
-        "average_speed": 304.59,
-        "maximum_speed": 1771.03,
+        "average_speed": 299.51,
+        "maximum_speed": 728.77,
         "recommendations": [
-            "Prioritize carbohydrate-rich foods to support high-intensity activity.",
-            "Include a protein-rich meal or snack after training to support recovery.",
-            "Pay particular attention to hydration before, during and after activity."
+            "Maintain a balanced carbohydrate intake to support training and match activity.",
+            "Maintain regular balanced meals containing a source of protein.",
+            "Maintain regular hydration throughout the day and around training."
         ],
         "food_suggestions": [
             "Oats",
             "Rice",
             "Whole-grain bread",
-            "Bananas",
-            "Potatoes"
+            "Fruits"
         ],
         "recovery_foods": [
             "Eggs",
             "Milk or yogurt",
-            "Fish",
-            "Chicken",
-            "Beans or lentils"
+            "Beans",
+            "Lentils"
         ],
         "hydration": [
             "Water",
-            "Fluids during prolonged activity",
-            "Electrolyte-containing fluids when appropriate"
+            "Hydrating foods such as fruits"
         ],
         "position_note": "The player shows strong defensive-zone involvement. Maintain balanced meals and hydration around training."
     },
     "3": {
         "player_id": "3",
-        "performance_score": 9.35,
+        "performance_score": 12.52,
         "performance_level": "Needs Improvement",
         "activity_level": "High",
         "dominant_zone": "defensive",
         "movement": 132.47,
-        "average_speed": 417.9,
-        "maximum_speed": 728.15,
+        "average_speed": 415.71,
+        "maximum_speed": 488.8,
         "recommendations": [
             "Prioritize carbohydrate-rich foods to support high-intensity activity.",
             "Include a protein-rich meal or snack after training to support recovery.",
@@ -106,13 +103,13 @@
     },
     "4": {
         "player_id": "4",
-        "performance_score": 11.77,
+        "performance_score": 13.8,
         "performance_level": "Needs Improvement",
         "activity_level": "Moderate",
         "dominant_zone": "defensive",
         "movement": 673.75,
-        "average_speed": 193.89,
-        "maximum_speed": 909.52,
+        "average_speed": 198.16,
+        "maximum_speed": 535.62,
         "recommendations": [
             "Maintain a balanced carbohydrate intake to support training and match activity.",
             "Maintain regular balanced meals containing a source of protein.",
@@ -138,13 +135,13 @@
     },
     "5": {
         "player_id": "5",
-        "performance_score": 17.6,
+        "performance_score": 21.08,
         "performance_level": "Needs Improvement",
         "activity_level": "High",
         "dominant_zone": "defensive",
         "movement": 758.94,
-        "average_speed": 402.58,
-        "maximum_speed": 1531.96,
+        "average_speed": 373.68,
+        "maximum_speed": 943.85,
         "recommendations": [
             "Prioritize carbohydrate-rich foods to support high-intensity activity.",
             "Include a protein-rich meal or snack after training to support recovery.",
@@ -173,13 +170,13 @@
     },
     "8": {
         "player_id": "8",
-        "performance_score": 3.26,
+        "performance_score": 4.53,
         "performance_level": "Needs Improvement",
         "activity_level": "Low",
         "dominant_zone": "defensive",
         "movement": 46.85,
-        "average_speed": 147.79,
-        "maximum_speed": 246.79,
+        "average_speed": 149.57,
+        "maximum_speed": 178.98,
         "recommendations": [
             "Maintain balanced meals with appropriate carbohydrate portions for activity level.",
             "Maintain regular balanced meals containing a source of protein.",
@@ -204,13 +201,13 @@
     },
     "9": {
         "player_id": "9",
-        "performance_score": 6.32,
+        "performance_score": 8.8,
         "performance_level": "Needs Improvement",
         "activity_level": "High",
         "dominant_zone": "defensive",
         "movement": 43.86,
-        "average_speed": 328.63,
-        "maximum_speed": 439.42,
+        "average_speed": 313.25,
+        "maximum_speed": 350.38,
         "recommendations": [
             "Prioritize carbohydrate-rich foods to support high-intensity activity.",
             "Include a protein-rich meal or snack after training to support recovery.",
@@ -239,13 +236,13 @@
     },
     "10": {
         "player_id": "10",
-        "performance_score": 16.47,
+        "performance_score": 21.59,
         "performance_level": "Needs Improvement",
         "activity_level": "High",
         "dominant_zone": "defensive",
         "movement": 536.26,
-        "average_speed": 476.81,
-        "maximum_speed": 1482.82,
+        "average_speed": 463.5,
+        "maximum_speed": 1043.59,
         "recommendations": [
             "Prioritize carbohydrate-rich foods to support high-intensity activity.",
             "Include a protein-rich meal or snack after training to support recovery.",
@@ -274,13 +271,13 @@
     },
     "11": {
         "player_id": "11",
-        "performance_score": 29.21,
+        "performance_score": 27.7,
         "performance_level": "Needs Improvement",
         "activity_level": "High",
         "dominant_zone": "defensive",
         "movement": 1463.5,
-        "average_speed": 463.65,
-        "maximum_speed": 2774.3,
+        "average_speed": 438.05,
+        "maximum_speed": 884.76,
         "recommendations": [
             "Prioritize carbohydrate-rich foods to support high-intensity activity.",
             "Include a protein-rich meal or snack after training to support recovery.",
@@ -309,13 +306,13 @@
     },
     "12": {
         "player_id": "12",
-        "performance_score": 7.42,
+        "performance_score": 9.89,
         "performance_level": "Needs Improvement",
         "activity_level": "High",
         "dominant_zone": "defensive",
         "movement": 33.55,
-        "average_speed": 335.13,
-        "maximum_speed": 726.42,
+        "average_speed": 341.46,
+        "maximum_speed": 430.39,
         "recommendations": [
             "Prioritize carbohydrate-rich foods to support high-intensity activity.",
             "Include a protein-rich meal or snack after training to support recovery.",
@@ -344,71 +341,32 @@
     },
     "13": {
         "player_id": "13",
-        "performance_score": 15.85,
-        "performance_level": "Needs Improvement",
-        "activity_level": "High",
-        "dominant_zone": "defensive",
-        "movement": 0,
-        "average_speed": 655.62,
-        "maximum_speed": 1908.02,
-        "recommendations": [
-            "Prioritize carbohydrate-rich foods to support high-intensity activity.",
-            "Include a protein-rich meal or snack after training to support recovery.",
-            "Pay particular attention to hydration before, during and after activity."
-        ],
-        "food_suggestions": [
-            "Oats",
-            "Rice",
-            "Whole-grain bread",
-            "Bananas",
-            "Potatoes"
-        ],
-        "recovery_foods": [
-            "Eggs",
-            "Milk or yogurt",
-            "Fish",
-            "Chicken",
-            "Beans or lentils"
-        ],
-        "hydration": [
-            "Water",
-            "Fluids during prolonged activity",
-            "Electrolyte-containing fluids when appropriate"
-        ],
-        "position_note": "The player shows strong defensive-zone involvement. Maintain balanced meals and hydration around training."
-    },
-    "14": {
-        "player_id": "14",
         "performance_score": 0,
         "performance_level": "Needs Improvement",
-        "activity_level": "High",
+        "activity_level": "Low",
         "dominant_zone": "defensive",
         "movement": 0,
-        "average_speed": 365.91,
-        "maximum_speed": 3323.08,
+        "average_speed": 0,
+        "maximum_speed": 0,
         "recommendations": [
-            "Prioritize carbohydrate-rich foods to support high-intensity activity.",
-            "Include a protein-rich meal or snack after training to support recovery.",
-            "Pay particular attention to hydration before, during and after activity."
+            "Maintain balanced meals with appropriate carbohydrate portions for activity level.",
+            "Maintain regular balanced meals containing a source of protein.",
+            "Maintain regular hydration throughout the day and around training."
         ],
         "food_suggestions": [
-            "Oats",
-            "Rice",
-            "Whole-grain bread",
-            "Bananas",
-            "Potatoes"
+            "Whole grains",
+            "Fruits",
+            "Vegetables"
         ],
         "recovery_foods": [
             "Eggs",
             "Milk or yogurt",
-            "Fish",
-            "Chicken",
-            "Beans or lentils"
+            "Beans",
+            "Lentils"
         ],
         "hydration": [
             "Water",
-            "Fluids during prolonged activity",
-            "Electrolyte-containing fluids when appropriate"
+            "Hydrating foods such as fruits"
         ],
         "position_note": "The player shows strong defensive-zone involvement. Maintain balanced meals and hydration around training."
     },
@@ -443,143 +401,6 @@
         ],
         "position_note": "The player shows strong defensive-zone involvement. Maintain balanced meals and hydration around training."
     },
-    "16": {
-        "player_id": "16",
-        "performance_score": 0,
-        "performance_level": "Needs Improvement",
-        "activity_level": "High",
-        "dominant_zone": "defensive",
-        "movement": 0,
-        "average_speed": 540.42,
-        "maximum_speed": 1449.92,
-        "recommendations": [
-            "Prioritize carbohydrate-rich foods to support high-intensity activity.",
-            "Include a protein-rich meal or snack after training to support recovery.",
-            "Pay particular attention to hydration before, during and after activity."
-        ],
-        "food_suggestions": [
-            "Oats",
-            "Rice",
-            "Whole-grain bread",
-            "Bananas",
-            "Potatoes"
-        ],
-        "recovery_foods": [
-            "Eggs",
-            "Milk or yogurt",
-            "Fish",
-            "Chicken",
-            "Beans or lentils"
-        ],
-        "hydration": [
-            "Water",
-            "Fluids during prolonged activity",
-            "Electrolyte-containing fluids when appropriate"
-        ],
-        "position_note": "The player shows strong defensive-zone involvement. Maintain balanced meals and hydration around training."
-    },
-    "17": {
-        "player_id": "17",
-        "performance_score": 0,
-        "performance_level": "Needs Improvement",
-        "activity_level": "High",
-        "dominant_zone": "defensive",
-        "movement": 0,
-        "average_speed": 629.39,
-        "maximum_speed": 3446.1,
-        "recommendations": [
-            "Prioritize carbohydrate-rich foods to support high-intensity activity.",
-            "Include a protein-rich meal or snack after training to support recovery.",
-            "Pay particular attention to hydration before, during and after activity."
-        ],
-        "food_suggestions": [
-            "Oats",
-            "Rice",
-            "Whole-grain bread",
-            "Bananas",
-            "Potatoes"
-        ],
-        "recovery_foods": [
-            "Eggs",
-            "Milk or yogurt",
-            "Fish",
-            "Chicken",
-            "Beans or lentils"
-        ],
-        "hydration": [
-            "Water",
-            "Fluids during prolonged activity",
-            "Electrolyte-containing fluids when appropriate"
-        ],
-        "position_note": "The player shows strong defensive-zone involvement. Maintain balanced meals and hydration around training."
-    },
-    "18": {
-        "player_id": "18",
-        "performance_score": 0,
-        "performance_level": "Needs Improvement",
-        "activity_level": "Moderate",
-        "dominant_zone": "defensive",
-        "movement": 0,
-        "average_speed": 298.14,
-        "maximum_speed": 853.44,
-        "recommendations": [
-            "Maintain a balanced carbohydrate intake to support training and match activity.",
-            "Maintain regular balanced meals containing a source of protein.",
-            "Maintain regular hydration throughout the day and around training."
-        ],
-        "food_suggestions": [
-            "Oats",
-            "Rice",
-            "Whole-grain bread",
-            "Fruits"
-        ],
-        "recovery_foods": [
-            "Eggs",
-            "Milk or yogurt",
-            "Beans",
-            "Lentils"
-        ],
-        "hydration": [
-            "Water",
-            "Hydrating foods such as fruits"
-        ],
-        "position_note": "The player shows strong defensive-zone involvement. Maintain balanced meals and hydration around training."
-    },
-    "19": {
-        "player_id": "19",
-        "performance_score": 0,
-        "performance_level": "Needs Improvement",
-        "activity_level": "High",
-        "dominant_zone": "defensive",
-        "movement": 0,
-        "average_speed": 470.3,
-        "maximum_speed": 1879.83,
-        "recommendations": [
-            "Prioritize carbohydrate-rich foods to support high-intensity activity.",
-            "Include a protein-rich meal or snack after training to support recovery.",
-            "Pay particular attention to hydration before, during and after activity."
-        ],
-        "food_suggestions": [
-            "Oats",
-            "Rice",
-            "Whole-grain bread",
-            "Bananas",
-            "Potatoes"
-        ],
-        "recovery_foods": [
-            "Eggs",
-            "Milk or yogurt",
-            "Fish",
-            "Chicken",
-            "Beans or lentils"
-        ],
-        "hydration": [
-            "Water",
-            "Fluids during prolonged activity",
-            "Electrolyte-containing fluids when appropriate"
-        ],
-        "position_note": "The player shows strong defensive-zone involvement. Maintain balanced meals and hydration around training."
-    },
     "20": {
         "player_id": "20",
         "performance_score": 0,
@@ -611,85 +432,15 @@
         ],
         "position_note": "The player shows strong defensive-zone involvement. Maintain balanced meals and hydration around training."
     },
-    "21": {
-        "player_id": "21",
-        "performance_score": 0,
-        "performance_level": "Needs Improvement",
-        "activity_level": "High",
-        "dominant_zone": "defensive",
-        "movement": 0,
-        "average_speed": 1233.55,
-        "maximum_speed": 1233.55,
-        "recommendations": [
-            "Prioritize carbohydrate-rich foods to support high-intensity activity.",
-            "Include a protein-rich meal or snack after training to support recovery.",
-            "Pay particular attention to hydration before, during and after activity."
-        ],
-        "food_suggestions": [
-            "Oats",
-            "Rice",
-            "Whole-grain bread",
-            "Bananas",
-            "Potatoes"
-        ],
-        "recovery_foods": [
-            "Eggs",
-            "Milk or yogurt",
-            "Fish",
-            "Chicken",
-            "Beans or lentils"
-        ],
-        "hydration": [
-            "Water",
-            "Fluids during prolonged activity",
-            "Electrolyte-containing fluids when appropriate"
-        ],
-        "position_note": "The player shows strong defensive-zone involvement. Maintain balanced meals and hydration around training."
-    },
-    "22": {
-        "player_id": "22",
-        "performance_score": 0,
-        "performance_level": "Needs Improvement",
-        "activity_level": "High",
-        "dominant_zone": "defensive",
-        "movement": 0,
-        "average_speed": 313.77,
-        "maximum_speed": 1558.38,
-        "recommendations": [
-            "Prioritize carbohydrate-rich foods to support high-intensity activity.",
-            "Include a protein-rich meal or snack after training to support recovery.",
-            "Pay particular attention to hydration before, during and after activity."
-        ],
-        "food_suggestions": [
-            "Oats",
-            "Rice",
-            "Whole-grain bread",
-            "Bananas",
-            "Potatoes"
-        ],
-        "recovery_foods": [
-            "Eggs",
-            "Milk or yogurt",
-            "Fish",
-            "Chicken",
-            "Beans or lentils"
-        ],
-        "hydration": [
-            "Water",
-            "Fluids during prolonged activity",
-            "Electrolyte-containing fluids when appropriate"
-        ],
-        "position_note": "The player shows strong defensive-zone involvement. Maintain balanced meals and hydration around training."
-    },
     "25": {
         "player_id": "25",
-        "performance_score": 12.42,
+        "performance_score": 12.94,
         "performance_level": "Needs Improvement",
         "activity_level": "High",
         "dominant_zone": "defensive",
         "movement": 97.46,
-        "average_speed": 397.04,
-        "maximum_speed": 1670.25,
+        "average_speed": 444.33,
+        "maximum_speed": 514.84,
         "recommendations": [
             "Prioritize carbohydrate-rich foods to support high-intensity activity.",
             "Include a protein-rich meal or snack after training to support recovery.",
@@ -713,149 +464,18 @@
             "Water",
             "Fluids during prolonged activity",
             "Electrolyte-containing fluids when appropriate"
-        ],
-        "position_note": "The player shows strong defensive-zone involvement. Maintain balanced meals and hydration around training."
-    },
-    "26": {
-        "player_id": "26",
-        "performance_score": 0,
-        "performance_level": "Needs Improvement",
-        "activity_level": "Moderate",
-        "dominant_zone": "defensive",
-        "movement": 0,
-        "average_speed": 264.81,
-        "maximum_speed": 2388.43,
-        "recommendations": [
-            "Maintain a balanced carbohydrate intake to support training and match activity.",
-            "Maintain regular balanced meals containing a source of protein.",
-            "Maintain regular hydration throughout the day and around training."
-        ],
-        "food_suggestions": [
-            "Oats",
-            "Rice",
-            "Whole-grain bread",
-            "Fruits"
-        ],
-        "recovery_foods": [
-            "Eggs",
-            "Milk or yogurt",
-            "Beans",
-            "Lentils"
-        ],
-        "hydration": [
-            "Water",
-            "Hydrating foods such as fruits"
-        ],
-        "position_note": "The player shows strong defensive-zone involvement. Maintain balanced meals and hydration around training."
-    },
-    "27": {
-        "player_id": "27",
-        "performance_score": 0,
-        "performance_level": "Needs Improvement",
-        "activity_level": "Moderate",
-        "dominant_zone": "defensive",
-        "movement": 0,
-        "average_speed": 275.24,
-        "maximum_speed": 1838.85,
-        "recommendations": [
-            "Maintain a balanced carbohydrate intake to support training and match activity.",
-            "Maintain regular balanced meals containing a source of protein.",
-            "Maintain regular hydration throughout the day and around training."
-        ],
-        "food_suggestions": [
-            "Oats",
-            "Rice",
-            "Whole-grain bread",
-            "Fruits"
-        ],
-        "recovery_foods": [
-            "Eggs",
-            "Milk or yogurt",
-            "Beans",
-            "Lentils"
-        ],
-        "hydration": [
-            "Water",
-            "Hydrating foods such as fruits"
-        ],
-        "position_note": "The player shows strong defensive-zone involvement. Maintain balanced meals and hydration around training."
-    },
-    "28": {
-        "player_id": "28",
-        "performance_score": 0,
-        "performance_level": "Needs Improvement",
-        "activity_level": "Moderate",
-        "dominant_zone": "defensive",
-        "movement": 0,
-        "average_speed": 271.54,
-        "maximum_speed": 590.8,
-        "recommendations": [
-            "Maintain a balanced carbohydrate intake to support training and match activity.",
-            "Maintain regular balanced meals containing a source of protein.",
-            "Maintain regular hydration throughout the day and around training."
-        ],
-        "food_suggestions": [
-            "Oats",
-            "Rice",
-            "Whole-grain bread",
-            "Fruits"
-        ],
-        "recovery_foods": [
-            "Eggs",
-            "Milk or yogurt",
-            "Beans",
-            "Lentils"
-        ],
-        "hydration": [
-            "Water",
-            "Hydrating foods such as fruits"
         ],
         "position_note": "The player shows strong defensive-zone involvement. Maintain balanced meals and hydration around training."
     },
     "29": {
         "player_id": "29",
-        "performance_score": 9.82,
+        "performance_score": 12.58,
         "performance_level": "Needs Improvement",
         "activity_level": "High",
         "dominant_zone": "defensive",
         "movement": 335.75,
-        "average_speed": 323.42,
-        "maximum_speed": 716.62,
-        "recommendations": [
-            "Prioritize carbohydrate-rich foods to support high-intensity activity.",
-            "Include a protein-rich meal or snack after training to support recovery.",
-            "Pay particular attention to hydration before, during and after activity."
-        ],
-        "food_suggestions": [
-            "Oats",
-            "Rice",
-            "Whole-grain bread",
-            "Bananas",
-            "Potatoes"
-        ],
-        "recovery_foods": [
-            "Eggs",
-            "Milk or yogurt",
-            "Fish",
-            "Chicken",
-            "Beans or lentils"
-        ],
-        "hydration": [
-            "Water",
-            "Fluids during prolonged activity",
-            "Electrolyte-containing fluids when appropriate"
-        ],
-        "position_note": "The player shows strong defensive-zone involvement. Maintain balanced meals and hydration around training."
-    },
-    "30": {
-        "player_id": "30",
-        "performance_score": 0,
-        "performance_level": "Needs Improvement",
-        "activity_level": "High",
-        "dominant_zone": "defensive",
-        "movement": 0,
-        "average_speed": 364.37,
-        "maximum_speed": 1754.04,
+        "average_speed": 302.26,
+        "maximum_speed": 520.47,
         "recommendations": [
             "Prioritize carbohydrate-rich foods to support high-intensity activity.",
             "Include a protein-rich meal or snack after training to support recovery.",
@@ -884,183 +504,162 @@
     },
     "31": {
         "player_id": "31",
-        "performance_score": 7.4,
+        "performance_score": 18.37,
         "performance_level": "Needs Improvement",
-        "activity_level": "Moderate",
+        "activity_level": "High",
         "dominant_zone": "defensive",
         "movement": 270.48,
-        "average_speed": 265.32,
-        "maximum_speed": 429.97,
+        "average_speed": 530.86,
+        "maximum_speed": 798.98,
         "recommendations": [
-            "Maintain a balanced carbohydrate intake to support training and match activity.",
-            "Maintain regular balanced meals containing a source of protein.",
-            "Maintain regular hydration throughout the day and around training."
+            "Prioritize carbohydrate-rich foods to support high-intensity activity.",
+            "Include a protein-rich meal or snack after training to support recovery.",
+            "Pay particular attention to hydration before, during and after activity."
         ],
         "food_suggestions": [
             "Oats",
             "Rice",
             "Whole-grain bread",
-            "Fruits"
+            "Bananas",
+            "Potatoes"
         ],
         "recovery_foods": [
             "Eggs",
             "Milk or yogurt",
-            "Beans",
-            "Lentils"
+            "Fish",
+            "Chicken",
+            "Beans or lentils"
         ],
         "hydration": [
             "Water",
-            "Hydrating foods such as fruits"
+            "Fluids during prolonged activity",
+            "Electrolyte-containing fluids when appropriate"
         ],
         "position_note": "The player shows strong defensive-zone involvement. Maintain balanced meals and hydration around training."
     },
     "32": {
         "player_id": "32",
-        "performance_score": 14.16,
+        "performance_score": 28.35,
         "performance_level": "Needs Improvement",
-        "activity_level": "Moderate",
+        "activity_level": "High",
         "dominant_zone": "midfield",
         "movement": 833.46,
-        "average_speed": 202.67,
-        "maximum_speed": 1143.88,
+        "average_speed": 616.89,
+        "maximum_speed": 1226.07,
         "recommendations": [
-            "Maintain a balanced carbohydrate intake to support training and match activity.",
-            "Maintain regular balanced meals containing a source of protein.",
-            "Maintain regular hydration throughout the day and around training."
+            "Prioritize carbohydrate-rich foods to support high-intensity activity.",
+            "Include a protein-rich meal or snack after training to support recovery.",
+            "Pay particular attention to hydration before, during and after activity."
         ],
         "food_suggestions": [
             "Oats",
             "Rice",
             "Whole-grain bread",
-            "Fruits"
+            "Bananas",
+            "Potatoes"
         ],
         "recovery_foods": [
             "Eggs",
             "Milk or yogurt",
-            "Beans",
-            "Lentils"
+            "Fish",
+            "Chicken",
+            "Beans or lentils"
         ],
         "hydration": [
             "Water",
-            "Hydrating foods such as fruits"
+            "Fluids during prolonged activity",
+            "Electrolyte-containing fluids when appropriate"
         ],
         "position_note": "The player shows strong midfield involvement. Balanced carbohydrate, protein and hydration strategies can support repeated activity."
     },
     "33": {
         "player_id": "33",
-        "performance_score": 9.93,
+        "performance_score": 13.49,
         "performance_level": "Needs Improvement",
-        "activity_level": "Moderate",
+        "activity_level": "High",
         "dominant_zone": "midfield",
         "movement": 313.06,
-        "average_speed": 244.53,
-        "maximum_speed": 1059.91,
+        "average_speed": 325.06,
+        "maximum_speed": 602.74,
         "recommendations": [
-            "Maintain a balanced carbohydrate intake to support training and match activity.",
-            "Maintain regular balanced meals containing a source of protein.",
-            "Maintain regular hydration throughout the day and around training."
+            "Prioritize carbohydrate-rich foods to support high-intensity activity.",
+            "Include a protein-rich meal or snack after training to support recovery.",
+            "Pay particular attention to hydration before, during and after activity."
         ],
         "food_suggestions": [
             "Oats",
             "Rice",
             "Whole-grain bread",
-            "Fruits"
+            "Bananas",
+            "Potatoes"
         ],
         "recovery_foods": [
             "Eggs",
             "Milk or yogurt",
-            "Beans",
-            "Lentils"
+            "Fish",
+            "Chicken",
+            "Beans or lentils"
         ],
         "hydration": [
             "Water",
-            "Hydrating foods such as fruits"
+            "Fluids during prolonged activity",
+            "Electrolyte-containing fluids when appropriate"
         ],
         "position_note": "The player shows strong midfield involvement. Balanced carbohydrate, protein and hydration strategies can support repeated activity."
     },
     "34": {
         "player_id": "34",
-        "performance_score": 10.37,
+        "performance_score": 20.3,
         "performance_level": "Needs Improvement",
-        "activity_level": "Moderate",
+        "activity_level": "High",
         "dominant_zone": "midfield",
         "movement": 614.05,
-        "average_speed": 219.01,
-        "maximum_speed": 592.96,
+        "average_speed": 491.12,
+        "maximum_speed": 763.11,
         "recommendations": [
-            "Maintain a balanced carbohydrate intake to support training and match activity.",
-            "Maintain regular balanced meals containing a source of protein.",
-            "Maintain regular hydration throughout the day and around training."
+            "Prioritize carbohydrate-rich foods to support high-intensity activity.",
+            "Include a protein-rich meal or snack after training to support recovery.",
+            "Pay particular attention to hydration before, during and after activity."
         ],
         "food_suggestions": [
             "Oats",
             "Rice",
             "Whole-grain bread",
-            "Fruits"
+            "Bananas",
+            "Potatoes"
         ],
         "recovery_foods": [
             "Eggs",
             "Milk or yogurt",
-            "Beans",
-            "Lentils"
+            "Fish",
+            "Chicken",
+            "Beans or lentils"
         ],
         "hydration": [
             "Water",
-            "Hydrating foods such as fruits"
+            "Fluids during prolonged activity",
+            "Electrolyte-containing fluids when appropriate"
         ],
         "position_note": "The player shows strong midfield involvement. Balanced carbohydrate, protein and hydration strategies can support repeated activity."
     },
-    "35": {
-        "player_id": "35",
-        "performance_score": 0,
-        "performance_level": "Needs Improvement",
-        "activity_level": "Moderate",
-        "dominant_zone": "defensive",
-        "movement": 0,
-        "average_speed": 202.12,
-        "maximum_speed": 1596.41,
-        "recommendations": [
-            "Maintain a balanced carbohydrate intake to support training and match activity.",
-            "Maintain regular balanced meals containing a source of protein.",
-            "Maintain regular hydration throughout the day and around training."
-        ],
-        "food_suggestions": [
-            "Oats",
-            "Rice",
-            "Whole-grain bread",
-            "Fruits"
-        ],
-        "recovery_foods": [
-            "Eggs",
-            "Milk or yogurt",
-            "Beans",
-            "Lentils"
-        ],
-        "hydration": [
-            "Water",
-            "Hydrating foods such as fruits"
-        ],
-        "position_note": "The player shows strong defensive-zone involvement. Maintain balanced meals and hydration around training."
-    },
     "36": {
         "player_id": "36",
-        "performance_score": 6.17,
+        "performance_score": 0,
         "performance_level": "Needs Improvement",
-        "activity_level": "Moderate",
+        "activity_level": "Low",
         "dominant_zone": "defensive",
         "movement": 20.58,
-        "average_speed": 210.22,
-        "maximum_speed": 847.33,
+        "average_speed": 0,
+        "maximum_speed": 0,
         "recommendations": [
-            "Maintain a balanced carbohydrate intake to support training and match activity.",
+            "Maintain balanced meals with appropriate carbohydrate portions for activity level.",
             "Maintain regular balanced meals containing a source of protein.",
             "Maintain regular hydration throughout the day and around training."
         ],
         "food_suggestions": [
-            "Oats",
-            "Rice",
-            "Whole-grain bread",
-            "Fruits"
+            "Whole grains",
+            "Fruits",
+            "Vegetables"
         ],
         "recovery_foods": [
             "Eggs",
@@ -1076,115 +675,48 @@
     },
     "37": {
         "player_id": "37",
-        "performance_score": 10.17,
+        "performance_score": 15.26,
         "performance_level": "Needs Improvement",
-        "activity_level": "Moderate",
+        "activity_level": "High",
         "dominant_zone": "midfield",
         "movement": 638.63,
-        "average_speed": 192.05,
-        "maximum_speed": 576.98,
+        "average_speed": 302.45,
+        "maximum_speed": 531.03,
         "recommendations": [
-            "Maintain a balanced carbohydrate intake to support training and match activity.",
-            "Maintain regular balanced meals containing a source of protein.",
-            "Maintain regular hydration throughout the day and around training."
+            "Prioritize carbohydrate-rich foods to support high-intensity activity.",
+            "Include a protein-rich meal or snack after training to support recovery.",
+            "Pay particular attention to hydration before, during and after activity."
         ],
         "food_suggestions": [
             "Oats",
             "Rice",
             "Whole-grain bread",
-            "Fruits"
+            "Bananas",
+            "Potatoes"
         ],
         "recovery_foods": [
             "Eggs",
             "Milk or yogurt",
-            "Beans",
-            "Lentils"
+            "Fish",
+            "Chicken",
+            "Beans or lentils"
         ],
         "hydration": [
             "Water",
-            "Hydrating foods such as fruits"
+            "Fluids during prolonged activity",
+            "Electrolyte-containing fluids when appropriate"
         ],
         "position_note": "The player shows strong midfield involvement. Balanced carbohydrate, protein and hydration strategies can support repeated activity."
     },
-    "38": {
-        "player_id": "38",
-        "performance_score": 0,
-        "performance_level": "Needs Improvement",
-        "activity_level": "High",
-        "dominant_zone": "defensive",
-        "movement": 0,
-        "average_speed": 324.92,
-        "maximum_speed": 5535.77,
-        "recommendations": [
-            "Prioritize carbohydrate-rich foods to support high-intensity activity.",
-            "Include a protein-rich meal or snack after training to support recovery.",
-            "Pay particular attention to hydration before, during and after activity."
-        ],
-        "food_suggestions": [
-            "Oats",
-            "Rice",
-            "Whole-grain bread",
-            "Bananas",
-            "Potatoes"
-        ],
-        "recovery_foods": [
-            "Eggs",
-            "Milk or yogurt",
-            "Fish",
-            "Chicken",
-            "Beans or lentils"
-        ],
-        "hydration": [
-            "Water",
-            "Fluids during prolonged activity",
-            "Electrolyte-containing fluids when appropriate"
-        ],
-        "position_note": "The player shows strong defensive-zone involvement. Maintain balanced meals and hydration around training."
-    },
-    "39": {
-        "player_id": "39",
-        "performance_score": 0,
-        "performance_level": "Needs Improvement",
-        "activity_level": "High",
-        "dominant_zone": "defensive",
-        "movement": 0,
-        "average_speed": 432.9,
-        "maximum_speed": 1524.98,
-        "recommendations": [
-            "Prioritize carbohydrate-rich foods to support high-intensity activity.",
-            "Include a protein-rich meal or snack after training to support recovery.",
-            "Pay particular attention to hydration before, during and after activity."
-        ],
-        "food_suggestions": [
-            "Oats",
-            "Rice",
-            "Whole-grain bread",
-            "Bananas",
-            "Potatoes"
-        ],
-        "recovery_foods": [
-            "Eggs",
-            "Milk or yogurt",
-            "Fish",
-            "Chicken",
-            "Beans or lentils"
-        ],
-        "hydration": [
-            "Water",
-            "Fluids during prolonged activity",
-            "Electrolyte-containing fluids when appropriate"
-        ],
-        "position_note": "The player shows strong defensive-zone involvement. Maintain balanced meals and hydration around training."
-    },
     "40": {
         "player_id": "40",
-        "performance_score": 14.28,
+        "performance_score": 18.06,
         "performance_level": "Needs Improvement",
         "activity_level": "High",
         "dominant_zone": "defensive",
         "movement": 596.16,
-        "average_speed": 426.99,
-        "maximum_speed": 949.96,
+        "average_speed": 400.12,
+        "maximum_speed": 702.73,
         "recommendations": [
             "Prioritize carbohydrate-rich foods to support high-intensity activity.",
             "Include a protein-rich meal or snack after training to support recovery.",
@@ -1213,22 +745,23 @@
     },
     "41": {
         "player_id": "41",
-        "performance_score": 0,
+        "performance_score": 21.87,
         "performance_level": "Needs Improvement",
-        "activity_level": "Low",
+        "activity_level": "Moderate",
         "dominant_zone": "midfield",
         "movement": 1447.7,
-        "average_speed": 0,
-        "maximum_speed": 0,
+        "average_speed": 260.5,
+        "maximum_speed": 580.26,
         "recommendations": [
-            "Maintain balanced meals with appropriate carbohydrate portions for activity level.",
+            "Maintain a balanced carbohydrate intake to support training and match activity.",
             "Maintain regular balanced meals containing a source of protein.",
             "Maintain regular hydration throughout the day and around training."
         ],
         "food_suggestions": [
-            "Whole grains",
-            "Fruits",
-            "Vegetables"
+            "Oats",
+            "Rice",
+            "Whole-grain bread",
+            "Fruits"
         ],
         "recovery_foods": [
             "Eggs",
@@ -1244,46 +777,11 @@
     },
     "42": {
         "player_id": "42",
-        "performance_score": 12.92,
-        "performance_level": "Needs Improvement",
-        "activity_level": "High",
-        "dominant_zone": "defensive",
-        "movement": 282.64,
-        "average_speed": 317.98,
-        "maximum_speed": 1656.22,
-        "recommendations": [
-            "Prioritize carbohydrate-rich foods to support high-intensity activity.",
-            "Include a protein-rich meal or snack after training to support recovery.",
-            "Pay particular attention to hydration before, during and after activity."
-        ],
-        "food_suggestions": [
-            "Oats",
-            "Rice",
-            "Whole-grain bread",
-            "Bananas",
-            "Potatoes"
-        ],
-        "recovery_foods": [
-            "Eggs",
-            "Milk or yogurt",
-            "Fish",
-            "Chicken",
-            "Beans or lentils"
-        ],
-        "hydration": [
-            "Water",
-            "Fluids during prolonged activity",
-            "Electrolyte-containing fluids when appropriate"
-        ],
-        "position_note": "The player shows strong defensive-zone involvement. Maintain balanced meals and hydration around training."
-    },
-    "43": {
-        "player_id": "43",
         "performance_score": 0,
         "performance_level": "Needs Improvement",
         "activity_level": "Low",
-        "dominant_zone": "midfield",
-        "movement": 1330.51,
+        "dominant_zone": "defensive",
+        "movement": 282.64,
         "average_speed": 0,
         "maximum_speed": 0,
         "recommendations": [
@@ -1306,52 +804,81 @@
             "Water",
             "Hydrating foods such as fruits"
         ],
-        "position_note": "The player shows strong midfield involvement. Balanced carbohydrate, protein and hydration strategies can support repeated activity."
+        "position_note": "The player shows strong defensive-zone involvement. Maintain balanced meals and hydration around training."
     },
-    "44": {
-        "player_id": "44",
-        "performance_score": 8.43,
+    "43": {
+        "player_id": "43",
+        "performance_score": 21.59,
         "performance_level": "Needs Improvement",
-        "activity_level": "High",
+        "activity_level": "Moderate",
         "dominant_zone": "midfield",
-        "movement": 104.2,
-        "average_speed": 351.77,
-        "maximum_speed": 773.64,
+        "movement": 1330.51,
+        "average_speed": 268.52,
+        "maximum_speed": 647.85,
         "recommendations": [
-            "Prioritize carbohydrate-rich foods to support high-intensity activity.",
-            "Include a protein-rich meal or snack after training to support recovery.",
-            "Pay particular attention to hydration before, during and after activity."
+            "Maintain a balanced carbohydrate intake to support training and match activity.",
+            "Maintain regular balanced meals containing a source of protein.",
+            "Maintain regular hydration throughout the day and around training."
         ],
         "food_suggestions": [
             "Oats",
             "Rice",
             "Whole-grain bread",
-            "Bananas",
-            "Potatoes"
+            "Fruits"
         ],
         "recovery_foods": [
             "Eggs",
             "Milk or yogurt",
-            "Fish",
-            "Chicken",
-            "Beans or lentils"
+            "Beans",
+            "Lentils"
         ],
         "hydration": [
             "Water",
-            "Fluids during prolonged activity",
-            "Electrolyte-containing fluids when appropriate"
+            "Hydrating foods such as fruits"
+        ],
+        "position_note": "The player shows strong midfield involvement. Balanced carbohydrate, protein and hydration strategies can support repeated activity."
+    },
+    "44": {
+        "player_id": "44",
+        "performance_score": 8.81,
+        "performance_level": "Needs Improvement",
+        "activity_level": "Moderate",
+        "dominant_zone": "midfield",
+        "movement": 104.2,
+        "average_speed": 260.31,
+        "maximum_speed": 397.24,
+        "recommendations": [
+            "Maintain a balanced carbohydrate intake to support training and match activity.",
+            "Maintain regular balanced meals containing a source of protein.",
+            "Maintain regular hydration throughout the day and around training."
+        ],
+        "food_suggestions": [
+            "Oats",
+            "Rice",
+            "Whole-grain bread",
+            "Fruits"
+        ],
+        "recovery_foods": [
+            "Eggs",
+            "Milk or yogurt",
+            "Beans",
+            "Lentils"
+        ],
+        "hydration": [
+            "Water",
+            "Hydrating foods such as fruits"
         ],
         "position_note": "The player shows strong midfield involvement. Balanced carbohydrate, protein and hydration strategies can support repeated activity."
     },
     "45": {
         "player_id": "45",
-        "performance_score": 15.7,
+        "performance_score": 12.94,
         "performance_level": "Needs Improvement",
         "activity_level": "High",
         "dominant_zone": "defensive",
         "movement": 285.97,
-        "average_speed": 695.55,
-        "maximum_speed": 1105.3,
+        "average_speed": 305.27,
+        "maximum_speed": 606.13,
         "recommendations": [
             "Prioritize carbohydrate-rich foods to support high-intensity activity.",
             "Include a protein-rich meal or snack after training to support recovery.",
@@ -1380,13 +907,13 @@
     },
     "46": {
         "player_id": "46",
-        "performance_score": 12.35,
+        "performance_score": 19.39,
         "performance_level": "Needs Improvement",
         "activity_level": "High",
         "dominant_zone": "midfield",
         "movement": 703.32,
-        "average_speed": 314.5,
-        "maximum_speed": 590.43,
+        "average_speed": 345.24,
+        "maximum_speed": 859.91,
         "recommendations": [
             "Prioritize carbohydrate-rich foods to support high-intensity activity.",
             "Include a protein-rich meal or snack after training to support recovery.",
@@ -1415,44 +942,13 @@
     },
     "47": {
         "player_id": "47",
-        "performance_score": 0,
-        "performance_level": "Needs Improvement",
-        "activity_level": "Low",
-        "dominant_zone": "midfield",
-        "movement": 132.79,
-        "average_speed": 0,
-        "maximum_speed": 0,
-        "recommendations": [
-            "Maintain balanced meals with appropriate carbohydrate portions for activity level.",
-            "Maintain regular balanced meals containing a source of protein.",
-            "Maintain regular hydration throughout the day and around training."
-        ],
-        "food_suggestions": [
-            "Whole grains",
-            "Fruits",
-            "Vegetables"
-        ],
-        "recovery_foods": [
-            "Eggs",
-            "Milk or yogurt",
-            "Beans",
-            "Lentils"
-        ],
-        "hydration": [
-            "Water",
-            "Hydrating foods such as fruits"
-        ],
-        "position_note": "The player shows strong midfield involvement. Balanced carbohydrate, protein and hydration strategies can support repeated activity."
-    },
-    "48": {
-        "player_id": "48",
-        "performance_score": 0,
+        "performance_score": 8.59,
         "performance_level": "Needs Improvement",
         "activity_level": "Moderate",
-        "dominant_zone": "defensive",
-        "movement": 0,
-        "average_speed": 231.36,
-        "maximum_speed": 1420.75,
+        "dominant_zone": "midfield",
+        "movement": 132.79,
+        "average_speed": 261.46,
+        "maximum_speed": 340.68,
         "recommendations": [
             "Maintain a balanced carbohydrate intake to support training and match activity.",
             "Maintain regular balanced meals containing a source of protein.",
@@ -1474,110 +970,101 @@
             "Water",
             "Hydrating foods such as fruits"
         ],
-        "position_note": "The player shows strong defensive-zone involvement. Maintain balanced meals and hydration around training."
+        "position_note": "The player shows strong midfield involvement. Balanced carbohydrate, protein and hydration strategies can support repeated activity."
     },
     "49": {
         "player_id": "49",
-        "performance_score": 13.88,
+        "performance_score": 5.76,
         "performance_level": "Needs Improvement",
-        "activity_level": "High",
+        "activity_level": "Moderate",
         "dominant_zone": "midfield",
         "movement": 64.24,
-        "average_speed": 322.38,
-        "maximum_speed": 2371.15,
+        "average_speed": 160.89,
+        "maximum_speed": 282.04,
         "recommendations": [
-            "Prioritize carbohydrate-rich foods to support high-intensity activity.",
-            "Include a protein-rich meal or snack after training to support recovery.",
-            "Pay particular attention to hydration before, during and after activity."
+            "Maintain a balanced carbohydrate intake to support training and match activity.",
+            "Maintain regular balanced meals containing a source of protein.",
+            "Maintain regular hydration throughout the day and around training."
         ],
         "food_suggestions": [
             "Oats",
             "Rice",
             "Whole-grain bread",
-            "Bananas",
-            "Potatoes"
+            "Fruits"
         ],
         "recovery_foods": [
             "Eggs",
             "Milk or yogurt",
-            "Fish",
-            "Chicken",
-            "Beans or lentils"
+            "Beans",
+            "Lentils"
         ],
         "hydration": [
             "Water",
-            "Fluids during prolonged activity",
-            "Electrolyte-containing fluids when appropriate"
+            "Hydrating foods such as fruits"
         ],
         "position_note": "The player shows strong midfield involvement. Balanced carbohydrate, protein and hydration strategies can support repeated activity."
     },
     "50": {
         "player_id": "50",
-        "performance_score": 13.57,
+        "performance_score": 12.78,
         "performance_level": "Needs Improvement",
-        "activity_level": "High",
+        "activity_level": "Moderate",
         "dominant_zone": "midfield",
         "movement": 322.29,
-        "average_speed": 546.49,
-        "maximum_speed": 972.45,
+        "average_speed": 241.55,
+        "maximum_speed": 678.02,
         "recommendations": [
-            "Prioritize carbohydrate-rich foods to support high-intensity activity.",
-            "Include a protein-rich meal or snack after training to support recovery.",
-            "Pay particular attention to hydration before, during and after activity."
+            "Maintain a balanced carbohydrate intake to support training and match activity.",
+            "Maintain regular balanced meals containing a source of protein.",
+            "Maintain regular hydration throughout the day and around training."
         ],
         "food_suggestions": [
             "Oats",
             "Rice",
             "Whole-grain bread",
-            "Bananas",
-            "Potatoes"
+            "Fruits"
         ],
         "recovery_foods": [
             "Eggs",
             "Milk or yogurt",
-            "Fish",
-            "Chicken",
-            "Beans or lentils"
+            "Beans",
+            "Lentils"
         ],
         "hydration": [
             "Water",
-            "Fluids during prolonged activity",
-            "Electrolyte-containing fluids when appropriate"
+            "Hydrating foods such as fruits"
         ],
         "position_note": "The player shows strong midfield involvement. Balanced carbohydrate, protein and hydration strategies can support repeated activity."
     },
     "51": {
         "player_id": "51",
-        "performance_score": 10.16,
+        "performance_score": 8.14,
         "performance_level": "Needs Improvement",
-        "activity_level": "High",
+        "activity_level": "Moderate",
         "dominant_zone": "midfield",
         "movement": 164.42,
-        "average_speed": 303.12,
-        "maximum_speed": 1251.45,
+        "average_speed": 224.1,
+        "maximum_speed": 332.18,
         "recommendations": [
-            "Prioritize carbohydrate-rich foods to support high-intensity activity.",
-            "Include a protein-rich meal or snack after training to support recovery.",
-            "Pay particular attention to hydration before, during and after activity."
+            "Maintain a balanced carbohydrate intake to support training and match activity.",
+            "Maintain regular balanced meals containing a source of protein.",
+            "Maintain regular hydration throughout the day and around training."
         ],
         "food_suggestions": [
             "Oats",
             "Rice",
             "Whole-grain bread",
-            "Bananas",
-            "Potatoes"
+            "Fruits"
         ],
         "recovery_foods": [
             "Eggs",
             "Milk or yogurt",
-            "Fish",
-            "Chicken",
-            "Beans or lentils"
+            "Beans",
+            "Lentils"
         ],
         "hydration": [
             "Water",
-            "Fluids during prolonged activity",
-            "Electrolyte-containing fluids when appropriate"
+            "Hydrating foods such as fruits"
         ],
         "position_note": "The player shows strong midfield involvement. Balanced carbohydrate, protein and hydration strategies can support repeated activity."
     },
@@ -1614,81 +1101,139 @@
     },
     "53": {
         "player_id": "53",
-        "performance_score": 36.99,
+        "performance_score": 15.05,
         "performance_level": "Needs Improvement",
-        "activity_level": "High",
+        "activity_level": "Moderate",
         "dominant_zone": "midfield",
         "movement": 634.78,
-        "average_speed": 579.9,
-        "maximum_speed": 6229.74,
+        "average_speed": 193.46,
+        "maximum_speed": 727.95,
         "recommendations": [
-            "Prioritize carbohydrate-rich foods to support high-intensity activity.",
-            "Include a protein-rich meal or snack after training to support recovery.",
-            "Pay particular attention to hydration before, during and after activity."
+            "Maintain a balanced carbohydrate intake to support training and match activity.",
+            "Maintain regular balanced meals containing a source of protein.",
+            "Maintain regular hydration throughout the day and around training."
         ],
         "food_suggestions": [
             "Oats",
             "Rice",
             "Whole-grain bread",
-            "Bananas",
-            "Potatoes"
+            "Fruits"
         ],
         "recovery_foods": [
             "Eggs",
             "Milk or yogurt",
-            "Fish",
-            "Chicken",
-            "Beans or lentils"
+            "Beans",
+            "Lentils"
         ],
         "hydration": [
             "Water",
-            "Fluids during prolonged activity",
-            "Electrolyte-containing fluids when appropriate"
+            "Hydrating foods such as fruits"
         ],
         "position_note": "The player shows strong midfield involvement. Balanced carbohydrate, protein and hydration strategies can support repeated activity."
     },
     "54": {
         "player_id": "54",
-        "performance_score": 39.83,
+        "performance_score": 8.34,
         "performance_level": "Needs Improvement",
-        "activity_level": "High",
+        "activity_level": "Moderate",
         "dominant_zone": "midfield",
         "movement": 143.79,
-        "average_speed": 1078.75,
-        "maximum_speed": 6380.21,
+        "average_speed": 197.13,
+        "maximum_speed": 430.16,
         "recommendations": [
-            "Prioritize carbohydrate-rich foods to support high-intensity activity.",
-            "Include a protein-rich meal or snack after training to support recovery.",
-            "Pay particular attention to hydration before, during and after activity."
+            "Maintain a balanced carbohydrate intake to support training and match activity.",
+            "Maintain regular balanced meals containing a source of protein.",
+            "Maintain regular hydration throughout the day and around training."
         ],
         "food_suggestions": [
             "Oats",
             "Rice",
             "Whole-grain bread",
-            "Bananas",
-            "Potatoes"
+            "Fruits"
         ],
         "recovery_foods": [
             "Eggs",
             "Milk or yogurt",
-            "Fish",
-            "Chicken",
-            "Beans or lentils"
+            "Beans",
+            "Lentils"
         ],
         "hydration": [
             "Water",
-            "Fluids during prolonged activity",
-            "Electrolyte-containing fluids when appropriate"
+            "Hydrating foods such as fruits"
         ],
         "position_note": "The player shows strong midfield involvement. Balanced carbohydrate, protein and hydration strategies can support repeated activity."
     },
     "55": {
         "player_id": "55",
+        "performance_score": 6.98,
+        "performance_level": "Needs Improvement",
+        "activity_level": "Moderate",
+        "dominant_zone": "midfield",
+        "movement": 109.28,
+        "average_speed": 197.39,
+        "maximum_speed": 305.66,
+        "recommendations": [
+            "Maintain a balanced carbohydrate intake to support training and match activity.",
+            "Maintain regular balanced meals containing a source of protein.",
+            "Maintain regular hydration throughout the day and around training."
+        ],
+        "food_suggestions": [
+            "Oats",
+            "Rice",
+            "Whole-grain bread",
+            "Fruits"
+        ],
+        "recovery_foods": [
+            "Eggs",
+            "Milk or yogurt",
+            "Beans",
+            "Lentils"
+        ],
+        "hydration": [
+            "Water",
+            "Hydrating foods such as fruits"
+        ],
+        "position_note": "The player shows strong midfield involvement. Balanced carbohydrate, protein and hydration strategies can support repeated activity."
+    },
+    "56": {
+        "player_id": "56",
+        "performance_score": 33.27,
+        "performance_level": "Needs Improvement",
+        "activity_level": "Moderate",
+        "dominant_zone": "midfield",
+        "movement": 2856.41,
+        "average_speed": 251.83,
+        "maximum_speed": 524.46,
+        "recommendations": [
+            "Maintain a balanced carbohydrate intake to support training and match activity.",
+            "Maintain regular balanced meals containing a source of protein.",
+            "Maintain regular hydration throughout the day and around training."
+        ],
+        "food_suggestions": [
+            "Oats",
+            "Rice",
+            "Whole-grain bread",
+            "Fruits"
+        ],
+        "recovery_foods": [
+            "Eggs",
+            "Milk or yogurt",
+            "Beans",
+            "Lentils"
+        ],
+        "hydration": [
+            "Water",
+            "Hydrating foods such as fruits"
+        ],
+        "position_note": "The player shows strong midfield involvement. Balanced carbohydrate, protein and hydration strategies can support repeated activity."
+    },
+    "58": {
+        "player_id": "58",
         "performance_score": 0,
         "performance_level": "Needs Improvement",
         "activity_level": "Low",
-        "dominant_zone": "midfield",
-        "movement": 109.28,
+        "dominant_zone": "defensive",
+        "movement": 33.93,
         "average_speed": 0,
         "maximum_speed": 0,
         "recommendations": [
@@ -1711,122 +1256,17 @@
             "Water",
             "Hydrating foods such as fruits"
         ],
-        "position_note": "The player shows strong midfield involvement. Balanced carbohydrate, protein and hydration strategies can support repeated activity."
-    },
-    "56": {
-        "player_id": "56",
-        "performance_score": 60.59,
-        "performance_level": "Good",
-        "activity_level": "High",
-        "dominant_zone": "midfield",
-        "movement": 2856.41,
-        "average_speed": 1311.88,
-        "maximum_speed": 4979.44,
-        "recommendations": [
-            "Prioritize carbohydrate-rich foods to support high-intensity activity.",
-            "Include a protein-rich meal or snack after training to support recovery.",
-            "Pay particular attention to hydration before, during and after activity."
-        ],
-        "food_suggestions": [
-            "Oats",
-            "Rice",
-            "Whole-grain bread",
-            "Bananas",
-            "Potatoes"
-        ],
-        "recovery_foods": [
-            "Eggs",
-            "Milk or yogurt",
-            "Fish",
-            "Chicken",
-            "Beans or lentils"
-        ],
-        "hydration": [
-            "Water",
-            "Fluids during prolonged activity",
-            "Electrolyte-containing fluids when appropriate"
-        ],
-        "position_note": "The player shows strong midfield involvement. Balanced carbohydrate, protein and hydration strategies can support repeated activity."
-    },
-    "57": {
-        "player_id": "57",
-        "performance_score": 0,
-        "performance_level": "Needs Improvement",
-        "activity_level": "High",
-        "dominant_zone": "defensive",
-        "movement": 0,
-        "average_speed": 1994.78,
-        "maximum_speed": 5399.47,
-        "recommendations": [
-            "Prioritize carbohydrate-rich foods to support high-intensity activity.",
-            "Include a protein-rich meal or snack after training to support recovery.",
-            "Pay particular attention to hydration before, during and after activity."
-        ],
-        "food_suggestions": [
-            "Oats",
-            "Rice",
-            "Whole-grain bread",
-            "Bananas",
-            "Potatoes"
-        ],
-        "recovery_foods": [
-            "Eggs",
-            "Milk or yogurt",
-            "Fish",
-            "Chicken",
-            "Beans or lentils"
-        ],
-        "hydration": [
-            "Water",
-            "Fluids during prolonged activity",
-            "Electrolyte-containing fluids when appropriate"
-        ],
-        "position_note": "The player shows strong defensive-zone involvement. Maintain balanced meals and hydration around training."
-    },
-    "58": {
-        "player_id": "58",
-        "performance_score": 60.29,
-        "performance_level": "Good",
-        "activity_level": "High",
-        "dominant_zone": "defensive",
-        "movement": 33.93,
-        "average_speed": 2708.48,
-        "maximum_speed": 6468.57,
-        "recommendations": [
-            "Prioritize carbohydrate-rich foods to support high-intensity activity.",
-            "Include a protein-rich meal or snack after training to support recovery.",
-            "Pay particular attention to hydration before, during and after activity."
-        ],
-        "food_suggestions": [
-            "Oats",
-            "Rice",
-            "Whole-grain bread",
-            "Bananas",
-            "Potatoes"
-        ],
-        "recovery_foods": [
-            "Eggs",
-            "Milk or yogurt",
-            "Fish",
-            "Chicken",
-            "Beans or lentils"
-        ],
-        "hydration": [
-            "Water",
-            "Fluids during prolonged activity",
-            "Electrolyte-containing fluids when appropriate"
-        ],
         "position_note": "The player shows strong defensive-zone involvement. Maintain balanced meals and hydration around training."
     },
     "59": {
         "player_id": "59",
-        "performance_score": 37.9,
+        "performance_score": 19.95,
         "performance_level": "Needs Improvement",
         "activity_level": "High",
         "dominant_zone": "defensive",
         "movement": 217.32,
-        "average_speed": 1789.65,
-        "maximum_speed": 3341.49,
+        "average_speed": 599.82,
+        "maximum_speed": 896.73,
         "recommendations": [
             "Prioritize carbohydrate-rich foods to support high-intensity activity.",
             "Include a protein-rich meal or snack after training to support recovery.",
@@ -1855,125 +1295,141 @@
     },
     "60": {
         "player_id": "60",
-        "performance_score": 0,
+        "performance_score": 18.53,
         "performance_level": "Needs Improvement",
-        "activity_level": "Low",
+        "activity_level": "High",
         "dominant_zone": "midfield",
         "movement": 548.52,
-        "average_speed": 0,
-        "maximum_speed": 0,
+        "average_speed": 410.65,
+        "maximum_speed": 783.22,
         "recommendations": [
-            "Maintain balanced meals with appropriate carbohydrate portions for activity level.",
-            "Maintain regular balanced meals containing a source of protein.",
-            "Maintain regular hydration throughout the day and around training."
+            "Prioritize carbohydrate-rich foods to support high-intensity activity.",
+            "Include a protein-rich meal or snack after training to support recovery.",
+            "Pay particular attention to hydration before, during and after activity."
         ],
         "food_suggestions": [
-            "Whole grains",
-            "Fruits",
-            "Vegetables"
+            "Oats",
+            "Rice",
+            "Whole-grain bread",
+            "Bananas",
+            "Potatoes"
         ],
         "recovery_foods": [
             "Eggs",
             "Milk or yogurt",
-            "Beans",
-            "Lentils"
+            "Fish",
+            "Chicken",
+            "Beans or lentils"
         ],
         "hydration": [
             "Water",
-            "Hydrating foods such as fruits"
+            "Fluids during prolonged activity",
+            "Electrolyte-containing fluids when appropriate"
         ],
         "position_note": "The player shows strong midfield involvement. Balanced carbohydrate, protein and hydration strategies can support repeated activity."
     },
     "62": {
         "player_id": "62",
-        "performance_score": 0,
+        "performance_score": 12.77,
         "performance_level": "Needs Improvement",
-        "activity_level": "Low",
+        "activity_level": "High",
         "dominant_zone": "midfield",
         "movement": 257.29,
-        "average_speed": 0,
-        "maximum_speed": 0,
+        "average_speed": 318.33,
+        "maximum_speed": 588.57,
         "recommendations": [
-            "Maintain balanced meals with appropriate carbohydrate portions for activity level.",
-            "Maintain regular balanced meals containing a source of protein.",
-            "Maintain regular hydration throughout the day and around training."
+            "Prioritize carbohydrate-rich foods to support high-intensity activity.",
+            "Include a protein-rich meal or snack after training to support recovery.",
+            "Pay particular attention to hydration before, during and after activity."
         ],
         "food_suggestions": [
-            "Whole grains",
-            "Fruits",
-            "Vegetables"
+            "Oats",
+            "Rice",
+            "Whole-grain bread",
+            "Bananas",
+            "Potatoes"
         ],
         "recovery_foods": [
             "Eggs",
             "Milk or yogurt",
-            "Beans",
-            "Lentils"
+            "Fish",
+            "Chicken",
+            "Beans or lentils"
         ],
         "hydration": [
             "Water",
-            "Hydrating foods such as fruits"
+            "Fluids during prolonged activity",
+            "Electrolyte-containing fluids when appropriate"
         ],
         "position_note": "The player shows strong midfield involvement. Balanced carbohydrate, protein and hydration strategies can support repeated activity."
     },
     "64": {
         "player_id": "64",
-        "performance_score": 0,
+        "performance_score": 16.02,
         "performance_level": "Needs Improvement",
-        "activity_level": "Low",
+        "activity_level": "High",
         "dominant_zone": "midfield",
         "movement": 481.24,
-        "average_speed": 0,
-        "maximum_speed": 0,
+        "average_speed": 351.23,
+        "maximum_speed": 678.08,
         "recommendations": [
-            "Maintain balanced meals with appropriate carbohydrate portions for activity level.",
-            "Maintain regular balanced meals containing a source of protein.",
-            "Maintain regular hydration throughout the day and around training."
+            "Prioritize carbohydrate-rich foods to support high-intensity activity.",
+            "Include a protein-rich meal or snack after training to support recovery.",
+            "Pay particular attention to hydration before, during and after activity."
         ],
         "food_suggestions": [
-            "Whole grains",
-            "Fruits",
-            "Vegetables"
+            "Oats",
+            "Rice",
+            "Whole-grain bread",
+            "Bananas",
+            "Potatoes"
         ],
         "recovery_foods": [
             "Eggs",
             "Milk or yogurt",
-            "Beans",
-            "Lentils"
+            "Fish",
+            "Chicken",
+            "Beans or lentils"
         ],
         "hydration": [
             "Water",
-            "Hydrating foods such as fruits"
+            "Fluids during prolonged activity",
+            "Electrolyte-containing fluids when appropriate"
         ],
         "position_note": "The player shows strong midfield involvement. Balanced carbohydrate, protein and hydration strategies can support repeated activity."
     },
     "65": {
         "player_id": "65",
-        "performance_score": 0,
+        "performance_score": 25.85,
         "performance_level": "Needs Improvement",
-        "activity_level": "Low",
+        "activity_level": "High",
         "dominant_zone": "midfield",
         "movement": 545.39,
-        "average_speed": 0,
-        "maximum_speed": 0,
+        "average_speed": 731.38,
+        "maximum_speed": 992.86,
         "recommendations": [
-            "Maintain balanced meals with appropriate carbohydrate portions for activity level.",
-            "Maintain regular balanced meals containing a source of protein.",
-            "Maintain regular hydration throughout the day and around training."
+            "Prioritize carbohydrate-rich foods to support high-intensity activity.",
+            "Include a protein-rich meal or snack after training to support recovery.",
+            "Pay particular attention to hydration before, during and after activity."
         ],
         "food_suggestions": [
-            "Whole grains",
-            "Fruits",
-            "Vegetables"
+            "Oats",
+            "Rice",
+            "Whole-grain bread",
+            "Bananas",
+            "Potatoes"
         ],
         "recovery_foods": [
             "Eggs",
             "Milk or yogurt",
-            "Beans",
-            "Lentils"
+            "Fish",
+            "Chicken",
+            "Beans or lentils"
         ],
         "hydration": [
             "Water",
-            "Hydrating foods such as fruits"
+            "Fluids during prolonged activity",
+            "Electrolyte-containing fluids when appropriate"
         ],
         "position_note": "The player shows strong midfield involvement. Balanced carbohydrate, protein and hydration strategies can support repeated activity."
     },
@@ -2010,32 +1466,36 @@
     },
     "67": {
         "player_id": "67",
-        "performance_score": 0,
+        "performance_score": 11.96,
         "performance_level": "Needs Improvement",
-        "activity_level": "Low",
+        "activity_level": "High",
         "dominant_zone": "midfield",
         "movement": 335.8,
-        "average_speed": 0,
-        "maximum_speed": 0,
+        "average_speed": 307.72,
+        "maximum_speed": 438.84,
         "recommendations": [
-            "Maintain balanced meals with appropriate carbohydrate portions for activity level.",
-            "Maintain regular balanced meals containing a source of protein.",
-            "Maintain regular hydration throughout the day and around training."
+            "Prioritize carbohydrate-rich foods to support high-intensity activity.",
+            "Include a protein-rich meal or snack after training to support recovery.",
+            "Pay particular attention to hydration before, during and after activity."
         ],
         "food_suggestions": [
-            "Whole grains",
-            "Fruits",
-            "Vegetables"
+            "Oats",
+            "Rice",
+            "Whole-grain bread",
+            "Bananas",
+            "Potatoes"
         ],
         "recovery_foods": [
             "Eggs",
             "Milk or yogurt",
-            "Beans",
-            "Lentils"
+            "Fish",
+            "Chicken",
+            "Beans or lentils"
         ],
         "hydration": [
             "Water",
-            "Hydrating foods such as fruits"
+            "Fluids during prolonged activity",
+            "Electrolyte-containing fluids when appropriate"
         ],
         "position_note": "The player shows strong midfield involvement. Balanced carbohydrate, protein and hydration strategies can support repeated activity."
     },
@@ -2072,22 +1532,23 @@
     },
     "69": {
         "player_id": "69",
-        "performance_score": 0,
+        "performance_score": 11.99,
         "performance_level": "Needs Improvement",
-        "activity_level": "Low",
+        "activity_level": "Moderate",
         "dominant_zone": "midfield",
         "movement": 478.62,
-        "average_speed": 0,
-        "maximum_speed": 0,
+        "average_speed": 229.8,
+        "maximum_speed": 455.95,
         "recommendations": [
-            "Maintain balanced meals with appropriate carbohydrate portions for activity level.",
+            "Maintain a balanced carbohydrate intake to support training and match activity.",
             "Maintain regular balanced meals containing a source of protein.",
             "Maintain regular hydration throughout the day and around training."
         ],
         "food_suggestions": [
-            "Whole grains",
-            "Fruits",
-            "Vegetables"
+            "Oats",
+            "Rice",
+            "Whole-grain bread",
+            "Fruits"
         ],
         "recovery_foods": [
             "Eggs",
@@ -2103,115 +1564,128 @@
     },
     "70": {
         "player_id": "70",
-        "performance_score": 0,
+        "performance_score": 16.65,
         "performance_level": "Needs Improvement",
-        "activity_level": "Low",
+        "activity_level": "High",
         "dominant_zone": "midfield",
         "movement": 742.22,
-        "average_speed": 0,
-        "maximum_speed": 0,
+        "average_speed": 313.24,
+        "maximum_speed": 568.7,
         "recommendations": [
-            "Maintain balanced meals with appropriate carbohydrate portions for activity level.",
-            "Maintain regular balanced meals containing a source of protein.",
-            "Maintain regular hydration throughout the day and around training."
+            "Prioritize carbohydrate-rich foods to support high-intensity activity.",
+            "Include a protein-rich meal or snack after training to support recovery.",
+            "Pay particular attention to hydration before, during and after activity."
         ],
         "food_suggestions": [
-            "Whole grains",
-            "Fruits",
-            "Vegetables"
+            "Oats",
+            "Rice",
+            "Whole-grain bread",
+            "Bananas",
+            "Potatoes"
         ],
         "recovery_foods": [
             "Eggs",
             "Milk or yogurt",
-            "Beans",
-            "Lentils"
+            "Fish",
+            "Chicken",
+            "Beans or lentils"
         ],
         "hydration": [
             "Water",
-            "Hydrating foods such as fruits"
+            "Fluids during prolonged activity",
+            "Electrolyte-containing fluids when appropriate"
         ],
         "position_note": "The player shows strong midfield involvement. Balanced carbohydrate, protein and hydration strategies can support repeated activity."
     },
     "71": {
         "player_id": "71",
-        "performance_score": 0,
+        "performance_score": 19.32,
         "performance_level": "Needs Improvement",
-        "activity_level": "Low",
+        "activity_level": "High",
         "dominant_zone": "midfield",
         "movement": 346.46,
-        "average_speed": 0,
-        "maximum_speed": 0,
+        "average_speed": 514.63,
+        "maximum_speed": 866.8,
         "recommendations": [
-            "Maintain balanced meals with appropriate carbohydrate portions for activity level.",
-            "Maintain regular balanced meals containing a source of protein.",
-            "Maintain regular hydration throughout the day and around training."
+            "Prioritize carbohydrate-rich foods to support high-intensity activity.",
+            "Include a protein-rich meal or snack after training to support recovery.",
+            "Pay particular attention to hydration before, during and after activity."
         ],
         "food_suggestions": [
-            "Whole grains",
-            "Fruits",
-            "Vegetables"
+            "Oats",
+            "Rice",
+            "Whole-grain bread",
+            "Bananas",
+            "Potatoes"
         ],
         "recovery_foods": [
             "Eggs",
             "Milk or yogurt",
-            "Beans",
-            "Lentils"
+            "Fish",
+            "Chicken",
+            "Beans or lentils"
         ],
         "hydration": [
             "Water",
-            "Hydrating foods such as fruits"
+            "Fluids during prolonged activity",
+            "Electrolyte-containing fluids when appropriate"
         ],
         "position_note": "The player shows strong midfield involvement. Balanced carbohydrate, protein and hydration strategies can support repeated activity."
     },
     "72": {
         "player_id": "72",
-        "performance_score": 0,
+        "performance_score": 15.95,
         "performance_level": "Needs Improvement",
-        "activity_level": "Low",
+        "activity_level": "High",
         "dominant_zone": "midfield",
         "movement": 642.24,
-        "average_speed": 0,
-        "maximum_speed": 0,
+        "average_speed": 309.46,
+        "maximum_speed": 593.8,
         "recommendations": [
-            "Maintain balanced meals with appropriate carbohydrate portions for activity level.",
-            "Maintain regular balanced meals containing a source of protein.",
-            "Maintain regular hydration throughout the day and around training."
+            "Prioritize carbohydrate-rich foods to support high-intensity activity.",
+            "Include a protein-rich meal or snack after training to support recovery.",
+            "Pay particular attention to hydration before, during and after activity."
         ],
         "food_suggestions": [
-            "Whole grains",
-            "Fruits",
-            "Vegetables"
+            "Oats",
+            "Rice",
+            "Whole-grain bread",
+            "Bananas",
+            "Potatoes"
         ],
         "recovery_foods": [
             "Eggs",
             "Milk or yogurt",
-            "Beans",
-            "Lentils"
+            "Fish",
+            "Chicken",
+            "Beans or lentils"
         ],
         "hydration": [
             "Water",
-            "Hydrating foods such as fruits"
+            "Fluids during prolonged activity",
+            "Electrolyte-containing fluids when appropriate"
         ],
         "position_note": "The player shows strong midfield involvement. Balanced carbohydrate, protein and hydration strategies can support repeated activity."
     },
     "74": {
         "player_id": "74",
-        "performance_score": 0,
+        "performance_score": 23.4,
         "performance_level": "Needs Improvement",
-        "activity_level": "Low",
+        "activity_level": "Moderate",
         "dominant_zone": "defensive",
         "movement": 1441.53,
-        "average_speed": 0,
-        "maximum_speed": 0,
+        "average_speed": 248.66,
+        "maximum_speed": 787.74,
         "recommendations": [
-            "Maintain balanced meals with appropriate carbohydrate portions for activity level.",
+            "Maintain a balanced carbohydrate intake to support training and match activity.",
             "Maintain regular balanced meals containing a source of protein.",
             "Maintain regular hydration throughout the day and around training."
         ],
         "food_suggestions": [
-            "Whole grains",
-            "Fruits",
-            "Vegetables"
+            "Oats",
+            "Rice",
+            "Whole-grain bread",
+            "Fruits"
         ],
         "recovery_foods": [
             "Eggs",
@@ -2227,156 +1701,176 @@
     },
     "75": {
         "player_id": "75",
-        "performance_score": 0,
+        "performance_score": 33.37,
         "performance_level": "Needs Improvement",
-        "activity_level": "Low",
+        "activity_level": "High",
         "dominant_zone": "midfield",
         "movement": 1423.66,
-        "average_speed": 0,
-        "maximum_speed": 0,
+        "average_speed": 469.72,
+        "maximum_speed": 1516.98,
         "recommendations": [
-            "Maintain balanced meals with appropriate carbohydrate portions for activity level.",
-            "Maintain regular balanced meals containing a source of protein.",
-            "Maintain regular hydration throughout the day and around training."
+            "Prioritize carbohydrate-rich foods to support high-intensity activity.",
+            "Include a protein-rich meal or snack after training to support recovery.",
+            "Pay particular attention to hydration before, during and after activity."
         ],
         "food_suggestions": [
-            "Whole grains",
-            "Fruits",
-            "Vegetables"
+            "Oats",
+            "Rice",
+            "Whole-grain bread",
+            "Bananas",
+            "Potatoes"
         ],
         "recovery_foods": [
             "Eggs",
             "Milk or yogurt",
-            "Beans",
-            "Lentils"
+            "Fish",
+            "Chicken",
+            "Beans or lentils"
         ],
         "hydration": [
             "Water",
-            "Hydrating foods such as fruits"
+            "Fluids during prolonged activity",
+            "Electrolyte-containing fluids when appropriate"
         ],
         "position_note": "The player shows strong midfield involvement. Balanced carbohydrate, protein and hydration strategies can support repeated activity."
     },
     "77": {
         "player_id": "77",
-        "performance_score": 0,
+        "performance_score": 27.33,
         "performance_level": "Needs Improvement",
-        "activity_level": "Low",
+        "activity_level": "High",
         "dominant_zone": "midfield",
         "movement": 420.35,
-        "average_speed": 0,
-        "maximum_speed": 0,
+        "average_speed": 779.05,
+        "maximum_speed": 1192.77,
         "recommendations": [
-            "Maintain balanced meals with appropriate carbohydrate portions for activity level.",
-            "Maintain regular balanced meals containing a source of protein.",
-            "Maintain regular hydration throughout the day and around training."
+            "Prioritize carbohydrate-rich foods to support high-intensity activity.",
+            "Include a protein-rich meal or snack after training to support recovery.",
+            "Pay particular attention to hydration before, during and after activity."
         ],
         "food_suggestions": [
-            "Whole grains",
-            "Fruits",
-            "Vegetables"
+            "Oats",
+            "Rice",
+            "Whole-grain bread",
+            "Bananas",
+            "Potatoes"
         ],
         "recovery_foods": [
             "Eggs",
             "Milk or yogurt",
-            "Beans",
-            "Lentils"
+            "Fish",
+            "Chicken",
+            "Beans or lentils"
         ],
         "hydration": [
             "Water",
-            "Hydrating foods such as fruits"
+            "Fluids during prolonged activity",
+            "Electrolyte-containing fluids when appropriate"
         ],
         "position_note": "The player shows strong midfield involvement. Balanced carbohydrate, protein and hydration strategies can support repeated activity."
     },
     "78": {
         "player_id": "78",
-        "performance_score": 0,
+        "performance_score": 26.84,
         "performance_level": "Needs Improvement",
-        "activity_level": "Low",
+        "activity_level": "High",
         "dominant_zone": "midfield",
         "movement": 565.75,
-        "average_speed": 0,
-        "maximum_speed": 0,
+        "average_speed": 683.81,
+        "maximum_speed": 1182.31,
         "recommendations": [
-            "Maintain balanced meals with appropriate carbohydrate portions for activity level.",
-            "Maintain regular balanced meals containing a source of protein.",
-            "Maintain regular hydration throughout the day and around training."
+            "Prioritize carbohydrate-rich foods to support high-intensity activity.",
+            "Include a protein-rich meal or snack after training to support recovery.",
+            "Pay particular attention to hydration before, during and after activity."
         ],
         "food_suggestions": [
-            "Whole grains",
-            "Fruits",
-            "Vegetables"
+            "Oats",
+            "Rice",
+            "Whole-grain bread",
+            "Bananas",
+            "Potatoes"
         ],
         "recovery_foods": [
             "Eggs",
             "Milk or yogurt",
-            "Beans",
-            "Lentils"
+            "Fish",
+            "Chicken",
+            "Beans or lentils"
         ],
         "hydration": [
             "Water",
-            "Hydrating foods such as fruits"
+            "Fluids during prolonged activity",
+            "Electrolyte-containing fluids when appropriate"
         ],
         "position_note": "The player shows strong midfield involvement. Balanced carbohydrate, protein and hydration strategies can support repeated activity."
     },
     "79": {
         "player_id": "79",
-        "performance_score": 0,
+        "performance_score": 39.9,
         "performance_level": "Needs Improvement",
-        "activity_level": "Low",
+        "activity_level": "High",
         "dominant_zone": "midfield",
         "movement": 1039.29,
-        "average_speed": 0,
-        "maximum_speed": 0,
+        "average_speed": 975.22,
+        "maximum_speed": 1644.25,
         "recommendations": [
-            "Maintain balanced meals with appropriate carbohydrate portions for activity level.",
-            "Maintain regular balanced meals containing a source of protein.",
-            "Maintain regular hydration throughout the day and around training."
+            "Prioritize carbohydrate-rich foods to support high-intensity activity.",
+            "Include a protein-rich meal or snack after training to support recovery.",
+            "Pay particular attention to hydration before, during and after activity."
         ],
         "food_suggestions": [
-            "Whole grains",
-            "Fruits",
-            "Vegetables"
+            "Oats",
+            "Rice",
+            "Whole-grain bread",
+            "Bananas",
+            "Potatoes"
         ],
         "recovery_foods": [
             "Eggs",
             "Milk or yogurt",
-            "Beans",
-            "Lentils"
+            "Fish",
+            "Chicken",
+            "Beans or lentils"
         ],
         "hydration": [
             "Water",
-            "Hydrating foods such as fruits"
+            "Fluids during prolonged activity",
+            "Electrolyte-containing fluids when appropriate"
         ],
         "position_note": "The player shows strong midfield involvement. Balanced carbohydrate, protein and hydration strategies can support repeated activity."
     },
     "80": {
         "player_id": "80",
-        "performance_score": 0,
-        "performance_level": "Needs Improvement",
-        "activity_level": "Low",
+        "performance_score": 61.78,
+        "performance_level": "Good",
+        "activity_level": "High",
         "dominant_zone": "defensive",
         "movement": 209.0,
-        "average_speed": 0,
-        "maximum_speed": 0,
+        "average_speed": 2030.58,
+        "maximum_speed": 2892.44,
         "recommendations": [
-            "Maintain balanced meals with appropriate carbohydrate portions for activity level.",
-            "Maintain regular balanced meals containing a source of protein.",
-            "Maintain regular hydration throughout the day and around training."
+            "Prioritize carbohydrate-rich foods to support high-intensity activity.",
+            "Include a protein-rich meal or snack after training to support recovery.",
+            "Pay particular attention to hydration before, during and after activity."
         ],
         "food_suggestions": [
-            "Whole grains",
-            "Fruits",
-            "Vegetables"
+            "Oats",
+            "Rice",
+            "Whole-grain bread",
+            "Bananas",
+            "Potatoes"
         ],
         "recovery_foods": [
             "Eggs",
             "Milk or yogurt",
-            "Beans",
-            "Lentils"
+            "Fish",
+            "Chicken",
+            "Beans or lentils"
         ],
         "hydration": [
             "Water",
-            "Hydrating foods such as fruits"
+            "Fluids during prolonged activity",
+            "Electrolyte-containing fluids when appropriate"
         ],
         "position_note": "The player shows strong defensive-zone involvement. Maintain balanced meals and hydration around training."
     }

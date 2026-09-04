@@ -1,68 +1,149 @@
-from ultralytics import YOLO
 import cv2
-import math
-from collections import defaultdict
+import json
+import os
+import numpy as np
+from collections import defaultdict, deque
+from ultralytics import YOLO
 
-print("======================================")
-print(" SPORTFLASH CALIBRATED SPEED ANALYSIS")
-print("======================================")
 
-# ------------------------------------------------
+# ============================================================
+# SPORTFLASH - ROBUST PLAYER SPEED ANALYSIS
+# ============================================================
+
+print("=" * 60)
+print("       SPORTFLASH PLAYER SPEED ANALYSIS")
+print("=" * 60)
+
+
+# ============================================================
+# PATHS
+# ============================================================
+
+VIDEO_PATH = r"E:\SPORTFLASH\videos\football.mp4"
+MODEL_PATH = r"E:\SPORTFLASH\yolo11n.pt"
+RESULTS_DIR = r"E:\SPORTFLASH\results"
+
+OUTPUT_FILE = os.path.join(
+    RESULTS_DIR,
+    "speed_results.json"
+)
+
+
+# ============================================================
 # SETTINGS
-# ------------------------------------------------
+# ============================================================
 
-MODEL_PATH = "yolo11n.pt"
-VIDEO_PATH = "E:\\SPORTFLASH\\videos\\football.mp4"
+CONFIDENCE = 0.5
 
-# Approximate player height.
-# Change this if you know the actual average height
-# of the players in your video.
-PLAYER_HEIGHT_M = 1.75
+# Number of speed values used for smoothing
+SMOOTHING_WINDOW = 5
 
-# Ignore extremely large tracking jumps.
-MAX_SPEED_KMH = 40.0
+# Ignore extremely large frame-to-frame tracking jumps.
+# This is PIXELS/SECOND, not km/h.
+MAX_PIXEL_SPEED = 3000.0
 
-# Minimum player bounding-box height
-MIN_PLAYER_HEIGHT_PIXELS = 30
+# Ignore very small movement caused by detection noise.
+MIN_PIXEL_DISTANCE = 0.5
 
-# ------------------------------------------------
-# LOAD MODEL
-# ------------------------------------------------
 
-print("Loading YOLO model...")
+# ============================================================
+# CREATE RESULTS DIRECTORY
+# ============================================================
 
-model = YOLO(MODEL_PATH)
+os.makedirs(
+    RESULTS_DIR,
+    exist_ok=True
+)
 
-print("YOLO model loaded.")
 
-# ------------------------------------------------
+# ============================================================
+# LOAD YOLO
+# ============================================================
+
+print("\nLoading YOLO model...")
+
+model = YOLO(
+    MODEL_PATH
+)
+
+print("YOLO model loaded successfully.")
+
+
+# ============================================================
 # OPEN VIDEO
-# ------------------------------------------------
+# ============================================================
 
-cap = cv2.VideoCapture(VIDEO_PATH)
+print("\nOpening football video...")
 
-fps = cap.get(cv2.CAP_PROP_FPS)
+cap = cv2.VideoCapture(
+    VIDEO_PATH
+)
+
+if not cap.isOpened():
+
+    print("ERROR: Could not open video.")
+
+    exit()
+
+
+fps = cap.get(
+    cv2.CAP_PROP_FPS
+)
 
 if fps <= 0:
-    fps = 30
 
-print(f"Video FPS: {fps}")
+    fps = 30.0
 
-# ------------------------------------------------
-# DATA STORAGE
-# ------------------------------------------------
+
+total_frames = int(
+    cap.get(
+        cv2.CAP_PROP_FRAME_COUNT
+    )
+)
+
+
+print(
+    f"Video FPS: {fps:.2f}"
+)
+
+print(
+    f"Total Frames: {total_frames}"
+)
+
+
+# ============================================================
+# PLAYER DATA
+# ============================================================
 
 previous_positions = {}
-previous_heights = {}
+
+speed_history = defaultdict(
+    lambda: deque(
+        maxlen=SMOOTHING_WINDOW
+    )
+)
 
 player_speeds = defaultdict(list)
-player_distances = defaultdict(float)
 
-frame_number = 0
+player_detection_count = defaultdict(int)
 
-# ------------------------------------------------
+
+# ============================================================
+# STATISTICS
+# ============================================================
+
+frame_count = 0
+accepted_speeds = 0
+rejected_speeds = 0
+
+
+# ============================================================
 # PROCESS VIDEO
-# ------------------------------------------------
+# ============================================================
+
+print("\nStarting player tracking...")
+print("Please wait...\n")
+
 
 while True:
 
@@ -71,22 +152,43 @@ while True:
     if not success:
         break
 
-    frame_number += 1
+    frame_count += 1
+
+
+    # --------------------------------------------------------
+    # YOLO TRACKING
+    # --------------------------------------------------------
 
     results = model.track(
         frame,
         persist=True,
-        conf=0.5,
+        conf=CONFIDENCE,
         verbose=False
     )
 
-    if results[0].boxes.id is None:
+
+    if len(results) == 0:
         continue
 
-    boxes = results[0].boxes.xyxy.cpu().numpy()
+
+    result = results[0]
+
+
+    if result.boxes.id is None:
+        continue
+
+
+    boxes = (
+        result
+        .boxes
+        .xyxy
+        .cpu()
+        .numpy()
+    )
+
 
     track_ids = (
-        results[0]
+        result
         .boxes
         .id
         .int()
@@ -94,157 +196,389 @@ while True:
         .tolist()
     )
 
-    for box, player_id in zip(boxes, track_ids):
+
+    classes = (
+        result
+        .boxes
+        .cls
+        .int()
+        .cpu()
+        .tolist()
+    )
+
+
+    # ========================================================
+    # PROCESS EACH DETECTED OBJECT
+    # ========================================================
+
+    for box, player_id, class_id in zip(
+        boxes,
+        track_ids,
+        classes
+    ):
+
+        # COCO class 0 = person
+        if class_id != 0:
+            continue
+
 
         x1, y1, x2, y2 = box
 
-        # ------------------------------------------------
-        # PLAYER FOOT POSITION
-        # ------------------------------------------------
 
-        foot_x = (x1 + x2) / 2
-        foot_y = y2
+        # ----------------------------------------------------
+        # PLAYER CENTER
+        # ----------------------------------------------------
+
+        center_x = (
+            x1 + x2
+        ) / 2.0
+
+        center_y = (
+            y1 + y2
+        ) / 2.0
+
 
         current_position = (
-            foot_x,
-            foot_y
+            center_x,
+            center_y
         )
 
-        # ------------------------------------------------
-        # PLAYER HEIGHT IN PIXELS
-        # ------------------------------------------------
 
-        pixel_height = y2 - y1
+        player_detection_count[
+            player_id
+        ] += 1
 
-        if pixel_height < MIN_PLAYER_HEIGHT_PIXELS:
+
+        # ----------------------------------------------------
+        # FIRST DETECTION
+        # ----------------------------------------------------
+
+        if player_id not in previous_positions:
+
+            previous_positions[
+                player_id
+            ] = current_position
+
             continue
 
-        # ------------------------------------------------
-        # CALCULATE MOVEMENT
-        # ------------------------------------------------
 
-        if player_id in previous_positions:
-
-            previous_x, previous_y = (
-                previous_positions[player_id]
-            )
-
-            pixel_distance = math.sqrt(
-                (foot_x - previous_x) ** 2 +
-                (foot_y - previous_y) ** 2
-            )
-
-            # ------------------------------------------------
-            # ESTIMATE METERS PER PIXEL
-            # ------------------------------------------------
-
-            meters_per_pixel = (
-                PLAYER_HEIGHT_M / pixel_height
-            )
-
-            # Estimated real-world distance
-            distance_m = (
-                pixel_distance *
-                meters_per_pixel
-            )
-
-            # Time between frames
-            time_seconds = 1 / fps
-
-            # Speed in m/s
-            speed_mps = (
-                distance_m /
-                time_seconds
-            )
-
-            # Convert to km/h
-            speed_kmh = (
-                speed_mps * 3.6
-            )
-
-            # ------------------------------------------------
-            # REMOVE UNREALISTIC TRACKING JUMPS
-            # ------------------------------------------------
-
-            if speed_kmh <= MAX_SPEED_KMH:
-
-                player_speeds[player_id].append(
-                    speed_kmh
-                )
-
-                player_distances[player_id] += (
-                    distance_m
-                )
-
-        previous_positions[player_id] = (
-            current_position
+        previous_x, previous_y = (
+            previous_positions[
+                player_id
+            ]
         )
 
-        previous_heights[player_id] = (
-            pixel_height
+
+        # ----------------------------------------------------
+        # DISTANCE BETWEEN FRAMES
+        # ----------------------------------------------------
+
+        dx = (
+            center_x
+            - previous_x
         )
+
+        dy = (
+            center_y
+            - previous_y
+        )
+
+
+        distance_pixels = float(
+            np.sqrt(
+                dx * dx
+                + dy * dy
+            )
+        )
+
+
+        # ----------------------------------------------------
+        # UPDATE POSITION
+        # ----------------------------------------------------
+
+        previous_positions[
+            player_id
+        ] = current_position
+
+
+        # ----------------------------------------------------
+        # IGNORE TINY MOVEMENT
+        # ----------------------------------------------------
+
+        if distance_pixels < MIN_PIXEL_DISTANCE:
+
+            continue
+
+
+        # ----------------------------------------------------
+        # CALCULATE PIXEL SPEED
+        # ----------------------------------------------------
+
+        speed_pixels_per_second = (
+            distance_pixels
+            * fps
+        )
+
+
+        # ----------------------------------------------------
+        # OUTLIER FILTER
+        # ----------------------------------------------------
+
+        if (
+            speed_pixels_per_second
+            > MAX_PIXEL_SPEED
+        ):
+
+            rejected_speeds += 1
+
+            continue
+
+
+        # ----------------------------------------------------
+        # SPEED SMOOTHING
+        # ----------------------------------------------------
+
+        speed_history[
+            player_id
+        ].append(
+            speed_pixels_per_second
+        )
+
+
+        smoothed_speed = float(
+            np.mean(
+                speed_history[
+                    player_id
+                ]
+            )
+        )
+
+
+        player_speeds[
+            player_id
+        ].append(
+            smoothed_speed
+        )
+
+
+        accepted_speeds += 1
+
+
+    # ========================================================
+    # PROGRESS
+    # ========================================================
+
+    if frame_count % 100 == 0:
+
+        progress = (
+            frame_count
+            / total_frames
+            * 100
+        )
+
+        print(
+            f"Processing: {progress:.1f}%"
+        )
+
+
+# ============================================================
+# RELEASE VIDEO
+# ============================================================
 
 cap.release()
 
-# ------------------------------------------------
-# RESULTS
-# ------------------------------------------------
 
-print("\n")
-print("======================================")
-print(" SPORTFLASH PLAYER SPEED RESULTS")
-print("======================================")
+print("\nVideo processing completed.")
+
+
+# ============================================================
+# CREATE FINAL RESULTS
+# ============================================================
+
+speed_results = {}
+
 
 for player_id, speeds in player_speeds.items():
 
-    if len(speeds) == 0:
+    if len(speeds) < 5:
+
         continue
 
-    average_speed = (
-        sum(speeds) /
-        len(speeds)
+
+    speeds_array = np.array(
+        speeds,
+        dtype=np.float32
     )
 
-    maximum_speed = max(speeds)
 
-    total_distance = player_distances[player_id]
+    # --------------------------------------------------------
+    # REMOVE EXTREME VALUES USING 95TH PERCENTILE
+    # --------------------------------------------------------
 
-    # Activity classification
-    if average_speed < 5:
-        activity = "LOW"
+    if len(speeds_array) >= 10:
 
-    elif average_speed < 10:
-        activity = "MEDIUM"
+        lower = np.percentile(
+            speeds_array,
+            5
+        )
 
-    elif average_speed < 18:
-        activity = "HIGH"
+        upper = np.percentile(
+            speeds_array,
+            95
+        )
 
-    else:
-        activity = "VERY HIGH"
+        filtered = speeds_array[
+            (speeds_array >= lower)
+            &
+            (speeds_array <= upper)
+        ]
 
-    print(f"\nPlayer {player_id}")
-    print("---------------------------")
+        if len(filtered) > 0:
+
+            speeds_array = filtered
+
+
+    # --------------------------------------------------------
+    # FINAL VALUES
+    # --------------------------------------------------------
+
+    average_speed = float(
+        np.mean(
+            speeds_array
+        )
+    )
+
+
+    maximum_speed = float(
+        np.max(
+            speeds_array
+        )
+    )
+
+
+    # --------------------------------------------------------
+    # SAVE PLAYER
+    # --------------------------------------------------------
+
+    speed_results[
+        str(player_id)
+    ] = {
+
+        "average_speed":
+            round(
+                average_speed,
+                2
+            ),
+
+        "maximum_speed":
+            round(
+                maximum_speed,
+                2
+            ),
+
+        "unit":
+            "pixels/sec",
+
+        "speed_samples":
+            len(speeds),
+
+        "detections":
+            player_detection_count[
+                player_id
+            ]
+
+    }
+
+
+# ============================================================
+# SAVE JSON
+# ============================================================
+
+with open(
+    OUTPUT_FILE,
+    "w",
+    encoding="utf-8"
+) as file:
+
+    json.dump(
+        speed_results,
+        file,
+        indent=4
+    )
+
+
+# ============================================================
+# DISPLAY RESULTS
+# ============================================================
+
+print("\n")
+print("=" * 60)
+print("          FINAL SPEED RESULTS")
+print("=" * 60)
+
+
+if len(speed_results) == 0:
 
     print(
-        f"Distance: "
-        f"{total_distance:.2f} m"
+        "\nERROR: No player speed data was generated."
     )
 
     print(
-        f"Average Speed: "
-        f"{average_speed:.2f} km/h"
+        "Check YOLO tracking and video."
     )
 
-    print(
-        f"Maximum Speed: "
-        f"{maximum_speed:.2f} km/h"
-    )
+else:
 
-    print(
-        f"Activity Level: "
-        f"{activity}"
-    )
+    for player_id, data in speed_results.items():
 
-print("\n======================================")
-print("Speed calibration completed!")
-print("======================================")
+        print(
+            f"\nPlayer {player_id}"
+        )
+
+        print(
+            f"Average Speed : "
+            f"{data['average_speed']:.2f} pixels/sec"
+        )
+
+        print(
+            f"Maximum Speed : "
+            f"{data['maximum_speed']:.2f} pixels/sec"
+        )
+
+        print(
+            f"Speed Samples : "
+            f"{data['speed_samples']}"
+        )
+
+
+print("\n")
+print("=" * 60)
+
+print(
+    f"Players analyzed: "
+    f"{len(speed_results)}"
+)
+
+print(
+    f"Accepted speed samples: "
+    f"{accepted_speeds}"
+)
+
+print(
+    f"Rejected tracking outliers: "
+    f"{rejected_speeds}"
+)
+
+print(
+    "\nResults saved to:"
+)
+
+print(
+    OUTPUT_FILE
+)
+
+print("=" * 60)
+
+print(
+    "\nSPORTFLASH SPEED ANALYSIS COMPLETED"
+)
