@@ -1,0 +1,1578 @@
+{
+    "1": {
+        "player_id": "1",
+        "performance_level": "Average",
+        "performance_score": 53.07,
+        "movement": 4684.11,
+        "average_speed": 259.01,
+        "maximum_speed": 2516.8,
+        "dominant_zone": "midfield",
+        "ball_interactions": 0,
+        "analysis": {
+            "movement": "The player shows high movement activity throughout the match.",
+            "speed": "The player's average movement speed is moderate.",
+            "zone": "The player spent most of the tracked time in the midfield zone.",
+            "ball": "No significant player-ball interactions were detected."
+        },
+        "recommendations": [
+            "Increase attacking-zone involvement.",
+            "Improve defensive positioning.",
+            "Increase involvement in ball situations."
+        ]
+    },
+    "2": {
+        "player_id": "2",
+        "performance_level": "Needs Improvement",
+        "performance_score": 29.27,
+        "movement": 2165.02,
+        "average_speed": 304.59,
+        "maximum_speed": 1771.03,
+        "dominant_zone": "defensive",
+        "ball_interactions": 0,
+        "analysis": {
+            "movement": "The player shows moderate movement activity.",
+            "speed": "The player demonstrates strong average movement speed.",
+            "zone": "The player spent most of the tracked time in the defensive zone.",
+            "ball": "No significant player-ball interactions were detected."
+        },
+        "recommendations": [
+            "Increase attacking-zone involvement.",
+            "Increase involvement in ball situations."
+        ]
+    },
+    "3": {
+        "player_id": "3",
+        "performance_level": "Needs Improvement",
+        "performance_score": 9.35,
+        "movement": 132.47,
+        "average_speed": 417.9,
+        "maximum_speed": 728.15,
+        "dominant_zone": "defensive",
+        "ball_interactions": 0,
+        "analysis": {
+            "movement": "The player shows relatively low movement activity.",
+            "speed": "The player demonstrates strong average movement speed.",
+            "zone": "The player spent most of the tracked time in the defensive zone.",
+            "ball": "No significant player-ball interactions were detected."
+        },
+        "recommendations": [
+            "Increase movement and off-ball activity.",
+            "Increase attacking-zone involvement.",
+            "Increase involvement in ball situations."
+        ]
+    },
+    "4": {
+        "player_id": "4",
+        "performance_level": "Needs Improvement",
+        "performance_score": 11.77,
+        "movement": 673.75,
+        "average_speed": 193.89,
+        "maximum_speed": 909.52,
+        "dominant_zone": "defensive",
+        "ball_interactions": 0,
+        "analysis": {
+            "movement": "The player shows relatively low movement activity.",
+            "speed": "The player's average movement speed is moderate.",
+            "zone": "The player spent most of the tracked time in the defensive zone.",
+            "ball": "No significant player-ball interactions were detected."
+        },
+        "recommendations": [
+            "Increase movement and off-ball activity.",
+            "Increase attacking-zone involvement.",
+            "Increase involvement in ball situations."
+        ]
+    },
+    "5": {
+        "player_id": "5",
+        "performance_level": "Needs Improvement",
+        "performance_score": 17.6,
+        "movement": 758.94,
+        "average_speed": 402.58,
+        "maximum_speed": 1531.96,
+        "dominant_zone": "defensive",
+        "ball_interactions": 0,
+        "analysis": {
+            "movement": "The player shows relatively low movement activity.",
+            "speed": "The player demonstrates strong average movement speed.",
+            "zone": "The player spent most of the tracked time in the defensive zone.",
+            "ball": "No significant player-ball interactions were detected."
+        },
+        "recommendations": [
+            "Increase movement and off-ball activity.",
+            "Increase attacking-zone involvement.",
+            "Increase involvement in ball situations."
+        ]
+    },
+    "8": {
+        "player_id": "8",
+        "performance_level": "Needs Improvement",
+        "performance_score": 3.26,
+        "movement": 46.85,
+        "average_speed": 147.79,
+        "maximum_speed": 246.79,
+        "dominant_zone": "defensive",
+        "ball_interactions": 0,
+        "analysis": {
+            "movement": "The player shows relatively low movement activity.",
+            "speed": "The player's average movement speed is relatively low.",
+            "zone": "The player spent most of the tracked time in the defensive zone.",
+            "ball": "No significant player-ball interactions were detected."
+        },
+        "recommendations": [
+            "Increase movement and off-ball activity.",
+            "Improve acceleration and movement speed.",
+            "Increase attacking-zone involvement.",
+            "Increase involvement in ball situations."
+        ]
+    },
+    "9": {
+        "player_id": "9",
+        "performance_level": "Needs Improvement",
+        "performance_score": 6.32,
+        "movement": 43.86,
+        "average_speed": 328.63,
+        "maximum_speed": 439.42,
+        "dominant_zone": "defensive",
+        "ball_interactions": 0,
+        "analysis": {
+            "movement": "The player shows relatively low movement activity.",
+            "speed": "The player demonstrates strong average movement speed.",
+            "zone": "The player spent most of the tracked time in the defensive zone.",
+            "ball": "No significant player-ball interactions were detected."
+        },
+        "recommendations": [
+            "Increase movement and off-ball activity.",
+            "Increase attacking-zone involvement.",
+            "Increase involvement in ball situations."
+        ]
+    },
+    "10": {
+        "player_id": "10",
+        "performance_level": "Needs Improvement",
+        "performance_score": 16.47,
+        "movement": 536.26,
+        "average_speed": 476.81,
+        "maximum_speed": 1482.82,
+        "dominant_zone": "defensive",
+        "ball_interactions": 0,
+        "analysis": {
+            "movement": "The player shows relatively low movement activity.",
+            "speed": "The player demonstrates strong average movement speed.",
+            "zone": "The player spent most of the tracked time in the defensive zone.",
+            "ball": "No significant player-ball interactions were detected."
+        },
+        "recommendations": [
+            "Increase movement and off-ball activity.",
+            "Increase attacking-zone involvement.",
+            "Increase involvement in ball situations."
+        ]
+    },
+    "11": {
+        "player_id": "11",
+        "performance_level": "Needs Improvement",
+        "performance_score": 29.21,
+        "movement": 1463.5,
+        "average_speed": 463.65,
+        "maximum_speed": 2774.3,
+        "dominant_zone": "defensive",
+        "ball_interactions": 0,
+        "analysis": {
+            "movement": "The player shows relatively low movement activity.",
+            "speed": "The player demonstrates strong average movement speed.",
+            "zone": "The player spent most of the tracked time in the defensive zone.",
+            "ball": "No significant player-ball interactions were detected."
+        },
+        "recommendations": [
+            "Increase movement and off-ball activity.",
+            "Increase attacking-zone involvement.",
+            "Increase involvement in ball situations."
+        ]
+    },
+    "12": {
+        "player_id": "12",
+        "performance_level": "Needs Improvement",
+        "performance_score": 7.42,
+        "movement": 33.55,
+        "average_speed": 335.13,
+        "maximum_speed": 726.42,
+        "dominant_zone": "defensive",
+        "ball_interactions": 0,
+        "analysis": {
+            "movement": "The player shows relatively low movement activity.",
+            "speed": "The player demonstrates strong average movement speed.",
+            "zone": "The player spent most of the tracked time in the defensive zone.",
+            "ball": "No significant player-ball interactions were detected."
+        },
+        "recommendations": [
+            "Increase movement and off-ball activity.",
+            "Increase attacking-zone involvement.",
+            "Increase involvement in ball situations."
+        ]
+    },
+    "13": {
+        "player_id": "13",
+        "performance_level": "Needs Improvement",
+        "performance_score": 15.85,
+        "movement": 0,
+        "average_speed": 655.62,
+        "maximum_speed": 1908.02,
+        "dominant_zone": "defensive",
+        "ball_interactions": 0,
+        "analysis": {
+            "movement": "The player shows relatively low movement activity.",
+            "speed": "The player demonstrates strong average movement speed.",
+            "zone": "The player spent most of the tracked time in the defensive zone.",
+            "ball": "No significant player-ball interactions were detected."
+        },
+        "recommendations": [
+            "Increase movement and off-ball activity.",
+            "Increase attacking-zone involvement.",
+            "Increase involvement in ball situations."
+        ]
+    },
+    "14": {
+        "player_id": "14",
+        "performance_level": "Needs Improvement",
+        "performance_score": 0,
+        "movement": 0,
+        "average_speed": 365.91,
+        "maximum_speed": 3323.08,
+        "dominant_zone": "defensive",
+        "ball_interactions": 0,
+        "analysis": {
+            "movement": "The player shows relatively low movement activity.",
+            "speed": "The player demonstrates strong average movement speed.",
+            "zone": "The player spent most of the tracked time in the defensive zone.",
+            "ball": "No significant player-ball interactions were detected."
+        },
+        "recommendations": [
+            "Increase movement and off-ball activity.",
+            "Increase attacking-zone involvement.",
+            "Improve defensive positioning.",
+            "Increase involvement in ball situations."
+        ]
+    },
+    "15": {
+        "player_id": "15",
+        "performance_level": "Needs Improvement",
+        "performance_score": 0,
+        "movement": 21.21,
+        "average_speed": 0,
+        "maximum_speed": 0,
+        "dominant_zone": "defensive",
+        "ball_interactions": 0,
+        "analysis": {
+            "movement": "The player shows relatively low movement activity.",
+            "speed": "The player's average movement speed is relatively low.",
+            "zone": "The player spent most of the tracked time in the defensive zone.",
+            "ball": "No significant player-ball interactions were detected."
+        },
+        "recommendations": [
+            "Increase movement and off-ball activity.",
+            "Improve acceleration and movement speed.",
+            "Increase attacking-zone involvement.",
+            "Increase involvement in ball situations."
+        ]
+    },
+    "16": {
+        "player_id": "16",
+        "performance_level": "Needs Improvement",
+        "performance_score": 0,
+        "movement": 0,
+        "average_speed": 540.42,
+        "maximum_speed": 1449.92,
+        "dominant_zone": "defensive",
+        "ball_interactions": 0,
+        "analysis": {
+            "movement": "The player shows relatively low movement activity.",
+            "speed": "The player demonstrates strong average movement speed.",
+            "zone": "The player spent most of the tracked time in the defensive zone.",
+            "ball": "No significant player-ball interactions were detected."
+        },
+        "recommendations": [
+            "Increase movement and off-ball activity.",
+            "Increase attacking-zone involvement.",
+            "Improve defensive positioning.",
+            "Increase involvement in ball situations."
+        ]
+    },
+    "17": {
+        "player_id": "17",
+        "performance_level": "Needs Improvement",
+        "performance_score": 0,
+        "movement": 0,
+        "average_speed": 629.39,
+        "maximum_speed": 3446.1,
+        "dominant_zone": "defensive",
+        "ball_interactions": 0,
+        "analysis": {
+            "movement": "The player shows relatively low movement activity.",
+            "speed": "The player demonstrates strong average movement speed.",
+            "zone": "The player spent most of the tracked time in the defensive zone.",
+            "ball": "No significant player-ball interactions were detected."
+        },
+        "recommendations": [
+            "Increase movement and off-ball activity.",
+            "Increase attacking-zone involvement.",
+            "Improve defensive positioning.",
+            "Increase involvement in ball situations."
+        ]
+    },
+    "18": {
+        "player_id": "18",
+        "performance_level": "Needs Improvement",
+        "performance_score": 0,
+        "movement": 0,
+        "average_speed": 298.14,
+        "maximum_speed": 853.44,
+        "dominant_zone": "defensive",
+        "ball_interactions": 0,
+        "analysis": {
+            "movement": "The player shows relatively low movement activity.",
+            "speed": "The player's average movement speed is moderate.",
+            "zone": "The player spent most of the tracked time in the defensive zone.",
+            "ball": "No significant player-ball interactions were detected."
+        },
+        "recommendations": [
+            "Increase movement and off-ball activity.",
+            "Increase attacking-zone involvement.",
+            "Improve defensive positioning.",
+            "Increase involvement in ball situations."
+        ]
+    },
+    "19": {
+        "player_id": "19",
+        "performance_level": "Needs Improvement",
+        "performance_score": 0,
+        "movement": 0,
+        "average_speed": 470.3,
+        "maximum_speed": 1879.83,
+        "dominant_zone": "defensive",
+        "ball_interactions": 0,
+        "analysis": {
+            "movement": "The player shows relatively low movement activity.",
+            "speed": "The player demonstrates strong average movement speed.",
+            "zone": "The player spent most of the tracked time in the defensive zone.",
+            "ball": "No significant player-ball interactions were detected."
+        },
+        "recommendations": [
+            "Increase movement and off-ball activity.",
+            "Increase attacking-zone involvement.",
+            "Improve defensive positioning.",
+            "Increase involvement in ball situations."
+        ]
+    },
+    "20": {
+        "player_id": "20",
+        "performance_level": "Needs Improvement",
+        "performance_score": 0,
+        "movement": 0,
+        "average_speed": 0,
+        "maximum_speed": 0,
+        "dominant_zone": "defensive",
+        "ball_interactions": 0,
+        "analysis": {
+            "movement": "The player shows relatively low movement activity.",
+            "speed": "The player's average movement speed is relatively low.",
+            "zone": "The player spent most of the tracked time in the defensive zone.",
+            "ball": "No significant player-ball interactions were detected."
+        },
+        "recommendations": [
+            "Increase movement and off-ball activity.",
+            "Improve acceleration and movement speed.",
+            "Increase attacking-zone involvement.",
+            "Increase involvement in ball situations."
+        ]
+    },
+    "21": {
+        "player_id": "21",
+        "performance_level": "Needs Improvement",
+        "performance_score": 0,
+        "movement": 0,
+        "average_speed": 1233.55,
+        "maximum_speed": 1233.55,
+        "dominant_zone": "defensive",
+        "ball_interactions": 0,
+        "analysis": {
+            "movement": "The player shows relatively low movement activity.",
+            "speed": "The player demonstrates strong average movement speed.",
+            "zone": "The player spent most of the tracked time in the defensive zone.",
+            "ball": "No significant player-ball interactions were detected."
+        },
+        "recommendations": [
+            "Increase movement and off-ball activity.",
+            "Increase attacking-zone involvement.",
+            "Improve defensive positioning.",
+            "Increase involvement in ball situations."
+        ]
+    },
+    "22": {
+        "player_id": "22",
+        "performance_level": "Needs Improvement",
+        "performance_score": 0,
+        "movement": 0,
+        "average_speed": 313.77,
+        "maximum_speed": 1558.38,
+        "dominant_zone": "defensive",
+        "ball_interactions": 0,
+        "analysis": {
+            "movement": "The player shows relatively low movement activity.",
+            "speed": "The player demonstrates strong average movement speed.",
+            "zone": "The player spent most of the tracked time in the defensive zone.",
+            "ball": "No significant player-ball interactions were detected."
+        },
+        "recommendations": [
+            "Increase movement and off-ball activity.",
+            "Increase attacking-zone involvement.",
+            "Improve defensive positioning.",
+            "Increase involvement in ball situations."
+        ]
+    },
+    "25": {
+        "player_id": "25",
+        "performance_level": "Needs Improvement",
+        "performance_score": 12.42,
+        "movement": 97.46,
+        "average_speed": 397.04,
+        "maximum_speed": 1670.25,
+        "dominant_zone": "defensive",
+        "ball_interactions": 0,
+        "analysis": {
+            "movement": "The player shows relatively low movement activity.",
+            "speed": "The player demonstrates strong average movement speed.",
+            "zone": "The player spent most of the tracked time in the defensive zone.",
+            "ball": "No significant player-ball interactions were detected."
+        },
+        "recommendations": [
+            "Increase movement and off-ball activity.",
+            "Increase attacking-zone involvement.",
+            "Increase involvement in ball situations."
+        ]
+    },
+    "26": {
+        "player_id": "26",
+        "performance_level": "Needs Improvement",
+        "performance_score": 0,
+        "movement": 0,
+        "average_speed": 264.81,
+        "maximum_speed": 2388.43,
+        "dominant_zone": "defensive",
+        "ball_interactions": 0,
+        "analysis": {
+            "movement": "The player shows relatively low movement activity.",
+            "speed": "The player's average movement speed is moderate.",
+            "zone": "The player spent most of the tracked time in the defensive zone.",
+            "ball": "No significant player-ball interactions were detected."
+        },
+        "recommendations": [
+            "Increase movement and off-ball activity.",
+            "Increase attacking-zone involvement.",
+            "Improve defensive positioning.",
+            "Increase involvement in ball situations."
+        ]
+    },
+    "27": {
+        "player_id": "27",
+        "performance_level": "Needs Improvement",
+        "performance_score": 0,
+        "movement": 0,
+        "average_speed": 275.24,
+        "maximum_speed": 1838.85,
+        "dominant_zone": "defensive",
+        "ball_interactions": 0,
+        "analysis": {
+            "movement": "The player shows relatively low movement activity.",
+            "speed": "The player's average movement speed is moderate.",
+            "zone": "The player spent most of the tracked time in the defensive zone.",
+            "ball": "No significant player-ball interactions were detected."
+        },
+        "recommendations": [
+            "Increase movement and off-ball activity.",
+            "Increase attacking-zone involvement.",
+            "Improve defensive positioning.",
+            "Increase involvement in ball situations."
+        ]
+    },
+    "28": {
+        "player_id": "28",
+        "performance_level": "Needs Improvement",
+        "performance_score": 0,
+        "movement": 0,
+        "average_speed": 271.54,
+        "maximum_speed": 590.8,
+        "dominant_zone": "defensive",
+        "ball_interactions": 0,
+        "analysis": {
+            "movement": "The player shows relatively low movement activity.",
+            "speed": "The player's average movement speed is moderate.",
+            "zone": "The player spent most of the tracked time in the defensive zone.",
+            "ball": "No significant player-ball interactions were detected."
+        },
+        "recommendations": [
+            "Increase movement and off-ball activity.",
+            "Increase attacking-zone involvement.",
+            "Improve defensive positioning.",
+            "Increase involvement in ball situations."
+        ]
+    },
+    "29": {
+        "player_id": "29",
+        "performance_level": "Needs Improvement",
+        "performance_score": 9.82,
+        "movement": 335.75,
+        "average_speed": 323.42,
+        "maximum_speed": 716.62,
+        "dominant_zone": "defensive",
+        "ball_interactions": 0,
+        "analysis": {
+            "movement": "The player shows relatively low movement activity.",
+            "speed": "The player demonstrates strong average movement speed.",
+            "zone": "The player spent most of the tracked time in the defensive zone.",
+            "ball": "No significant player-ball interactions were detected."
+        },
+        "recommendations": [
+            "Increase movement and off-ball activity.",
+            "Increase attacking-zone involvement.",
+            "Increase involvement in ball situations."
+        ]
+    },
+    "30": {
+        "player_id": "30",
+        "performance_level": "Needs Improvement",
+        "performance_score": 0,
+        "movement": 0,
+        "average_speed": 364.37,
+        "maximum_speed": 1754.04,
+        "dominant_zone": "defensive",
+        "ball_interactions": 0,
+        "analysis": {
+            "movement": "The player shows relatively low movement activity.",
+            "speed": "The player demonstrates strong average movement speed.",
+            "zone": "The player spent most of the tracked time in the defensive zone.",
+            "ball": "No significant player-ball interactions were detected."
+        },
+        "recommendations": [
+            "Increase movement and off-ball activity.",
+            "Increase attacking-zone involvement.",
+            "Improve defensive positioning.",
+            "Increase involvement in ball situations."
+        ]
+    },
+    "31": {
+        "player_id": "31",
+        "performance_level": "Needs Improvement",
+        "performance_score": 7.4,
+        "movement": 270.48,
+        "average_speed": 265.32,
+        "maximum_speed": 429.97,
+        "dominant_zone": "defensive",
+        "ball_interactions": 0,
+        "analysis": {
+            "movement": "The player shows relatively low movement activity.",
+            "speed": "The player's average movement speed is moderate.",
+            "zone": "The player spent most of the tracked time in the defensive zone.",
+            "ball": "No significant player-ball interactions were detected."
+        },
+        "recommendations": [
+            "Increase movement and off-ball activity.",
+            "Increase attacking-zone involvement.",
+            "Increase involvement in ball situations."
+        ]
+    },
+    "32": {
+        "player_id": "32",
+        "performance_level": "Needs Improvement",
+        "performance_score": 14.16,
+        "movement": 833.46,
+        "average_speed": 202.67,
+        "maximum_speed": 1143.88,
+        "dominant_zone": "midfield",
+        "ball_interactions": 0,
+        "analysis": {
+            "movement": "The player shows relatively low movement activity.",
+            "speed": "The player's average movement speed is moderate.",
+            "zone": "The player spent most of the tracked time in the midfield zone.",
+            "ball": "No significant player-ball interactions were detected."
+        },
+        "recommendations": [
+            "Increase movement and off-ball activity.",
+            "Increase attacking-zone involvement.",
+            "Increase involvement in ball situations."
+        ]
+    },
+    "33": {
+        "player_id": "33",
+        "performance_level": "Needs Improvement",
+        "performance_score": 9.93,
+        "movement": 313.06,
+        "average_speed": 244.53,
+        "maximum_speed": 1059.91,
+        "dominant_zone": "midfield",
+        "ball_interactions": 0,
+        "analysis": {
+            "movement": "The player shows relatively low movement activity.",
+            "speed": "The player's average movement speed is moderate.",
+            "zone": "The player spent most of the tracked time in the midfield zone.",
+            "ball": "No significant player-ball interactions were detected."
+        },
+        "recommendations": [
+            "Increase movement and off-ball activity.",
+            "Increase attacking-zone involvement.",
+            "Improve defensive positioning.",
+            "Increase involvement in ball situations."
+        ]
+    },
+    "34": {
+        "player_id": "34",
+        "performance_level": "Needs Improvement",
+        "performance_score": 10.37,
+        "movement": 614.05,
+        "average_speed": 219.01,
+        "maximum_speed": 592.96,
+        "dominant_zone": "midfield",
+        "ball_interactions": 0,
+        "analysis": {
+            "movement": "The player shows relatively low movement activity.",
+            "speed": "The player's average movement speed is moderate.",
+            "zone": "The player spent most of the tracked time in the midfield zone.",
+            "ball": "No significant player-ball interactions were detected."
+        },
+        "recommendations": [
+            "Increase movement and off-ball activity.",
+            "Increase attacking-zone involvement.",
+            "Improve defensive positioning.",
+            "Increase involvement in ball situations."
+        ]
+    },
+    "35": {
+        "player_id": "35",
+        "performance_level": "Needs Improvement",
+        "performance_score": 0,
+        "movement": 0,
+        "average_speed": 202.12,
+        "maximum_speed": 1596.41,
+        "dominant_zone": "defensive",
+        "ball_interactions": 0,
+        "analysis": {
+            "movement": "The player shows relatively low movement activity.",
+            "speed": "The player's average movement speed is moderate.",
+            "zone": "The player spent most of the tracked time in the defensive zone.",
+            "ball": "No significant player-ball interactions were detected."
+        },
+        "recommendations": [
+            "Increase movement and off-ball activity.",
+            "Increase attacking-zone involvement.",
+            "Improve defensive positioning.",
+            "Increase involvement in ball situations."
+        ]
+    },
+    "36": {
+        "player_id": "36",
+        "performance_level": "Needs Improvement",
+        "performance_score": 6.17,
+        "movement": 20.58,
+        "average_speed": 210.22,
+        "maximum_speed": 847.33,
+        "dominant_zone": "defensive",
+        "ball_interactions": 0,
+        "analysis": {
+            "movement": "The player shows relatively low movement activity.",
+            "speed": "The player's average movement speed is moderate.",
+            "zone": "The player spent most of the tracked time in the defensive zone.",
+            "ball": "No significant player-ball interactions were detected."
+        },
+        "recommendations": [
+            "Increase movement and off-ball activity.",
+            "Increase attacking-zone involvement.",
+            "Increase involvement in ball situations."
+        ]
+    },
+    "37": {
+        "player_id": "37",
+        "performance_level": "Needs Improvement",
+        "performance_score": 10.17,
+        "movement": 638.63,
+        "average_speed": 192.05,
+        "maximum_speed": 576.98,
+        "dominant_zone": "midfield",
+        "ball_interactions": 0,
+        "analysis": {
+            "movement": "The player shows relatively low movement activity.",
+            "speed": "The player's average movement speed is moderate.",
+            "zone": "The player spent most of the tracked time in the midfield zone.",
+            "ball": "No significant player-ball interactions were detected."
+        },
+        "recommendations": [
+            "Increase movement and off-ball activity.",
+            "Increase attacking-zone involvement.",
+            "Improve defensive positioning.",
+            "Increase involvement in ball situations."
+        ]
+    },
+    "38": {
+        "player_id": "38",
+        "performance_level": "Needs Improvement",
+        "performance_score": 0,
+        "movement": 0,
+        "average_speed": 324.92,
+        "maximum_speed": 5535.77,
+        "dominant_zone": "defensive",
+        "ball_interactions": 0,
+        "analysis": {
+            "movement": "The player shows relatively low movement activity.",
+            "speed": "The player demonstrates strong average movement speed.",
+            "zone": "The player spent most of the tracked time in the defensive zone.",
+            "ball": "No significant player-ball interactions were detected."
+        },
+        "recommendations": [
+            "Increase movement and off-ball activity.",
+            "Increase attacking-zone involvement.",
+            "Improve defensive positioning.",
+            "Increase involvement in ball situations."
+        ]
+    },
+    "39": {
+        "player_id": "39",
+        "performance_level": "Needs Improvement",
+        "performance_score": 0,
+        "movement": 0,
+        "average_speed": 432.9,
+        "maximum_speed": 1524.98,
+        "dominant_zone": "defensive",
+        "ball_interactions": 0,
+        "analysis": {
+            "movement": "The player shows relatively low movement activity.",
+            "speed": "The player demonstrates strong average movement speed.",
+            "zone": "The player spent most of the tracked time in the defensive zone.",
+            "ball": "No significant player-ball interactions were detected."
+        },
+        "recommendations": [
+            "Increase movement and off-ball activity.",
+            "Increase attacking-zone involvement.",
+            "Improve defensive positioning.",
+            "Increase involvement in ball situations."
+        ]
+    },
+    "40": {
+        "player_id": "40",
+        "performance_level": "Needs Improvement",
+        "performance_score": 14.28,
+        "movement": 596.16,
+        "average_speed": 426.99,
+        "maximum_speed": 949.96,
+        "dominant_zone": "defensive",
+        "ball_interactions": 0,
+        "analysis": {
+            "movement": "The player shows relatively low movement activity.",
+            "speed": "The player demonstrates strong average movement speed.",
+            "zone": "The player spent most of the tracked time in the defensive zone.",
+            "ball": "No significant player-ball interactions were detected."
+        },
+        "recommendations": [
+            "Increase movement and off-ball activity.",
+            "Increase attacking-zone involvement.",
+            "Increase involvement in ball situations."
+        ]
+    },
+    "41": {
+        "player_id": "41",
+        "performance_level": "Needs Improvement",
+        "performance_score": 0,
+        "movement": 1447.7,
+        "average_speed": 0,
+        "maximum_speed": 0,
+        "dominant_zone": "midfield",
+        "ball_interactions": 0,
+        "analysis": {
+            "movement": "The player shows relatively low movement activity.",
+            "speed": "The player's average movement speed is relatively low.",
+            "zone": "The player spent most of the tracked time in the midfield zone.",
+            "ball": "No significant player-ball interactions were detected."
+        },
+        "recommendations": [
+            "Increase movement and off-ball activity.",
+            "Improve acceleration and movement speed.",
+            "Increase attacking-zone involvement.",
+            "Improve defensive positioning.",
+            "Increase involvement in ball situations."
+        ]
+    },
+    "42": {
+        "player_id": "42",
+        "performance_level": "Needs Improvement",
+        "performance_score": 12.92,
+        "movement": 282.64,
+        "average_speed": 317.98,
+        "maximum_speed": 1656.22,
+        "dominant_zone": "defensive",
+        "ball_interactions": 0,
+        "analysis": {
+            "movement": "The player shows relatively low movement activity.",
+            "speed": "The player demonstrates strong average movement speed.",
+            "zone": "The player spent most of the tracked time in the defensive zone.",
+            "ball": "No significant player-ball interactions were detected."
+        },
+        "recommendations": [
+            "Increase movement and off-ball activity.",
+            "Increase attacking-zone involvement.",
+            "Increase involvement in ball situations."
+        ]
+    },
+    "43": {
+        "player_id": "43",
+        "performance_level": "Needs Improvement",
+        "performance_score": 0,
+        "movement": 1330.51,
+        "average_speed": 0,
+        "maximum_speed": 0,
+        "dominant_zone": "midfield",
+        "ball_interactions": 0,
+        "analysis": {
+            "movement": "The player shows relatively low movement activity.",
+            "speed": "The player's average movement speed is relatively low.",
+            "zone": "The player spent most of the tracked time in the midfield zone.",
+            "ball": "No significant player-ball interactions were detected."
+        },
+        "recommendations": [
+            "Increase movement and off-ball activity.",
+            "Improve acceleration and movement speed.",
+            "Increase attacking-zone involvement.",
+            "Increase involvement in ball situations."
+        ]
+    },
+    "44": {
+        "player_id": "44",
+        "performance_level": "Needs Improvement",
+        "performance_score": 8.43,
+        "movement": 104.2,
+        "average_speed": 351.77,
+        "maximum_speed": 773.64,
+        "dominant_zone": "midfield",
+        "ball_interactions": 1,
+        "analysis": {
+            "movement": "The player shows relatively low movement activity.",
+            "speed": "The player demonstrates strong average movement speed.",
+            "zone": "The player spent most of the tracked time in the midfield zone.",
+            "ball": "The player had limited ball interactions."
+        },
+        "recommendations": [
+            "Increase movement and off-ball activity.",
+            "Increase attacking-zone involvement.",
+            "Improve defensive positioning.",
+            "Increase involvement in ball situations."
+        ]
+    },
+    "45": {
+        "player_id": "45",
+        "performance_level": "Needs Improvement",
+        "performance_score": 15.7,
+        "movement": 285.97,
+        "average_speed": 695.55,
+        "maximum_speed": 1105.3,
+        "dominant_zone": "defensive",
+        "ball_interactions": 0,
+        "analysis": {
+            "movement": "The player shows relatively low movement activity.",
+            "speed": "The player demonstrates strong average movement speed.",
+            "zone": "The player spent most of the tracked time in the defensive zone.",
+            "ball": "No significant player-ball interactions were detected."
+        },
+        "recommendations": [
+            "Increase movement and off-ball activity.",
+            "Increase attacking-zone involvement.",
+            "Increase involvement in ball situations."
+        ]
+    },
+    "46": {
+        "player_id": "46",
+        "performance_level": "Needs Improvement",
+        "performance_score": 12.35,
+        "movement": 703.32,
+        "average_speed": 314.5,
+        "maximum_speed": 590.43,
+        "dominant_zone": "midfield",
+        "ball_interactions": 0,
+        "analysis": {
+            "movement": "The player shows relatively low movement activity.",
+            "speed": "The player demonstrates strong average movement speed.",
+            "zone": "The player spent most of the tracked time in the midfield zone.",
+            "ball": "No significant player-ball interactions were detected."
+        },
+        "recommendations": [
+            "Increase movement and off-ball activity.",
+            "Increase attacking-zone involvement.",
+            "Improve defensive positioning.",
+            "Increase involvement in ball situations."
+        ]
+    },
+    "47": {
+        "player_id": "47",
+        "performance_level": "Needs Improvement",
+        "performance_score": 0,
+        "movement": 132.79,
+        "average_speed": 0,
+        "maximum_speed": 0,
+        "dominant_zone": "midfield",
+        "ball_interactions": 0,
+        "analysis": {
+            "movement": "The player shows relatively low movement activity.",
+            "speed": "The player's average movement speed is relatively low.",
+            "zone": "The player spent most of the tracked time in the midfield zone.",
+            "ball": "No significant player-ball interactions were detected."
+        },
+        "recommendations": [
+            "Increase movement and off-ball activity.",
+            "Improve acceleration and movement speed.",
+            "Increase attacking-zone involvement.",
+            "Improve defensive positioning.",
+            "Increase involvement in ball situations."
+        ]
+    },
+    "48": {
+        "player_id": "48",
+        "performance_level": "Needs Improvement",
+        "performance_score": 0,
+        "movement": 0,
+        "average_speed": 231.36,
+        "maximum_speed": 1420.75,
+        "dominant_zone": "defensive",
+        "ball_interactions": 0,
+        "analysis": {
+            "movement": "The player shows relatively low movement activity.",
+            "speed": "The player's average movement speed is moderate.",
+            "zone": "The player spent most of the tracked time in the defensive zone.",
+            "ball": "No significant player-ball interactions were detected."
+        },
+        "recommendations": [
+            "Increase movement and off-ball activity.",
+            "Increase attacking-zone involvement.",
+            "Improve defensive positioning.",
+            "Increase involvement in ball situations."
+        ]
+    },
+    "49": {
+        "player_id": "49",
+        "performance_level": "Needs Improvement",
+        "performance_score": 13.88,
+        "movement": 64.24,
+        "average_speed": 322.38,
+        "maximum_speed": 2371.15,
+        "dominant_zone": "midfield",
+        "ball_interactions": 0,
+        "analysis": {
+            "movement": "The player shows relatively low movement activity.",
+            "speed": "The player demonstrates strong average movement speed.",
+            "zone": "The player spent most of the tracked time in the midfield zone.",
+            "ball": "No significant player-ball interactions were detected."
+        },
+        "recommendations": [
+            "Increase movement and off-ball activity.",
+            "Increase attacking-zone involvement.",
+            "Improve defensive positioning.",
+            "Increase involvement in ball situations."
+        ]
+    },
+    "50": {
+        "player_id": "50",
+        "performance_level": "Needs Improvement",
+        "performance_score": 13.57,
+        "movement": 322.29,
+        "average_speed": 546.49,
+        "maximum_speed": 972.45,
+        "dominant_zone": "midfield",
+        "ball_interactions": 0,
+        "analysis": {
+            "movement": "The player shows relatively low movement activity.",
+            "speed": "The player demonstrates strong average movement speed.",
+            "zone": "The player spent most of the tracked time in the midfield zone.",
+            "ball": "No significant player-ball interactions were detected."
+        },
+        "recommendations": [
+            "Increase movement and off-ball activity.",
+            "Increase attacking-zone involvement.",
+            "Improve defensive positioning.",
+            "Increase involvement in ball situations."
+        ]
+    },
+    "51": {
+        "player_id": "51",
+        "performance_level": "Needs Improvement",
+        "performance_score": 10.16,
+        "movement": 164.42,
+        "average_speed": 303.12,
+        "maximum_speed": 1251.45,
+        "dominant_zone": "midfield",
+        "ball_interactions": 0,
+        "analysis": {
+            "movement": "The player shows relatively low movement activity.",
+            "speed": "The player demonstrates strong average movement speed.",
+            "zone": "The player spent most of the tracked time in the midfield zone.",
+            "ball": "No significant player-ball interactions were detected."
+        },
+        "recommendations": [
+            "Increase movement and off-ball activity.",
+            "Increase attacking-zone involvement.",
+            "Improve defensive positioning.",
+            "Increase involvement in ball situations."
+        ]
+    },
+    "52": {
+        "player_id": "52",
+        "performance_level": "Needs Improvement",
+        "performance_score": 0,
+        "movement": 316.89,
+        "average_speed": 0,
+        "maximum_speed": 0,
+        "dominant_zone": "defensive",
+        "ball_interactions": 0,
+        "analysis": {
+            "movement": "The player shows relatively low movement activity.",
+            "speed": "The player's average movement speed is relatively low.",
+            "zone": "The player spent most of the tracked time in the defensive zone.",
+            "ball": "No significant player-ball interactions were detected."
+        },
+        "recommendations": [
+            "Increase movement and off-ball activity.",
+            "Improve acceleration and movement speed.",
+            "Increase attacking-zone involvement.",
+            "Increase involvement in ball situations."
+        ]
+    },
+    "53": {
+        "player_id": "53",
+        "performance_level": "Needs Improvement",
+        "performance_score": 36.99,
+        "movement": 634.78,
+        "average_speed": 579.9,
+        "maximum_speed": 6229.74,
+        "dominant_zone": "midfield",
+        "ball_interactions": 0,
+        "analysis": {
+            "movement": "The player shows relatively low movement activity.",
+            "speed": "The player demonstrates strong average movement speed.",
+            "zone": "The player spent most of the tracked time in the midfield zone.",
+            "ball": "No significant player-ball interactions were detected."
+        },
+        "recommendations": [
+            "Increase movement and off-ball activity.",
+            "Increase attacking-zone involvement.",
+            "Increase involvement in ball situations."
+        ]
+    },
+    "54": {
+        "player_id": "54",
+        "performance_level": "Needs Improvement",
+        "performance_score": 39.83,
+        "movement": 143.79,
+        "average_speed": 1078.75,
+        "maximum_speed": 6380.21,
+        "dominant_zone": "midfield",
+        "ball_interactions": 0,
+        "analysis": {
+            "movement": "The player shows relatively low movement activity.",
+            "speed": "The player demonstrates strong average movement speed.",
+            "zone": "The player spent most of the tracked time in the midfield zone.",
+            "ball": "No significant player-ball interactions were detected."
+        },
+        "recommendations": [
+            "Increase movement and off-ball activity.",
+            "Increase attacking-zone involvement.",
+            "Improve defensive positioning.",
+            "Increase involvement in ball situations."
+        ]
+    },
+    "55": {
+        "player_id": "55",
+        "performance_level": "Needs Improvement",
+        "performance_score": 0,
+        "movement": 109.28,
+        "average_speed": 0,
+        "maximum_speed": 0,
+        "dominant_zone": "midfield",
+        "ball_interactions": 0,
+        "analysis": {
+            "movement": "The player shows relatively low movement activity.",
+            "speed": "The player's average movement speed is relatively low.",
+            "zone": "The player spent most of the tracked time in the midfield zone.",
+            "ball": "No significant player-ball interactions were detected."
+        },
+        "recommendations": [
+            "Increase movement and off-ball activity.",
+            "Improve acceleration and movement speed.",
+            "Increase attacking-zone involvement.",
+            "Improve defensive positioning.",
+            "Increase involvement in ball situations."
+        ]
+    },
+    "56": {
+        "player_id": "56",
+        "performance_level": "Good",
+        "performance_score": 60.59,
+        "movement": 2856.41,
+        "average_speed": 1311.88,
+        "maximum_speed": 4979.44,
+        "dominant_zone": "midfield",
+        "ball_interactions": 0,
+        "analysis": {
+            "movement": "The player shows moderate movement activity.",
+            "speed": "The player demonstrates strong average movement speed.",
+            "zone": "The player spent most of the tracked time in the midfield zone.",
+            "ball": "No significant player-ball interactions were detected."
+        },
+        "recommendations": [
+            "Increase attacking-zone involvement.",
+            "Improve defensive positioning.",
+            "Increase involvement in ball situations."
+        ]
+    },
+    "57": {
+        "player_id": "57",
+        "performance_level": "Needs Improvement",
+        "performance_score": 0,
+        "movement": 0,
+        "average_speed": 1994.78,
+        "maximum_speed": 5399.47,
+        "dominant_zone": "defensive",
+        "ball_interactions": 0,
+        "analysis": {
+            "movement": "The player shows relatively low movement activity.",
+            "speed": "The player demonstrates strong average movement speed.",
+            "zone": "The player spent most of the tracked time in the defensive zone.",
+            "ball": "No significant player-ball interactions were detected."
+        },
+        "recommendations": [
+            "Increase movement and off-ball activity.",
+            "Increase attacking-zone involvement.",
+            "Improve defensive positioning.",
+            "Increase involvement in ball situations."
+        ]
+    },
+    "58": {
+        "player_id": "58",
+        "performance_level": "Good",
+        "performance_score": 60.29,
+        "movement": 33.93,
+        "average_speed": 2708.48,
+        "maximum_speed": 6468.57,
+        "dominant_zone": "defensive",
+        "ball_interactions": 0,
+        "analysis": {
+            "movement": "The player shows relatively low movement activity.",
+            "speed": "The player demonstrates strong average movement speed.",
+            "zone": "The player spent most of the tracked time in the defensive zone.",
+            "ball": "No significant player-ball interactions were detected."
+        },
+        "recommendations": [
+            "Increase movement and off-ball activity.",
+            "Increase attacking-zone involvement.",
+            "Increase involvement in ball situations."
+        ]
+    },
+    "59": {
+        "player_id": "59",
+        "performance_level": "Needs Improvement",
+        "performance_score": 37.9,
+        "movement": 217.32,
+        "average_speed": 1789.65,
+        "maximum_speed": 3341.49,
+        "dominant_zone": "defensive",
+        "ball_interactions": 0,
+        "analysis": {
+            "movement": "The player shows relatively low movement activity.",
+            "speed": "The player demonstrates strong average movement speed.",
+            "zone": "The player spent most of the tracked time in the defensive zone.",
+            "ball": "No significant player-ball interactions were detected."
+        },
+        "recommendations": [
+            "Increase movement and off-ball activity.",
+            "Increase attacking-zone involvement.",
+            "Increase involvement in ball situations."
+        ]
+    },
+    "60": {
+        "player_id": "60",
+        "performance_level": "Needs Improvement",
+        "performance_score": 0,
+        "movement": 548.52,
+        "average_speed": 0,
+        "maximum_speed": 0,
+        "dominant_zone": "midfield",
+        "ball_interactions": 0,
+        "analysis": {
+            "movement": "The player shows relatively low movement activity.",
+            "speed": "The player's average movement speed is relatively low.",
+            "zone": "The player spent most of the tracked time in the midfield zone.",
+            "ball": "No significant player-ball interactions were detected."
+        },
+        "recommendations": [
+            "Increase movement and off-ball activity.",
+            "Improve acceleration and movement speed.",
+            "Increase attacking-zone involvement.",
+            "Improve defensive positioning.",
+            "Increase involvement in ball situations."
+        ]
+    },
+    "62": {
+        "player_id": "62",
+        "performance_level": "Needs Improvement",
+        "performance_score": 0,
+        "movement": 257.29,
+        "average_speed": 0,
+        "maximum_speed": 0,
+        "dominant_zone": "midfield",
+        "ball_interactions": 0,
+        "analysis": {
+            "movement": "The player shows relatively low movement activity.",
+            "speed": "The player's average movement speed is relatively low.",
+            "zone": "The player spent most of the tracked time in the midfield zone.",
+            "ball": "No significant player-ball interactions were detected."
+        },
+        "recommendations": [
+            "Increase movement and off-ball activity.",
+            "Improve acceleration and movement speed.",
+            "Increase attacking-zone involvement.",
+            "Improve defensive positioning.",
+            "Increase involvement in ball situations."
+        ]
+    },
+    "64": {
+        "player_id": "64",
+        "performance_level": "Needs Improvement",
+        "performance_score": 0,
+        "movement": 481.24,
+        "average_speed": 0,
+        "maximum_speed": 0,
+        "dominant_zone": "midfield",
+        "ball_interactions": 0,
+        "analysis": {
+            "movement": "The player shows relatively low movement activity.",
+            "speed": "The player's average movement speed is relatively low.",
+            "zone": "The player spent most of the tracked time in the midfield zone.",
+            "ball": "No significant player-ball interactions were detected."
+        },
+        "recommendations": [
+            "Increase movement and off-ball activity.",
+            "Improve acceleration and movement speed.",
+            "Increase attacking-zone involvement.",
+            "Improve defensive positioning.",
+            "Increase involvement in ball situations."
+        ]
+    },
+    "65": {
+        "player_id": "65",
+        "performance_level": "Needs Improvement",
+        "performance_score": 0,
+        "movement": 545.39,
+        "average_speed": 0,
+        "maximum_speed": 0,
+        "dominant_zone": "midfield",
+        "ball_interactions": 0,
+        "analysis": {
+            "movement": "The player shows relatively low movement activity.",
+            "speed": "The player's average movement speed is relatively low.",
+            "zone": "The player spent most of the tracked time in the midfield zone.",
+            "ball": "No significant player-ball interactions were detected."
+        },
+        "recommendations": [
+            "Increase movement and off-ball activity.",
+            "Improve acceleration and movement speed.",
+            "Increase attacking-zone involvement.",
+            "Improve defensive positioning.",
+            "Increase involvement in ball situations."
+        ]
+    },
+    "66": {
+        "player_id": "66",
+        "performance_level": "Needs Improvement",
+        "performance_score": 0,
+        "movement": 319.23,
+        "average_speed": 0,
+        "maximum_speed": 0,
+        "dominant_zone": "defensive",
+        "ball_interactions": 0,
+        "analysis": {
+            "movement": "The player shows relatively low movement activity.",
+            "speed": "The player's average movement speed is relatively low.",
+            "zone": "The player spent most of the tracked time in the defensive zone.",
+            "ball": "No significant player-ball interactions were detected."
+        },
+        "recommendations": [
+            "Increase movement and off-ball activity.",
+            "Improve acceleration and movement speed.",
+            "Increase attacking-zone involvement.",
+            "Increase involvement in ball situations."
+        ]
+    },
+    "67": {
+        "player_id": "67",
+        "performance_level": "Needs Improvement",
+        "performance_score": 0,
+        "movement": 335.8,
+        "average_speed": 0,
+        "maximum_speed": 0,
+        "dominant_zone": "midfield",
+        "ball_interactions": 0,
+        "analysis": {
+            "movement": "The player shows relatively low movement activity.",
+            "speed": "The player's average movement speed is relatively low.",
+            "zone": "The player spent most of the tracked time in the midfield zone.",
+            "ball": "No significant player-ball interactions were detected."
+        },
+        "recommendations": [
+            "Increase movement and off-ball activity.",
+            "Improve acceleration and movement speed.",
+            "Increase attacking-zone involvement.",
+            "Improve defensive positioning.",
+            "Increase involvement in ball situations."
+        ]
+    },
+    "68": {
+        "player_id": "68",
+        "performance_level": "Needs Improvement",
+        "performance_score": 0,
+        "movement": 0,
+        "average_speed": 0,
+        "maximum_speed": 0,
+        "dominant_zone": "defensive",
+        "ball_interactions": 0,
+        "analysis": {
+            "movement": "The player shows relatively low movement activity.",
+            "speed": "The player's average movement speed is relatively low.",
+            "zone": "The player spent most of the tracked time in the defensive zone.",
+            "ball": "No significant player-ball interactions were detected."
+        },
+        "recommendations": [
+            "Increase movement and off-ball activity.",
+            "Improve acceleration and movement speed.",
+            "Increase attacking-zone involvement.",
+            "Increase involvement in ball situations."
+        ]
+    },
+    "69": {
+        "player_id": "69",
+        "performance_level": "Needs Improvement",
+        "performance_score": 0,
+        "movement": 478.62,
+        "average_speed": 0,
+        "maximum_speed": 0,
+        "dominant_zone": "midfield",
+        "ball_interactions": 0,
+        "analysis": {
+            "movement": "The player shows relatively low movement activity.",
+            "speed": "The player's average movement speed is relatively low.",
+            "zone": "The player spent most of the tracked time in the midfield zone.",
+            "ball": "No significant player-ball interactions were detected."
+        },
+        "recommendations": [
+            "Increase movement and off-ball activity.",
+            "Improve acceleration and movement speed.",
+            "Increase attacking-zone involvement.",
+            "Improve defensive positioning.",
+            "Increase involvement in ball situations."
+        ]
+    },
+    "70": {
+        "player_id": "70",
+        "performance_level": "Needs Improvement",
+        "performance_score": 0,
+        "movement": 742.22,
+        "average_speed": 0,
+        "maximum_speed": 0,
+        "dominant_zone": "midfield",
+        "ball_interactions": 0,
+        "analysis": {
+            "movement": "The player shows relatively low movement activity.",
+            "speed": "The player's average movement speed is relatively low.",
+            "zone": "The player spent most of the tracked time in the midfield zone.",
+            "ball": "No significant player-ball interactions were detected."
+        },
+        "recommendations": [
+            "Increase movement and off-ball activity.",
+            "Improve acceleration and movement speed.",
+            "Increase attacking-zone involvement.",
+            "Improve defensive positioning.",
+            "Increase involvement in ball situations."
+        ]
+    },
+    "71": {
+        "player_id": "71",
+        "performance_level": "Needs Improvement",
+        "performance_score": 0,
+        "movement": 346.46,
+        "average_speed": 0,
+        "maximum_speed": 0,
+        "dominant_zone": "midfield",
+        "ball_interactions": 0,
+        "analysis": {
+            "movement": "The player shows relatively low movement activity.",
+            "speed": "The player's average movement speed is relatively low.",
+            "zone": "The player spent most of the tracked time in the midfield zone.",
+            "ball": "No significant player-ball interactions were detected."
+        },
+        "recommendations": [
+            "Increase movement and off-ball activity.",
+            "Improve acceleration and movement speed.",
+            "Increase attacking-zone involvement.",
+            "Improve defensive positioning.",
+            "Increase involvement in ball situations."
+        ]
+    },
+    "72": {
+        "player_id": "72",
+        "performance_level": "Needs Improvement",
+        "performance_score": 0,
+        "movement": 642.24,
+        "average_speed": 0,
+        "maximum_speed": 0,
+        "dominant_zone": "midfield",
+        "ball_interactions": 0,
+        "analysis": {
+            "movement": "The player shows relatively low movement activity.",
+            "speed": "The player's average movement speed is relatively low.",
+            "zone": "The player spent most of the tracked time in the midfield zone.",
+            "ball": "No significant player-ball interactions were detected."
+        },
+        "recommendations": [
+            "Increase movement and off-ball activity.",
+            "Improve acceleration and movement speed.",
+            "Increase attacking-zone involvement.",
+            "Improve defensive positioning.",
+            "Increase involvement in ball situations."
+        ]
+    },
+    "74": {
+        "player_id": "74",
+        "performance_level": "Needs Improvement",
+        "performance_score": 0,
+        "movement": 1441.53,
+        "average_speed": 0,
+        "maximum_speed": 0,
+        "dominant_zone": "defensive",
+        "ball_interactions": 0,
+        "analysis": {
+            "movement": "The player shows relatively low movement activity.",
+            "speed": "The player's average movement speed is relatively low.",
+            "zone": "The player spent most of the tracked time in the defensive zone.",
+            "ball": "No significant player-ball interactions were detected."
+        },
+        "recommendations": [
+            "Increase movement and off-ball activity.",
+            "Improve acceleration and movement speed.",
+            "Increase attacking-zone involvement.",
+            "Increase involvement in ball situations."
+        ]
+    },
+    "75": {
+        "player_id": "75",
+        "performance_level": "Needs Improvement",
+        "performance_score": 0,
+        "movement": 1423.66,
+        "average_speed": 0,
+        "maximum_speed": 0,
+        "dominant_zone": "midfield",
+        "ball_interactions": 0,
+        "analysis": {
+            "movement": "The player shows relatively low movement activity.",
+            "speed": "The player's average movement speed is relatively low.",
+            "zone": "The player spent most of the tracked time in the midfield zone.",
+            "ball": "No significant player-ball interactions were detected."
+        },
+        "recommendations": [
+            "Increase movement and off-ball activity.",
+            "Improve acceleration and movement speed.",
+            "Increase attacking-zone involvement.",
+            "Increase involvement in ball situations."
+        ]
+    },
+    "77": {
+        "player_id": "77",
+        "performance_level": "Needs Improvement",
+        "performance_score": 0,
+        "movement": 420.35,
+        "average_speed": 0,
+        "maximum_speed": 0,
+        "dominant_zone": "midfield",
+        "ball_interactions": 0,
+        "analysis": {
+            "movement": "The player shows relatively low movement activity.",
+            "speed": "The player's average movement speed is relatively low.",
+            "zone": "The player spent most of the tracked time in the midfield zone.",
+            "ball": "No significant player-ball interactions were detected."
+        },
+        "recommendations": [
+            "Increase movement and off-ball activity.",
+            "Improve acceleration and movement speed.",
+            "Increase attacking-zone involvement.",
+            "Improve defensive positioning.",
+            "Increase involvement in ball situations."
+        ]
+    },
+    "78": {
+        "player_id": "78",
+        "performance_level": "Needs Improvement",
+        "performance_score": 0,
+        "movement": 565.75,
+        "average_speed": 0,
+        "maximum_speed": 0,
+        "dominant_zone": "midfield",
+        "ball_interactions": 0,
+        "analysis": {
+            "movement": "The player shows relatively low movement activity.",
+            "speed": "The player's average movement speed is relatively low.",
+            "zone": "The player spent most of the tracked time in the midfield zone.",
+            "ball": "No significant player-ball interactions were detected."
+        },
+        "recommendations": [
+            "Increase movement and off-ball activity.",
+            "Improve acceleration and movement speed.",
+            "Increase attacking-zone involvement.",
+            "Improve defensive positioning.",
+            "Increase involvement in ball situations."
+        ]
+    },
+    "79": {
+        "player_id": "79",
+        "performance_level": "Needs Improvement",
+        "performance_score": 0,
+        "movement": 1039.29,
+        "average_speed": 0,
+        "maximum_speed": 0,
+        "dominant_zone": "midfield",
+        "ball_interactions": 0,
+        "analysis": {
+            "movement": "The player shows relatively low movement activity.",
+            "speed": "The player's average movement speed is relatively low.",
+            "zone": "The player spent most of the tracked time in the midfield zone.",
+            "ball": "No significant player-ball interactions were detected."
+        },
+        "recommendations": [
+            "Increase movement and off-ball activity.",
+            "Improve acceleration and movement speed.",
+            "Increase attacking-zone involvement.",
+            "Improve defensive positioning.",
+            "Increase involvement in ball situations."
+        ]
+    },
+    "80": {
+        "player_id": "80",
+        "performance_level": "Needs Improvement",
+        "performance_score": 0,
+        "movement": 209.0,
+        "average_speed": 0,
+        "maximum_speed": 0,
+        "dominant_zone": "defensive",
+        "ball_interactions": 0,
+        "analysis": {
+            "movement": "The player shows relatively low movement activity.",
+            "speed": "The player's average movement speed is relatively low.",
+            "zone": "The player spent most of the tracked time in the defensive zone.",
+            "ball": "No significant player-ball interactions were detected."
+        },
+        "recommendations": [
+            "Increase movement and off-ball activity.",
+            "Improve acceleration and movement speed.",
+            "Increase attacking-zone involvement.",
+            "Increase involvement in ball situations."
+        ]
+    }
+}

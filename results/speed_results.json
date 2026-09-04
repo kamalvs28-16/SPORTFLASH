@@ -1,0 +1,194 @@
+{
+    "1": {
+        "average_speed": 259.01,
+        "maximum_speed": 2516.8
+    },
+    "2": {
+        "average_speed": 304.59,
+        "maximum_speed": 1771.03
+    },
+    "3": {
+        "average_speed": 417.9,
+        "maximum_speed": 728.15
+    },
+    "4": {
+        "average_speed": 193.89,
+        "maximum_speed": 909.52
+    },
+    "5": {
+        "average_speed": 402.58,
+        "maximum_speed": 1531.96
+    },
+    "8": {
+        "average_speed": 147.79,
+        "maximum_speed": 246.79
+    },
+    "9": {
+        "average_speed": 328.63,
+        "maximum_speed": 439.42
+    },
+    "10": {
+        "average_speed": 476.81,
+        "maximum_speed": 1482.82
+    },
+    "11": {
+        "average_speed": 463.65,
+        "maximum_speed": 2774.3
+    },
+    "12": {
+        "average_speed": 335.13,
+        "maximum_speed": 726.42
+    },
+    "13": {
+        "average_speed": 655.62,
+        "maximum_speed": 1908.02
+    },
+    "14": {
+        "average_speed": 365.91,
+        "maximum_speed": 3323.08
+    },
+    "16": {
+        "average_speed": 540.42,
+        "maximum_speed": 1449.92
+    },
+    "17": {
+        "average_speed": 629.39,
+        "maximum_speed": 3446.1
+    },
+    "18": {
+        "average_speed": 298.14,
+        "maximum_speed": 853.44
+    },
+    "19": {
+        "average_speed": 470.3,
+        "maximum_speed": 1879.83
+    },
+    "21": {
+        "average_speed": 1233.55,
+        "maximum_speed": 1233.55
+    },
+    "22": {
+        "average_speed": 313.77,
+        "maximum_speed": 1558.38
+    },
+    "25": {
+        "average_speed": 397.04,
+        "maximum_speed": 1670.25
+    },
+    "26": {
+        "average_speed": 264.81,
+        "maximum_speed": 2388.43
+    },
+    "27": {
+        "average_speed": 275.24,
+        "maximum_speed": 1838.85
+    },
+    "28": {
+        "average_speed": 271.54,
+        "maximum_speed": 590.8
+    },
+    "29": {
+        "average_speed": 323.42,
+        "maximum_speed": 716.62
+    },
+    "30": {
+        "average_speed": 364.37,
+        "maximum_speed": 1754.04
+    },
+    "31": {
+        "average_speed": 265.32,
+        "maximum_speed": 429.97
+    },
+    "32": {
+        "average_speed": 202.67,
+        "maximum_speed": 1143.88
+    },
+    "33": {
+        "average_speed": 244.53,
+        "maximum_speed": 1059.91
+    },
+    "34": {
+        "average_speed": 219.01,
+        "maximum_speed": 592.96
+    },
+    "35": {
+        "average_speed": 202.12,
+        "maximum_speed": 1596.41
+    },
+    "36": {
+        "average_speed": 210.22,
+        "maximum_speed": 847.33
+    },
+    "37": {
+        "average_speed": 192.05,
+        "maximum_speed": 576.98
+    },
+    "38": {
+        "average_speed": 324.92,
+        "maximum_speed": 5535.77
+    },
+    "39": {
+        "average_speed": 432.9,
+        "maximum_speed": 1524.98
+    },
+    "40": {
+        "average_speed": 426.99,
+        "maximum_speed": 949.96
+    },
+    "42": {
+        "average_speed": 317.98,
+        "maximum_speed": 1656.22
+    },
+    "44": {
+        "average_speed": 351.77,
+        "maximum_speed": 773.64
+    },
+    "45": {
+        "average_speed": 695.55,
+        "maximum_speed": 1105.3
+    },
+    "46": {
+        "average_speed": 314.5,
+        "maximum_speed": 590.43
+    },
+    "48": {
+        "average_speed": 231.36,
+        "maximum_speed": 1420.75
+    },
+    "49": {
+        "average_speed": 322.38,
+        "maximum_speed": 2371.15
+    },
+    "50": {
+        "average_speed": 546.49,
+        "maximum_speed": 972.45
+    },
+    "51": {
+        "average_speed": 303.12,
+        "maximum_speed": 1251.45
+    },
+    "53": {
+        "average_speed": 579.9,
+        "maximum_speed": 6229.74
+    },
+    "54": {
+        "average_speed": 1078.75,
+        "maximum_speed": 6380.21
+    },
+    "56": {
+        "average_speed": 1311.88,
+        "maximum_speed": 4979.44
+    },
+    "57": {
+        "average_speed": 1994.78,
+        "maximum_speed": 5399.47
+    },
+    "58": {
+        "average_speed": 2708.48,
+        "maximum_speed": 6468.57
+    },
+    "59": {
+        "average_speed": 1789.65,
+        "maximum_speed": 3341.49
+    }
+}

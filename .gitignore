@@ -1,12 +1,34 @@
+# Python virtual environment
 venv/
+.venv/
+
+# Python cache
 __pycache__/
 *.pyc
+*.pyo
 
+# YOLO model
 yolo11n.pt
+*.pt
 
+# Video files
 videos/
+*.mp4
+*.avi
+*.mov
+
+# YOLO generated output
 runs/
 
+# Heatmap images
 *_heatmap.png
 
+# Environment variables
 .env
+
+# VS Code settings
+.vscode/
+
+# Operating system files
+.DS_Store
+Thumbs.db

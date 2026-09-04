@@ -1,9 +1,11 @@
 from ultralytics import YOLO
 import matplotlib.pyplot as plt
-import numpy as np
+import os
 
-print("SPORTFLASH PLAYER HEATMAP")
-print("--------------------------")
+print("======================================")
+print("     SPORTFLASH PLAYER HEATMAP")
+print("======================================")
+
 print("Loading YOLO model...")
 
 model = YOLO("yolo11n.pt")
@@ -11,7 +13,10 @@ model = YOLO("yolo11n.pt")
 print("YOLO MODEL LOADED!")
 print("Collecting player movement positions...")
 
+# --------------------------------------------------
 # Store positions for each player
+# --------------------------------------------------
+
 player_positions = {}
 
 results = model.track(
@@ -46,19 +51,43 @@ for result in results:
 
 print("Movement positions collected.")
 
-# ------------------------------------------------
-# Create heatmap for the most active players
-# ------------------------------------------------
+# --------------------------------------------------
+# Create output folder
+# --------------------------------------------------
 
-# Sort players according to number of positions
+output_folder = "results/heatmaps"
+
+os.makedirs(output_folder, exist_ok=True)
+
+print(f"Heatmaps will be saved in: {output_folder}")
+
+# --------------------------------------------------
+# Sort players by number of positions
+# --------------------------------------------------
+
 active_players = sorted(
     player_positions.items(),
     key=lambda x: len(x[1]),
     reverse=True
 )
 
+# --------------------------------------------------
 # Select top 5 tracked players
+# --------------------------------------------------
+
 top_players = active_players[:5]
+
+print("\nTop 5 players selected:")
+
+for player_id, positions in top_players:
+    print(
+        f"Player {player_id}: "
+        f"{len(positions)} positions"
+    )
+
+# --------------------------------------------------
+# Generate heatmaps
+# --------------------------------------------------
 
 for player_id, positions in top_players:
 
@@ -73,7 +102,9 @@ for player_id, positions in top_players:
         bins=30
     )
 
-    plt.colorbar(label="Movement Density")
+    plt.colorbar(
+        label="Movement Density"
+    )
 
     plt.gca().invert_yaxis()
 
@@ -84,9 +115,20 @@ for player_id, positions in top_players:
     plt.xlabel("X Position")
     plt.ylabel("Y Position")
 
-    output_file = f"player_{player_id}_heatmap.png"
+    # --------------------------------------------------
+    # Save heatmap
+    # --------------------------------------------------
 
-    plt.savefig(output_file, dpi=150)
+    output_file = os.path.join(
+        output_folder,
+        f"player_{player_id}_heatmap.png"
+    )
+
+    plt.savefig(
+        output_file,
+        dpi=150,
+        bbox_inches="tight"
+    )
 
     print(
         f"Heatmap saved: {output_file}"
@@ -94,4 +136,6 @@ for player_id, positions in top_players:
 
     plt.close()
 
-print("\nHeatmap generation completed!")
+print("\n======================================")
+print("       HEATMAP GENERATION COMPLETED")
+print("======================================")

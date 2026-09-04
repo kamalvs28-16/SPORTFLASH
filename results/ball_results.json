@@ -1,0 +1,16 @@
+{
+    "ball_positions_detected": 280,
+    "average_ball_speed_pixels_per_second": 217.13,
+    "maximum_ball_speed_pixels_per_second": 853.05,
+    "total_player_ball_interactions": 1,
+    "interaction_counts": {
+        "44": 1
+    },
+    "interactions": [
+        {
+            "frame": 911,
+            "player_id": 44,
+            "distance_pixels": 118.34
+        }
+    ]
+}

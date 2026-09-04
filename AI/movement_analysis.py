@@ -1,5 +1,7 @@
 from ultralytics import YOLO
 import math
+import json
+import os
 
 print("SPORTFLASH MOVEMENT ANALYSIS")
 print("Loading YOLO model...")
@@ -42,8 +44,10 @@ for result in results:
 
         # First time seeing this player
         if track_id not in previous_positions:
+
             previous_positions[track_id] = current_position
             total_distance[track_id] = 0
+
             continue
 
         # Previous position
@@ -61,13 +65,50 @@ for result in results:
         previous_positions[track_id] = current_position
 
 
+# ==========================================
+# DISPLAY RESULTS
+# ==========================================
+
 print("\nPLAYER MOVEMENT RESULTS")
 print("-----------------------")
 
 for player_id, distance in total_distance.items():
+
     print(
         f"Player {player_id}: "
         f"{distance:.2f} pixels"
     )
+
+
+# ==========================================
+# SAVE MOVEMENT RESULTS
+# ==========================================
+
+os.makedirs("results", exist_ok=True)
+
+movement_data = {}
+
+for player_id, distance in total_distance.items():
+
+    movement_data[str(player_id)] = round(
+        distance,
+        2
+    )
+
+
+with open(
+    "results/movement_results.json",
+    "w"
+) as file:
+
+    json.dump(
+        movement_data,
+        file,
+        indent=4
+    )
+
+
+print("\nMovement results saved to:")
+print("results/movement_results.json")
 
 print("\nMovement analysis completed!")
