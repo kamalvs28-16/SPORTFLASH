@@ -5,7 +5,7 @@ import pandas as pd
 
 
 # ============================================================
-# PAGE CONFIGURATION
+# SPORTFLASH - AI FOOTBALL PERFORMANCE ANALYTICS DASHBOARD
 # ============================================================
 
 st.set_page_config(
@@ -16,36 +16,19 @@ st.set_page_config(
 
 
 # ============================================================
-# TITLE
-# ============================================================
-
-st.title("⚽ SPORTFLASH")
-st.subheader("AI-Based Football Performance Analytics Dashboard")
-
-st.markdown(
-    """
-    **Analyze player performance, movement, speed, field zones,
-    ball interaction, AI insights, nutrition and team performance.**
-    """
-)
-
-st.divider()
-
-
-# ============================================================
-# FILE PATHS
+# PATHS
 # ============================================================
 
 RESULTS_DIR = "results"
+HEATMAP_DIR = os.path.join(
+    RESULTS_DIR,
+    "heatmaps"
+)
+
 
 PERFORMANCE_FILE = os.path.join(
     RESULTS_DIR,
     "performance_scores.json"
-)
-
-RANKING_FILE = os.path.join(
-    RESULTS_DIR,
-    "player_ranking.json"
 )
 
 MOVEMENT_FILE = os.path.join(
@@ -68,7 +51,7 @@ BALL_FILE = os.path.join(
     "ball_results.json"
 )
 
-AI_INSIGHTS_FILE = os.path.join(
+AI_FILE = os.path.join(
     RESULTS_DIR,
     "ai_insights.json"
 )
@@ -78,14 +61,24 @@ NUTRITION_FILE = os.path.join(
     "nutrition_recommendations.json"
 )
 
+RANKING_FILE = os.path.join(
+    RESULTS_DIR,
+    "player_ranking.json"
+)
+
 TEAM_FILE = os.path.join(
     RESULTS_DIR,
     "team_analysis.json"
 )
 
+COMPARISON_FILE = os.path.join(
+    RESULTS_DIR,
+    "player_comparison.json"
+)
+
 
 # ============================================================
-# JSON LOADER
+# LOAD JSON FUNCTION
 # ============================================================
 
 def load_json(file_path):
@@ -104,19 +97,16 @@ def load_json(file_path):
             return json.load(file)
 
     except Exception:
+
         return {}
 
 
 # ============================================================
-# LOAD DATA
+# LOAD ALL DATA
 # ============================================================
 
 performance_data = load_json(
     PERFORMANCE_FILE
-)
-
-ranking_data = load_json(
-    RANKING_FILE
 )
 
 movement_data = load_json(
@@ -136,68 +126,276 @@ ball_data = load_json(
 )
 
 ai_data = load_json(
-    AI_INSIGHTS_FILE
+    AI_FILE
 )
 
 nutrition_data = load_json(
     NUTRITION_FILE
 )
 
+ranking_data = load_json(
+    RANKING_FILE
+)
+
 team_data = load_json(
     TEAM_FILE
 )
 
+comparison_data = load_json(
+    COMPARISON_FILE
+)
+
 
 # ============================================================
-# CHECK PERFORMANCE DATA
+# HELPER FUNCTIONS
 # ============================================================
 
-if not performance_data:
+def get_player_performance(player_id):
+
+    data = performance_data.get(
+        str(player_id),
+        {}
+    )
+
+    if isinstance(data, dict):
+
+        return float(
+            data.get(
+                "performance_score",
+                data.get(
+                    "score",
+                    0
+                )
+            )
+        )
+
+    if isinstance(data, (int, float)):
+
+        return float(data)
+
+    return 0.0
+
+
+def get_player_movement(player_id):
+
+    data = movement_data.get(
+        str(player_id),
+        0
+    )
+
+    if isinstance(data, dict):
+
+        return float(
+            data.get(
+                "total_movement",
+                data.get(
+                    "movement",
+                    data.get(
+                        "distance",
+                        0
+                    )
+                )
+            )
+        )
+
+    if isinstance(data, (int, float)):
+
+        return float(data)
+
+    return 0.0
+
+
+def get_player_speed(player_id):
+
+    data = speed_data.get(
+        str(player_id),
+        {}
+    )
+
+    if not isinstance(data, dict):
+
+        return 0.0, 0.0, "pixels/sec"
+
+    average = float(
+        data.get(
+            "average_speed",
+            0
+        )
+    )
+
+    maximum = float(
+        data.get(
+            "maximum_speed",
+            0
+        )
+    )
+
+    unit = data.get(
+        "unit",
+        "pixels/sec"
+    )
+
+    return average, maximum, unit
+
+
+def get_player_zone(player_id):
+
+    data = zone_data.get(
+        str(player_id),
+        {}
+    )
+
+    if not isinstance(data, dict):
+
+        return {
+            "defensive": 0.0,
+            "midfield": 0.0,
+            "attacking": 0.0
+        }
+
+    return {
+        "defensive": float(
+            data.get(
+                "defensive",
+                0
+            )
+        ),
+
+        "midfield": float(
+            data.get(
+                "midfield",
+                0
+            )
+        ),
+
+        "attacking": float(
+            data.get(
+                "attacking",
+                0
+            )
+        )
+    }
+
+
+def get_ball_interactions(player_id):
+
+    interaction_data = ball_data.get(
+        "interaction_counts",
+        {}
+    )
+
+    if not isinstance(
+        interaction_data,
+        dict
+    ):
+        return 0
+
+    return int(
+        interaction_data.get(
+            str(player_id),
+            0
+        )
+    )
+
+
+def get_player_ai(player_id):
+
+    data = ai_data.get(
+        str(player_id),
+        {}
+    )
+
+    if isinstance(data, dict):
+        return data
+
+    return {}
+
+
+def get_player_nutrition(player_id):
+
+    data = nutrition_data.get(
+        str(player_id),
+        {}
+    )
+
+    if isinstance(data, dict):
+        return data
+
+    return {}
+
+
+# ============================================================
+# FIND PLAYERS
+# ============================================================
+
+player_ids = set()
+
+for player_id in performance_data.keys():
+    player_ids.add(str(player_id))
+
+for player_id in movement_data.keys():
+    player_ids.add(str(player_id))
+
+for player_id in speed_data.keys():
+    player_ids.add(str(player_id))
+
+for player_id in zone_data.keys():
+    player_ids.add(str(player_id))
+
+
+player_ids = sorted(
+    player_ids,
+    key=lambda x: int(x)
+    if x.isdigit()
+    else 999999
+)
+
+
+# ============================================================
+# HEADER
+# ============================================================
+
+st.title("⚽ SPORTFLASH")
+
+st.subheader(
+    "AI-Based Football Performance Analytics"
+)
+
+st.write(
+    "Analyze player movement, speed, zones, ball interaction, "
+    "performance, AI insights and nutrition recommendations."
+)
+
+st.markdown("---")
+
+
+# ============================================================
+# CHECK DATA
+# ============================================================
+
+if not player_ids:
 
     st.error(
-        "Performance data not found."
+        "No player data found."
     )
 
     st.info(
-        "Run the analysis Python files first."
+        "Run the SPORTFLASH analysis scripts first."
     )
 
     st.stop()
 
 
 # ============================================================
-# GET PLAYER IDs
-# ============================================================
-
-player_ids = list(
-    performance_data.keys()
-)
-
-
-# Sort numerically where possible
-
-try:
-
-    player_ids = sorted(
-        player_ids,
-        key=lambda x: int(x)
-    )
-
-except:
-
-    player_ids = sorted(
-        player_ids
-    )
-
-
-# ============================================================
 # SIDEBAR
 # ============================================================
 
-st.sidebar.header("⚽ SPORTFLASH")
+st.sidebar.title(
+    "⚽ SPORTFLASH"
+)
 
-st.sidebar.markdown(
-    "### Player Selection"
+st.sidebar.write(
+    "Player Analytics"
 )
 
 selected_player = st.sidebar.selectbox(
@@ -205,224 +403,91 @@ selected_player = st.sidebar.selectbox(
     player_ids
 )
 
+st.sidebar.markdown("---")
 
-st.sidebar.divider()
-
-st.sidebar.markdown(
-    """
-    ### Analysis Modules
-
-    ✅ Player Detection  
-    ✅ Player Tracking  
-    ✅ Movement Analysis  
-    ✅ Speed Analysis  
-    ✅ Speed Calibration  
-    ✅ Heatmap  
-    ✅ Zone Analysis  
-    ✅ Ball Analysis  
-    ✅ Performance Score  
-    ✅ Player Ranking  
-    ✅ AI Insights  
-    ✅ Nutrition  
-    ✅ Team Analysis
-    """
+st.sidebar.write(
+    "Available Modules"
 )
+
+st.sidebar.write("✅ Player Detection")
+st.sidebar.write("✅ Player Tracking")
+st.sidebar.write("✅ Movement Analysis")
+st.sidebar.write("✅ Speed Analysis")
+st.sidebar.write("✅ Heatmap")
+st.sidebar.write("✅ Zone Analysis")
+st.sidebar.write("✅ Ball Analysis")
+st.sidebar.write("✅ Performance Score")
+st.sidebar.write("✅ Player Ranking")
+st.sidebar.write("✅ AI Insights")
+st.sidebar.write("✅ Nutrition")
+st.sidebar.write("✅ Team Analysis")
+st.sidebar.write("✅ Player Comparison")
 
 
 # ============================================================
-# PLAYER DATA
+# SELECTED PLAYER DATA
 # ============================================================
 
-selected_performance = performance_data.get(
-    selected_player,
-    {}
+performance_score = get_player_performance(
+    selected_player
 )
 
-selected_movement = movement_data.get(
-    selected_player,
-    0
+movement = get_player_movement(
+    selected_player
 )
 
-selected_speed = speed_data.get(
-    selected_player,
-    {}
-)
-
-selected_zone = zone_data.get(
-    selected_player,
-    {}
-)
-
-selected_ai = ai_data.get(
-    selected_player,
-    {}
-)
-
-selected_nutrition = nutrition_data.get(
-    selected_player,
-    {}
-)
-
-
-# ============================================================
-# PERFORMANCE SCORE
-# ============================================================
-
-if isinstance(
-    selected_performance,
-    dict
-):
-
-    performance_score = float(
-        selected_performance.get(
-            "performance_score",
-            selected_performance.get(
-                "score",
-                0
-            )
-        )
+average_speed, maximum_speed, speed_unit = (
+    get_player_speed(
+        selected_player
     )
+)
+
+zones = get_player_zone(
+    selected_player
+)
+
+ball_interactions = get_ball_interactions(
+    selected_player
+)
+
+ai_player = get_player_ai(
+    selected_player
+)
+
+nutrition_player = get_player_nutrition(
+    selected_player
+)
+
+
+# ============================================================
+# PERFORMANCE LEVEL
+# ============================================================
+
+if performance_score >= 80:
+
+    performance_level = "Excellent"
+
+elif performance_score >= 60:
+
+    performance_level = "Good"
+
+elif performance_score >= 40:
+
+    performance_level = "Average"
 
 else:
 
-    performance_score = float(
-        selected_performance
-    )
+    performance_level = "Needs Improvement"
 
 
 # ============================================================
-# MOVEMENT
-# ============================================================
-
-if isinstance(
-    selected_movement,
-    dict
-):
-
-    movement_value = float(
-        selected_movement.get(
-            "total_distance",
-            selected_movement.get(
-                "movement",
-                selected_movement.get(
-                    "distance",
-                    0
-                )
-            )
-        )
-    )
-
-else:
-
-    try:
-
-        movement_value = float(
-            selected_movement
-        )
-
-    except:
-
-        movement_value = 0
-
-
-# ============================================================
-# SPEED
-# ============================================================
-
-if isinstance(
-    selected_speed,
-    dict
-):
-
-    average_speed = float(
-        selected_speed.get(
-            "average_speed",
-            0
-        )
-    )
-
-    maximum_speed = float(
-        selected_speed.get(
-            "maximum_speed",
-            0
-        )
-    )
-
-else:
-
-    average_speed = 0
-    maximum_speed = 0
-
-
-# ============================================================
-# ZONE
-# ============================================================
-
-if isinstance(
-    selected_zone,
-    dict
-):
-
-    defensive = float(
-        selected_zone.get(
-            "defensive",
-            0
-        )
-    )
-
-    midfield = float(
-        selected_zone.get(
-            "midfield",
-            0
-        )
-    )
-
-    attacking = float(
-        selected_zone.get(
-            "attacking",
-            0
-        )
-    )
-
-else:
-
-    defensive = 0
-    midfield = 0
-    attacking = 0
-
-
-# ============================================================
-# DOMINANT ZONE
-# ============================================================
-
-zone_values = {
-
-    "Defensive": defensive,
-
-    "Midfield": midfield,
-
-    "Attacking": attacking
-
-}
-
-dominant_zone = max(
-    zone_values,
-    key=zone_values.get
-)
-
-
-# ============================================================
-# PLAYER PERFORMANCE HEADER
+# PLAYER OVERVIEW
 # ============================================================
 
 st.header(
-    f"👤 Player {selected_player} Performance"
+    f"👤 Player {selected_player} Overview"
 )
 
-
-# ============================================================
-# KPI CARDS
-# ============================================================
 
 col1, col2, col3, col4 = st.columns(4)
 
@@ -439,7 +504,7 @@ with col2:
 
     st.metric(
         "Movement",
-        f"{movement_value:.2f}"
+        f"{movement:.2f}"
     )
 
 
@@ -459,123 +524,8 @@ with col4:
     )
 
 
-# ============================================================
-# PERFORMANCE LEVEL
-# ============================================================
-
-if performance_score >= 80:
-
-    performance_level = "Excellent 🟢"
-
-elif performance_score >= 60:
-
-    performance_level = "Good 🟢"
-
-elif performance_score >= 40:
-
-    performance_level = "Average 🟡"
-
-else:
-
-    performance_level = "Needs Improvement 🔴"
-
-
 st.info(
-    f"**Performance Level:** {performance_level}"
-)
-
-
-# ============================================================
-# PLAYER RANK
-# ============================================================
-
-st.subheader("🏆 Player Ranking")
-
-
-player_rank = "N/A"
-
-
-if ranking_data:
-
-    # Handle different possible ranking formats
-
-    if isinstance(
-        ranking_data,
-        list
-    ):
-
-        for index, item in enumerate(
-            ranking_data,
-            start=1
-        ):
-
-            if isinstance(
-                item,
-                dict
-            ):
-
-                pid = str(
-                    item.get(
-                        "player_id",
-                        ""
-                    )
-                )
-
-                if pid == str(
-                    selected_player
-                ):
-
-                    player_rank = index
-
-                    break
-
-    elif isinstance(
-        ranking_data,
-        dict
-    ):
-
-        ranking_list = ranking_data.get(
-            "ranking",
-            ranking_data.get(
-                "players",
-                []
-            )
-        )
-
-        if isinstance(
-            ranking_list,
-            list
-        ):
-
-            for index, item in enumerate(
-                ranking_list,
-                start=1
-            ):
-
-                if isinstance(
-                    item,
-                    dict
-                ):
-
-                    pid = str(
-                        item.get(
-                            "player_id",
-                            ""
-                        )
-                    )
-
-                    if pid == str(
-                        selected_player
-                    ):
-
-                        player_rank = index
-
-                        break
-
-
-st.metric(
-    "Player Rank",
-    player_rank
+    f"Performance Level: **{performance_level}**"
 )
 
 
@@ -583,42 +533,152 @@ st.metric(
 # PERFORMANCE CHART
 # ============================================================
 
-st.subheader(
-    "📊 Player Performance Metrics"
+st.header(
+    "📊 Performance Metrics"
 )
 
 
-chart_data = pd.DataFrame(
+performance_chart = pd.DataFrame(
     {
         "Metric": [
-            "Performance Score",
-            "Movement",
+            "Performance",
             "Average Speed",
-            "Maximum Speed"
+            "Maximum Speed",
+            "Movement",
+            "Ball Interactions"
         ],
 
         "Value": [
             performance_score,
-            movement_value,
             average_speed,
-            maximum_speed
+            maximum_speed,
+            movement,
+            ball_interactions
         ]
     }
 )
 
-
 st.bar_chart(
-    chart_data.set_index(
-        "Metric"
-    )
+    performance_chart.set_index("Metric")
 )
+
+
+st.caption(
+    f"Speed values are reported as {speed_unit}. "
+    "If the value is pixels/sec, field calibration is still required "
+    "for real-world km/h."
+)
+
+
+# ============================================================
+# MOVEMENT ANALYSIS
+# ============================================================
+
+st.markdown("---")
+
+st.header(
+    "🏃 Movement Analysis"
+)
+
+movement_col1, movement_col2 = st.columns(2)
+
+
+with movement_col1:
+
+    st.metric(
+        "Total Movement",
+        f"{movement:.2f}"
+    )
+
+
+with movement_col2:
+
+    if movement >= 4000:
+
+        activity = "Very High"
+
+    elif movement >= 2500:
+
+        activity = "High"
+
+    elif movement >= 1000:
+
+        activity = "Moderate"
+
+    else:
+
+        activity = "Low"
+
+    st.metric(
+        "Activity Level",
+        activity
+    )
+
+
+# ============================================================
+# SPEED ANALYSIS
+# ============================================================
+
+st.header(
+    "⚡ Speed Analysis"
+)
+
+
+speed_col1, speed_col2 = st.columns(2)
+
+
+with speed_col1:
+
+    st.metric(
+        "Average Speed",
+        f"{average_speed:.2f} {speed_unit}"
+    )
+
+
+with speed_col2:
+
+    st.metric(
+        "Maximum Speed",
+        f"{maximum_speed:.2f} {speed_unit}"
+    )
+
+
+# ============================================================
+# HEATMAP
+# ============================================================
+
+st.markdown("---")
+
+st.header(
+    "🔥 Player Movement Heatmap"
+)
+
+heatmap_path = os.path.join(
+    HEATMAP_DIR,
+    f"player_{selected_player}_heatmap.png"
+)
+
+
+if os.path.exists(heatmap_path):
+
+    st.image(
+        heatmap_path,
+        caption=f"Player {selected_player} Movement Heatmap",
+        width="stretch"
+    )
+
+else:
+
+    st.warning(
+        f"Heatmap for Player {selected_player} not found."
+    )
 
 
 # ============================================================
 # ZONE ANALYSIS
 # ============================================================
 
-st.divider()
+st.markdown("---")
 
 st.header(
     "🗺️ Field Zone Analysis"
@@ -632,7 +692,7 @@ with zone_col1:
 
     st.metric(
         "Defensive",
-        f"{defensive:.1f}%"
+        f"{zones['defensive']:.1f}%"
     )
 
 
@@ -640,7 +700,7 @@ with zone_col2:
 
     st.metric(
         "Midfield",
-        f"{midfield:.1f}%"
+        f"{zones['midfield']:.1f}%"
     )
 
 
@@ -648,13 +708,8 @@ with zone_col3:
 
     st.metric(
         "Attacking",
-        f"{attacking:.1f}%"
+        f"{zones['attacking']:.1f}%"
     )
-
-
-st.info(
-    f"**Dominant Zone:** {dominant_zone}"
-)
 
 
 zone_chart = pd.DataFrame(
@@ -666,84 +721,64 @@ zone_chart = pd.DataFrame(
         ],
 
         "Percentage": [
-            defensive,
-            midfield,
-            attacking
+            zones["defensive"],
+            zones["midfield"],
+            zones["attacking"]
         ]
     }
 )
 
-
 st.bar_chart(
-    zone_chart.set_index(
-        "Zone"
-    )
+    zone_chart.set_index("Zone")
 )
 
 
-# ============================================================
-# HEATMAP
-# ============================================================
-
-st.divider()
-
-st.header(
-    "🔥 Player Movement Heatmap"
+dominant_zone = max(
+    zones,
+    key=zones.get
 )
 
-
-heatmap_file = os.path.join(
-    RESULTS_DIR,
-    "heatmaps",
-    f"player_{selected_player}_heatmap.png"
+st.info(
+    f"Dominant zone: **{dominant_zone.title()}**"
 )
-
-
-if os.path.exists(
-    heatmap_file
-):
-
-    st.image(
-        heatmap_file,
-        caption=
-        f"Player {selected_player} Movement Heatmap",
-        use_container_width=True
-    )
-
-else:
-
-    st.warning(
-        "Heatmap not available for this player."
-    )
 
 
 # ============================================================
 # BALL ANALYSIS
 # ============================================================
 
-st.divider()
+st.markdown("---")
 
 st.header(
     "⚽ Ball Analysis"
 )
 
 
-total_ball_interactions = ball_data.get(
-    "total_player_ball_interactions",
-    0
-)
+ball_col1, ball_col2 = st.columns(2)
 
-interaction_counts = ball_data.get(
-    "interaction_counts",
-    {}
-)
 
-player_ball_interactions = interaction_counts.get(
-    selected_player,
-    0
-)
+with ball_col1:
 
-average_ball_speed = ball_data.get(
+    st.metric(
+        "Player-Ball Interactions",
+        ball_interactions
+    )
+
+
+with ball_col2:
+
+    total_interactions = ball_data.get(
+        "total_player_ball_interactions",
+        0
+    )
+
+    st.metric(
+        "Team Ball Interactions",
+        total_interactions
+    )
+
+
+ball_speed = ball_data.get(
     "average_ball_speed_pixels_per_second",
     0
 )
@@ -754,184 +789,165 @@ maximum_ball_speed = ball_data.get(
 )
 
 
-ball_col1, ball_col2, ball_col3 = st.columns(3)
+ball_speed_col1, ball_speed_col2 = st.columns(2)
 
 
-with ball_col1:
-
-    st.metric(
-        "Player Ball Interactions",
-        player_ball_interactions
-    )
-
-
-with ball_col2:
+with ball_speed_col1:
 
     st.metric(
         "Average Ball Speed",
-        f"{average_ball_speed:.2f} px/s"
+        f"{ball_speed:.2f} pixels/sec"
     )
 
 
-with ball_col3:
+with ball_speed_col2:
 
     st.metric(
         "Maximum Ball Speed",
-        f"{maximum_ball_speed:.2f} px/s"
+        f"{maximum_ball_speed:.2f} pixels/sec"
     )
 
 
 st.caption(
-    "Ball speed is displayed in pixels/second unless "
-    "field calibration is applied."
+    "Ball speed is currently displayed in pixels/sec. "
+    "Real-world ball speed requires proper field calibration."
 )
 
 
 # ============================================================
-# AI PERFORMANCE INSIGHTS
+# AI INSIGHTS
 # ============================================================
 
-st.divider()
+st.markdown("---")
 
 st.header(
     "🤖 AI Performance Insights"
 )
 
 
-if selected_ai:
+if ai_player:
 
-    if isinstance(
-        selected_ai,
-        dict
-    ):
+    # Possible keys from the AI insights file
 
-        ai_level = selected_ai.get(
-            "performance_level",
-            performance_level
-        )
+    level = ai_player.get(
+        "performance_level",
+        performance_level
+    )
 
-        st.subheader(
-            "Performance Assessment"
-        )
+    movement_analysis = ai_player.get(
+        "movement_analysis",
+        ""
+    )
 
-        st.write(
-            ai_level
-        )
+    speed_analysis = ai_player.get(
+        "speed_analysis",
+        ""
+    )
 
+    zone_analysis = ai_player.get(
+        "dominant_zone",
+        dominant_zone.title()
+    )
 
-        movement_analysis = selected_ai.get(
-            "movement_analysis",
-            ""
-        )
+    ball_analysis = ai_player.get(
+        "ball_interaction_analysis",
+        ""
+    )
 
-        if movement_analysis:
-
-            st.subheader(
-                "🏃 Movement Analysis"
-            )
-
-            st.write(
-                movement_analysis
-            )
+    recommendations = ai_player.get(
+        "recommendations",
+        []
+    )
 
 
-        speed_analysis = selected_ai.get(
-            "speed_analysis",
-            ""
-        )
-
-        if speed_analysis:
-
-            st.subheader(
-                "⚡ Speed Analysis"
-            )
-
-            st.write(
-                speed_analysis
-            )
+    st.success(
+        f"Performance Level: **{level}**"
+    )
 
 
-        dominant_zone_ai = selected_ai.get(
-            "dominant_zone",
-            dominant_zone
-        )
-
-        st.subheader(
-            "🗺️ Playing Area"
-        )
+    if movement_analysis:
 
         st.write(
-            f"Player mainly operates in the **{dominant_zone_ai}** zone."
+            f"🏃 **Movement:** {movement_analysis}"
         )
 
 
-        ball_analysis = selected_ai.get(
-            "ball_interaction_analysis",
-            ""
+    if speed_analysis:
+
+        st.write(
+            f"⚡ **Speed:** {speed_analysis}"
         )
 
-        if ball_analysis:
 
-            st.subheader(
-                "⚽ Ball Interaction"
-            )
+    if zone_analysis:
 
-            st.write(
-                ball_analysis
-            )
-
-
-        recommendations = selected_ai.get(
-            "recommendations",
-            []
+        st.write(
+            f"🗺️ **Zone:** {zone_analysis}"
         )
 
-        if recommendations:
 
-            st.subheader(
-                "💡 AI Recommendations"
-            )
+    if ball_analysis:
 
-            if isinstance(
-                recommendations,
-                list
-            ):
+        st.write(
+            f"⚽ **Ball:** {ball_analysis}"
+        )
 
-                for recommendation in recommendations:
 
-                    st.write(
-                        f"• {recommendation}"
-                    )
+    if recommendations:
 
-            else:
+        st.subheader(
+            "💡 Recommendations"
+        )
+
+        if isinstance(
+            recommendations,
+            list
+        ):
+
+            for recommendation in recommendations:
 
                 st.write(
-                    recommendations
+                    f"• {recommendation}"
                 )
+
+        else:
+
+            st.write(
+                recommendations
+            )
 
 else:
 
-    st.warning(
-        "AI insights are not available."
+    st.info(
+        "AI insight data not available for this player."
     )
 
 
 # ============================================================
-# NUTRITION & RECOVERY
+# NUTRITION
 # ============================================================
 
-st.divider()
+st.markdown("---")
 
 st.header(
-    "🥗 Nutrition & Recovery Recommendations"
+    "🥗 Nutrition & Recovery"
 )
 
 
-if selected_nutrition:
+if nutrition_player:
 
-    activity_level = selected_nutrition.get(
+    activity_level = nutrition_player.get(
         "activity_level",
         "Not available"
+    )
+
+    dominant_nutrition_zone = nutrition_player.get(
+        "dominant_zone",
+        "Not available"
+    )
+
+    st.subheader(
+        "📋 Activity Profile"
     )
 
     nutrition_col1, nutrition_col2 = st.columns(2)
@@ -939,50 +955,20 @@ if selected_nutrition:
 
     with nutrition_col1:
 
-        st.subheader(
-            "Activity Profile"
-        )
-
         st.write(
             f"**Activity Level:** {activity_level}"
-        )
-
-        st.write(
-            f"**Performance Score:** "
-            f"{performance_score:.2f}/100"
-        )
-
-        st.write(
-            f"**Dominant Zone:** "
-            f"{dominant_zone}"
         )
 
 
     with nutrition_col2:
 
-        st.subheader(
-            "Performance Data"
-        )
-
         st.write(
-            f"**Movement:** "
-            f"{movement_value:.2f}"
-        )
-
-        st.write(
-            f"**Average Speed:** "
-            f"{average_speed:.2f}"
-        )
-
-        st.write(
-            f"**Maximum Speed:** "
-            f"{maximum_speed:.2f}"
+            f"**Dominant Zone:** "
+            f"{dominant_nutrition_zone}"
         )
 
 
-    # Food Suggestions
-
-    food_suggestions = selected_nutrition.get(
+    food_suggestions = nutrition_player.get(
         "food_suggestions",
         []
     )
@@ -1011,9 +997,7 @@ if selected_nutrition:
             )
 
 
-    # Recovery Foods
-
-    recovery_foods = selected_nutrition.get(
+    recovery_foods = nutrition_player.get(
         "recovery_foods",
         []
     )
@@ -1042,9 +1026,7 @@ if selected_nutrition:
             )
 
 
-    # Hydration
-
-    hydration = selected_nutrition.get(
+    hydration = nutrition_player.get(
         "hydration",
         []
     )
@@ -1073,25 +1055,23 @@ if selected_nutrition:
             )
 
 
-    # Recommendations
-
-    nutrition_recommendations = selected_nutrition.get(
+    recommendations = nutrition_player.get(
         "recommendations",
         []
     )
 
-    if nutrition_recommendations:
+    if recommendations:
 
         st.subheader(
-            "📋 Nutrition Recommendations"
+            "💡 Nutrition Recommendations"
         )
 
         if isinstance(
-            nutrition_recommendations,
+            recommendations,
             list
         ):
 
-            for recommendation in nutrition_recommendations:
+            for recommendation in recommendations:
 
                 st.write(
                     f"• {recommendation}"
@@ -1100,25 +1080,19 @@ if selected_nutrition:
         else:
 
             st.write(
-                nutrition_recommendations
+                recommendations
             )
 
 
-    # Position Note
-
-    position_note = selected_nutrition.get(
+    position_note = nutrition_player.get(
         "position_note",
         ""
     )
 
     if position_note:
 
-        st.subheader(
-            "⚽ Position Note"
-        )
-
-        st.write(
-            position_note
+        st.info(
+            f"⚽ {position_note}"
         )
 
 
@@ -1129,84 +1103,160 @@ if selected_nutrition:
 
 else:
 
-    st.warning(
-        "Nutrition recommendations are not available."
+    st.info(
+        "Nutrition data not available for this player."
     )
 
 
 # ============================================================
-# TOP 5 PLAYERS
+# PLAYER RANKING
 # ============================================================
 
-st.divider()
+st.markdown("---")
 
 st.header(
-    "🏆 Top 5 Players"
+    "🏆 Player Ranking"
 )
 
 
-top_players = []
+ranking_list = []
 
 
-for player_id, data in performance_data.items():
+if isinstance(
+    ranking_data,
+    list
+):
+
+    ranking_list = ranking_data
+
+elif isinstance(
+    ranking_data,
+    dict
+):
+
+    # Common ranking formats
 
     if isinstance(
-        data,
-        dict
+        ranking_data.get("ranking"),
+        list
     ):
 
-        score = float(
-            data.get(
+        ranking_list = ranking_data[
+            "ranking"
+        ]
+
+    elif isinstance(
+        ranking_data.get("players"),
+        list
+    ):
+
+        ranking_list = ranking_data[
+            "players"
+        ]
+
+
+if ranking_list:
+
+    ranking_rows = []
+
+    for index, player in enumerate(
+        ranking_list,
+        start=1
+    ):
+
+        if isinstance(
+            player,
+            dict
+        ):
+
+            pid = player.get(
+                "player_id",
+                player.get(
+                    "id",
+                    ""
+                )
+            )
+
+            score = player.get(
                 "performance_score",
-                data.get(
+                player.get(
                     "score",
                     0
                 )
             )
-        )
 
-    else:
-
-        score = float(
-            data
-        )
-
-    top_players.append(
-        {
-            "Player": f"Player {player_id}",
-            "Performance Score": round(
-                score,
-                2
+            ranking_rows.append(
+                {
+                    "Rank": index,
+                    "Player": f"Player {pid}",
+                    "Performance Score": score
+                }
             )
-        }
+
+
+    if ranking_rows:
+
+        ranking_df = pd.DataFrame(
+            ranking_rows
+        )
+
+        st.dataframe(
+            ranking_df,
+            width="stretch",
+            hide_index=True
+        )
+
+else:
+
+    # Build ranking directly if JSON format differs
+
+    ranking_rows = []
+
+    for player_id in player_ids:
+
+        ranking_rows.append(
+            {
+                "Player":
+                    f"Player {player_id}",
+
+                "Performance Score":
+                    get_player_performance(
+                        player_id
+                    )
+            }
+        )
+
+
+    ranking_df = pd.DataFrame(
+        ranking_rows
     )
 
+    ranking_df = ranking_df.sort_values(
+        "Performance Score",
+        ascending=False
+    )
 
-top_players = sorted(
-    top_players,
-    key=lambda x:
-        x["Performance Score"],
-    reverse=True
-)[:5]
+    ranking_df.insert(
+        0,
+        "Rank",
+        range(
+            1,
+            len(ranking_df) + 1
+        )
+    )
 
-
-top_df = pd.DataFrame(
-    top_players
-)
-
-
-st.dataframe(
-    top_df,
-    use_container_width=True,
-    hide_index=True
-)
+    st.dataframe(
+        ranking_df,
+        width="stretch",
+        hide_index=True
+    )
 
 
 # ============================================================
 # TEAM ANALYSIS
 # ============================================================
 
-st.divider()
+st.markdown("---")
 
 st.header(
     "👥 Team Analysis"
@@ -1215,99 +1265,169 @@ st.header(
 
 if team_data:
 
-    team_summary = team_data.get(
-        "team_summary",
-        {}
+    team_stats = team_data.get(
+        "team_statistics",
+        team_data
     )
 
-    team_zone = team_data.get(
-        "team_zone_distribution",
-        {}
-    )
+    if isinstance(
+        team_stats,
+        dict
+    ):
 
-    key_players = team_data.get(
-        "key_players",
-        {}
-    )
-
-    team_strengths = team_data.get(
-        "team_strengths",
-        []
-    )
-
-    team_weaknesses = team_data.get(
-        "team_weaknesses",
-        []
-    )
+        team_col1, team_col2, team_col3, team_col4 = (
+            st.columns(4)
+        )
 
 
-    # --------------------------------------------------------
-    # TEAM KPI CARDS
-    # --------------------------------------------------------
+        number_players = team_stats.get(
+            "number_of_players",
+            team_stats.get(
+                "num_players",
+                len(player_ids)
+            )
+        )
 
-    team_col1, team_col2, team_col3, team_col4 = st.columns(4)
-
-
-    with team_col1:
-
-        st.metric(
-            "Players",
-            team_summary.get(
-                "number_of_players",
+        average_performance = team_stats.get(
+            "average_performance",
+            team_stats.get(
+                "average_performance_score",
                 0
             )
         )
 
+        average_movement = team_stats.get(
+            "average_movement",
+            0
+        )
 
-    with team_col2:
-
-        st.metric(
-            "Average Performance",
-            f"{team_summary.get(
-                'average_performance_score',
-                0
-            ):.2f}/100"
+        average_speed = team_stats.get(
+            "average_speed",
+            0
         )
 
 
-    with team_col3:
+        with team_col1:
 
-        st.metric(
-            "Average Speed",
-            f"{team_summary.get(
-                'average_speed',
-                0
-            ):.2f}"
-        )
-
-
-    with team_col4:
-
-        st.metric(
-            "Ball Interactions",
-            team_summary.get(
-                "total_ball_interactions",
-                0
+            st.metric(
+                "Players",
+                number_players
             )
+
+
+        with team_col2:
+
+            st.metric(
+                "Average Performance",
+                f"{float(average_performance):.2f}"
+            )
+
+
+        with team_col3:
+
+            st.metric(
+                "Average Movement",
+                f"{float(average_movement):.2f}"
+            )
+
+
+        with team_col4:
+
+            st.metric(
+                "Average Speed",
+                f"{float(average_speed):.2f}"
+            )
+
+
+    st.subheader(
+        "🏆 Team Leaders"
+    )
+
+
+    # Try different possible key names
+
+    best_player = team_data.get(
+        "best_performer",
+        team_data.get(
+            "best_player",
+            "Not available"
+        )
+    )
+
+    fastest_player = team_data.get(
+        "fastest_average_speed",
+        team_data.get(
+            "fastest_player",
+            "Not available"
+        )
+    )
+
+    most_active = team_data.get(
+        "most_active",
+        team_data.get(
+            "most_active_player",
+            "Not available"
+        )
+    )
+
+    best_attacking = team_data.get(
+        "best_attacking",
+        team_data.get(
+            "best_attacking_player",
+            "Not available"
+        )
+    )
+
+    best_defensive = team_data.get(
+        "best_defensive",
+        team_data.get(
+            "best_defensive_player",
+            "Not available"
+        )
+    )
+
+
+    leader_col1, leader_col2, leader_col3 = (
+        st.columns(3)
+    )
+
+
+    with leader_col1:
+
+        st.write(
+            f"🏆 **Best Performer:** "
+            f"{best_player}"
+        )
+
+        st.write(
+            f"⚡ **Fastest:** "
+            f"{fastest_player}"
+        )
+
+
+    with leader_col2:
+
+        st.write(
+            f"🏃 **Most Active:** "
+            f"{most_active}"
+        )
+
+        st.write(
+            f"🎯 **Best Attacking:** "
+            f"{best_attacking}"
+        )
+
+
+    with leader_col3:
+
+        st.write(
+            f"🛡️ **Best Defensive:** "
+            f"{best_defensive}"
         )
 
 
     # --------------------------------------------------------
-    # TEAM PERFORMANCE LEVEL
-    # --------------------------------------------------------
-
-    team_level = team_summary.get(
-        "performance_level",
-        "Not available"
-    )
-
-    st.info(
-        f"**Team Performance Level:** {team_level}"
-    )
-
-
-    # --------------------------------------------------------
-    # TEAM ZONE DISTRIBUTION
+    # TEAM ZONES
     # --------------------------------------------------------
 
     st.subheader(
@@ -1315,425 +1435,810 @@ if team_data:
     )
 
 
-    team_defensive = float(
-        team_zone.get(
-            "defensive",
-            0
-        )
-    )
-
-    team_midfield = float(
-        team_zone.get(
-            "midfield",
-            0
-        )
-    )
-
-    team_attacking = float(
-        team_zone.get(
-            "attacking",
-            0
-        )
-    )
-
-
-    team_zone_col1, team_zone_col2, team_zone_col3 = st.columns(3)
-
-
-    with team_zone_col1:
-
-        st.metric(
-            "Defensive",
-            f"{team_defensive:.1f}%"
-        )
-
-
-    with team_zone_col2:
-
-        st.metric(
-            "Midfield",
-            f"{team_midfield:.1f}%"
-        )
-
-
-    with team_zone_col3:
-
-        st.metric(
-            "Attacking",
-            f"{team_attacking:.1f}%"
-        )
-
-
-    team_dominant_zone = team_zone.get(
-        "dominant_zone",
-        "Unknown"
-    )
-
-
-    st.write(
-        f"**Dominant Team Zone:** "
-        f"{str(team_dominant_zone).upper()}"
-    )
-
-
-    team_zone_chart = pd.DataFrame(
-        {
-            "Zone": [
-                "Defensive",
-                "Midfield",
-                "Attacking"
-            ],
-
-            "Percentage": [
-                team_defensive,
-                team_midfield,
-                team_attacking
-            ]
-        }
-    )
-
-
-    st.bar_chart(
-        team_zone_chart.set_index(
-            "Zone"
-        )
-    )
-
-
-    # --------------------------------------------------------
-    # KEY PLAYERS
-    # --------------------------------------------------------
-
-    st.subheader(
-        "⭐ Key Team Players"
-    )
-
-
-    key_col1, key_col2 = st.columns(2)
-
-
-    with key_col1:
-
-        best = key_players.get(
-            "best_performer",
+    team_zone = team_data.get(
+        "team_zone_distribution",
+        team_data.get(
+            "zone_distribution",
             {}
         )
-
-        st.write(
-            f"🏆 **Best Performer:** "
-            f"Player {best.get('player_id', 'N/A')}"
-        )
-
-        st.write(
-            f"Score: "
-            f"{best.get('performance_score', 0):.2f}/100"
-        )
-
-
-        active = key_players.get(
-            "most_active_player",
-            {}
-        )
-
-        st.write(
-            f"🏃 **Most Active:** "
-            f"Player {active.get('player_id', 'N/A')}"
-        )
-
-        st.write(
-            f"Movement: "
-            f"{active.get('movement', 0):.2f}"
-        )
-
-
-        fastest = key_players.get(
-            "fastest_average_speed",
-            {}
-        )
-
-        st.write(
-            f"⚡ **Fastest Average Speed:** "
-            f"Player {fastest.get('player_id', 'N/A')}"
-        )
-
-        st.write(
-            f"Speed: "
-            f"{fastest.get('average_speed', 0):.2f}"
-        )
-
-
-        max_speed = key_players.get(
-            "highest_maximum_speed",
-            {}
-        )
-
-        st.write(
-            f"🚀 **Highest Maximum Speed:** "
-            f"Player {max_speed.get('player_id', 'N/A')}"
-        )
-
-        st.write(
-            f"Maximum: "
-            f"{max_speed.get('maximum_speed', 0):.2f}"
-        )
-
-
-    with key_col2:
-
-        defensive_player = key_players.get(
-            "best_defensive_player",
-            {}
-        )
-
-        st.write(
-            f"🛡️ **Best Defensive:** "
-            f"Player {defensive_player.get('player_id', 'N/A')}"
-        )
-
-        st.write(
-            f"Presence: "
-            f"{defensive_player.get('defensive_percentage', 0):.1f}%"
-        )
-
-
-        midfield_player = key_players.get(
-            "best_midfield_player",
-            {}
-        )
-
-        st.write(
-            f"🎯 **Best Midfield:** "
-            f"Player {midfield_player.get('player_id', 'N/A')}"
-        )
-
-        st.write(
-            f"Presence: "
-            f"{midfield_player.get('midfield_percentage', 0):.1f}%"
-        )
-
-
-        attacking_player = key_players.get(
-            "best_attacking_player",
-            {}
-        )
-
-        st.write(
-            f"⚽ **Best Attacking:** "
-            f"Player {attacking_player.get('player_id', 'N/A')}"
-        )
-
-        st.write(
-            f"Presence: "
-            f"{attacking_player.get('attacking_percentage', 0):.1f}%"
-        )
-
-
-        ball_player = key_players.get(
-            "most_ball_involved_player",
-            {}
-        )
-
-        st.write(
-            f"⚽ **Most Ball Involved:** "
-            f"Player {ball_player.get('player_id', 'N/A')}"
-        )
-
-        st.write(
-            f"Interactions: "
-            f"{ball_player.get('ball_interactions', 0)}"
-        )
-
-
-    # --------------------------------------------------------
-    # TEAM STRENGTHS
-    # --------------------------------------------------------
-
-    st.subheader(
-        "💪 Team Strengths"
     )
 
 
-    if team_strengths:
+    if isinstance(
+        team_zone,
+        dict
+    ) and team_zone:
 
-        for strength in team_strengths:
+        zone_names = []
+        zone_values = []
 
-            st.success(
-                f"✓ {strength}"
+        for name, value in team_zone.items():
+
+            zone_names.append(
+                str(name).title()
             )
 
-    else:
+            try:
 
-        st.write(
-            "No team strengths available."
-        )
+                zone_values.append(
+                    float(value)
+                )
 
+            except:
 
-    # --------------------------------------------------------
-    # TEAM WEAKNESSES
-    # --------------------------------------------------------
-
-    st.subheader(
-        "⚠️ Team Weaknesses"
-    )
+                zone_values.append(
+                    0
+                )
 
 
-    if team_weaknesses:
-
-        for weakness in team_weaknesses:
-
-            st.warning(
-                f"• {weakness}"
-            )
-
-    else:
-
-        st.write(
-            "No major weaknesses detected."
-        )
-
-
-    # --------------------------------------------------------
-    # TEAM PLAYER TABLE
-    # --------------------------------------------------------
-
-    st.subheader(
-        "📋 Team Player Performance"
-    )
-
-
-    team_players = team_data.get(
-        "players",
-        {}
-    )
-
-
-    team_table = []
-
-
-    for player_id, data in team_players.items():
-
-        team_table.append(
+        team_zone_df = pd.DataFrame(
             {
-                "Player":
-                    f"Player {player_id}",
-
-                "Performance":
-                    data.get(
-                        "performance_score",
-                        0
-                    ),
-
-                "Movement":
-                    data.get(
-                        "movement",
-                        0
-                    ),
-
-                "Avg Speed":
-                    data.get(
-                        "average_speed",
-                        0
-                    ),
-
-                "Max Speed":
-                    data.get(
-                        "maximum_speed",
-                        0
-                    ),
-
-                "Dominant Zone":
-                    data.get(
-                        "dominant_zone",
-                        "Unknown"
-                    ),
-
-                "Ball Interactions":
-                    data.get(
-                        "ball_interactions",
-                        0
-                    )
+                "Zone": zone_names,
+                "Percentage": zone_values
             }
         )
 
 
-    if team_table:
-
-        team_df = pd.DataFrame(
-            team_table
+        st.bar_chart(
+            team_zone_df.set_index(
+                "Zone"
+            )
         )
 
-        team_df = team_df.sort_values(
-            "Performance",
-            ascending=False
+
+    # --------------------------------------------------------
+    # STRENGTHS
+    # --------------------------------------------------------
+
+    strengths = team_data.get(
+        "team_strengths",
+        team_data.get(
+            "strengths",
+            []
         )
+    )
+
+
+    if strengths:
+
+        st.subheader(
+            "💪 Team Strengths"
+        )
+
+        if isinstance(
+            strengths,
+            list
+        ):
+
+            for strength in strengths:
+
+                st.write(
+                    f"• {strength}"
+                )
+
+        else:
+
+            st.write(
+                strengths
+            )
+
+
+    # --------------------------------------------------------
+    # WEAKNESSES
+    # --------------------------------------------------------
+
+    weaknesses = team_data.get(
+        "team_weaknesses",
+        team_data.get(
+            "weaknesses",
+            []
+        )
+    )
+
+
+    if weaknesses:
+
+        st.subheader(
+            "⚠️ Team Weaknesses"
+        )
+
+        if isinstance(
+            weaknesses,
+            list
+        ):
+
+            for weakness in weaknesses:
+
+                st.write(
+                    f"• {weakness}"
+                )
+
+        else:
+
+            st.write(
+                weaknesses
+            )
+
+else:
+
+    st.info(
+        "Team analysis data not available."
+    )
+
+
+# ============================================================
+# PLAYER COMPARISON
+# ============================================================
+
+st.markdown("---")
+
+st.header(
+    "👥 Player Comparison"
+)
+
+
+# Use comparison JSON if available,
+# otherwise construct comparison data
+# from existing analysis files.
+
+if comparison_data:
+
+    comparison_players = comparison_data.get(
+        "players",
+        {}
+    )
+
+else:
+
+    comparison_players = {}
+
+
+# If comparison JSON is empty, build it from
+# the existing project data.
+
+if not comparison_players:
+
+    for player_id in player_ids:
+
+        average_player_speed, maximum_player_speed, _ = (
+            get_player_speed(
+                player_id
+            )
+        )
+
+        player_zone = get_player_zone(
+            player_id
+        )
+
+        comparison_players[
+            str(player_id)
+        ] = {
+
+            "player_id":
+                str(player_id),
+
+            "performance_score":
+                round(
+                    get_player_performance(
+                        player_id
+                    ),
+                    2
+                ),
+
+            "movement":
+                round(
+                    get_player_movement(
+                        player_id
+                    ),
+                    2
+                ),
+
+            "average_speed":
+                round(
+                    average_player_speed,
+                    2
+                ),
+
+            "maximum_speed":
+                round(
+                    maximum_player_speed,
+                    2
+                ),
+
+            "defensive":
+                round(
+                    player_zone[
+                        "defensive"
+                    ],
+                    2
+                ),
+
+            "midfield":
+                round(
+                    player_zone[
+                        "midfield"
+                    ],
+                    2
+                ),
+
+            "attacking":
+                round(
+                    player_zone[
+                        "attacking"
+                    ],
+                    2
+                ),
+
+            "ball_interactions":
+                get_ball_interactions(
+                    player_id
+                )
+        }
+
+
+comparison_player_ids = sorted(
+    comparison_players.keys(),
+    key=lambda x: int(x)
+    if x.isdigit()
+    else 999999
+)
+
+
+if len(comparison_player_ids) >= 2:
+
+    comparison_col1, comparison_col2 = (
+        st.columns(2)
+    )
+
+
+    with comparison_col1:
+
+        player_a = st.selectbox(
+            "Select Player A",
+            comparison_player_ids,
+            key="player_comparison_a"
+        )
+
+
+    with comparison_col2:
+
+        default_index = 1
+
+        if player_a == comparison_player_ids[1]:
+
+            default_index = 0
+
+        player_b = st.selectbox(
+            "Select Player B",
+            comparison_player_ids,
+            index=default_index,
+            key="player_comparison_b"
+        )
+
+
+    if player_a == player_b:
+
+        st.warning(
+            "Please select two different players."
+        )
+
+    else:
+
+        data_a = comparison_players[
+            player_a
+        ]
+
+        data_b = comparison_players[
+            player_b
+        ]
+
+
+        # ----------------------------------------------------
+        # COMPARISON TABLE
+        # ----------------------------------------------------
+
+        st.subheader(
+            f"Player {player_a} vs Player {player_b}"
+        )
+
+
+        comparison_table = pd.DataFrame(
+            {
+                "Metric": [
+
+                    "Performance Score",
+
+                    "Movement",
+
+                    "Average Speed",
+
+                    "Maximum Speed",
+
+                    "Defensive %",
+
+                    "Midfield %",
+
+                    "Attacking %",
+
+                    "Ball Interactions"
+
+                ],
+
+                f"Player {player_a}": [
+
+                    data_a.get(
+                        "performance_score",
+                        0
+                    ),
+
+                    data_a.get(
+                        "movement",
+                        0
+                    ),
+
+                    data_a.get(
+                        "average_speed",
+                        0
+                    ),
+
+                    data_a.get(
+                        "maximum_speed",
+                        0
+                    ),
+
+                    data_a.get(
+                        "defensive",
+                        0
+                    ),
+
+                    data_a.get(
+                        "midfield",
+                        0
+                    ),
+
+                    data_a.get(
+                        "attacking",
+                        0
+                    ),
+
+                    data_a.get(
+                        "ball_interactions",
+                        0
+                    )
+
+                ],
+
+                f"Player {player_b}": [
+
+                    data_b.get(
+                        "performance_score",
+                        0
+                    ),
+
+                    data_b.get(
+                        "movement",
+                        0
+                    ),
+
+                    data_b.get(
+                        "average_speed",
+                        0
+                    ),
+
+                    data_b.get(
+                        "maximum_speed",
+                        0
+                    ),
+
+                    data_b.get(
+                        "defensive",
+                        0
+                    ),
+
+                    data_b.get(
+                        "midfield",
+                        0
+                    ),
+
+                    data_b.get(
+                        "attacking",
+                        0
+                    ),
+
+                    data_b.get(
+                        "ball_interactions",
+                        0
+                    )
+
+                ]
+            }
+        )
+
 
         st.dataframe(
-            team_df,
-            use_container_width=True,
+            comparison_table,
+            width="stretch",
             hide_index=True
+        )
+
+
+        # ----------------------------------------------------
+        # WINNER FUNCTION
+        # ----------------------------------------------------
+
+        def get_winner(
+            value_a,
+            value_b,
+            player_a,
+            player_b
+        ):
+
+            if value_a > value_b:
+
+                return (
+                    f"Player {player_a}"
+                )
+
+            elif value_b > value_a:
+
+                return (
+                    f"Player {player_b}"
+                )
+
+            return "Tie"
+
+
+        overall_winner = get_winner(
+            data_a.get(
+                "performance_score",
+                0
+            ),
+            data_b.get(
+                "performance_score",
+                0
+            ),
+            player_a,
+            player_b
+        )
+
+
+        faster_player = get_winner(
+            data_a.get(
+                "average_speed",
+                0
+            ),
+            data_b.get(
+                "average_speed",
+                0
+            ),
+            player_a,
+            player_b
+        )
+
+
+        active_player = get_winner(
+            data_a.get(
+                "movement",
+                0
+            ),
+            data_b.get(
+                "movement",
+                0
+            ),
+            player_a,
+            player_b
+        )
+
+
+        ball_player = get_winner(
+            data_a.get(
+                "ball_interactions",
+                0
+            ),
+            data_b.get(
+                "ball_interactions",
+                0
+            ),
+            player_a,
+            player_b
+        )
+
+
+        attacking_player = get_winner(
+            data_a.get(
+                "attacking",
+                0
+            ),
+            data_b.get(
+                "attacking",
+                0
+            ),
+            player_a,
+            player_b
+        )
+
+
+        defensive_player = get_winner(
+            data_a.get(
+                "defensive",
+                0
+            ),
+            data_b.get(
+                "defensive",
+                0
+            ),
+            player_a,
+            player_b
+        )
+
+
+        midfield_player = get_winner(
+            data_a.get(
+                "midfield",
+                0
+            ),
+            data_b.get(
+                "midfield",
+                0
+            ),
+            player_a,
+            player_b
+        )
+
+
+        # ----------------------------------------------------
+        # COMPARISON RESULTS
+        # ----------------------------------------------------
+
+        st.subheader(
+            "🏆 Comparison Results"
+        )
+
+
+        result_col1, result_col2, result_col3 = (
+            st.columns(3)
+        )
+
+
+        with result_col1:
+
+            st.metric(
+                "🏆 Overall",
+                overall_winner
+            )
+
+
+        with result_col2:
+
+            st.metric(
+                "⚡ Faster",
+                faster_player
+            )
+
+
+        with result_col3:
+
+            st.metric(
+                "🏃 More Active",
+                active_player
+            )
+
+
+        result_col4, result_col5, result_col6 = (
+            st.columns(3)
+        )
+
+
+        with result_col4:
+
+            st.metric(
+                "⚽ Ball Involvement",
+                ball_player
+            )
+
+
+        with result_col5:
+
+            st.metric(
+                "🎯 Attacking",
+                attacking_player
+            )
+
+
+        with result_col6:
+
+            st.metric(
+                "🛡️ Defensive",
+                defensive_player
+            )
+
+
+        st.info(
+            f"🎯 Better Midfield Presence: "
+            f"**{midfield_player}**"
+        )
+
+
+        # ----------------------------------------------------
+        # COMPARISON CHART
+        # ----------------------------------------------------
+
+        st.subheader(
+            "📊 Player Comparison Chart"
+        )
+
+
+        chart_data = pd.DataFrame(
+            {
+
+                f"Player {player_a}": [
+
+                    data_a.get(
+                        "performance_score",
+                        0
+                    ),
+
+                    data_a.get(
+                        "average_speed",
+                        0
+                    ),
+
+                    data_a.get(
+                        "attacking",
+                        0
+                    ),
+
+                    data_a.get(
+                        "defensive",
+                        0
+                    ),
+
+                    data_a.get(
+                        "ball_interactions",
+                        0
+                    )
+
+                ],
+
+                f"Player {player_b}": [
+
+                    data_b.get(
+                        "performance_score",
+                        0
+                    ),
+
+                    data_b.get(
+                        "average_speed",
+                        0
+                    ),
+
+                    data_b.get(
+                        "attacking",
+                        0
+                    ),
+
+                    data_b.get(
+                        "defensive",
+                        0
+                    ),
+
+                    data_b.get(
+                        "ball_interactions",
+                        0
+                    )
+
+                ]
+
+            },
+
+            index=[
+
+                "Performance",
+
+                "Average Speed",
+
+                "Attacking",
+
+                "Defensive",
+
+                "Ball Interactions"
+
+            ]
+        )
+
+
+        st.bar_chart(
+            chart_data
         )
 
 
 else:
 
-    st.warning(
-        "Team analysis data not found."
-    )
-
     st.info(
-        "Run this command first:\n\n"
-        "`python ai\\team_analysis.py`"
+        "At least two players are required for comparison."
     )
 
 
 # ============================================================
-# DETAILED PLAYER DATA
+# PROJECT SUMMARY
 # ============================================================
 
-st.divider()
+st.markdown("---")
 
 st.header(
-    "📄 Detailed Player Data"
+    "🚀 SPORTFLASH Project Pipeline"
 )
 
 
-detailed_data = {
+pipeline = """
 
-    "Player":
-        f"Player {selected_player}",
+Video Input
 
-    "Performance Score":
-        performance_score,
+↓
 
-    "Movement":
-        movement_value,
+YOLO Player Detection & Tracking
 
-    "Average Speed":
-        average_speed,
+↓
 
-    "Maximum Speed":
-        maximum_speed,
+Movement Analysis
 
-    "Defensive %":
-        defensive,
+↓
 
-    "Midfield %":
-        midfield,
+Speed Analysis
 
-    "Attacking %":
-        attacking,
+↓
 
-    "Dominant Zone":
-        dominant_zone,
+Speed Calibration
 
-    "Ball Interactions":
-        player_ball_interactions
+↓
 
-}
+Heatmap
+
+↓
+
+Field Zone Analysis
+
+↓
+
+Ball Detection & Ball Speed
+
+↓
+
+Player-Ball Interaction
+
+↓
+
+Performance Score
+
+↓
+
+Player Ranking
+
+↓
+
+AI Performance Insights
+
+↓
+
+Nutrition Recommendations
+
+↓
+
+Team Analysis
+
+↓
+
+Player Comparison
+
+↓
+
+Streamlit Dashboard
+"""
 
 
-st.json(
-    detailed_data
+st.code(
+    pipeline,
+    language="text"
 )
 
 
@@ -1741,20 +2246,20 @@ st.json(
 # FOOTER
 # ============================================================
 
-st.divider()
+st.markdown("---")
 
 st.markdown(
     """
-    ### ⚽ SPORTFLASH
+### ⚽ SPORTFLASH
 
-    **AI-Based Football Performance Analytics**
+**AI-Based Football Performance Analytics**
 
-    Player Detection • Tracking • Movement • Speed • Heatmap •
-    Zones • Ball Analysis • Performance Score • Ranking •
-    AI Insights • Nutrition • Team Analysis
+Player Detection • Tracking • Movement • Speed • Heatmap •  
+Zones • Ball Analysis • Performance Score • Ranking •  
+AI Insights • Nutrition • Team Analysis • Player Comparison
 
-    ---
-    
-    *Prototype developed for AI Sports Performance Analytics.*
-    """
+---
+
+*Prototype developed for AI Sports Performance Analytics.*
+"""
 )
