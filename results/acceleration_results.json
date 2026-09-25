@@ -1,0 +1,378 @@
+{
+    "1": {
+        "average_acceleration_pixels_per_second_squared": 8566.91,
+        "maximum_acceleration_pixels_per_second_squared": 142746.02,
+        "average_deceleration_pixels_per_second_squared": 8121.69,
+        "maximum_deceleration_pixels_per_second_squared": 140150.58,
+        "acceleration_events": 527,
+        "deceleration_events": 556
+    },
+    "2": {
+        "average_acceleration_pixels_per_second_squared": 11243.69,
+        "maximum_acceleration_pixels_per_second_squared": 92379.38,
+        "average_deceleration_pixels_per_second_squared": 10556.4,
+        "maximum_deceleration_pixels_per_second_squared": 82664.56,
+        "acceleration_events": 186,
+        "deceleration_events": 197
+    },
+    "3": {
+        "average_acceleration_pixels_per_second_squared": 5456.49,
+        "maximum_acceleration_pixels_per_second_squared": 13271.06,
+        "average_deceleration_pixels_per_second_squared": 8184.71,
+        "maximum_deceleration_pixels_per_second_squared": 29232.73,
+        "acceleration_events": 11,
+        "deceleration_events": 7
+    },
+    "4": {
+        "average_acceleration_pixels_per_second_squared": 8234.58,
+        "maximum_acceleration_pixels_per_second_squared": 94102.99,
+        "average_deceleration_pixels_per_second_squared": 8113.01,
+        "maximum_deceleration_pixels_per_second_squared": 133430.28,
+        "acceleration_events": 96,
+        "deceleration_events": 96
+    },
+    "5": {
+        "average_acceleration_pixels_per_second_squared": 9710.94,
+        "maximum_acceleration_pixels_per_second_squared": 60140.33,
+        "average_deceleration_pixels_per_second_squared": 8597.48,
+        "maximum_deceleration_pixels_per_second_squared": 66314.48,
+        "acceleration_events": 53,
+        "deceleration_events": 59
+    },
+    "8": {
+        "average_acceleration_pixels_per_second_squared": 3645.57,
+        "maximum_acceleration_pixels_per_second_squared": 9828.67,
+        "average_deceleration_pixels_per_second_squared": 3179.55,
+        "maximum_deceleration_pixels_per_second_squared": 6747.51,
+        "acceleration_events": 8,
+        "deceleration_events": 10
+    },
+    "9": {
+        "average_acceleration_pixels_per_second_squared": 5197.24,
+        "maximum_acceleration_pixels_per_second_squared": 14323.9,
+        "average_deceleration_pixels_per_second_squared": 4585.11,
+        "maximum_deceleration_pixels_per_second_squared": 8165.81,
+        "acceleration_events": 4,
+        "deceleration_events": 3
+    },
+    "10": {
+        "average_acceleration_pixels_per_second_squared": 11125.58,
+        "maximum_acceleration_pixels_per_second_squared": 77163.83,
+        "average_deceleration_pixels_per_second_squared": 9590.95,
+        "maximum_deceleration_pixels_per_second_squared": 64136.49,
+        "acceleration_events": 30,
+        "deceleration_events": 35
+    },
+    "11": {
+        "average_acceleration_pixels_per_second_squared": 17889.69,
+        "maximum_acceleration_pixels_per_second_squared": 267933.15,
+        "average_deceleration_pixels_per_second_squared": 16663.96,
+        "maximum_deceleration_pixels_per_second_squared": 264596.12,
+        "acceleration_events": 89,
+        "deceleration_events": 94
+    },
+    "12": {
+        "average_acceleration_pixels_per_second_squared": 14312.43,
+        "maximum_acceleration_pixels_per_second_squared": 35488.67,
+        "average_deceleration_pixels_per_second_squared": 16758.98,
+        "maximum_deceleration_pixels_per_second_squared": 25420.35,
+        "acceleration_events": 3,
+        "deceleration_events": 2
+    },
+    "13": {
+        "average_acceleration_pixels_per_second_squared": 74662.03,
+        "maximum_acceleration_pixels_per_second_squared": 200658.69,
+        "average_deceleration_pixels_per_second_squared": 118094.99,
+        "maximum_deceleration_pixels_per_second_squared": 218300.13,
+        "acceleration_events": 3,
+        "deceleration_events": 2
+    },
+    "14": {
+        "average_acceleration_pixels_per_second_squared": 15552.44,
+        "maximum_acceleration_pixels_per_second_squared": 182461.36,
+        "average_deceleration_pixels_per_second_squared": 12667.26,
+        "maximum_deceleration_pixels_per_second_squared": 51526.95,
+        "acceleration_events": 31,
+        "deceleration_events": 23
+    },
+    "16": {
+        "average_acceleration_pixels_per_second_squared": 22354.04,
+        "maximum_acceleration_pixels_per_second_squared": 57067.95,
+        "average_deceleration_pixels_per_second_squared": 15887.11,
+        "maximum_deceleration_pixels_per_second_squared": 60576.79,
+        "acceleration_events": 13,
+        "deceleration_events": 16
+    },
+    "17": {
+        "average_acceleration_pixels_per_second_squared": 28524.41,
+        "maximum_acceleration_pixels_per_second_squared": 201542.25,
+        "average_deceleration_pixels_per_second_squared": 26033.49,
+        "maximum_deceleration_pixels_per_second_squared": 143992.19,
+        "acceleration_events": 35,
+        "deceleration_events": 37
+    },
+    "18": {
+        "average_acceleration_pixels_per_second_squared": 13208.48,
+        "maximum_acceleration_pixels_per_second_squared": 57959.1,
+        "average_deceleration_pixels_per_second_squared": 11741.25,
+        "maximum_deceleration_pixels_per_second_squared": 78817.62,
+        "acceleration_events": 27,
+        "deceleration_events": 30
+    },
+    "19": {
+        "average_acceleration_pixels_per_second_squared": 16477.1,
+        "maximum_acceleration_pixels_per_second_squared": 92956.37,
+        "average_deceleration_pixels_per_second_squared": 13888.25,
+        "maximum_deceleration_pixels_per_second_squared": 92829.21,
+        "acceleration_events": 36,
+        "deceleration_events": 34
+    },
+    "22": {
+        "average_acceleration_pixels_per_second_squared": 9828.83,
+        "maximum_acceleration_pixels_per_second_squared": 67647.9,
+        "average_deceleration_pixels_per_second_squared": 9182.5,
+        "maximum_deceleration_pixels_per_second_squared": 77465.36,
+        "acceleration_events": 61,
+        "deceleration_events": 60
+    },
+    "25": {
+        "average_acceleration_pixels_per_second_squared": 11374.59,
+        "maximum_acceleration_pixels_per_second_squared": 90444.72,
+        "average_deceleration_pixels_per_second_squared": 9505.3,
+        "maximum_deceleration_pixels_per_second_squared": 65352.28,
+        "acceleration_events": 40,
+        "deceleration_events": 49
+    },
+    "26": {
+        "average_acceleration_pixels_per_second_squared": 10889.64,
+        "maximum_acceleration_pixels_per_second_squared": 130719.54,
+        "average_deceleration_pixels_per_second_squared": 9822.81,
+        "maximum_deceleration_pixels_per_second_squared": 108878.2,
+        "acceleration_events": 153,
+        "deceleration_events": 167
+    },
+    "27": {
+        "average_acceleration_pixels_per_second_squared": 10429.03,
+        "maximum_acceleration_pixels_per_second_squared": 89947.26,
+        "average_deceleration_pixels_per_second_squared": 9959.59,
+        "maximum_deceleration_pixels_per_second_squared": 83464.76,
+        "acceleration_events": 139,
+        "deceleration_events": 146
+    },
+    "28": {
+        "average_acceleration_pixels_per_second_squared": 8038.81,
+        "maximum_acceleration_pixels_per_second_squared": 18706.49,
+        "average_deceleration_pixels_per_second_squared": 9963.59,
+        "maximum_deceleration_pixels_per_second_squared": 20623.29,
+        "acceleration_events": 13,
+        "deceleration_events": 9
+    },
+    "29": {
+        "average_acceleration_pixels_per_second_squared": 6331.93,
+        "maximum_acceleration_pixels_per_second_squared": 22087.76,
+        "average_deceleration_pixels_per_second_squared": 4846.25,
+        "maximum_deceleration_pixels_per_second_squared": 15302.98,
+        "acceleration_events": 24,
+        "deceleration_events": 28
+    },
+    "30": {
+        "average_acceleration_pixels_per_second_squared": 14002.71,
+        "maximum_acceleration_pixels_per_second_squared": 90016.01,
+        "average_deceleration_pixels_per_second_squared": 13565.59,
+        "maximum_deceleration_pixels_per_second_squared": 63653.29,
+        "acceleration_events": 58,
+        "deceleration_events": 53
+    },
+    "31": {
+        "average_acceleration_pixels_per_second_squared": 8435.61,
+        "maximum_acceleration_pixels_per_second_squared": 19169.92,
+        "average_deceleration_pixels_per_second_squared": 6338.27,
+        "maximum_deceleration_pixels_per_second_squared": 14595.5,
+        "acceleration_events": 13,
+        "deceleration_events": 16
+    },
+    "32": {
+        "average_acceleration_pixels_per_second_squared": 5213.5,
+        "maximum_acceleration_pixels_per_second_squared": 38759.64,
+        "average_deceleration_pixels_per_second_squared": 4174.07,
+        "maximum_deceleration_pixels_per_second_squared": 8095.73,
+        "acceleration_events": 14,
+        "deceleration_events": 4
+    },
+    "33": {
+        "average_acceleration_pixels_per_second_squared": 5877.98,
+        "maximum_acceleration_pixels_per_second_squared": 35142.94,
+        "average_deceleration_pixels_per_second_squared": 4722.02,
+        "maximum_deceleration_pixels_per_second_squared": 24033.23,
+        "acceleration_events": 35,
+        "deceleration_events": 43
+    },
+    "34": {
+        "average_acceleration_pixels_per_second_squared": 7568.25,
+        "maximum_acceleration_pixels_per_second_squared": 28250.17,
+        "average_deceleration_pixels_per_second_squared": 8483.9,
+        "maximum_deceleration_pixels_per_second_squared": 24661.14,
+        "acceleration_events": 24,
+        "deceleration_events": 20
+    },
+    "35": {
+        "average_acceleration_pixels_per_second_squared": 8162.82,
+        "maximum_acceleration_pixels_per_second_squared": 186272.96,
+        "average_deceleration_pixels_per_second_squared": 7848.16,
+        "maximum_deceleration_pixels_per_second_squared": 102102.97,
+        "acceleration_events": 80,
+        "deceleration_events": 85
+    },
+    "36": {
+        "average_acceleration_pixels_per_second_squared": 9494.39,
+        "maximum_acceleration_pixels_per_second_squared": 39482.17,
+        "average_deceleration_pixels_per_second_squared": 10315.78,
+        "maximum_deceleration_pixels_per_second_squared": 40244.27,
+        "acceleration_events": 21,
+        "deceleration_events": 19
+    },
+    "37": {
+        "average_acceleration_pixels_per_second_squared": 6662.69,
+        "maximum_acceleration_pixels_per_second_squared": 26780.37,
+        "average_deceleration_pixels_per_second_squared": 7727.66,
+        "maximum_deceleration_pixels_per_second_squared": 31309.48,
+        "acceleration_events": 16,
+        "deceleration_events": 17
+    },
+    "38": {
+        "average_acceleration_pixels_per_second_squared": 8265.17,
+        "maximum_acceleration_pixels_per_second_squared": 77750.55,
+        "average_deceleration_pixels_per_second_squared": 8852.65,
+        "maximum_deceleration_pixels_per_second_squared": 105558.23,
+        "acceleration_events": 264,
+        "deceleration_events": 231
+    },
+    "39": {
+        "average_acceleration_pixels_per_second_squared": 34913.07,
+        "maximum_acceleration_pixels_per_second_squared": 123140.28,
+        "average_deceleration_pixels_per_second_squared": 40262.86,
+        "maximum_deceleration_pixels_per_second_squared": 122021.25,
+        "acceleration_events": 11,
+        "deceleration_events": 9
+    },
+    "40": {
+        "average_acceleration_pixels_per_second_squared": 4856.78,
+        "maximum_acceleration_pixels_per_second_squared": 14548.52,
+        "average_deceleration_pixels_per_second_squared": 4867.75,
+        "maximum_deceleration_pixels_per_second_squared": 20996.52,
+        "acceleration_events": 40,
+        "deceleration_events": 36
+    },
+    "42": {
+        "average_acceleration_pixels_per_second_squared": 18522.73,
+        "maximum_acceleration_pixels_per_second_squared": 95448.02,
+        "average_deceleration_pixels_per_second_squared": 18832.42,
+        "maximum_deceleration_pixels_per_second_squared": 87744.47,
+        "acceleration_events": 23,
+        "deceleration_events": 21
+    },
+    "44": {
+        "average_acceleration_pixels_per_second_squared": 3963.06,
+        "maximum_acceleration_pixels_per_second_squared": 10850.5,
+        "average_deceleration_pixels_per_second_squared": 3646.36,
+        "maximum_deceleration_pixels_per_second_squared": 11706.25,
+        "acceleration_events": 39,
+        "deceleration_events": 42
+    },
+    "45": {
+        "average_acceleration_pixels_per_second_squared": 8284.46,
+        "maximum_acceleration_pixels_per_second_squared": 22938.65,
+        "average_deceleration_pixels_per_second_squared": 7507.7,
+        "maximum_deceleration_pixels_per_second_squared": 21121.19,
+        "acceleration_events": 20,
+        "deceleration_events": 26
+    },
+    "46": {
+        "average_acceleration_pixels_per_second_squared": 4277.07,
+        "maximum_acceleration_pixels_per_second_squared": 16528.61,
+        "average_deceleration_pixels_per_second_squared": 4667.49,
+        "maximum_deceleration_pixels_per_second_squared": 11546.09,
+        "acceleration_events": 33,
+        "deceleration_events": 30
+    },
+    "48": {
+        "average_acceleration_pixels_per_second_squared": 6731.83,
+        "maximum_acceleration_pixels_per_second_squared": 70995.06,
+        "average_deceleration_pixels_per_second_squared": 6469.06,
+        "maximum_deceleration_pixels_per_second_squared": 68766.73,
+        "acceleration_events": 59,
+        "deceleration_events": 64
+    },
+    "49": {
+        "average_acceleration_pixels_per_second_squared": 9291.29,
+        "maximum_acceleration_pixels_per_second_squared": 132945.57,
+        "average_deceleration_pixels_per_second_squared": 8852.26,
+        "maximum_deceleration_pixels_per_second_squared": 103368.78,
+        "acceleration_events": 67,
+        "deceleration_events": 70
+    },
+    "50": {
+        "average_acceleration_pixels_per_second_squared": 5852.26,
+        "maximum_acceleration_pixels_per_second_squared": 19315.92,
+        "average_deceleration_pixels_per_second_squared": 5160.29,
+        "maximum_deceleration_pixels_per_second_squared": 19624.68,
+        "acceleration_events": 19,
+        "deceleration_events": 18
+    },
+    "51": {
+        "average_acceleration_pixels_per_second_squared": 5841.97,
+        "maximum_acceleration_pixels_per_second_squared": 42546.0,
+        "average_deceleration_pixels_per_second_squared": 6035.98,
+        "maximum_deceleration_pixels_per_second_squared": 62045.66,
+        "acceleration_events": 64,
+        "deceleration_events": 62
+    },
+    "53": {
+        "average_acceleration_pixels_per_second_squared": 9437.64,
+        "maximum_acceleration_pixels_per_second_squared": 95614.83,
+        "average_deceleration_pixels_per_second_squared": 7940.11,
+        "maximum_deceleration_pixels_per_second_squared": 113750.67,
+        "acceleration_events": 75,
+        "deceleration_events": 71
+    },
+    "54": {
+        "average_acceleration_pixels_per_second_squared": 21889.09,
+        "maximum_acceleration_pixels_per_second_squared": 128531.67,
+        "average_deceleration_pixels_per_second_squared": 17564.58,
+        "maximum_deceleration_pixels_per_second_squared": 67590.32,
+        "acceleration_events": 38,
+        "deceleration_events": 38
+    },
+    "56": {
+        "average_acceleration_pixels_per_second_squared": 43061.39,
+        "maximum_acceleration_pixels_per_second_squared": 161836.77,
+        "average_deceleration_pixels_per_second_squared": 22480.71,
+        "maximum_deceleration_pixels_per_second_squared": 55313.63,
+        "acceleration_events": 9,
+        "deceleration_events": 5
+    },
+    "57": {
+        "average_acceleration_pixels_per_second_squared": 24716.3,
+        "maximum_acceleration_pixels_per_second_squared": 105764.51,
+        "average_deceleration_pixels_per_second_squared": 31088.47,
+        "maximum_deceleration_pixels_per_second_squared": 86385.65,
+        "acceleration_events": 13,
+        "deceleration_events": 3
+    },
+    "58": {
+        "average_acceleration_pixels_per_second_squared": 37439.03,
+        "maximum_acceleration_pixels_per_second_squared": 129357.65,
+        "average_deceleration_pixels_per_second_squared": 43048.4,
+        "maximum_deceleration_pixels_per_second_squared": 64108.16,
+        "acceleration_events": 13,
+        "deceleration_events": 7
+    },
+    "59": {
+        "average_acceleration_pixels_per_second_squared": 79443.59,
+        "maximum_acceleration_pixels_per_second_squared": 133213.18,
+        "average_deceleration_pixels_per_second_squared": 32992.74,
+        "maximum_deceleration_pixels_per_second_squared": 57857.67,
+        "acceleration_events": 2,
+        "deceleration_events": 4
+    }
+}

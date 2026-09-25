@@ -1,0 +1,1346 @@
+{
+    "1": {
+        "average_speed_pixels_per_second": 259.01,
+        "maximum_speed_pixels_per_second": 2516.8,
+        "dominant_speed_zone": "jogging",
+        "total_speed_samples": 1084,
+        "zones": {
+            "walking": {
+                "samples": 247,
+                "percentage": 22.79
+            },
+            "jogging": {
+                "samples": 433,
+                "percentage": 39.94
+            },
+            "running": {
+                "samples": 299,
+                "percentage": 27.58
+            },
+            "high_speed": {
+                "samples": 56,
+                "percentage": 5.17
+            },
+            "sprint": {
+                "samples": 49,
+                "percentage": 4.52
+            }
+        }
+    },
+    "2": {
+        "average_speed_pixels_per_second": 309.05,
+        "maximum_speed_pixels_per_second": 1853.95,
+        "dominant_speed_zone": "jogging",
+        "total_speed_samples": 384,
+        "zones": {
+            "walking": {
+                "samples": 71,
+                "percentage": 18.49
+            },
+            "jogging": {
+                "samples": 161,
+                "percentage": 41.93
+            },
+            "running": {
+                "samples": 79,
+                "percentage": 20.57
+            },
+            "high_speed": {
+                "samples": 43,
+                "percentage": 11.2
+            },
+            "sprint": {
+                "samples": 30,
+                "percentage": 7.81
+            }
+        }
+    },
+    "3": {
+        "average_speed_pixels_per_second": 417.9,
+        "maximum_speed_pixels_per_second": 728.15,
+        "dominant_speed_zone": "running",
+        "total_speed_samples": 19,
+        "zones": {
+            "walking": {
+                "samples": 0,
+                "percentage": 0.0
+            },
+            "jogging": {
+                "samples": 1,
+                "percentage": 5.26
+            },
+            "running": {
+                "samples": 15,
+                "percentage": 78.95
+            },
+            "high_speed": {
+                "samples": 3,
+                "percentage": 15.79
+            },
+            "sprint": {
+                "samples": 0,
+                "percentage": 0.0
+            }
+        }
+    },
+    "4": {
+        "average_speed_pixels_per_second": 209.25,
+        "maximum_speed_pixels_per_second": 2365.12,
+        "dominant_speed_zone": "jogging",
+        "total_speed_samples": 193,
+        "zones": {
+            "walking": {
+                "samples": 56,
+                "percentage": 29.02
+            },
+            "jogging": {
+                "samples": 89,
+                "percentage": 46.11
+            },
+            "running": {
+                "samples": 32,
+                "percentage": 16.58
+            },
+            "high_speed": {
+                "samples": 11,
+                "percentage": 5.7
+            },
+            "sprint": {
+                "samples": 5,
+                "percentage": 2.59
+            }
+        }
+    },
+    "5": {
+        "average_speed_pixels_per_second": 402.58,
+        "maximum_speed_pixels_per_second": 1531.96,
+        "dominant_speed_zone": "jogging",
+        "total_speed_samples": 113,
+        "zones": {
+            "walking": {
+                "samples": 9,
+                "percentage": 7.96
+            },
+            "jogging": {
+                "samples": 43,
+                "percentage": 38.05
+            },
+            "running": {
+                "samples": 28,
+                "percentage": 24.78
+            },
+            "high_speed": {
+                "samples": 19,
+                "percentage": 16.81
+            },
+            "sprint": {
+                "samples": 14,
+                "percentage": 12.39
+            }
+        }
+    },
+    "8": {
+        "average_speed_pixels_per_second": 147.79,
+        "maximum_speed_pixels_per_second": 246.79,
+        "dominant_speed_zone": "jogging",
+        "total_speed_samples": 19,
+        "zones": {
+            "walking": {
+                "samples": 1,
+                "percentage": 5.26
+            },
+            "jogging": {
+                "samples": 18,
+                "percentage": 94.74
+            },
+            "running": {
+                "samples": 0,
+                "percentage": 0.0
+            },
+            "high_speed": {
+                "samples": 0,
+                "percentage": 0.0
+            },
+            "sprint": {
+                "samples": 0,
+                "percentage": 0.0
+            }
+        }
+    },
+    "9": {
+        "average_speed_pixels_per_second": 328.63,
+        "maximum_speed_pixels_per_second": 439.42,
+        "dominant_speed_zone": "running",
+        "total_speed_samples": 8,
+        "zones": {
+            "walking": {
+                "samples": 0,
+                "percentage": 0.0
+            },
+            "jogging": {
+                "samples": 1,
+                "percentage": 12.5
+            },
+            "running": {
+                "samples": 7,
+                "percentage": 87.5
+            },
+            "high_speed": {
+                "samples": 0,
+                "percentage": 0.0
+            },
+            "sprint": {
+                "samples": 0,
+                "percentage": 0.0
+            }
+        }
+    },
+    "10": {
+        "average_speed_pixels_per_second": 487.03,
+        "maximum_speed_pixels_per_second": 1482.82,
+        "dominant_speed_zone": "running",
+        "total_speed_samples": 66,
+        "zones": {
+            "walking": {
+                "samples": 6,
+                "percentage": 9.09
+            },
+            "jogging": {
+                "samples": 12,
+                "percentage": 18.18
+            },
+            "running": {
+                "samples": 22,
+                "percentage": 33.33
+            },
+            "high_speed": {
+                "samples": 14,
+                "percentage": 21.21
+            },
+            "sprint": {
+                "samples": 12,
+                "percentage": 18.18
+            }
+        }
+    },
+    "11": {
+        "average_speed_pixels_per_second": 476.75,
+        "maximum_speed_pixels_per_second": 4820.31,
+        "dominant_speed_zone": "running",
+        "total_speed_samples": 184,
+        "zones": {
+            "walking": {
+                "samples": 12,
+                "percentage": 6.52
+            },
+            "jogging": {
+                "samples": 47,
+                "percentage": 25.54
+            },
+            "running": {
+                "samples": 61,
+                "percentage": 33.15
+            },
+            "high_speed": {
+                "samples": 33,
+                "percentage": 17.93
+            },
+            "sprint": {
+                "samples": 31,
+                "percentage": 16.85
+            }
+        }
+    },
+    "12": {
+        "average_speed_pixels_per_second": 335.13,
+        "maximum_speed_pixels_per_second": 726.42,
+        "dominant_speed_zone": "running",
+        "total_speed_samples": 6,
+        "zones": {
+            "walking": {
+                "samples": 0,
+                "percentage": 0.0
+            },
+            "jogging": {
+                "samples": 2,
+                "percentage": 33.33
+            },
+            "running": {
+                "samples": 3,
+                "percentage": 50.0
+            },
+            "high_speed": {
+                "samples": 1,
+                "percentage": 16.67
+            },
+            "sprint": {
+                "samples": 0,
+                "percentage": 0.0
+            }
+        }
+    },
+    "13": {
+        "average_speed_pixels_per_second": 973.62,
+        "maximum_speed_pixels_per_second": 3816.05,
+        "dominant_speed_zone": "running",
+        "total_speed_samples": 6,
+        "zones": {
+            "walking": {
+                "samples": 0,
+                "percentage": 0.0
+            },
+            "jogging": {
+                "samples": 1,
+                "percentage": 16.67
+            },
+            "running": {
+                "samples": 3,
+                "percentage": 50.0
+            },
+            "high_speed": {
+                "samples": 1,
+                "percentage": 16.67
+            },
+            "sprint": {
+                "samples": 1,
+                "percentage": 16.67
+            }
+        }
+    },
+    "14": {
+        "average_speed_pixels_per_second": 365.91,
+        "maximum_speed_pixels_per_second": 3323.08,
+        "dominant_speed_zone": "jogging",
+        "total_speed_samples": 55,
+        "zones": {
+            "walking": {
+                "samples": 5,
+                "percentage": 9.09
+            },
+            "jogging": {
+                "samples": 22,
+                "percentage": 40.0
+            },
+            "running": {
+                "samples": 17,
+                "percentage": 30.91
+            },
+            "high_speed": {
+                "samples": 8,
+                "percentage": 14.55
+            },
+            "sprint": {
+                "samples": 3,
+                "percentage": 5.45
+            }
+        }
+    },
+    "16": {
+        "average_speed_pixels_per_second": 540.42,
+        "maximum_speed_pixels_per_second": 1449.92,
+        "dominant_speed_zone": "running",
+        "total_speed_samples": 30,
+        "zones": {
+            "walking": {
+                "samples": 1,
+                "percentage": 3.33
+            },
+            "jogging": {
+                "samples": 2,
+                "percentage": 6.67
+            },
+            "running": {
+                "samples": 19,
+                "percentage": 63.33
+            },
+            "high_speed": {
+                "samples": 2,
+                "percentage": 6.67
+            },
+            "sprint": {
+                "samples": 6,
+                "percentage": 20.0
+            }
+        }
+    },
+    "17": {
+        "average_speed_pixels_per_second": 684.35,
+        "maximum_speed_pixels_per_second": 3446.1,
+        "dominant_speed_zone": "running",
+        "total_speed_samples": 73,
+        "zones": {
+            "walking": {
+                "samples": 1,
+                "percentage": 1.37
+            },
+            "jogging": {
+                "samples": 8,
+                "percentage": 10.96
+            },
+            "running": {
+                "samples": 24,
+                "percentage": 32.88
+            },
+            "high_speed": {
+                "samples": 17,
+                "percentage": 23.29
+            },
+            "sprint": {
+                "samples": 23,
+                "percentage": 31.51
+            }
+        }
+    },
+    "18": {
+        "average_speed_pixels_per_second": 323.53,
+        "maximum_speed_pixels_per_second": 1486.91,
+        "dominant_speed_zone": "running",
+        "total_speed_samples": 58,
+        "zones": {
+            "walking": {
+                "samples": 5,
+                "percentage": 8.62
+            },
+            "jogging": {
+                "samples": 20,
+                "percentage": 34.48
+            },
+            "running": {
+                "samples": 22,
+                "percentage": 37.93
+            },
+            "high_speed": {
+                "samples": 9,
+                "percentage": 15.52
+            },
+            "sprint": {
+                "samples": 2,
+                "percentage": 3.45
+            }
+        }
+    },
+    "19": {
+        "average_speed_pixels_per_second": 518.4,
+        "maximum_speed_pixels_per_second": 2417.6,
+        "dominant_speed_zone": "running",
+        "total_speed_samples": 71,
+        "zones": {
+            "walking": {
+                "samples": 6,
+                "percentage": 8.45
+            },
+            "jogging": {
+                "samples": 10,
+                "percentage": 14.08
+            },
+            "running": {
+                "samples": 29,
+                "percentage": 40.85
+            },
+            "high_speed": {
+                "samples": 15,
+                "percentage": 21.13
+            },
+            "sprint": {
+                "samples": 11,
+                "percentage": 15.49
+            }
+        }
+    },
+    "21": {
+        "average_speed_pixels_per_second": 1233.55,
+        "maximum_speed_pixels_per_second": 1233.55,
+        "dominant_speed_zone": "sprint",
+        "total_speed_samples": 1,
+        "zones": {
+            "walking": {
+                "samples": 0,
+                "percentage": 0.0
+            },
+            "jogging": {
+                "samples": 0,
+                "percentage": 0.0
+            },
+            "running": {
+                "samples": 0,
+                "percentage": 0.0
+            },
+            "high_speed": {
+                "samples": 0,
+                "percentage": 0.0
+            },
+            "sprint": {
+                "samples": 1,
+                "percentage": 100.0
+            }
+        }
+    },
+    "22": {
+        "average_speed_pixels_per_second": 313.77,
+        "maximum_speed_pixels_per_second": 1558.38,
+        "dominant_speed_zone": "running",
+        "total_speed_samples": 122,
+        "zones": {
+            "walking": {
+                "samples": 14,
+                "percentage": 11.48
+            },
+            "jogging": {
+                "samples": 38,
+                "percentage": 31.15
+            },
+            "running": {
+                "samples": 55,
+                "percentage": 45.08
+            },
+            "high_speed": {
+                "samples": 11,
+                "percentage": 9.02
+            },
+            "sprint": {
+                "samples": 4,
+                "percentage": 3.28
+            }
+        }
+    },
+    "25": {
+        "average_speed_pixels_per_second": 397.04,
+        "maximum_speed_pixels_per_second": 1670.25,
+        "dominant_speed_zone": "running",
+        "total_speed_samples": 90,
+        "zones": {
+            "walking": {
+                "samples": 5,
+                "percentage": 5.56
+            },
+            "jogging": {
+                "samples": 22,
+                "percentage": 24.44
+            },
+            "running": {
+                "samples": 39,
+                "percentage": 43.33
+            },
+            "high_speed": {
+                "samples": 19,
+                "percentage": 21.11
+            },
+            "sprint": {
+                "samples": 5,
+                "percentage": 5.56
+            }
+        }
+    },
+    "26": {
+        "average_speed_pixels_per_second": 270.33,
+        "maximum_speed_pixels_per_second": 2388.43,
+        "dominant_speed_zone": "jogging",
+        "total_speed_samples": 321,
+        "zones": {
+            "walking": {
+                "samples": 71,
+                "percentage": 22.12
+            },
+            "jogging": {
+                "samples": 121,
+                "percentage": 37.69
+            },
+            "running": {
+                "samples": 87,
+                "percentage": 27.1
+            },
+            "high_speed": {
+                "samples": 29,
+                "percentage": 9.03
+            },
+            "sprint": {
+                "samples": 13,
+                "percentage": 4.05
+            }
+        }
+    },
+    "27": {
+        "average_speed_pixels_per_second": 278.85,
+        "maximum_speed_pixels_per_second": 1838.85,
+        "dominant_speed_zone": "jogging",
+        "total_speed_samples": 286,
+        "zones": {
+            "walking": {
+                "samples": 63,
+                "percentage": 22.03
+            },
+            "jogging": {
+                "samples": 97,
+                "percentage": 33.92
+            },
+            "running": {
+                "samples": 94,
+                "percentage": 32.87
+            },
+            "high_speed": {
+                "samples": 15,
+                "percentage": 5.24
+            },
+            "sprint": {
+                "samples": 17,
+                "percentage": 5.94
+            }
+        }
+    },
+    "28": {
+        "average_speed_pixels_per_second": 271.54,
+        "maximum_speed_pixels_per_second": 590.8,
+        "dominant_speed_zone": "jogging",
+        "total_speed_samples": 23,
+        "zones": {
+            "walking": {
+                "samples": 2,
+                "percentage": 8.7
+            },
+            "jogging": {
+                "samples": 10,
+                "percentage": 43.48
+            },
+            "running": {
+                "samples": 9,
+                "percentage": 39.13
+            },
+            "high_speed": {
+                "samples": 2,
+                "percentage": 8.7
+            },
+            "sprint": {
+                "samples": 0,
+                "percentage": 0.0
+            }
+        }
+    },
+    "29": {
+        "average_speed_pixels_per_second": 323.42,
+        "maximum_speed_pixels_per_second": 716.62,
+        "dominant_speed_zone": "running",
+        "total_speed_samples": 53,
+        "zones": {
+            "walking": {
+                "samples": 7,
+                "percentage": 13.21
+            },
+            "jogging": {
+                "samples": 17,
+                "percentage": 32.08
+            },
+            "running": {
+                "samples": 18,
+                "percentage": 33.96
+            },
+            "high_speed": {
+                "samples": 11,
+                "percentage": 20.75
+            },
+            "sprint": {
+                "samples": 0,
+                "percentage": 0.0
+            }
+        }
+    },
+    "30": {
+        "average_speed_pixels_per_second": 376.4,
+        "maximum_speed_pixels_per_second": 1754.04,
+        "dominant_speed_zone": "running",
+        "total_speed_samples": 112,
+        "zones": {
+            "walking": {
+                "samples": 17,
+                "percentage": 15.18
+            },
+            "jogging": {
+                "samples": 32,
+                "percentage": 28.57
+            },
+            "running": {
+                "samples": 33,
+                "percentage": 29.46
+            },
+            "high_speed": {
+                "samples": 17,
+                "percentage": 15.18
+            },
+            "sprint": {
+                "samples": 13,
+                "percentage": 11.61
+            }
+        }
+    },
+    "31": {
+        "average_speed_pixels_per_second": 265.32,
+        "maximum_speed_pixels_per_second": 429.97,
+        "dominant_speed_zone": "running",
+        "total_speed_samples": 30,
+        "zones": {
+            "walking": {
+                "samples": 1,
+                "percentage": 3.33
+            },
+            "jogging": {
+                "samples": 12,
+                "percentage": 40.0
+            },
+            "running": {
+                "samples": 17,
+                "percentage": 56.67
+            },
+            "high_speed": {
+                "samples": 0,
+                "percentage": 0.0
+            },
+            "sprint": {
+                "samples": 0,
+                "percentage": 0.0
+            }
+        }
+    },
+    "32": {
+        "average_speed_pixels_per_second": 202.67,
+        "maximum_speed_pixels_per_second": 1143.88,
+        "dominant_speed_zone": "jogging",
+        "total_speed_samples": 19,
+        "zones": {
+            "walking": {
+                "samples": 7,
+                "percentage": 36.84
+            },
+            "jogging": {
+                "samples": 9,
+                "percentage": 47.37
+            },
+            "running": {
+                "samples": 2,
+                "percentage": 10.53
+            },
+            "high_speed": {
+                "samples": 0,
+                "percentage": 0.0
+            },
+            "sprint": {
+                "samples": 1,
+                "percentage": 5.26
+            }
+        }
+    },
+    "33": {
+        "average_speed_pixels_per_second": 244.53,
+        "maximum_speed_pixels_per_second": 1059.91,
+        "dominant_speed_zone": "walking",
+        "total_speed_samples": 79,
+        "zones": {
+            "walking": {
+                "samples": 30,
+                "percentage": 37.97
+            },
+            "jogging": {
+                "samples": 24,
+                "percentage": 30.38
+            },
+            "running": {
+                "samples": 13,
+                "percentage": 16.46
+            },
+            "high_speed": {
+                "samples": 8,
+                "percentage": 10.13
+            },
+            "sprint": {
+                "samples": 4,
+                "percentage": 5.06
+            }
+        }
+    },
+    "34": {
+        "average_speed_pixels_per_second": 219.01,
+        "maximum_speed_pixels_per_second": 592.96,
+        "dominant_speed_zone": "jogging",
+        "total_speed_samples": 45,
+        "zones": {
+            "walking": {
+                "samples": 12,
+                "percentage": 26.67
+            },
+            "jogging": {
+                "samples": 16,
+                "percentage": 35.56
+            },
+            "running": {
+                "samples": 15,
+                "percentage": 33.33
+            },
+            "high_speed": {
+                "samples": 2,
+                "percentage": 4.44
+            },
+            "sprint": {
+                "samples": 0,
+                "percentage": 0.0
+            }
+        }
+    },
+    "35": {
+        "average_speed_pixels_per_second": 229.21,
+        "maximum_speed_pixels_per_second": 3580.46,
+        "dominant_speed_zone": "walking",
+        "total_speed_samples": 166,
+        "zones": {
+            "walking": {
+                "samples": 70,
+                "percentage": 42.17
+            },
+            "jogging": {
+                "samples": 54,
+                "percentage": 32.53
+            },
+            "running": {
+                "samples": 25,
+                "percentage": 15.06
+            },
+            "high_speed": {
+                "samples": 9,
+                "percentage": 5.42
+            },
+            "sprint": {
+                "samples": 8,
+                "percentage": 4.82
+            }
+        }
+    },
+    "36": {
+        "average_speed_pixels_per_second": 210.22,
+        "maximum_speed_pixels_per_second": 847.33,
+        "dominant_speed_zone": "jogging",
+        "total_speed_samples": 41,
+        "zones": {
+            "walking": {
+                "samples": 10,
+                "percentage": 24.39
+            },
+            "jogging": {
+                "samples": 20,
+                "percentage": 48.78
+            },
+            "running": {
+                "samples": 8,
+                "percentage": 19.51
+            },
+            "high_speed": {
+                "samples": 2,
+                "percentage": 4.88
+            },
+            "sprint": {
+                "samples": 1,
+                "percentage": 2.44
+            }
+        }
+    },
+    "37": {
+        "average_speed_pixels_per_second": 192.65,
+        "maximum_speed_pixels_per_second": 576.98,
+        "dominant_speed_zone": "jogging",
+        "total_speed_samples": 34,
+        "zones": {
+            "walking": {
+                "samples": 10,
+                "percentage": 29.41
+            },
+            "jogging": {
+                "samples": 16,
+                "percentage": 47.06
+            },
+            "running": {
+                "samples": 5,
+                "percentage": 14.71
+            },
+            "high_speed": {
+                "samples": 3,
+                "percentage": 8.82
+            },
+            "sprint": {
+                "samples": 0,
+                "percentage": 0.0
+            }
+        }
+    },
+    "38": {
+        "average_speed_pixels_per_second": 326.52,
+        "maximum_speed_pixels_per_second": 5535.77,
+        "dominant_speed_zone": "jogging",
+        "total_speed_samples": 496,
+        "zones": {
+            "walking": {
+                "samples": 81,
+                "percentage": 16.33
+            },
+            "jogging": {
+                "samples": 205,
+                "percentage": 41.33
+            },
+            "running": {
+                "samples": 151,
+                "percentage": 30.44
+            },
+            "high_speed": {
+                "samples": 37,
+                "percentage": 7.46
+            },
+            "sprint": {
+                "samples": 22,
+                "percentage": 4.44
+            }
+        }
+    },
+    "39": {
+        "average_speed_pixels_per_second": 620.29,
+        "maximum_speed_pixels_per_second": 2245.57,
+        "dominant_speed_zone": "running",
+        "total_speed_samples": 21,
+        "zones": {
+            "walking": {
+                "samples": 0,
+                "percentage": 0.0
+            },
+            "jogging": {
+                "samples": 4,
+                "percentage": 19.05
+            },
+            "running": {
+                "samples": 10,
+                "percentage": 47.62
+            },
+            "high_speed": {
+                "samples": 2,
+                "percentage": 9.52
+            },
+            "sprint": {
+                "samples": 5,
+                "percentage": 23.81
+            }
+        }
+    },
+    "40": {
+        "average_speed_pixels_per_second": 426.99,
+        "maximum_speed_pixels_per_second": 949.96,
+        "dominant_speed_zone": "running",
+        "total_speed_samples": 77,
+        "zones": {
+            "walking": {
+                "samples": 0,
+                "percentage": 0.0
+            },
+            "jogging": {
+                "samples": 22,
+                "percentage": 28.57
+            },
+            "running": {
+                "samples": 28,
+                "percentage": 36.36
+            },
+            "high_speed": {
+                "samples": 23,
+                "percentage": 29.87
+            },
+            "sprint": {
+                "samples": 4,
+                "percentage": 5.19
+            }
+        }
+    },
+    "42": {
+        "average_speed_pixels_per_second": 342.71,
+        "maximum_speed_pixels_per_second": 1669.28,
+        "dominant_speed_zone": "running",
+        "total_speed_samples": 45,
+        "zones": {
+            "walking": {
+                "samples": 10,
+                "percentage": 22.22
+            },
+            "jogging": {
+                "samples": 11,
+                "percentage": 24.44
+            },
+            "running": {
+                "samples": 18,
+                "percentage": 40.0
+            },
+            "high_speed": {
+                "samples": 2,
+                "percentage": 4.44
+            },
+            "sprint": {
+                "samples": 4,
+                "percentage": 8.89
+            }
+        }
+    },
+    "44": {
+        "average_speed_pixels_per_second": 351.77,
+        "maximum_speed_pixels_per_second": 773.64,
+        "dominant_speed_zone": "running",
+        "total_speed_samples": 82,
+        "zones": {
+            "walking": {
+                "samples": 6,
+                "percentage": 7.32
+            },
+            "jogging": {
+                "samples": 22,
+                "percentage": 26.83
+            },
+            "running": {
+                "samples": 33,
+                "percentage": 40.24
+            },
+            "high_speed": {
+                "samples": 18,
+                "percentage": 21.95
+            },
+            "sprint": {
+                "samples": 3,
+                "percentage": 3.66
+            }
+        }
+    },
+    "45": {
+        "average_speed_pixels_per_second": 695.55,
+        "maximum_speed_pixels_per_second": 1105.3,
+        "dominant_speed_zone": "sprint",
+        "total_speed_samples": 47,
+        "zones": {
+            "walking": {
+                "samples": 0,
+                "percentage": 0.0
+            },
+            "jogging": {
+                "samples": 2,
+                "percentage": 4.26
+            },
+            "running": {
+                "samples": 7,
+                "percentage": 14.89
+            },
+            "high_speed": {
+                "samples": 18,
+                "percentage": 38.3
+            },
+            "sprint": {
+                "samples": 20,
+                "percentage": 42.55
+            }
+        }
+    },
+    "46": {
+        "average_speed_pixels_per_second": 314.5,
+        "maximum_speed_pixels_per_second": 590.43,
+        "dominant_speed_zone": "running",
+        "total_speed_samples": 64,
+        "zones": {
+            "walking": {
+                "samples": 0,
+                "percentage": 0.0
+            },
+            "jogging": {
+                "samples": 12,
+                "percentage": 18.75
+            },
+            "running": {
+                "samples": 51,
+                "percentage": 79.69
+            },
+            "high_speed": {
+                "samples": 1,
+                "percentage": 1.56
+            },
+            "sprint": {
+                "samples": 0,
+                "percentage": 0.0
+            }
+        }
+    },
+    "48": {
+        "average_speed_pixels_per_second": 231.36,
+        "maximum_speed_pixels_per_second": 1420.75,
+        "dominant_speed_zone": "jogging",
+        "total_speed_samples": 124,
+        "zones": {
+            "walking": {
+                "samples": 33,
+                "percentage": 26.61
+            },
+            "jogging": {
+                "samples": 50,
+                "percentage": 40.32
+            },
+            "running": {
+                "samples": 32,
+                "percentage": 25.81
+            },
+            "high_speed": {
+                "samples": 7,
+                "percentage": 5.65
+            },
+            "sprint": {
+                "samples": 2,
+                "percentage": 1.61
+            }
+        }
+    },
+    "49": {
+        "average_speed_pixels_per_second": 322.38,
+        "maximum_speed_pixels_per_second": 2371.15,
+        "dominant_speed_zone": "running",
+        "total_speed_samples": 138,
+        "zones": {
+            "walking": {
+                "samples": 16,
+                "percentage": 11.59
+            },
+            "jogging": {
+                "samples": 42,
+                "percentage": 30.43
+            },
+            "running": {
+                "samples": 59,
+                "percentage": 42.75
+            },
+            "high_speed": {
+                "samples": 18,
+                "percentage": 13.04
+            },
+            "sprint": {
+                "samples": 3,
+                "percentage": 2.17
+            }
+        }
+    },
+    "50": {
+        "average_speed_pixels_per_second": 546.49,
+        "maximum_speed_pixels_per_second": 972.45,
+        "dominant_speed_zone": "running",
+        "total_speed_samples": 38,
+        "zones": {
+            "walking": {
+                "samples": 0,
+                "percentage": 0.0
+            },
+            "jogging": {
+                "samples": 1,
+                "percentage": 2.63
+            },
+            "running": {
+                "samples": 16,
+                "percentage": 42.11
+            },
+            "high_speed": {
+                "samples": 16,
+                "percentage": 42.11
+            },
+            "sprint": {
+                "samples": 5,
+                "percentage": 13.16
+            }
+        }
+    },
+    "51": {
+        "average_speed_pixels_per_second": 303.12,
+        "maximum_speed_pixels_per_second": 1251.45,
+        "dominant_speed_zone": "jogging",
+        "total_speed_samples": 127,
+        "zones": {
+            "walking": {
+                "samples": 29,
+                "percentage": 22.83
+            },
+            "jogging": {
+                "samples": 35,
+                "percentage": 27.56
+            },
+            "running": {
+                "samples": 34,
+                "percentage": 26.77
+            },
+            "high_speed": {
+                "samples": 26,
+                "percentage": 20.47
+            },
+            "sprint": {
+                "samples": 3,
+                "percentage": 2.36
+            }
+        }
+    },
+    "53": {
+        "average_speed_pixels_per_second": 503.9,
+        "maximum_speed_pixels_per_second": 5530.52,
+        "dominant_speed_zone": "jogging",
+        "total_speed_samples": 147,
+        "zones": {
+            "walking": {
+                "samples": 15,
+                "percentage": 10.2
+            },
+            "jogging": {
+                "samples": 77,
+                "percentage": 52.38
+            },
+            "running": {
+                "samples": 35,
+                "percentage": 23.81
+            },
+            "high_speed": {
+                "samples": 3,
+                "percentage": 2.04
+            },
+            "sprint": {
+                "samples": 17,
+                "percentage": 11.56
+            }
+        }
+    },
+    "54": {
+        "average_speed_pixels_per_second": 1025.38,
+        "maximum_speed_pixels_per_second": 5966.83,
+        "dominant_speed_zone": "jogging",
+        "total_speed_samples": 77,
+        "zones": {
+            "walking": {
+                "samples": 7,
+                "percentage": 9.09
+            },
+            "jogging": {
+                "samples": 28,
+                "percentage": 36.36
+            },
+            "running": {
+                "samples": 10,
+                "percentage": 12.99
+            },
+            "high_speed": {
+                "samples": 5,
+                "percentage": 6.49
+            },
+            "sprint": {
+                "samples": 27,
+                "percentage": 35.06
+            }
+        }
+    },
+    "56": {
+        "average_speed_pixels_per_second": 1679.7,
+        "maximum_speed_pixels_per_second": 5902.26,
+        "dominant_speed_zone": "sprint",
+        "total_speed_samples": 15,
+        "zones": {
+            "walking": {
+                "samples": 0,
+                "percentage": 0.0
+            },
+            "jogging": {
+                "samples": 0,
+                "percentage": 0.0
+            },
+            "running": {
+                "samples": 3,
+                "percentage": 20.0
+            },
+            "high_speed": {
+                "samples": 2,
+                "percentage": 13.33
+            },
+            "sprint": {
+                "samples": 10,
+                "percentage": 66.67
+            }
+        }
+    },
+    "57": {
+        "average_speed_pixels_per_second": 1994.78,
+        "maximum_speed_pixels_per_second": 5399.47,
+        "dominant_speed_zone": "sprint",
+        "total_speed_samples": 17,
+        "zones": {
+            "walking": {
+                "samples": 0,
+                "percentage": 0.0
+            },
+            "jogging": {
+                "samples": 2,
+                "percentage": 11.76
+            },
+            "running": {
+                "samples": 0,
+                "percentage": 0.0
+            },
+            "high_speed": {
+                "samples": 1,
+                "percentage": 5.88
+            },
+            "sprint": {
+                "samples": 14,
+                "percentage": 82.35
+            }
+        }
+    },
+    "58": {
+        "average_speed_pixels_per_second": 2367.08,
+        "maximum_speed_pixels_per_second": 5406.07,
+        "dominant_speed_zone": "sprint",
+        "total_speed_samples": 21,
+        "zones": {
+            "walking": {
+                "samples": 0,
+                "percentage": 0.0
+            },
+            "jogging": {
+                "samples": 0,
+                "percentage": 0.0
+            },
+            "running": {
+                "samples": 2,
+                "percentage": 9.52
+            },
+            "high_speed": {
+                "samples": 4,
+                "percentage": 19.05
+            },
+            "sprint": {
+                "samples": 15,
+                "percentage": 71.43
+            }
+        }
+    },
+    "59": {
+        "average_speed_pixels_per_second": 1789.65,
+        "maximum_speed_pixels_per_second": 3341.49,
+        "dominant_speed_zone": "sprint",
+        "total_speed_samples": 7,
+        "zones": {
+            "walking": {
+                "samples": 0,
+                "percentage": 0.0
+            },
+            "jogging": {
+                "samples": 0,
+                "percentage": 0.0
+            },
+            "running": {
+                "samples": 0,
+                "percentage": 0.0
+            },
+            "high_speed": {
+                "samples": 1,
+                "percentage": 14.29
+            },
+            "sprint": {
+                "samples": 6,
+                "percentage": 85.71
+            }
+        }
+    }
+}

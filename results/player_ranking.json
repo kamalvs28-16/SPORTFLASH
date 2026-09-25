@@ -241,19 +241,19 @@
     },
     {
         "rank": 31,
-        "player": "25",
-        "performance_score": 12.94,
-        "movement": 97.46,
-        "average_speed": 444.33,
-        "maximum_speed": 514.84
-    },
-    {
-        "rank": 32,
         "player": "45",
         "performance_score": 12.94,
         "movement": 285.97,
         "average_speed": 305.27,
         "maximum_speed": 606.13
+    },
+    {
+        "rank": 32,
+        "player": "25",
+        "performance_score": 12.94,
+        "movement": 97.46,
+        "average_speed": 444.33,
+        "maximum_speed": 514.84
     },
     {
         "rank": 33,

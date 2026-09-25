@@ -20,11 +20,11 @@ st.set_page_config(
 # ============================================================
 
 RESULTS_DIR = "results"
+
 HEATMAP_DIR = os.path.join(
     RESULTS_DIR,
     "heatmaps"
 )
-
 
 PERFORMANCE_FILE = os.path.join(
     RESULTS_DIR,
@@ -39,6 +39,12 @@ MOVEMENT_FILE = os.path.join(
 SPEED_FILE = os.path.join(
     RESULTS_DIR,
     "speed_results.json"
+)
+
+# NEW
+ACCELERATION_FILE = os.path.join(
+    RESULTS_DIR,
+    "acceleration_results.json"
 )
 
 ZONE_FILE = os.path.join(
@@ -78,7 +84,7 @@ COMPARISON_FILE = os.path.join(
 
 
 # ============================================================
-# LOAD JSON FUNCTION
+# LOAD JSON
 # ============================================================
 
 def load_json(file_path):
@@ -87,17 +93,14 @@ def load_json(file_path):
         return {}
 
     try:
-
         with open(
             file_path,
             "r",
             encoding="utf-8"
         ) as file:
-
             return json.load(file)
 
     except Exception:
-
         return {}
 
 
@@ -105,29 +108,22 @@ def load_json(file_path):
 # LOAD ALL DATA
 # ============================================================
 
-performance_data = load_json(
-    PERFORMANCE_FILE
+performance_data = load_json(PERFORMANCE_FILE)
+
+movement_data = load_json(MOVEMENT_FILE)
+
+speed_data = load_json(SPEED_FILE)
+
+# NEW
+acceleration_data = load_json(
+    ACCELERATION_FILE
 )
 
-movement_data = load_json(
-    MOVEMENT_FILE
-)
+zone_data = load_json(ZONE_FILE)
 
-speed_data = load_json(
-    SPEED_FILE
-)
+ball_data = load_json(BALL_FILE)
 
-zone_data = load_json(
-    ZONE_FILE
-)
-
-ball_data = load_json(
-    BALL_FILE
-)
-
-ai_data = load_json(
-    AI_FILE
-)
+ai_data = load_json(AI_FILE)
 
 nutrition_data = load_json(
     NUTRITION_FILE
@@ -150,6 +146,15 @@ comparison_data = load_json(
 # HELPER FUNCTIONS
 # ============================================================
 
+def safe_float(value, default=0.0):
+
+    try:
+        return float(value)
+
+    except:
+        return default
+
+
 def get_player_performance(player_id):
 
     data = performance_data.get(
@@ -159,7 +164,7 @@ def get_player_performance(player_id):
 
     if isinstance(data, dict):
 
-        return float(
+        return safe_float(
             data.get(
                 "performance_score",
                 data.get(
@@ -185,7 +190,7 @@ def get_player_movement(player_id):
 
     if isinstance(data, dict):
 
-        return float(
+        return safe_float(
             data.get(
                 "total_movement",
                 data.get(
@@ -216,17 +221,23 @@ def get_player_speed(player_id):
 
         return 0.0, 0.0, "pixels/sec"
 
-    average = float(
+    average = safe_float(
         data.get(
             "average_speed",
-            0
+            data.get(
+                "average_speed_pixels_per_second",
+                0
+            )
         )
     )
 
-    maximum = float(
+    maximum = safe_float(
         data.get(
             "maximum_speed",
-            0
+            data.get(
+                "maximum_speed_pixels_per_second",
+                0
+            )
         )
     )
 
@@ -237,6 +248,127 @@ def get_player_speed(player_id):
 
     return average, maximum, unit
 
+
+# ============================================================
+# NEW - ACCELERATION FUNCTION
+# ============================================================
+
+def get_player_acceleration(player_id):
+
+    data = acceleration_data.get(
+        str(player_id),
+        {}
+    )
+
+    if not isinstance(data, dict):
+        return {
+            "average_acceleration": 0.0,
+            "maximum_acceleration": 0.0,
+            "average_deceleration": 0.0,
+            "maximum_deceleration": 0.0,
+            "acceleration_events": 0,
+            "deceleration_events": 0,
+            "unit": "pixels/sec²"
+        }
+
+    average_acceleration = safe_float(
+        data.get(
+            "average_acceleration",
+            data.get(
+                "average_acceleration_pixels_per_second_squared",
+                data.get(
+                    "avg_acceleration",
+                    0
+                )
+            )
+        )
+    )
+
+    maximum_acceleration = safe_float(
+        data.get(
+            "maximum_acceleration",
+            data.get(
+                "maximum_acceleration_pixels_per_second_squared",
+                data.get(
+                    "max_acceleration",
+                    0
+                )
+            )
+        )
+    )
+
+    average_deceleration = safe_float(
+        data.get(
+            "average_deceleration",
+            data.get(
+                "average_deceleration_pixels_per_second_squared",
+                data.get(
+                    "avg_deceleration",
+                    0
+                )
+            )
+        )
+    )
+
+    maximum_deceleration = safe_float(
+        data.get(
+            "maximum_deceleration",
+            data.get(
+                "maximum_deceleration_pixels_per_second_squared",
+                data.get(
+                    "max_deceleration",
+                    0
+                )
+            )
+        )
+    )
+
+    acceleration_events = data.get(
+        "acceleration_events",
+        data.get(
+            "number_of_acceleration_events",
+            0
+        )
+    )
+
+    deceleration_events = data.get(
+        "deceleration_events",
+        data.get(
+            "number_of_deceleration_events",
+            0
+        )
+    )
+
+    return {
+        "average_acceleration":
+            average_acceleration,
+
+        "maximum_acceleration":
+            maximum_acceleration,
+
+        "average_deceleration":
+            average_deceleration,
+
+        "maximum_deceleration":
+            maximum_deceleration,
+
+        "acceleration_events":
+            acceleration_events,
+
+        "deceleration_events":
+            deceleration_events,
+
+        "unit":
+            data.get(
+                "unit",
+                "pixels/sec²"
+            )
+    }
+
+
+# ============================================================
+# FIELD ZONE FUNCTION
+# ============================================================
 
 def get_player_zone(player_id):
 
@@ -254,21 +386,21 @@ def get_player_zone(player_id):
         }
 
     return {
-        "defensive": float(
+        "defensive": safe_float(
             data.get(
                 "defensive",
                 0
             )
         ),
 
-        "midfield": float(
+        "midfield": safe_float(
             data.get(
                 "midfield",
                 0
             )
         ),
 
-        "attacking": float(
+        "attacking": safe_float(
             data.get(
                 "attacking",
                 0
@@ -339,6 +471,9 @@ for player_id in movement_data.keys():
 for player_id in speed_data.keys():
     player_ids.add(str(player_id))
 
+for player_id in acceleration_data.keys():
+    player_ids.add(str(player_id))
+
 for player_id in zone_data.keys():
     player_ids.add(str(player_id))
 
@@ -362,8 +497,9 @@ st.subheader(
 )
 
 st.write(
-    "Analyze player movement, speed, zones, ball interaction, "
-    "performance, AI insights and nutrition recommendations."
+    "Analyze player movement, speed, acceleration, "
+    "field zones, ball interaction, performance, "
+    "AI insights and nutrition recommendations."
 )
 
 st.markdown("---")
@@ -413,8 +549,10 @@ st.sidebar.write("✅ Player Detection")
 st.sidebar.write("✅ Player Tracking")
 st.sidebar.write("✅ Movement Analysis")
 st.sidebar.write("✅ Speed Analysis")
+st.sidebar.write("✅ Acceleration Analysis")
+st.sidebar.write("✅ Deceleration Analysis")
 st.sidebar.write("✅ Heatmap")
-st.sidebar.write("✅ Zone Analysis")
+st.sidebar.write("✅ Field Zone Analysis")
 st.sidebar.write("✅ Ball Analysis")
 st.sidebar.write("✅ Performance Score")
 st.sidebar.write("✅ Player Ranking")
@@ -440,6 +578,10 @@ average_speed, maximum_speed, speed_unit = (
     get_player_speed(
         selected_player
     )
+)
+
+acceleration = get_player_acceleration(
+    selected_player
 )
 
 zones = get_player_zone(
@@ -488,9 +630,7 @@ st.header(
     f"👤 Player {selected_player} Overview"
 )
 
-
 col1, col2, col3, col4 = st.columns(4)
-
 
 with col1:
 
@@ -499,14 +639,12 @@ with col1:
         f"{performance_score:.2f}/100"
     )
 
-
 with col2:
 
     st.metric(
         "Movement",
         f"{movement:.2f}"
     )
-
 
 with col3:
 
@@ -515,14 +653,12 @@ with col3:
         f"{average_speed:.2f}"
     )
 
-
 with col4:
 
     st.metric(
         "Maximum Speed",
         f"{maximum_speed:.2f}"
     )
-
 
 st.info(
     f"Performance Level: **{performance_level}**"
@@ -536,7 +672,6 @@ st.info(
 st.header(
     "📊 Performance Metrics"
 )
-
 
 performance_chart = pd.DataFrame(
     {
@@ -562,11 +697,10 @@ st.bar_chart(
     performance_chart.set_index("Metric")
 )
 
-
 st.caption(
     f"Speed values are reported as {speed_unit}. "
-    "If the value is pixels/sec, field calibration is still required "
-    "for real-world km/h."
+    "If the value is pixels/sec, field calibration is still "
+    "required for real-world speed."
 )
 
 
@@ -582,14 +716,12 @@ st.header(
 
 movement_col1, movement_col2 = st.columns(2)
 
-
 with movement_col1:
 
     st.metric(
         "Total Movement",
         f"{movement:.2f}"
     )
-
 
 with movement_col2:
 
@@ -623,9 +755,7 @@ st.header(
     "⚡ Speed Analysis"
 )
 
-
 speed_col1, speed_col2 = st.columns(2)
-
 
 with speed_col1:
 
@@ -634,13 +764,106 @@ with speed_col1:
         f"{average_speed:.2f} {speed_unit}"
     )
 
-
 with speed_col2:
 
     st.metric(
         "Maximum Speed",
         f"{maximum_speed:.2f} {speed_unit}"
     )
+
+
+# ============================================================
+# ACCELERATION & DECELERATION
+# ============================================================
+
+st.markdown("---")
+
+st.header(
+    "🚀 Acceleration & Deceleration Analysis"
+)
+
+accel_unit = acceleration["unit"]
+
+accel_col1, accel_col2 = st.columns(2)
+
+with accel_col1:
+
+    st.metric(
+        "Average Acceleration",
+        f"{acceleration['average_acceleration']:.2f} {accel_unit}"
+    )
+
+with accel_col2:
+
+    st.metric(
+        "Maximum Acceleration",
+        f"{acceleration['maximum_acceleration']:.2f} {accel_unit}"
+    )
+
+
+decel_col1, decel_col2 = st.columns(2)
+
+with decel_col1:
+
+    st.metric(
+        "Average Deceleration",
+        f"{acceleration['average_deceleration']:.2f} {accel_unit}"
+    )
+
+with decel_col2:
+
+    st.metric(
+        "Maximum Deceleration",
+        f"{acceleration['maximum_deceleration']:.2f} {accel_unit}"
+    )
+
+
+event_col1, event_col2 = st.columns(2)
+
+with event_col1:
+
+    st.metric(
+        "Acceleration Events",
+        acceleration["acceleration_events"]
+    )
+
+with event_col2:
+
+    st.metric(
+        "Deceleration Events",
+        acceleration["deceleration_events"]
+    )
+
+
+acceleration_chart = pd.DataFrame(
+    {
+        "Metric": [
+            "Average Acceleration",
+            "Maximum Acceleration",
+            "Average Deceleration",
+            "Maximum Deceleration"
+        ],
+
+        "Value": [
+            acceleration["average_acceleration"],
+            acceleration["maximum_acceleration"],
+            acceleration["average_deceleration"],
+            acceleration["maximum_deceleration"]
+        ]
+    }
+)
+
+st.bar_chart(
+    acceleration_chart.set_index(
+        "Metric"
+    )
+)
+
+st.caption(
+    "Acceleration values are displayed using the units "
+    "provided by the acceleration analysis. Pixel-based "
+    "values require field calibration for real-world units."
+)
 
 
 # ============================================================
@@ -658,7 +881,6 @@ heatmap_path = os.path.join(
     f"player_{selected_player}_heatmap.png"
 )
 
-
 if os.path.exists(heatmap_path):
 
     st.image(
@@ -675,7 +897,7 @@ else:
 
 
 # ============================================================
-# ZONE ANALYSIS
+# FIELD ZONE ANALYSIS
 # ============================================================
 
 st.markdown("---")
@@ -684,30 +906,31 @@ st.header(
     "🗺️ Field Zone Analysis"
 )
 
+st.write(
+    f"Movement distribution of Player {selected_player} "
+    "across defensive, midfield and attacking zones."
+)
 
 zone_col1, zone_col2, zone_col3 = st.columns(3)
-
 
 with zone_col1:
 
     st.metric(
-        "Defensive",
+        "🛡️ Defensive",
         f"{zones['defensive']:.1f}%"
     )
-
 
 with zone_col2:
 
     st.metric(
-        "Midfield",
+        "⚽ Midfield",
         f"{zones['midfield']:.1f}%"
     )
-
 
 with zone_col3:
 
     st.metric(
-        "Attacking",
+        "🎯 Attacking",
         f"{zones['attacking']:.1f}%"
     )
 
@@ -739,7 +962,8 @@ dominant_zone = max(
 )
 
 st.info(
-    f"Dominant zone: **{dominant_zone.title()}**"
+    f"Dominant field zone: "
+    f"**{dominant_zone.title()}**"
 )
 
 
@@ -753,9 +977,7 @@ st.header(
     "⚽ Ball Analysis"
 )
 
-
 ball_col1, ball_col2 = st.columns(2)
-
 
 with ball_col1:
 
@@ -763,7 +985,6 @@ with ball_col1:
         "Player-Ball Interactions",
         ball_interactions
     )
-
 
 with ball_col2:
 
@@ -778,19 +999,22 @@ with ball_col2:
     )
 
 
-ball_speed = ball_data.get(
-    "average_ball_speed_pixels_per_second",
-    0
+ball_speed = safe_float(
+    ball_data.get(
+        "average_ball_speed_pixels_per_second",
+        0
+    )
 )
 
-maximum_ball_speed = ball_data.get(
-    "maximum_ball_speed_pixels_per_second",
-    0
+maximum_ball_speed = safe_float(
+    ball_data.get(
+        "maximum_ball_speed_pixels_per_second",
+        0
+    )
 )
 
 
 ball_speed_col1, ball_speed_col2 = st.columns(2)
-
 
 with ball_speed_col1:
 
@@ -799,14 +1023,12 @@ with ball_speed_col1:
         f"{ball_speed:.2f} pixels/sec"
     )
 
-
 with ball_speed_col2:
 
     st.metric(
         "Maximum Ball Speed",
         f"{maximum_ball_speed:.2f} pixels/sec"
     )
-
 
 st.caption(
     "Ball speed is currently displayed in pixels/sec. "
@@ -824,10 +1046,7 @@ st.header(
     "🤖 AI Performance Insights"
 )
 
-
 if ai_player:
-
-    # Possible keys from the AI insights file
 
     level = ai_player.get(
         "performance_level",
@@ -859,11 +1078,9 @@ if ai_player:
         []
     )
 
-
     st.success(
         f"Performance Level: **{level}**"
     )
-
 
     if movement_analysis:
 
@@ -871,13 +1088,11 @@ if ai_player:
             f"🏃 **Movement:** {movement_analysis}"
         )
 
-
     if speed_analysis:
 
         st.write(
             f"⚡ **Speed:** {speed_analysis}"
         )
-
 
     if zone_analysis:
 
@@ -885,13 +1100,11 @@ if ai_player:
             f"🗺️ **Zone:** {zone_analysis}"
         )
 
-
     if ball_analysis:
 
         st.write(
             f"⚽ **Ball:** {ball_analysis}"
         )
-
 
     if recommendations:
 
@@ -933,7 +1146,6 @@ st.header(
     "🥗 Nutrition & Recovery"
 )
 
-
 if nutrition_player:
 
     activity_level = nutrition_player.get(
@@ -952,13 +1164,11 @@ if nutrition_player:
 
     nutrition_col1, nutrition_col2 = st.columns(2)
 
-
     with nutrition_col1:
 
         st.write(
             f"**Activity Level:** {activity_level}"
         )
-
 
     with nutrition_col2:
 
@@ -1095,7 +1305,6 @@ if nutrition_player:
             f"⚽ {position_note}"
         )
 
-
     st.caption(
         "Nutrition suggestions are general sports-nutrition "
         "guidance and are not medical advice."
@@ -1118,9 +1327,7 @@ st.header(
     "🏆 Player Ranking"
 )
 
-
 ranking_list = []
-
 
 if isinstance(
     ranking_data,
@@ -1133,8 +1340,6 @@ elif isinstance(
     ranking_data,
     dict
 ):
-
-    # Common ranking formats
 
     if isinstance(
         ranking_data.get("ranking"),
@@ -1189,7 +1394,8 @@ if ranking_list:
                 {
                     "Rank": index,
                     "Player": f"Player {pid}",
-                    "Performance Score": score
+                    "Performance Score":
+                        safe_float(score)
                 }
             )
 
@@ -1207,8 +1413,6 @@ if ranking_list:
         )
 
 else:
-
-    # Build ranking directly if JSON format differs
 
     ranking_rows = []
 
@@ -1262,7 +1466,6 @@ st.header(
     "👥 Team Analysis"
 )
 
-
 if team_data:
 
     team_stats = team_data.get(
@@ -1278,7 +1481,6 @@ if team_data:
         team_col1, team_col2, team_col3, team_col4 = (
             st.columns(4)
         )
-
 
         number_players = team_stats.get(
             "number_of_players",
@@ -1301,11 +1503,10 @@ if team_data:
             0
         )
 
-        average_speed = team_stats.get(
+        average_speed_team = team_stats.get(
             "average_speed",
             0
         )
-
 
         with team_col1:
 
@@ -1314,37 +1515,31 @@ if team_data:
                 number_players
             )
 
-
         with team_col2:
 
             st.metric(
                 "Average Performance",
-                f"{float(average_performance):.2f}"
+                f"{safe_float(average_performance):.2f}"
             )
-
 
         with team_col3:
 
             st.metric(
                 "Average Movement",
-                f"{float(average_movement):.2f}"
+                f"{safe_float(average_movement):.2f}"
             )
-
 
         with team_col4:
 
             st.metric(
                 "Average Speed",
-                f"{float(average_speed):.2f}"
+                f"{safe_float(average_speed_team):.2f}"
             )
 
 
     st.subheader(
         "🏆 Team Leaders"
     )
-
-
-    # Try different possible key names
 
     best_player = team_data.get(
         "best_performer",
@@ -1391,7 +1586,6 @@ if team_data:
         st.columns(3)
     )
 
-
     with leader_col1:
 
         st.write(
@@ -1404,7 +1598,6 @@ if team_data:
             f"{fastest_player}"
         )
 
-
     with leader_col2:
 
         st.write(
@@ -1416,7 +1609,6 @@ if team_data:
             f"🎯 **Best Attacking:** "
             f"{best_attacking}"
         )
-
 
     with leader_col3:
 
@@ -1434,7 +1626,6 @@ if team_data:
         "🗺️ Team Zone Distribution"
     )
 
-
     team_zone = team_data.get(
         "team_zone_distribution",
         team_data.get(
@@ -1442,7 +1633,6 @@ if team_data:
             {}
         )
     )
-
 
     if isinstance(
         team_zone,
@@ -1458,17 +1648,9 @@ if team_data:
                 str(name).title()
             )
 
-            try:
-
-                zone_values.append(
-                    float(value)
-                )
-
-            except:
-
-                zone_values.append(
-                    0
-                )
+            zone_values.append(
+                safe_float(value)
+            )
 
 
         team_zone_df = pd.DataFrame(
@@ -1478,17 +1660,12 @@ if team_data:
             }
         )
 
-
         st.bar_chart(
             team_zone_df.set_index(
                 "Zone"
             )
         )
 
-
-    # --------------------------------------------------------
-    # STRENGTHS
-    # --------------------------------------------------------
 
     strengths = team_data.get(
         "team_strengths",
@@ -1497,7 +1674,6 @@ if team_data:
             []
         )
     )
-
 
     if strengths:
 
@@ -1523,10 +1699,6 @@ if team_data:
             )
 
 
-    # --------------------------------------------------------
-    # WEAKNESSES
-    # --------------------------------------------------------
-
     weaknesses = team_data.get(
         "team_weaknesses",
         team_data.get(
@@ -1534,7 +1706,6 @@ if team_data:
             []
         )
     )
-
 
     if weaknesses:
 
@@ -1577,10 +1748,6 @@ st.header(
 )
 
 
-# Use comparison JSON if available,
-# otherwise construct comparison data
-# from existing analysis files.
-
 if comparison_data:
 
     comparison_players = comparison_data.get(
@@ -1593,9 +1760,6 @@ else:
     comparison_players = {}
 
 
-# If comparison JSON is empty, build it from
-# the existing project data.
-
 if not comparison_players:
 
     for player_id in player_ids:
@@ -1607,6 +1771,10 @@ if not comparison_players:
         )
 
         player_zone = get_player_zone(
+            player_id
+        )
+
+        player_acceleration = get_player_acceleration(
             player_id
         )
 
@@ -1642,6 +1810,24 @@ if not comparison_players:
             "maximum_speed":
                 round(
                     maximum_player_speed,
+                    2
+                ),
+
+            # NEW
+            "average_acceleration":
+                round(
+                    player_acceleration[
+                        "average_acceleration"
+                    ],
+                    2
+                ),
+
+            # NEW
+            "maximum_acceleration":
+                round(
+                    player_acceleration[
+                        "maximum_acceleration"
+                    ],
                     2
                 ),
 
@@ -1690,7 +1876,6 @@ if len(comparison_player_ids) >= 2:
         st.columns(2)
     )
 
-
     with comparison_col1:
 
         player_a = st.selectbox(
@@ -1698,7 +1883,6 @@ if len(comparison_player_ids) >= 2:
             comparison_player_ids,
             key="player_comparison_a"
         )
-
 
     with comparison_col2:
 
@@ -1733,10 +1917,6 @@ if len(comparison_player_ids) >= 2:
         ]
 
 
-        # ----------------------------------------------------
-        # COMPARISON TABLE
-        # ----------------------------------------------------
-
         st.subheader(
             f"Player {player_a} vs Player {player_b}"
         )
@@ -1747,19 +1927,14 @@ if len(comparison_player_ids) >= 2:
                 "Metric": [
 
                     "Performance Score",
-
                     "Movement",
-
                     "Average Speed",
-
                     "Maximum Speed",
-
+                    "Average Acceleration",
+                    "Maximum Acceleration",
                     "Defensive %",
-
                     "Midfield %",
-
                     "Attacking %",
-
                     "Ball Interactions"
 
                 ],
@@ -1787,6 +1962,16 @@ if len(comparison_player_ids) >= 2:
                     ),
 
                     data_a.get(
+                        "average_acceleration",
+                        0
+                    ),
+
+                    data_a.get(
+                        "maximum_acceleration",
+                        0
+                    ),
+
+                    data_a.get(
                         "defensive",
                         0
                     ),
@@ -1805,7 +1990,6 @@ if len(comparison_player_ids) >= 2:
                         "ball_interactions",
                         0
                     )
-
                 ],
 
                 f"Player {player_b}": [
@@ -1831,6 +2015,16 @@ if len(comparison_player_ids) >= 2:
                     ),
 
                     data_b.get(
+                        "average_acceleration",
+                        0
+                    ),
+
+                    data_b.get(
+                        "maximum_acceleration",
+                        0
+                    ),
+
+                    data_b.get(
                         "defensive",
                         0
                     ),
@@ -1849,7 +2043,6 @@ if len(comparison_player_ids) >= 2:
                         "ball_interactions",
                         0
                     )
-
                 ]
             }
         )
@@ -1862,215 +2055,12 @@ if len(comparison_player_ids) >= 2:
         )
 
 
-        # ----------------------------------------------------
-        # WINNER FUNCTION
-        # ----------------------------------------------------
-
-        def get_winner(
-            value_a,
-            value_b,
-            player_a,
-            player_b
-        ):
-
-            if value_a > value_b:
-
-                return (
-                    f"Player {player_a}"
-                )
-
-            elif value_b > value_a:
-
-                return (
-                    f"Player {player_b}"
-                )
-
-            return "Tie"
-
-
-        overall_winner = get_winner(
-            data_a.get(
-                "performance_score",
-                0
-            ),
-            data_b.get(
-                "performance_score",
-                0
-            ),
-            player_a,
-            player_b
-        )
-
-
-        faster_player = get_winner(
-            data_a.get(
-                "average_speed",
-                0
-            ),
-            data_b.get(
-                "average_speed",
-                0
-            ),
-            player_a,
-            player_b
-        )
-
-
-        active_player = get_winner(
-            data_a.get(
-                "movement",
-                0
-            ),
-            data_b.get(
-                "movement",
-                0
-            ),
-            player_a,
-            player_b
-        )
-
-
-        ball_player = get_winner(
-            data_a.get(
-                "ball_interactions",
-                0
-            ),
-            data_b.get(
-                "ball_interactions",
-                0
-            ),
-            player_a,
-            player_b
-        )
-
-
-        attacking_player = get_winner(
-            data_a.get(
-                "attacking",
-                0
-            ),
-            data_b.get(
-                "attacking",
-                0
-            ),
-            player_a,
-            player_b
-        )
-
-
-        defensive_player = get_winner(
-            data_a.get(
-                "defensive",
-                0
-            ),
-            data_b.get(
-                "defensive",
-                0
-            ),
-            player_a,
-            player_b
-        )
-
-
-        midfield_player = get_winner(
-            data_a.get(
-                "midfield",
-                0
-            ),
-            data_b.get(
-                "midfield",
-                0
-            ),
-            player_a,
-            player_b
-        )
-
-
-        # ----------------------------------------------------
-        # COMPARISON RESULTS
-        # ----------------------------------------------------
-
-        st.subheader(
-            "🏆 Comparison Results"
-        )
-
-
-        result_col1, result_col2, result_col3 = (
-            st.columns(3)
-        )
-
-
-        with result_col1:
-
-            st.metric(
-                "🏆 Overall",
-                overall_winner
-            )
-
-
-        with result_col2:
-
-            st.metric(
-                "⚡ Faster",
-                faster_player
-            )
-
-
-        with result_col3:
-
-            st.metric(
-                "🏃 More Active",
-                active_player
-            )
-
-
-        result_col4, result_col5, result_col6 = (
-            st.columns(3)
-        )
-
-
-        with result_col4:
-
-            st.metric(
-                "⚽ Ball Involvement",
-                ball_player
-            )
-
-
-        with result_col5:
-
-            st.metric(
-                "🎯 Attacking",
-                attacking_player
-            )
-
-
-        with result_col6:
-
-            st.metric(
-                "🛡️ Defensive",
-                defensive_player
-            )
-
-
-        st.info(
-            f"🎯 Better Midfield Presence: "
-            f"**{midfield_player}**"
-        )
-
-
-        # ----------------------------------------------------
-        # COMPARISON CHART
-        # ----------------------------------------------------
-
         st.subheader(
             "📊 Player Comparison Chart"
         )
 
-
         chart_data = pd.DataFrame(
             {
-
                 f"Player {player_a}": [
 
                     data_a.get(
@@ -2080,6 +2070,11 @@ if len(comparison_player_ids) >= 2:
 
                     data_a.get(
                         "average_speed",
+                        0
+                    ),
+
+                    data_a.get(
+                        "average_acceleration",
                         0
                     ),
 
@@ -2097,7 +2092,6 @@ if len(comparison_player_ids) >= 2:
                         "ball_interactions",
                         0
                     )
-
                 ],
 
                 f"Player {player_b}": [
@@ -2113,6 +2107,11 @@ if len(comparison_player_ids) >= 2:
                     ),
 
                     data_b.get(
+                        "average_acceleration",
+                        0
+                    ),
+
+                    data_b.get(
                         "attacking",
                         0
                     ),
@@ -2126,26 +2125,20 @@ if len(comparison_player_ids) >= 2:
                         "ball_interactions",
                         0
                     )
-
                 ]
-
             },
 
             index=[
 
                 "Performance",
-
                 "Average Speed",
-
+                "Average Acceleration",
                 "Attacking",
-
                 "Defensive",
-
                 "Ball Interactions"
 
             ]
         )
-
 
         st.bar_chart(
             chart_data
@@ -2160,7 +2153,76 @@ else:
 
 
 # ============================================================
-# PROJECT SUMMARY
+# DATA STATUS
+# ============================================================
+
+st.markdown("---")
+
+st.header(
+    "📁 Analysis Data Status"
+)
+
+status_data = {
+
+    "Performance":
+        os.path.exists(PERFORMANCE_FILE),
+
+    "Movement":
+        os.path.exists(MOVEMENT_FILE),
+
+    "Speed":
+        os.path.exists(SPEED_FILE),
+
+    "Acceleration":
+        os.path.exists(ACCELERATION_FILE),
+
+    "Field Zones":
+        os.path.exists(ZONE_FILE),
+
+    "Ball":
+        os.path.exists(BALL_FILE),
+
+    "AI Insights":
+        os.path.exists(AI_FILE),
+
+    "Nutrition":
+        os.path.exists(NUTRITION_FILE),
+
+    "Ranking":
+        os.path.exists(RANKING_FILE),
+
+    "Team Analysis":
+        os.path.exists(TEAM_FILE)
+
+}
+
+status_rows = []
+
+for name, available in status_data.items():
+
+    status_rows.append(
+        {
+            "Module": name,
+            "Status":
+                "✅ Available"
+                if available
+                else "❌ Missing"
+        }
+    )
+
+status_df = pd.DataFrame(
+    status_rows
+)
+
+st.dataframe(
+    status_df,
+    width="stretch",
+    hide_index=True
+)
+
+
+# ============================================================
+# PROJECT PIPELINE
 # ============================================================
 
 st.markdown("---")
@@ -2169,72 +2231,42 @@ st.header(
     "🚀 SPORTFLASH Project Pipeline"
 )
 
-
 pipeline = """
 
 Video Input
-
-↓
-
+    ↓
 YOLO Player Detection & Tracking
-
-↓
-
+    ↓
 Movement Analysis
-
-↓
-
+    ↓
 Speed Analysis
-
-↓
-
+    ↓
 Speed Calibration
-
-↓
-
+    ↓
+Acceleration & Deceleration Analysis
+    ↓
 Heatmap
-
-↓
-
+    ↓
 Field Zone Analysis
-
-↓
-
+    ↓
 Ball Detection & Ball Speed
-
-↓
-
+    ↓
 Player-Ball Interaction
-
-↓
-
+    ↓
 Performance Score
-
-↓
-
+    ↓
 Player Ranking
-
-↓
-
+    ↓
 AI Performance Insights
-
-↓
-
+    ↓
 Nutrition Recommendations
-
-↓
-
+    ↓
 Team Analysis
-
-↓
-
+    ↓
 Player Comparison
-
-↓
-
+    ↓
 Streamlit Dashboard
 """
-
 
 st.code(
     pipeline,
@@ -2254,8 +2286,9 @@ st.markdown(
 
 **AI-Based Football Performance Analytics**
 
-Player Detection • Tracking • Movement • Speed • Heatmap •  
-Zones • Ball Analysis • Performance Score • Ranking •  
+Player Detection • Tracking • Movement • Speed •  
+Acceleration • Deceleration • Heatmap • Field Zones •  
+Ball Analysis • Performance Score • Ranking •  
 AI Insights • Nutrition • Team Analysis • Player Comparison
 
 ---
