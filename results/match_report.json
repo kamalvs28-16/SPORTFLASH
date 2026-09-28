@@ -1,0 +1,1219 @@
+{
+  "project": "SPORTFLASH",
+  "report_type": "AI Football Performance Analytics Report",
+  "data_status": "Potential/estimated analytics",
+  "warning": "Distance, speed and movement events are estimates. The current dynamic calibration aligns camera-motion information with homography positions but does not recompute a frame-specific homography.",
+  "team_analysis": {
+    "total_classified_players": 30,
+    "team_a_count": 23,
+    "team_b_count": 7,
+    "team_a_players": [
+      2,
+      10,
+      12,
+      18,
+      19,
+      20,
+      25,
+      31,
+      33,
+      35,
+      40,
+      43,
+      47,
+      48,
+      56,
+      59,
+      60,
+      69,
+      74,
+      85,
+      100,
+      106,
+      113
+    ],
+    "team_b_players": [
+      1,
+      7,
+      8,
+      51,
+      58,
+      79,
+      103
+    ]
+  },
+  "movement_analysis": {
+    "players_analysed": 46,
+    "total_players_detected": 48,
+    "top_distance_player": {
+      "player_id": 1,
+      "total_distance_m": 21.73,
+      "total_distance_km": 0.0217,
+      "average_speed_kmh": 4.59,
+      "maximum_speed_kmh": 39.29,
+      "valid_movements": 1020,
+      "rejected_movements": 59,
+      "tracked_positions": 1080,
+      "active_time_seconds": 17.02
+    },
+    "top_maximum_speed_player": {
+      "player_id": 72,
+      "total_distance_m": 3.15,
+      "total_distance_km": 0.0032,
+      "average_speed_kmh": 5.49,
+      "maximum_speed_kmh": 39.97,
+      "valid_movements": 124,
+      "rejected_movements": 3,
+      "tracked_positions": 128,
+      "active_time_seconds": 2.07
+    },
+    "top_average_speed_player": {
+      "player_id": 78,
+      "total_distance_m": 0.48,
+      "total_distance_km": 0.0005,
+      "average_speed_kmh": 12.97,
+      "maximum_speed_kmh": 34.74,
+      "valid_movements": 8,
+      "rejected_movements": 2,
+      "tracked_positions": 11,
+      "active_time_seconds": 0.13
+    }
+  },
+  "top_players": {
+    "by_distance": [
+      {
+        "player_id": 1,
+        "total_distance_m": 21.73,
+        "total_distance_km": 0.0217,
+        "average_speed_kmh": 4.59,
+        "maximum_speed_kmh": 39.29,
+        "valid_movements": 1020,
+        "rejected_movements": 59,
+        "tracked_positions": 1080,
+        "active_time_seconds": 17.02
+      },
+      {
+        "player_id": 56,
+        "total_distance_m": 11.92,
+        "total_distance_km": 0.0119,
+        "average_speed_kmh": 5.71,
+        "maximum_speed_kmh": 36.9,
+        "valid_movements": 448,
+        "rejected_movements": 40,
+        "tracked_positions": 489,
+        "active_time_seconds": 7.47
+      },
+      {
+        "player_id": 41,
+        "total_distance_m": 8.86,
+        "total_distance_km": 0.0089,
+        "average_speed_kmh": 6.53,
+        "maximum_speed_kmh": 39.7,
+        "valid_movements": 293,
+        "rejected_movements": 28,
+        "tracked_positions": 322,
+        "active_time_seconds": 4.89
+      },
+      {
+        "player_id": 2,
+        "total_distance_m": 6.75,
+        "total_distance_km": 0.0067,
+        "average_speed_kmh": 4.03,
+        "maximum_speed_kmh": 35.24,
+        "valid_movements": 351,
+        "rejected_movements": 29,
+        "tracked_positions": 381,
+        "active_time_seconds": 5.86
+      },
+      {
+        "player_id": 43,
+        "total_distance_m": 6.56,
+        "total_distance_km": 0.0066,
+        "average_speed_kmh": 5.64,
+        "maximum_speed_kmh": 39.49,
+        "valid_movements": 251,
+        "rejected_movements": 35,
+        "tracked_positions": 287,
+        "active_time_seconds": 4.19
+      },
+      {
+        "player_id": 4,
+        "total_distance_m": 5.12,
+        "total_distance_km": 0.0051,
+        "average_speed_kmh": 5.73,
+        "maximum_speed_kmh": 31.48,
+        "valid_movements": 192,
+        "rejected_movements": 1,
+        "tracked_positions": 194,
+        "active_time_seconds": 3.2
+      },
+      {
+        "player_id": 11,
+        "total_distance_m": 3.75,
+        "total_distance_km": 0.0038,
+        "average_speed_kmh": 5.43,
+        "maximum_speed_kmh": 38.63,
+        "valid_movements": 149,
+        "rejected_movements": 30,
+        "tracked_positions": 180,
+        "active_time_seconds": 2.49
+      },
+      {
+        "player_id": 70,
+        "total_distance_m": 3.7,
+        "total_distance_km": 0.0037,
+        "average_speed_kmh": 6.55,
+        "maximum_speed_kmh": 34.53,
+        "valid_movements": 122,
+        "rejected_movements": 16,
+        "tracked_positions": 139,
+        "active_time_seconds": 2.04
+      },
+      {
+        "player_id": 37,
+        "total_distance_m": 3.56,
+        "total_distance_km": 0.0036,
+        "average_speed_kmh": 6.67,
+        "maximum_speed_kmh": 39.49,
+        "valid_movements": 115,
+        "rejected_movements": 7,
+        "tracked_positions": 123,
+        "active_time_seconds": 1.92
+      },
+      {
+        "player_id": 69,
+        "total_distance_m": 3.55,
+        "total_distance_km": 0.0035,
+        "average_speed_kmh": 6.66,
+        "maximum_speed_kmh": 37.64,
+        "valid_movements": 115,
+        "rejected_movements": 9,
+        "tracked_positions": 125,
+        "active_time_seconds": 1.92
+      }
+    ],
+    "by_maximum_speed": [
+      {
+        "player_id": 72,
+        "total_distance_m": 3.15,
+        "total_distance_km": 0.0032,
+        "average_speed_kmh": 5.49,
+        "maximum_speed_kmh": 39.97,
+        "valid_movements": 124,
+        "rejected_movements": 3,
+        "tracked_positions": 128,
+        "active_time_seconds": 2.07
+      },
+      {
+        "player_id": 31,
+        "total_distance_m": 0.59,
+        "total_distance_km": 0.0006,
+        "average_speed_kmh": 5.27,
+        "maximum_speed_kmh": 39.92,
+        "valid_movements": 24,
+        "rejected_movements": 6,
+        "tracked_positions": 31,
+        "active_time_seconds": 0.4
+      },
+      {
+        "player_id": 41,
+        "total_distance_m": 8.86,
+        "total_distance_km": 0.0089,
+        "average_speed_kmh": 6.53,
+        "maximum_speed_kmh": 39.7,
+        "valid_movements": 293,
+        "rejected_movements": 28,
+        "tracked_positions": 322,
+        "active_time_seconds": 4.89
+      },
+      {
+        "player_id": 43,
+        "total_distance_m": 6.56,
+        "total_distance_km": 0.0066,
+        "average_speed_kmh": 5.64,
+        "maximum_speed_kmh": 39.49,
+        "valid_movements": 251,
+        "rejected_movements": 35,
+        "tracked_positions": 287,
+        "active_time_seconds": 4.19
+      },
+      {
+        "player_id": 37,
+        "total_distance_m": 3.56,
+        "total_distance_km": 0.0036,
+        "average_speed_kmh": 6.67,
+        "maximum_speed_kmh": 39.49,
+        "valid_movements": 115,
+        "rejected_movements": 7,
+        "tracked_positions": 123,
+        "active_time_seconds": 1.92
+      },
+      {
+        "player_id": 46,
+        "total_distance_m": 2.3,
+        "total_distance_km": 0.0023,
+        "average_speed_kmh": 5.58,
+        "maximum_speed_kmh": 39.36,
+        "valid_movements": 89,
+        "rejected_movements": 23,
+        "tracked_positions": 113,
+        "active_time_seconds": 1.48
+      },
+      {
+        "player_id": 1,
+        "total_distance_m": 21.73,
+        "total_distance_km": 0.0217,
+        "average_speed_kmh": 4.59,
+        "maximum_speed_kmh": 39.29,
+        "valid_movements": 1020,
+        "rejected_movements": 59,
+        "tracked_positions": 1080,
+        "active_time_seconds": 17.02
+      },
+      {
+        "player_id": 55,
+        "total_distance_m": 0.42,
+        "total_distance_km": 0.0004,
+        "average_speed_kmh": 3.24,
+        "maximum_speed_kmh": 39.06,
+        "valid_movements": 28,
+        "rejected_movements": 6,
+        "tracked_positions": 35,
+        "active_time_seconds": 0.47
+      },
+      {
+        "player_id": 50,
+        "total_distance_m": 1.08,
+        "total_distance_km": 0.0011,
+        "average_speed_kmh": 3.15,
+        "maximum_speed_kmh": 38.91,
+        "valid_movements": 74,
+        "rejected_movements": 5,
+        "tracked_positions": 80,
+        "active_time_seconds": 1.23
+      },
+      {
+        "player_id": 32,
+        "total_distance_m": 2.55,
+        "total_distance_km": 0.0025,
+        "average_speed_kmh": 7.9,
+        "maximum_speed_kmh": 38.8,
+        "valid_movements": 47,
+        "rejected_movements": 26,
+        "tracked_positions": 74,
+        "active_time_seconds": 0.78
+      }
+    ],
+    "by_average_speed": [
+      {
+        "player_id": 78,
+        "total_distance_m": 0.48,
+        "total_distance_km": 0.0005,
+        "average_speed_kmh": 12.97,
+        "maximum_speed_kmh": 34.74,
+        "valid_movements": 8,
+        "rejected_movements": 2,
+        "tracked_positions": 11,
+        "active_time_seconds": 0.13
+      },
+      {
+        "player_id": 79,
+        "total_distance_m": 0.21,
+        "total_distance_km": 0.0002,
+        "average_speed_kmh": 11.6,
+        "maximum_speed_kmh": 32.15,
+        "valid_movements": 4,
+        "rejected_movements": 1,
+        "tracked_positions": 6,
+        "active_time_seconds": 0.07
+      },
+      {
+        "player_id": 34,
+        "total_distance_m": 2.29,
+        "total_distance_km": 0.0023,
+        "average_speed_kmh": 8.52,
+        "maximum_speed_kmh": 34.74,
+        "valid_movements": 53,
+        "rejected_movements": 18,
+        "tracked_positions": 72,
+        "active_time_seconds": 0.88
+      },
+      {
+        "player_id": 32,
+        "total_distance_m": 2.55,
+        "total_distance_km": 0.0025,
+        "average_speed_kmh": 7.9,
+        "maximum_speed_kmh": 38.8,
+        "valid_movements": 47,
+        "rejected_movements": 26,
+        "tracked_positions": 74,
+        "active_time_seconds": 0.78
+      },
+      {
+        "player_id": 29,
+        "total_distance_m": 1.73,
+        "total_distance_km": 0.0017,
+        "average_speed_kmh": 7.47,
+        "maximum_speed_kmh": 34.07,
+        "valid_movements": 50,
+        "rejected_movements": 5,
+        "tracked_positions": 56,
+        "active_time_seconds": 0.83
+      },
+      {
+        "player_id": 40,
+        "total_distance_m": 2.83,
+        "total_distance_km": 0.0028,
+        "average_speed_kmh": 7.11,
+        "maximum_speed_kmh": 35.39,
+        "valid_movements": 86,
+        "rejected_movements": 4,
+        "tracked_positions": 91,
+        "active_time_seconds": 1.43
+      },
+      {
+        "player_id": 25,
+        "total_distance_m": 0.19,
+        "total_distance_km": 0.0002,
+        "average_speed_kmh": 6.74,
+        "maximum_speed_kmh": 36.9,
+        "valid_movements": 6,
+        "rejected_movements": 0,
+        "tracked_positions": 7,
+        "active_time_seconds": 0.1
+      },
+      {
+        "player_id": 37,
+        "total_distance_m": 3.56,
+        "total_distance_km": 0.0036,
+        "average_speed_kmh": 6.67,
+        "maximum_speed_kmh": 39.49,
+        "valid_movements": 115,
+        "rejected_movements": 7,
+        "tracked_positions": 123,
+        "active_time_seconds": 1.92
+      },
+      {
+        "player_id": 69,
+        "total_distance_m": 3.55,
+        "total_distance_km": 0.0035,
+        "average_speed_kmh": 6.66,
+        "maximum_speed_kmh": 37.64,
+        "valid_movements": 115,
+        "rejected_movements": 9,
+        "tracked_positions": 125,
+        "active_time_seconds": 1.92
+      },
+      {
+        "player_id": 70,
+        "total_distance_m": 3.7,
+        "total_distance_km": 0.0037,
+        "average_speed_kmh": 6.55,
+        "maximum_speed_kmh": 34.53,
+        "valid_movements": 122,
+        "rejected_movements": 16,
+        "tracked_positions": 139,
+        "active_time_seconds": 2.04
+      }
+    ]
+  },
+  "event_analysis": {
+    "total_events": 24,
+    "event_counts": {
+      "low_movement_period": 12,
+      "potential_sprint": 8,
+      "tracking_quality_warning": 4
+    },
+    "potential_sprint_count": 8,
+    "high_speed_event_count": 0,
+    "low_movement_event_count": 12,
+    "tracking_warning_count": 4,
+    "potential_sprints": [
+      {
+        "player_id": 4,
+        "event_type": "potential_sprint",
+        "severity": "high",
+        "estimated_max_speed_kmh": 31.48,
+        "estimated_average_speed_kmh": 5.73,
+        "confidence": "moderate",
+        "description": "Player 4 showed sustained movement with an estimated maximum speed of 31.48 km/h."
+      },
+      {
+        "player_id": 70,
+        "event_type": "potential_sprint",
+        "severity": "high",
+        "estimated_max_speed_kmh": 34.53,
+        "estimated_average_speed_kmh": 6.55,
+        "confidence": "moderate",
+        "description": "Player 70 showed sustained movement with an estimated maximum speed of 34.53 km/h."
+      },
+      {
+        "player_id": 37,
+        "event_type": "potential_sprint",
+        "severity": "high",
+        "estimated_max_speed_kmh": 39.49,
+        "estimated_average_speed_kmh": 6.67,
+        "confidence": "moderate",
+        "description": "Player 37 showed sustained movement with an estimated maximum speed of 39.49 km/h."
+      },
+      {
+        "player_id": 69,
+        "event_type": "potential_sprint",
+        "severity": "high",
+        "estimated_max_speed_kmh": 37.64,
+        "estimated_average_speed_kmh": 6.66,
+        "confidence": "moderate",
+        "description": "Player 69 showed sustained movement with an estimated maximum speed of 37.64 km/h."
+      },
+      {
+        "player_id": 40,
+        "event_type": "potential_sprint",
+        "severity": "high",
+        "estimated_max_speed_kmh": 35.39,
+        "estimated_average_speed_kmh": 7.11,
+        "confidence": "moderate",
+        "description": "Player 40 showed sustained movement with an estimated maximum speed of 35.39 km/h."
+      },
+      {
+        "player_id": 34,
+        "event_type": "potential_sprint",
+        "severity": "high",
+        "estimated_max_speed_kmh": 34.74,
+        "estimated_average_speed_kmh": 8.52,
+        "confidence": "moderate",
+        "description": "Player 34 showed sustained movement with an estimated maximum speed of 34.74 km/h."
+      },
+      {
+        "player_id": 75,
+        "event_type": "potential_sprint",
+        "severity": "high",
+        "estimated_max_speed_kmh": 33.45,
+        "estimated_average_speed_kmh": 5.96,
+        "confidence": "moderate",
+        "description": "Player 75 showed sustained movement with an estimated maximum speed of 33.45 km/h."
+      },
+      {
+        "player_id": 29,
+        "event_type": "potential_sprint",
+        "severity": "high",
+        "estimated_max_speed_kmh": 34.07,
+        "estimated_average_speed_kmh": 7.47,
+        "confidence": "moderate",
+        "description": "Player 29 showed sustained movement with an estimated maximum speed of 34.07 km/h."
+      }
+    ],
+    "high_speed_events": [],
+    "low_movement_events": [
+      {
+        "player_id": 1,
+        "event_type": "low_movement_period",
+        "severity": "low",
+        "estimated_average_speed_kmh": 4.59,
+        "confidence": "moderate",
+        "description": "Player 1 recorded low estimated movement speed."
+      },
+      {
+        "player_id": 2,
+        "event_type": "low_movement_period",
+        "severity": "low",
+        "estimated_average_speed_kmh": 4.03,
+        "confidence": "moderate",
+        "description": "Player 2 recorded low estimated movement speed."
+      },
+      {
+        "player_id": 74,
+        "event_type": "low_movement_period",
+        "severity": "low",
+        "estimated_average_speed_kmh": 4.8,
+        "confidence": "moderate",
+        "description": "Player 74 recorded low estimated movement speed."
+      },
+      {
+        "player_id": 60,
+        "event_type": "low_movement_period",
+        "severity": "low",
+        "estimated_average_speed_kmh": 4.59,
+        "confidence": "moderate",
+        "description": "Player 60 recorded low estimated movement speed."
+      },
+      {
+        "player_id": 53,
+        "event_type": "low_movement_period",
+        "severity": "low",
+        "estimated_average_speed_kmh": 2.03,
+        "confidence": "moderate",
+        "description": "Player 53 recorded low estimated movement speed."
+      },
+      {
+        "player_id": 67,
+        "event_type": "low_movement_period",
+        "severity": "low",
+        "estimated_average_speed_kmh": 3.93,
+        "confidence": "moderate",
+        "description": "Player 67 recorded low estimated movement speed."
+      },
+      {
+        "player_id": 50,
+        "event_type": "low_movement_period",
+        "severity": "low",
+        "estimated_average_speed_kmh": 3.15,
+        "confidence": "moderate",
+        "description": "Player 50 recorded low estimated movement speed."
+      },
+      {
+        "player_id": 5,
+        "event_type": "low_movement_period",
+        "severity": "low",
+        "estimated_average_speed_kmh": 2.03,
+        "confidence": "moderate",
+        "description": "Player 5 recorded low estimated movement speed."
+      },
+      {
+        "player_id": 45,
+        "event_type": "low_movement_period",
+        "severity": "low",
+        "estimated_average_speed_kmh": 3.89,
+        "confidence": "moderate",
+        "description": "Player 45 recorded low estimated movement speed."
+      },
+      {
+        "player_id": 64,
+        "event_type": "low_movement_period",
+        "severity": "low",
+        "estimated_average_speed_kmh": 2.46,
+        "confidence": "moderate",
+        "description": "Player 64 recorded low estimated movement speed."
+      },
+      {
+        "player_id": 10,
+        "event_type": "low_movement_period",
+        "severity": "low",
+        "estimated_average_speed_kmh": 2.98,
+        "confidence": "moderate",
+        "description": "Player 10 recorded low estimated movement speed."
+      },
+      {
+        "player_id": 33,
+        "event_type": "low_movement_period",
+        "severity": "low",
+        "estimated_average_speed_kmh": 2.88,
+        "confidence": "moderate",
+        "description": "Player 33 recorded low estimated movement speed."
+      }
+    ],
+    "tracking_warnings": [
+      {
+        "player_id": 32,
+        "event_type": "tracking_quality_warning",
+        "severity": "medium",
+        "rejection_rate_percent": 35.62,
+        "confidence": "high",
+        "description": "Player 32 has a movement rejection rate of 35.62%."
+      },
+      {
+        "player_id": 34,
+        "event_type": "tracking_quality_warning",
+        "severity": "medium",
+        "rejection_rate_percent": 25.35,
+        "confidence": "high",
+        "description": "Player 34 has a movement rejection rate of 25.35%."
+      },
+      {
+        "player_id": 44,
+        "event_type": "tracking_quality_warning",
+        "severity": "medium",
+        "rejection_rate_percent": 39.13,
+        "confidence": "high",
+        "description": "Player 44 has a movement rejection rate of 39.13%."
+      },
+      {
+        "player_id": 12,
+        "event_type": "tracking_quality_warning",
+        "severity": "medium",
+        "rejection_rate_percent": 50.0,
+        "confidence": "high",
+        "description": "Player 12 has a movement rejection rate of 50.00%."
+      }
+    ]
+  },
+  "camera_analysis": {
+    "average_translation_pixels": 29.767,
+    "maximum_translation_pixels": 181.632,
+    "average_rotation_degrees": 0.4369,
+    "maximum_rotation_degrees": 5.0229,
+    "stable_frames": 0,
+    "moving_frames": 293,
+    "motion_counts": {
+      "pan_right": 62,
+      "tilt_down": 31,
+      "tilt_up": 11,
+      "pan_left": 164,
+      "moving": 5,
+      "rotate_counterclockwise": 9,
+      "zoom_out": 5,
+      "rotate_clockwise": 6
+    }
+  },
+  "calibration_analysis": {
+    "homography_frames": 1470,
+    "camera_motion_frames": 293,
+    "total_player_positions": 5390,
+    "reliable_camera_matches": 1447,
+    "unreliable_camera_matches": 23,
+    "reliability_percent": 98.44
+  },
+  "player_reports": [
+    {
+      "player_id": 1,
+      "team": "Team B",
+      "estimated_distance_m": 21.73,
+      "estimated_distance_km": 0.0217,
+      "estimated_average_speed_kmh": 4.59,
+      "estimated_maximum_speed_kmh": 39.29,
+      "valid_movements": 1020,
+      "rejected_movements": 59,
+      "tracked_positions": 1080,
+      "active_time_seconds": 17.02
+    },
+    {
+      "player_id": 56,
+      "team": "Team A",
+      "estimated_distance_m": 11.92,
+      "estimated_distance_km": 0.0119,
+      "estimated_average_speed_kmh": 5.71,
+      "estimated_maximum_speed_kmh": 36.9,
+      "valid_movements": 448,
+      "rejected_movements": 40,
+      "tracked_positions": 489,
+      "active_time_seconds": 7.47
+    },
+    {
+      "player_id": 41,
+      "team": "Unclassified",
+      "estimated_distance_m": 8.86,
+      "estimated_distance_km": 0.0089,
+      "estimated_average_speed_kmh": 6.53,
+      "estimated_maximum_speed_kmh": 39.7,
+      "valid_movements": 293,
+      "rejected_movements": 28,
+      "tracked_positions": 322,
+      "active_time_seconds": 4.89
+    },
+    {
+      "player_id": 2,
+      "team": "Team A",
+      "estimated_distance_m": 6.75,
+      "estimated_distance_km": 0.0067,
+      "estimated_average_speed_kmh": 4.03,
+      "estimated_maximum_speed_kmh": 35.24,
+      "valid_movements": 351,
+      "rejected_movements": 29,
+      "tracked_positions": 381,
+      "active_time_seconds": 5.86
+    },
+    {
+      "player_id": 43,
+      "team": "Team A",
+      "estimated_distance_m": 6.56,
+      "estimated_distance_km": 0.0066,
+      "estimated_average_speed_kmh": 5.64,
+      "estimated_maximum_speed_kmh": 39.49,
+      "valid_movements": 251,
+      "rejected_movements": 35,
+      "tracked_positions": 287,
+      "active_time_seconds": 4.19
+    },
+    {
+      "player_id": 4,
+      "team": "Unclassified",
+      "estimated_distance_m": 5.12,
+      "estimated_distance_km": 0.0051,
+      "estimated_average_speed_kmh": 5.73,
+      "estimated_maximum_speed_kmh": 31.48,
+      "valid_movements": 192,
+      "rejected_movements": 1,
+      "tracked_positions": 194,
+      "active_time_seconds": 3.2
+    },
+    {
+      "player_id": 11,
+      "team": "Unclassified",
+      "estimated_distance_m": 3.75,
+      "estimated_distance_km": 0.0038,
+      "estimated_average_speed_kmh": 5.43,
+      "estimated_maximum_speed_kmh": 38.63,
+      "valid_movements": 149,
+      "rejected_movements": 30,
+      "tracked_positions": 180,
+      "active_time_seconds": 2.49
+    },
+    {
+      "player_id": 70,
+      "team": "Unclassified",
+      "estimated_distance_m": 3.7,
+      "estimated_distance_km": 0.0037,
+      "estimated_average_speed_kmh": 6.55,
+      "estimated_maximum_speed_kmh": 34.53,
+      "valid_movements": 122,
+      "rejected_movements": 16,
+      "tracked_positions": 139,
+      "active_time_seconds": 2.04
+    },
+    {
+      "player_id": 37,
+      "team": "Unclassified",
+      "estimated_distance_m": 3.56,
+      "estimated_distance_km": 0.0036,
+      "estimated_average_speed_kmh": 6.67,
+      "estimated_maximum_speed_kmh": 39.49,
+      "valid_movements": 115,
+      "rejected_movements": 7,
+      "tracked_positions": 123,
+      "active_time_seconds": 1.92
+    },
+    {
+      "player_id": 69,
+      "team": "Team A",
+      "estimated_distance_m": 3.55,
+      "estimated_distance_km": 0.0035,
+      "estimated_average_speed_kmh": 6.66,
+      "estimated_maximum_speed_kmh": 37.64,
+      "valid_movements": 115,
+      "rejected_movements": 9,
+      "tracked_positions": 125,
+      "active_time_seconds": 1.92
+    },
+    {
+      "player_id": 72,
+      "team": "Unclassified",
+      "estimated_distance_m": 3.15,
+      "estimated_distance_km": 0.0032,
+      "estimated_average_speed_kmh": 5.49,
+      "estimated_maximum_speed_kmh": 39.97,
+      "valid_movements": 124,
+      "rejected_movements": 3,
+      "tracked_positions": 128,
+      "active_time_seconds": 2.07
+    },
+    {
+      "player_id": 40,
+      "team": "Team A",
+      "estimated_distance_m": 2.83,
+      "estimated_distance_km": 0.0028,
+      "estimated_average_speed_kmh": 7.11,
+      "estimated_maximum_speed_kmh": 35.39,
+      "valid_movements": 86,
+      "rejected_movements": 4,
+      "tracked_positions": 91,
+      "active_time_seconds": 1.43
+    },
+    {
+      "player_id": 74,
+      "team": "Team A",
+      "estimated_distance_m": 2.67,
+      "estimated_distance_km": 0.0027,
+      "estimated_average_speed_kmh": 4.8,
+      "estimated_maximum_speed_kmh": 36.02,
+      "valid_movements": 120,
+      "rejected_movements": 18,
+      "tracked_positions": 139,
+      "active_time_seconds": 2.0
+    },
+    {
+      "player_id": 32,
+      "team": "Unclassified",
+      "estimated_distance_m": 2.55,
+      "estimated_distance_km": 0.0025,
+      "estimated_average_speed_kmh": 7.9,
+      "estimated_maximum_speed_kmh": 38.8,
+      "valid_movements": 47,
+      "rejected_movements": 26,
+      "tracked_positions": 74,
+      "active_time_seconds": 0.78
+    },
+    {
+      "player_id": 46,
+      "team": "Unclassified",
+      "estimated_distance_m": 2.3,
+      "estimated_distance_km": 0.0023,
+      "estimated_average_speed_kmh": 5.58,
+      "estimated_maximum_speed_kmh": 39.36,
+      "valid_movements": 89,
+      "rejected_movements": 23,
+      "tracked_positions": 113,
+      "active_time_seconds": 1.48
+    },
+    {
+      "player_id": 34,
+      "team": "Unclassified",
+      "estimated_distance_m": 2.29,
+      "estimated_distance_km": 0.0023,
+      "estimated_average_speed_kmh": 8.52,
+      "estimated_maximum_speed_kmh": 34.74,
+      "valid_movements": 53,
+      "rejected_movements": 18,
+      "tracked_positions": 72,
+      "active_time_seconds": 0.88
+    },
+    {
+      "player_id": 75,
+      "team": "Unclassified",
+      "estimated_distance_m": 1.85,
+      "estimated_distance_km": 0.0018,
+      "estimated_average_speed_kmh": 5.96,
+      "estimated_maximum_speed_kmh": 33.45,
+      "valid_movements": 57,
+      "rejected_movements": 3,
+      "tracked_positions": 61,
+      "active_time_seconds": 0.95
+    },
+    {
+      "player_id": 29,
+      "team": "Unclassified",
+      "estimated_distance_m": 1.73,
+      "estimated_distance_km": 0.0017,
+      "estimated_average_speed_kmh": 7.47,
+      "estimated_maximum_speed_kmh": 34.07,
+      "valid_movements": 50,
+      "rejected_movements": 5,
+      "tracked_positions": 56,
+      "active_time_seconds": 0.83
+    },
+    {
+      "player_id": 60,
+      "team": "Team A",
+      "estimated_distance_m": 1.6,
+      "estimated_distance_km": 0.0016,
+      "estimated_average_speed_kmh": 4.59,
+      "estimated_maximum_speed_kmh": 35.6,
+      "valid_movements": 75,
+      "rejected_movements": 2,
+      "tracked_positions": 78,
+      "active_time_seconds": 1.25
+    },
+    {
+      "player_id": 53,
+      "team": "Unclassified",
+      "estimated_distance_m": 1.49,
+      "estimated_distance_km": 0.0015,
+      "estimated_average_speed_kmh": 2.03,
+      "estimated_maximum_speed_kmh": 37.11,
+      "valid_movements": 153,
+      "rejected_movements": 13,
+      "tracked_positions": 167,
+      "active_time_seconds": 2.55
+    },
+    {
+      "player_id": 67,
+      "team": "Unclassified",
+      "estimated_distance_m": 1.15,
+      "estimated_distance_km": 0.0011,
+      "estimated_average_speed_kmh": 3.93,
+      "estimated_maximum_speed_kmh": 26.11,
+      "valid_movements": 63,
+      "rejected_movements": 1,
+      "tracked_positions": 65,
+      "active_time_seconds": 1.05
+    },
+    {
+      "player_id": 50,
+      "team": "Unclassified",
+      "estimated_distance_m": 1.08,
+      "estimated_distance_km": 0.0011,
+      "estimated_average_speed_kmh": 3.15,
+      "estimated_maximum_speed_kmh": 38.91,
+      "valid_movements": 74,
+      "rejected_movements": 5,
+      "tracked_positions": 80,
+      "active_time_seconds": 1.23
+    },
+    {
+      "player_id": 5,
+      "team": "Unclassified",
+      "estimated_distance_m": 1.05,
+      "estimated_distance_km": 0.001,
+      "estimated_average_speed_kmh": 2.03,
+      "estimated_maximum_speed_kmh": 29.35,
+      "valid_movements": 111,
+      "rejected_movements": 2,
+      "tracked_positions": 114,
+      "active_time_seconds": 1.85
+    },
+    {
+      "player_id": 51,
+      "team": "Team B",
+      "estimated_distance_m": 0.97,
+      "estimated_distance_km": 0.001,
+      "estimated_average_speed_kmh": 5.24,
+      "estimated_maximum_speed_kmh": 29.78,
+      "valid_movements": 40,
+      "rejected_movements": 5,
+      "tracked_positions": 46,
+      "active_time_seconds": 0.67
+    },
+    {
+      "player_id": 45,
+      "team": "Unclassified",
+      "estimated_distance_m": 0.94,
+      "estimated_distance_km": 0.0009,
+      "estimated_average_speed_kmh": 3.89,
+      "estimated_maximum_speed_kmh": 34.96,
+      "valid_movements": 52,
+      "rejected_movements": 1,
+      "tracked_positions": 54,
+      "active_time_seconds": 0.87
+    },
+    {
+      "player_id": 62,
+      "team": "Unclassified",
+      "estimated_distance_m": 0.94,
+      "estimated_distance_km": 0.0009,
+      "estimated_average_speed_kmh": 5.63,
+      "estimated_maximum_speed_kmh": 38.63,
+      "valid_movements": 36,
+      "rejected_movements": 9,
+      "tracked_positions": 46,
+      "active_time_seconds": 0.6
+    },
+    {
+      "player_id": 64,
+      "team": "Unclassified",
+      "estimated_distance_m": 0.91,
+      "estimated_distance_km": 0.0009,
+      "estimated_average_speed_kmh": 2.46,
+      "estimated_maximum_speed_kmh": 37.76,
+      "valid_movements": 80,
+      "rejected_movements": 2,
+      "tracked_positions": 83,
+      "active_time_seconds": 1.33
+    },
+    {
+      "player_id": 10,
+      "team": "Team A",
+      "estimated_distance_m": 0.83,
+      "estimated_distance_km": 0.0008,
+      "estimated_average_speed_kmh": 2.98,
+      "estimated_maximum_speed_kmh": 33.67,
+      "valid_movements": 58,
+      "rejected_movements": 3,
+      "tracked_positions": 62,
+      "active_time_seconds": 0.97
+    },
+    {
+      "player_id": 71,
+      "team": "Unclassified",
+      "estimated_distance_m": 0.78,
+      "estimated_distance_km": 0.0008,
+      "estimated_average_speed_kmh": 4.92,
+      "estimated_maximum_speed_kmh": 25.89,
+      "valid_movements": 34,
+      "rejected_movements": 4,
+      "tracked_positions": 39,
+      "active_time_seconds": 0.57
+    },
+    {
+      "player_id": 33,
+      "team": "Team A",
+      "estimated_distance_m": 0.75,
+      "estimated_distance_km": 0.0007,
+      "estimated_average_speed_kmh": 2.88,
+      "estimated_maximum_speed_kmh": 29.56,
+      "valid_movements": 56,
+      "rejected_movements": 2,
+      "tracked_positions": 59,
+      "active_time_seconds": 0.93
+    },
+    {
+      "player_id": 31,
+      "team": "Team A",
+      "estimated_distance_m": 0.59,
+      "estimated_distance_km": 0.0006,
+      "estimated_average_speed_kmh": 5.27,
+      "estimated_maximum_speed_kmh": 39.92,
+      "valid_movements": 24,
+      "rejected_movements": 6,
+      "tracked_positions": 31,
+      "active_time_seconds": 0.4
+    },
+    {
+      "player_id": 59,
+      "team": "Team A",
+      "estimated_distance_m": 0.59,
+      "estimated_distance_km": 0.0006,
+      "estimated_average_speed_kmh": 4.83,
+      "estimated_maximum_speed_kmh": 22.44,
+      "valid_movements": 17,
+      "rejected_movements": 4,
+      "tracked_positions": 22,
+      "active_time_seconds": 0.28
+    },
+    {
+      "player_id": 47,
+      "team": "Team A",
+      "estimated_distance_m": 0.52,
+      "estimated_distance_km": 0.0005,
+      "estimated_average_speed_kmh": 4.51,
+      "estimated_maximum_speed_kmh": 34.74,
+      "valid_movements": 25,
+      "rejected_movements": 5,
+      "tracked_positions": 31,
+      "active_time_seconds": 0.42
+    },
+    {
+      "player_id": 78,
+      "team": "Unclassified",
+      "estimated_distance_m": 0.48,
+      "estimated_distance_km": 0.0005,
+      "estimated_average_speed_kmh": 12.97,
+      "estimated_maximum_speed_kmh": 34.74,
+      "valid_movements": 8,
+      "rejected_movements": 2,
+      "tracked_positions": 11,
+      "active_time_seconds": 0.13
+    },
+    {
+      "player_id": 49,
+      "team": "Unclassified",
+      "estimated_distance_m": 0.45,
+      "estimated_distance_km": 0.0005,
+      "estimated_average_speed_kmh": 5.12,
+      "estimated_maximum_speed_kmh": 20.07,
+      "valid_movements": 19,
+      "rejected_movements": 0,
+      "tracked_positions": 20,
+      "active_time_seconds": 0.32
+    },
+    {
+      "player_id": 55,
+      "team": "Unclassified",
+      "estimated_distance_m": 0.42,
+      "estimated_distance_km": 0.0004,
+      "estimated_average_speed_kmh": 3.24,
+      "estimated_maximum_speed_kmh": 39.06,
+      "valid_movements": 28,
+      "rejected_movements": 6,
+      "tracked_positions": 35,
+      "active_time_seconds": 0.47
+    },
+    {
+      "player_id": 65,
+      "team": "Unclassified",
+      "estimated_distance_m": 0.4,
+      "estimated_distance_km": 0.0004,
+      "estimated_average_speed_kmh": 1.87,
+      "estimated_maximum_speed_kmh": 32.8,
+      "valid_movements": 46,
+      "rejected_movements": 1,
+      "tracked_positions": 48,
+      "active_time_seconds": 0.77
+    },
+    {
+      "player_id": 79,
+      "team": "Team B",
+      "estimated_distance_m": 0.21,
+      "estimated_distance_km": 0.0002,
+      "estimated_average_speed_kmh": 11.6,
+      "estimated_maximum_speed_kmh": 32.15,
+      "valid_movements": 4,
+      "rejected_movements": 1,
+      "tracked_positions": 6,
+      "active_time_seconds": 0.07
+    },
+    {
+      "player_id": 25,
+      "team": "Team A",
+      "estimated_distance_m": 0.19,
+      "estimated_distance_km": 0.0002,
+      "estimated_average_speed_kmh": 6.74,
+      "estimated_maximum_speed_kmh": 36.9,
+      "valid_movements": 6,
+      "rejected_movements": 0,
+      "tracked_positions": 7,
+      "active_time_seconds": 0.1
+    },
+    {
+      "player_id": 44,
+      "team": "Unclassified",
+      "estimated_distance_m": 0.14,
+      "estimated_distance_km": 0.0001,
+      "estimated_average_speed_kmh": 2.13,
+      "estimated_maximum_speed_kmh": 17.05,
+      "valid_movements": 14,
+      "rejected_movements": 9,
+      "tracked_positions": 24,
+      "active_time_seconds": 0.23
+    },
+    {
+      "player_id": 54,
+      "team": "Unclassified",
+      "estimated_distance_m": 0.12,
+      "estimated_distance_km": 0.0001,
+      "estimated_average_speed_kmh": 0.66,
+      "estimated_maximum_speed_kmh": 20.93,
+      "valid_movements": 41,
+      "rejected_movements": 0,
+      "tracked_positions": 42,
+      "active_time_seconds": 0.68
+    },
+    {
+      "player_id": 8,
+      "team": "Team B",
+      "estimated_distance_m": 0.07,
+      "estimated_distance_km": 0.0001,
+      "estimated_average_speed_kmh": 0.76,
+      "estimated_maximum_speed_kmh": 14.46,
+      "valid_movements": 19,
+      "rejected_movements": 0,
+      "tracked_positions": 20,
+      "active_time_seconds": 0.32
+    },
+    {
+      "player_id": 12,
+      "team": "Team A",
+      "estimated_distance_m": 0.06,
+      "estimated_distance_km": 0.0001,
+      "estimated_average_speed_kmh": 4.46,
+      "estimated_maximum_speed_kmh": 13.38,
+      "valid_movements": 3,
+      "rejected_movements": 3,
+      "tracked_positions": 7,
+      "active_time_seconds": 0.05
+    },
+    {
+      "player_id": 9,
+      "team": "Unclassified",
+      "estimated_distance_m": 0.01,
+      "estimated_distance_km": 0.0,
+      "estimated_average_speed_kmh": 0.16,
+      "estimated_maximum_speed_kmh": 1.29,
+      "valid_movements": 8,
+      "rejected_movements": 0,
+      "tracked_positions": 9,
+      "active_time_seconds": 0.13
+    },
+    {
+      "player_id": 3,
+      "team": "Unclassified",
+      "estimated_distance_m": 0.0,
+      "estimated_distance_km": 0.0,
+      "estimated_average_speed_kmh": 0.0,
+      "estimated_maximum_speed_kmh": 0.0,
+      "valid_movements": 19,
+      "rejected_movements": 0,
+      "tracked_positions": 20,
+      "active_time_seconds": 0.32
+    },
+    {
+      "player_id": 77,
+      "team": "Unclassified",
+      "estimated_distance_m": 0.0,
+      "estimated_distance_km": 0.0,
+      "estimated_average_speed_kmh": 0.0,
+      "estimated_maximum_speed_kmh": 0.0,
+      "valid_movements": 12,
+      "rejected_movements": 0,
+      "tracked_positions": 13,
+      "active_time_seconds": 0.2
+    }
+  ]
+}

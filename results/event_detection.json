@@ -1,0 +1,918 @@
+{
+  "video": "videos/football.mp4",
+  "method": {
+    "source": "Dynamic distance and speed analysis",
+    "sprint_threshold_kmh": 25.0,
+    "high_speed_threshold_kmh": 18.0,
+    "low_movement_threshold_kmh": 5.0,
+    "minimum_valid_movements": 50,
+    "maximum_speed_average_ratio": 6.0,
+    "tracking_warning_threshold_percent": 25.0,
+    "classification": "Potential/estimated events",
+    "warning": "Events are estimates because the current dynamic calibration does not recompute a frame-specific homography."
+  },
+  "summary": {
+    "players_analysed": 46,
+    "total_events": 24,
+    "event_counts": {
+      "low_movement_period": 12,
+      "potential_sprint": 8,
+      "tracking_quality_warning": 4
+    }
+  },
+  "events": [
+    {
+      "player_id": 1,
+      "event_type": "low_movement_period",
+      "severity": "low",
+      "estimated_average_speed_kmh": 4.59,
+      "confidence": "moderate",
+      "description": "Player 1 recorded low estimated movement speed."
+    },
+    {
+      "player_id": 2,
+      "event_type": "low_movement_period",
+      "severity": "low",
+      "estimated_average_speed_kmh": 4.03,
+      "confidence": "moderate",
+      "description": "Player 2 recorded low estimated movement speed."
+    },
+    {
+      "player_id": 4,
+      "event_type": "potential_sprint",
+      "severity": "high",
+      "estimated_max_speed_kmh": 31.48,
+      "estimated_average_speed_kmh": 5.73,
+      "confidence": "moderate",
+      "description": "Player 4 showed sustained movement with an estimated maximum speed of 31.48 km/h."
+    },
+    {
+      "player_id": 70,
+      "event_type": "potential_sprint",
+      "severity": "high",
+      "estimated_max_speed_kmh": 34.53,
+      "estimated_average_speed_kmh": 6.55,
+      "confidence": "moderate",
+      "description": "Player 70 showed sustained movement with an estimated maximum speed of 34.53 km/h."
+    },
+    {
+      "player_id": 37,
+      "event_type": "potential_sprint",
+      "severity": "high",
+      "estimated_max_speed_kmh": 39.49,
+      "estimated_average_speed_kmh": 6.67,
+      "confidence": "moderate",
+      "description": "Player 37 showed sustained movement with an estimated maximum speed of 39.49 km/h."
+    },
+    {
+      "player_id": 69,
+      "event_type": "potential_sprint",
+      "severity": "high",
+      "estimated_max_speed_kmh": 37.64,
+      "estimated_average_speed_kmh": 6.66,
+      "confidence": "moderate",
+      "description": "Player 69 showed sustained movement with an estimated maximum speed of 37.64 km/h."
+    },
+    {
+      "player_id": 40,
+      "event_type": "potential_sprint",
+      "severity": "high",
+      "estimated_max_speed_kmh": 35.39,
+      "estimated_average_speed_kmh": 7.11,
+      "confidence": "moderate",
+      "description": "Player 40 showed sustained movement with an estimated maximum speed of 35.39 km/h."
+    },
+    {
+      "player_id": 74,
+      "event_type": "low_movement_period",
+      "severity": "low",
+      "estimated_average_speed_kmh": 4.8,
+      "confidence": "moderate",
+      "description": "Player 74 recorded low estimated movement speed."
+    },
+    {
+      "player_id": 32,
+      "event_type": "tracking_quality_warning",
+      "severity": "medium",
+      "rejection_rate_percent": 35.62,
+      "confidence": "high",
+      "description": "Player 32 has a movement rejection rate of 35.62%."
+    },
+    {
+      "player_id": 34,
+      "event_type": "potential_sprint",
+      "severity": "high",
+      "estimated_max_speed_kmh": 34.74,
+      "estimated_average_speed_kmh": 8.52,
+      "confidence": "moderate",
+      "description": "Player 34 showed sustained movement with an estimated maximum speed of 34.74 km/h."
+    },
+    {
+      "player_id": 34,
+      "event_type": "tracking_quality_warning",
+      "severity": "medium",
+      "rejection_rate_percent": 25.35,
+      "confidence": "high",
+      "description": "Player 34 has a movement rejection rate of 25.35%."
+    },
+    {
+      "player_id": 75,
+      "event_type": "potential_sprint",
+      "severity": "high",
+      "estimated_max_speed_kmh": 33.45,
+      "estimated_average_speed_kmh": 5.96,
+      "confidence": "moderate",
+      "description": "Player 75 showed sustained movement with an estimated maximum speed of 33.45 km/h."
+    },
+    {
+      "player_id": 29,
+      "event_type": "potential_sprint",
+      "severity": "high",
+      "estimated_max_speed_kmh": 34.07,
+      "estimated_average_speed_kmh": 7.47,
+      "confidence": "moderate",
+      "description": "Player 29 showed sustained movement with an estimated maximum speed of 34.07 km/h."
+    },
+    {
+      "player_id": 60,
+      "event_type": "low_movement_period",
+      "severity": "low",
+      "estimated_average_speed_kmh": 4.59,
+      "confidence": "moderate",
+      "description": "Player 60 recorded low estimated movement speed."
+    },
+    {
+      "player_id": 53,
+      "event_type": "low_movement_period",
+      "severity": "low",
+      "estimated_average_speed_kmh": 2.03,
+      "confidence": "moderate",
+      "description": "Player 53 recorded low estimated movement speed."
+    },
+    {
+      "player_id": 67,
+      "event_type": "low_movement_period",
+      "severity": "low",
+      "estimated_average_speed_kmh": 3.93,
+      "confidence": "moderate",
+      "description": "Player 67 recorded low estimated movement speed."
+    },
+    {
+      "player_id": 50,
+      "event_type": "low_movement_period",
+      "severity": "low",
+      "estimated_average_speed_kmh": 3.15,
+      "confidence": "moderate",
+      "description": "Player 50 recorded low estimated movement speed."
+    },
+    {
+      "player_id": 5,
+      "event_type": "low_movement_period",
+      "severity": "low",
+      "estimated_average_speed_kmh": 2.03,
+      "confidence": "moderate",
+      "description": "Player 5 recorded low estimated movement speed."
+    },
+    {
+      "player_id": 45,
+      "event_type": "low_movement_period",
+      "severity": "low",
+      "estimated_average_speed_kmh": 3.89,
+      "confidence": "moderate",
+      "description": "Player 45 recorded low estimated movement speed."
+    },
+    {
+      "player_id": 64,
+      "event_type": "low_movement_period",
+      "severity": "low",
+      "estimated_average_speed_kmh": 2.46,
+      "confidence": "moderate",
+      "description": "Player 64 recorded low estimated movement speed."
+    },
+    {
+      "player_id": 10,
+      "event_type": "low_movement_period",
+      "severity": "low",
+      "estimated_average_speed_kmh": 2.98,
+      "confidence": "moderate",
+      "description": "Player 10 recorded low estimated movement speed."
+    },
+    {
+      "player_id": 33,
+      "event_type": "low_movement_period",
+      "severity": "low",
+      "estimated_average_speed_kmh": 2.88,
+      "confidence": "moderate",
+      "description": "Player 33 recorded low estimated movement speed."
+    },
+    {
+      "player_id": 44,
+      "event_type": "tracking_quality_warning",
+      "severity": "medium",
+      "rejection_rate_percent": 39.13,
+      "confidence": "high",
+      "description": "Player 44 has a movement rejection rate of 39.13%."
+    },
+    {
+      "player_id": 12,
+      "event_type": "tracking_quality_warning",
+      "severity": "medium",
+      "rejection_rate_percent": 50.0,
+      "confidence": "high",
+      "description": "Player 12 has a movement rejection rate of 50.00%."
+    }
+  ],
+  "player_summaries": [
+    {
+      "player_id": 1,
+      "estimated_distance_m": 21.73,
+      "estimated_average_speed_kmh": 4.59,
+      "estimated_maximum_speed_kmh": 39.29,
+      "valid_movements": 1020,
+      "rejected_movements": 59,
+      "tracked_positions": 1080,
+      "active_time_seconds": 17.02,
+      "rejection_rate_percent": 5.47,
+      "speed_quality_ratio": 8.56,
+      "sufficient_data": true,
+      "detected_events": [
+        "low_movement_period"
+      ]
+    },
+    {
+      "player_id": 56,
+      "estimated_distance_m": 11.92,
+      "estimated_average_speed_kmh": 5.71,
+      "estimated_maximum_speed_kmh": 36.9,
+      "valid_movements": 448,
+      "rejected_movements": 40,
+      "tracked_positions": 489,
+      "active_time_seconds": 7.47,
+      "rejection_rate_percent": 8.2,
+      "speed_quality_ratio": 6.46,
+      "sufficient_data": true,
+      "detected_events": []
+    },
+    {
+      "player_id": 41,
+      "estimated_distance_m": 8.86,
+      "estimated_average_speed_kmh": 6.53,
+      "estimated_maximum_speed_kmh": 39.7,
+      "valid_movements": 293,
+      "rejected_movements": 28,
+      "tracked_positions": 322,
+      "active_time_seconds": 4.89,
+      "rejection_rate_percent": 8.72,
+      "speed_quality_ratio": 6.08,
+      "sufficient_data": true,
+      "detected_events": []
+    },
+    {
+      "player_id": 2,
+      "estimated_distance_m": 6.75,
+      "estimated_average_speed_kmh": 4.03,
+      "estimated_maximum_speed_kmh": 35.24,
+      "valid_movements": 351,
+      "rejected_movements": 29,
+      "tracked_positions": 381,
+      "active_time_seconds": 5.86,
+      "rejection_rate_percent": 7.63,
+      "speed_quality_ratio": 8.74,
+      "sufficient_data": true,
+      "detected_events": [
+        "low_movement_period"
+      ]
+    },
+    {
+      "player_id": 43,
+      "estimated_distance_m": 6.56,
+      "estimated_average_speed_kmh": 5.64,
+      "estimated_maximum_speed_kmh": 39.49,
+      "valid_movements": 251,
+      "rejected_movements": 35,
+      "tracked_positions": 287,
+      "active_time_seconds": 4.19,
+      "rejection_rate_percent": 12.24,
+      "speed_quality_ratio": 7.0,
+      "sufficient_data": true,
+      "detected_events": []
+    },
+    {
+      "player_id": 4,
+      "estimated_distance_m": 5.12,
+      "estimated_average_speed_kmh": 5.73,
+      "estimated_maximum_speed_kmh": 31.48,
+      "valid_movements": 192,
+      "rejected_movements": 1,
+      "tracked_positions": 194,
+      "active_time_seconds": 3.2,
+      "rejection_rate_percent": 0.52,
+      "speed_quality_ratio": 5.49,
+      "sufficient_data": true,
+      "detected_events": [
+        "potential_sprint"
+      ]
+    },
+    {
+      "player_id": 11,
+      "estimated_distance_m": 3.75,
+      "estimated_average_speed_kmh": 5.43,
+      "estimated_maximum_speed_kmh": 38.63,
+      "valid_movements": 149,
+      "rejected_movements": 30,
+      "tracked_positions": 180,
+      "active_time_seconds": 2.49,
+      "rejection_rate_percent": 16.76,
+      "speed_quality_ratio": 7.11,
+      "sufficient_data": true,
+      "detected_events": []
+    },
+    {
+      "player_id": 70,
+      "estimated_distance_m": 3.7,
+      "estimated_average_speed_kmh": 6.55,
+      "estimated_maximum_speed_kmh": 34.53,
+      "valid_movements": 122,
+      "rejected_movements": 16,
+      "tracked_positions": 139,
+      "active_time_seconds": 2.04,
+      "rejection_rate_percent": 11.59,
+      "speed_quality_ratio": 5.27,
+      "sufficient_data": true,
+      "detected_events": [
+        "potential_sprint"
+      ]
+    },
+    {
+      "player_id": 37,
+      "estimated_distance_m": 3.56,
+      "estimated_average_speed_kmh": 6.67,
+      "estimated_maximum_speed_kmh": 39.49,
+      "valid_movements": 115,
+      "rejected_movements": 7,
+      "tracked_positions": 123,
+      "active_time_seconds": 1.92,
+      "rejection_rate_percent": 5.74,
+      "speed_quality_ratio": 5.92,
+      "sufficient_data": true,
+      "detected_events": [
+        "potential_sprint"
+      ]
+    },
+    {
+      "player_id": 69,
+      "estimated_distance_m": 3.55,
+      "estimated_average_speed_kmh": 6.66,
+      "estimated_maximum_speed_kmh": 37.64,
+      "valid_movements": 115,
+      "rejected_movements": 9,
+      "tracked_positions": 125,
+      "active_time_seconds": 1.92,
+      "rejection_rate_percent": 7.26,
+      "speed_quality_ratio": 5.65,
+      "sufficient_data": true,
+      "detected_events": [
+        "potential_sprint"
+      ]
+    },
+    {
+      "player_id": 72,
+      "estimated_distance_m": 3.15,
+      "estimated_average_speed_kmh": 5.49,
+      "estimated_maximum_speed_kmh": 39.97,
+      "valid_movements": 124,
+      "rejected_movements": 3,
+      "tracked_positions": 128,
+      "active_time_seconds": 2.07,
+      "rejection_rate_percent": 2.36,
+      "speed_quality_ratio": 7.28,
+      "sufficient_data": true,
+      "detected_events": []
+    },
+    {
+      "player_id": 40,
+      "estimated_distance_m": 2.83,
+      "estimated_average_speed_kmh": 7.11,
+      "estimated_maximum_speed_kmh": 35.39,
+      "valid_movements": 86,
+      "rejected_movements": 4,
+      "tracked_positions": 91,
+      "active_time_seconds": 1.43,
+      "rejection_rate_percent": 4.44,
+      "speed_quality_ratio": 4.98,
+      "sufficient_data": true,
+      "detected_events": [
+        "potential_sprint"
+      ]
+    },
+    {
+      "player_id": 74,
+      "estimated_distance_m": 2.67,
+      "estimated_average_speed_kmh": 4.8,
+      "estimated_maximum_speed_kmh": 36.02,
+      "valid_movements": 120,
+      "rejected_movements": 18,
+      "tracked_positions": 139,
+      "active_time_seconds": 2.0,
+      "rejection_rate_percent": 13.04,
+      "speed_quality_ratio": 7.5,
+      "sufficient_data": true,
+      "detected_events": [
+        "low_movement_period"
+      ]
+    },
+    {
+      "player_id": 32,
+      "estimated_distance_m": 2.55,
+      "estimated_average_speed_kmh": 7.9,
+      "estimated_maximum_speed_kmh": 38.8,
+      "valid_movements": 47,
+      "rejected_movements": 26,
+      "tracked_positions": 74,
+      "active_time_seconds": 0.78,
+      "rejection_rate_percent": 35.62,
+      "speed_quality_ratio": 4.91,
+      "sufficient_data": false,
+      "detected_events": [
+        "tracking_quality_warning"
+      ]
+    },
+    {
+      "player_id": 46,
+      "estimated_distance_m": 2.3,
+      "estimated_average_speed_kmh": 5.58,
+      "estimated_maximum_speed_kmh": 39.36,
+      "valid_movements": 89,
+      "rejected_movements": 23,
+      "tracked_positions": 113,
+      "active_time_seconds": 1.48,
+      "rejection_rate_percent": 20.54,
+      "speed_quality_ratio": 7.05,
+      "sufficient_data": true,
+      "detected_events": []
+    },
+    {
+      "player_id": 34,
+      "estimated_distance_m": 2.29,
+      "estimated_average_speed_kmh": 8.52,
+      "estimated_maximum_speed_kmh": 34.74,
+      "valid_movements": 53,
+      "rejected_movements": 18,
+      "tracked_positions": 72,
+      "active_time_seconds": 0.88,
+      "rejection_rate_percent": 25.35,
+      "speed_quality_ratio": 4.08,
+      "sufficient_data": true,
+      "detected_events": [
+        "potential_sprint",
+        "tracking_quality_warning"
+      ]
+    },
+    {
+      "player_id": 75,
+      "estimated_distance_m": 1.85,
+      "estimated_average_speed_kmh": 5.96,
+      "estimated_maximum_speed_kmh": 33.45,
+      "valid_movements": 57,
+      "rejected_movements": 3,
+      "tracked_positions": 61,
+      "active_time_seconds": 0.95,
+      "rejection_rate_percent": 5.0,
+      "speed_quality_ratio": 5.61,
+      "sufficient_data": true,
+      "detected_events": [
+        "potential_sprint"
+      ]
+    },
+    {
+      "player_id": 29,
+      "estimated_distance_m": 1.73,
+      "estimated_average_speed_kmh": 7.47,
+      "estimated_maximum_speed_kmh": 34.07,
+      "valid_movements": 50,
+      "rejected_movements": 5,
+      "tracked_positions": 56,
+      "active_time_seconds": 0.83,
+      "rejection_rate_percent": 9.09,
+      "speed_quality_ratio": 4.56,
+      "sufficient_data": true,
+      "detected_events": [
+        "potential_sprint"
+      ]
+    },
+    {
+      "player_id": 60,
+      "estimated_distance_m": 1.6,
+      "estimated_average_speed_kmh": 4.59,
+      "estimated_maximum_speed_kmh": 35.6,
+      "valid_movements": 75,
+      "rejected_movements": 2,
+      "tracked_positions": 78,
+      "active_time_seconds": 1.25,
+      "rejection_rate_percent": 2.6,
+      "speed_quality_ratio": 7.76,
+      "sufficient_data": true,
+      "detected_events": [
+        "low_movement_period"
+      ]
+    },
+    {
+      "player_id": 53,
+      "estimated_distance_m": 1.49,
+      "estimated_average_speed_kmh": 2.03,
+      "estimated_maximum_speed_kmh": 37.11,
+      "valid_movements": 153,
+      "rejected_movements": 13,
+      "tracked_positions": 167,
+      "active_time_seconds": 2.55,
+      "rejection_rate_percent": 7.83,
+      "speed_quality_ratio": 18.28,
+      "sufficient_data": true,
+      "detected_events": [
+        "low_movement_period"
+      ]
+    },
+    {
+      "player_id": 67,
+      "estimated_distance_m": 1.15,
+      "estimated_average_speed_kmh": 3.93,
+      "estimated_maximum_speed_kmh": 26.11,
+      "valid_movements": 63,
+      "rejected_movements": 1,
+      "tracked_positions": 65,
+      "active_time_seconds": 1.05,
+      "rejection_rate_percent": 1.56,
+      "speed_quality_ratio": 6.64,
+      "sufficient_data": true,
+      "detected_events": [
+        "low_movement_period"
+      ]
+    },
+    {
+      "player_id": 50,
+      "estimated_distance_m": 1.08,
+      "estimated_average_speed_kmh": 3.15,
+      "estimated_maximum_speed_kmh": 38.91,
+      "valid_movements": 74,
+      "rejected_movements": 5,
+      "tracked_positions": 80,
+      "active_time_seconds": 1.23,
+      "rejection_rate_percent": 6.33,
+      "speed_quality_ratio": 12.35,
+      "sufficient_data": true,
+      "detected_events": [
+        "low_movement_period"
+      ]
+    },
+    {
+      "player_id": 5,
+      "estimated_distance_m": 1.05,
+      "estimated_average_speed_kmh": 2.03,
+      "estimated_maximum_speed_kmh": 29.35,
+      "valid_movements": 111,
+      "rejected_movements": 2,
+      "tracked_positions": 114,
+      "active_time_seconds": 1.85,
+      "rejection_rate_percent": 1.77,
+      "speed_quality_ratio": 14.46,
+      "sufficient_data": true,
+      "detected_events": [
+        "low_movement_period"
+      ]
+    },
+    {
+      "player_id": 51,
+      "estimated_distance_m": 0.97,
+      "estimated_average_speed_kmh": 5.24,
+      "estimated_maximum_speed_kmh": 29.78,
+      "valid_movements": 40,
+      "rejected_movements": 5,
+      "tracked_positions": 46,
+      "active_time_seconds": 0.67,
+      "rejection_rate_percent": 11.11,
+      "speed_quality_ratio": 5.68,
+      "sufficient_data": false,
+      "detected_events": []
+    },
+    {
+      "player_id": 45,
+      "estimated_distance_m": 0.94,
+      "estimated_average_speed_kmh": 3.89,
+      "estimated_maximum_speed_kmh": 34.96,
+      "valid_movements": 52,
+      "rejected_movements": 1,
+      "tracked_positions": 54,
+      "active_time_seconds": 0.87,
+      "rejection_rate_percent": 1.89,
+      "speed_quality_ratio": 8.99,
+      "sufficient_data": true,
+      "detected_events": [
+        "low_movement_period"
+      ]
+    },
+    {
+      "player_id": 62,
+      "estimated_distance_m": 0.94,
+      "estimated_average_speed_kmh": 5.63,
+      "estimated_maximum_speed_kmh": 38.63,
+      "valid_movements": 36,
+      "rejected_movements": 9,
+      "tracked_positions": 46,
+      "active_time_seconds": 0.6,
+      "rejection_rate_percent": 20.0,
+      "speed_quality_ratio": 6.86,
+      "sufficient_data": false,
+      "detected_events": []
+    },
+    {
+      "player_id": 64,
+      "estimated_distance_m": 0.91,
+      "estimated_average_speed_kmh": 2.46,
+      "estimated_maximum_speed_kmh": 37.76,
+      "valid_movements": 80,
+      "rejected_movements": 2,
+      "tracked_positions": 83,
+      "active_time_seconds": 1.33,
+      "rejection_rate_percent": 2.44,
+      "speed_quality_ratio": 15.35,
+      "sufficient_data": true,
+      "detected_events": [
+        "low_movement_period"
+      ]
+    },
+    {
+      "player_id": 10,
+      "estimated_distance_m": 0.83,
+      "estimated_average_speed_kmh": 2.98,
+      "estimated_maximum_speed_kmh": 33.67,
+      "valid_movements": 58,
+      "rejected_movements": 3,
+      "tracked_positions": 62,
+      "active_time_seconds": 0.97,
+      "rejection_rate_percent": 4.92,
+      "speed_quality_ratio": 11.3,
+      "sufficient_data": true,
+      "detected_events": [
+        "low_movement_period"
+      ]
+    },
+    {
+      "player_id": 71,
+      "estimated_distance_m": 0.78,
+      "estimated_average_speed_kmh": 4.92,
+      "estimated_maximum_speed_kmh": 25.89,
+      "valid_movements": 34,
+      "rejected_movements": 4,
+      "tracked_positions": 39,
+      "active_time_seconds": 0.57,
+      "rejection_rate_percent": 10.53,
+      "speed_quality_ratio": 5.26,
+      "sufficient_data": false,
+      "detected_events": []
+    },
+    {
+      "player_id": 33,
+      "estimated_distance_m": 0.75,
+      "estimated_average_speed_kmh": 2.88,
+      "estimated_maximum_speed_kmh": 29.56,
+      "valid_movements": 56,
+      "rejected_movements": 2,
+      "tracked_positions": 59,
+      "active_time_seconds": 0.93,
+      "rejection_rate_percent": 3.45,
+      "speed_quality_ratio": 10.26,
+      "sufficient_data": true,
+      "detected_events": [
+        "low_movement_period"
+      ]
+    },
+    {
+      "player_id": 31,
+      "estimated_distance_m": 0.59,
+      "estimated_average_speed_kmh": 5.27,
+      "estimated_maximum_speed_kmh": 39.92,
+      "valid_movements": 24,
+      "rejected_movements": 6,
+      "tracked_positions": 31,
+      "active_time_seconds": 0.4,
+      "rejection_rate_percent": 20.0,
+      "speed_quality_ratio": 7.57,
+      "sufficient_data": false,
+      "detected_events": []
+    },
+    {
+      "player_id": 59,
+      "estimated_distance_m": 0.59,
+      "estimated_average_speed_kmh": 4.83,
+      "estimated_maximum_speed_kmh": 22.44,
+      "valid_movements": 17,
+      "rejected_movements": 4,
+      "tracked_positions": 22,
+      "active_time_seconds": 0.28,
+      "rejection_rate_percent": 19.05,
+      "speed_quality_ratio": 4.65,
+      "sufficient_data": false,
+      "detected_events": []
+    },
+    {
+      "player_id": 47,
+      "estimated_distance_m": 0.52,
+      "estimated_average_speed_kmh": 4.51,
+      "estimated_maximum_speed_kmh": 34.74,
+      "valid_movements": 25,
+      "rejected_movements": 5,
+      "tracked_positions": 31,
+      "active_time_seconds": 0.42,
+      "rejection_rate_percent": 16.67,
+      "speed_quality_ratio": 7.7,
+      "sufficient_data": false,
+      "detected_events": []
+    },
+    {
+      "player_id": 78,
+      "estimated_distance_m": 0.48,
+      "estimated_average_speed_kmh": 12.97,
+      "estimated_maximum_speed_kmh": 34.74,
+      "valid_movements": 8,
+      "rejected_movements": 2,
+      "tracked_positions": 11,
+      "active_time_seconds": 0.13,
+      "rejection_rate_percent": 20.0,
+      "speed_quality_ratio": 2.68,
+      "sufficient_data": false,
+      "detected_events": []
+    },
+    {
+      "player_id": 49,
+      "estimated_distance_m": 0.45,
+      "estimated_average_speed_kmh": 5.12,
+      "estimated_maximum_speed_kmh": 20.07,
+      "valid_movements": 19,
+      "rejected_movements": 0,
+      "tracked_positions": 20,
+      "active_time_seconds": 0.32,
+      "rejection_rate_percent": 0.0,
+      "speed_quality_ratio": 3.92,
+      "sufficient_data": false,
+      "detected_events": []
+    },
+    {
+      "player_id": 55,
+      "estimated_distance_m": 0.42,
+      "estimated_average_speed_kmh": 3.24,
+      "estimated_maximum_speed_kmh": 39.06,
+      "valid_movements": 28,
+      "rejected_movements": 6,
+      "tracked_positions": 35,
+      "active_time_seconds": 0.47,
+      "rejection_rate_percent": 17.65,
+      "speed_quality_ratio": 12.06,
+      "sufficient_data": false,
+      "detected_events": []
+    },
+    {
+      "player_id": 65,
+      "estimated_distance_m": 0.4,
+      "estimated_average_speed_kmh": 1.87,
+      "estimated_maximum_speed_kmh": 32.8,
+      "valid_movements": 46,
+      "rejected_movements": 1,
+      "tracked_positions": 48,
+      "active_time_seconds": 0.77,
+      "rejection_rate_percent": 2.13,
+      "speed_quality_ratio": 17.54,
+      "sufficient_data": false,
+      "detected_events": []
+    },
+    {
+      "player_id": 79,
+      "estimated_distance_m": 0.21,
+      "estimated_average_speed_kmh": 11.6,
+      "estimated_maximum_speed_kmh": 32.15,
+      "valid_movements": 4,
+      "rejected_movements": 1,
+      "tracked_positions": 6,
+      "active_time_seconds": 0.07,
+      "rejection_rate_percent": 20.0,
+      "speed_quality_ratio": 2.77,
+      "sufficient_data": false,
+      "detected_events": []
+    },
+    {
+      "player_id": 25,
+      "estimated_distance_m": 0.19,
+      "estimated_average_speed_kmh": 6.74,
+      "estimated_maximum_speed_kmh": 36.9,
+      "valid_movements": 6,
+      "rejected_movements": 0,
+      "tracked_positions": 7,
+      "active_time_seconds": 0.1,
+      "rejection_rate_percent": 0.0,
+      "speed_quality_ratio": 5.47,
+      "sufficient_data": false,
+      "detected_events": []
+    },
+    {
+      "player_id": 44,
+      "estimated_distance_m": 0.14,
+      "estimated_average_speed_kmh": 2.13,
+      "estimated_maximum_speed_kmh": 17.05,
+      "valid_movements": 14,
+      "rejected_movements": 9,
+      "tracked_positions": 24,
+      "active_time_seconds": 0.23,
+      "rejection_rate_percent": 39.13,
+      "speed_quality_ratio": 8.0,
+      "sufficient_data": false,
+      "detected_events": [
+        "tracking_quality_warning"
+      ]
+    },
+    {
+      "player_id": 54,
+      "estimated_distance_m": 0.12,
+      "estimated_average_speed_kmh": 0.66,
+      "estimated_maximum_speed_kmh": 20.93,
+      "valid_movements": 41,
+      "rejected_movements": 0,
+      "tracked_positions": 42,
+      "active_time_seconds": 0.68,
+      "rejection_rate_percent": 0.0,
+      "speed_quality_ratio": 31.71,
+      "sufficient_data": false,
+      "detected_events": []
+    },
+    {
+      "player_id": 8,
+      "estimated_distance_m": 0.07,
+      "estimated_average_speed_kmh": 0.76,
+      "estimated_maximum_speed_kmh": 14.46,
+      "valid_movements": 19,
+      "rejected_movements": 0,
+      "tracked_positions": 20,
+      "active_time_seconds": 0.32,
+      "rejection_rate_percent": 0.0,
+      "speed_quality_ratio": 19.03,
+      "sufficient_data": false,
+      "detected_events": []
+    },
+    {
+      "player_id": 12,
+      "estimated_distance_m": 0.06,
+      "estimated_average_speed_kmh": 4.46,
+      "estimated_maximum_speed_kmh": 13.38,
+      "valid_movements": 3,
+      "rejected_movements": 3,
+      "tracked_positions": 7,
+      "active_time_seconds": 0.05,
+      "rejection_rate_percent": 50.0,
+      "speed_quality_ratio": 3.0,
+      "sufficient_data": false,
+      "detected_events": [
+        "tracking_quality_warning"
+      ]
+    },
+    {
+      "player_id": 9,
+      "estimated_distance_m": 0.01,
+      "estimated_average_speed_kmh": 0.16,
+      "estimated_maximum_speed_kmh": 1.29,
+      "valid_movements": 8,
+      "rejected_movements": 0,
+      "tracked_positions": 9,
+      "active_time_seconds": 0.13,
+      "rejection_rate_percent": 0.0,
+      "speed_quality_ratio": 8.06,
+      "sufficient_data": false,
+      "detected_events": []
+    },
+    {
+      "player_id": 3,
+      "estimated_distance_m": 0.0,
+      "estimated_average_speed_kmh": 0.0,
+      "estimated_maximum_speed_kmh": 0.0,
+      "valid_movements": 19,
+      "rejected_movements": 0,
+      "tracked_positions": 20,
+      "active_time_seconds": 0.32,
+      "rejection_rate_percent": 0.0,
+      "speed_quality_ratio": null,
+      "sufficient_data": false,
+      "detected_events": []
+    },
+    {
+      "player_id": 77,
+      "estimated_distance_m": 0.0,
+      "estimated_average_speed_kmh": 0.0,
+      "estimated_maximum_speed_kmh": 0.0,
+      "valid_movements": 12,
+      "rejected_movements": 0,
+      "tracked_positions": 13,
+      "active_time_seconds": 0.2,
+      "rejection_rate_percent": 0.0,
+      "speed_quality_ratio": null,
+      "sufficient_data": false,
+      "detected_events": []
+    }
+  ]
+}
