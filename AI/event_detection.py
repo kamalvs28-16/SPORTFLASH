@@ -539,7 +539,7 @@ print("EVENT DETECTION COMPLETED")
 print("=" * 60)
 
 print(
-    f"\nOutput file: ✓ {OUTPUT_FILE}"
+    f"\nOutput file: [OK] {OUTPUT_FILE}"
 )
 
 print(
