@@ -52,11 +52,11 @@ calibration_data = load_json(CALIBRATION_FILE)
 distance_data = load_json(DISTANCE_FILE)
 event_data = load_json(EVENT_FILE)
 
-print("✓ Team classification loaded")
-print("✓ Camera motion loaded")
-print("✓ Dynamic calibration loaded")
-print("✓ Dynamic distance analysis loaded")
-print("✓ Event detection loaded")
+print("[OK] Team classification loaded")
+print("[OK] Camera motion loaded")
+print("[OK] Dynamic calibration loaded")
+print("[OK] Dynamic distance analysis loaded")
+print("[OK] Event detection loaded")
 
 
 # ============================================================
@@ -833,7 +833,7 @@ print("MATCH REPORT GENERATED SUCCESSFULLY")
 print("=" * 70)
 
 print(
-    f"\nOutput file: ✓ {OUTPUT_FILE}"
+    f"\nOutput file: [OK] {OUTPUT_FILE}"
 )
 
 print(

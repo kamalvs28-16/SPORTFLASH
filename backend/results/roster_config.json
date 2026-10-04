@@ -1,0 +1,100 @@
+{
+    "team_size": "5v5",
+    "players_per_team": 5,
+    "team_a": {
+        "name": "Portugal",
+        "primary_color": "#E63946",
+        "secondary_color": "#FFFFFF",
+        "formation": "4-3-3",
+        "coach": "Roberto Mart\u00ednez"
+    },
+    "team_b": {
+        "name": "Selecci\u00f3n Espa\u00f1ola de F\u00fatbol",
+        "primary_color": "#dedede",
+        "secondary_color": "#1D3557",
+        "formation": "4-3-3",
+        "coach": "Luis de la Fuente"
+    },
+    "players": {
+        "1": {
+            "name": "Cristiano Ronaldo",
+            "jersey_number": 7,
+            "team": "Team A",
+            "position": "Forward / Winger",
+            "notes": "Captain & Top Finisher",
+            "photo_path": ""
+        },
+        "2": {
+            "name": "Bernardo Silva",
+            "jersey_number": 10,
+            "team": "Team A",
+            "position": "Right Winger",
+            "notes": "Agile Dribbler",
+            "photo_path": ""
+        },
+        "3": {
+            "name": "Bruno Fernandes",
+            "jersey_number": 8,
+            "team": "Team A",
+            "position": "Attacking Midfielder",
+            "notes": "Playmaker",
+            "photo_path": ""
+        },
+        "4": {
+            "name": "Diogo Costa",
+            "jersey_number": 1,
+            "team": "Team A",
+            "position": "Goalkeeper",
+            "notes": "Shot Stopper",
+            "photo_path": ""
+        },
+        "5": {
+            "name": "R\u00faben Dias",
+            "jersey_number": 3,
+            "team": "Team A",
+            "position": "Center Back",
+            "notes": "Defensive Anchor",
+            "photo_path": ""
+        },
+        "6": {
+            "name": "Aymeric Laporte",
+            "jersey_number": 14,
+            "team": "Team B",
+            "position": "Center Back",
+            "notes": "Ball Playing Defender",
+            "photo_path": ""
+        },
+        "7": {
+            "name": "Dani Olmo",
+            "jersey_number": 10,
+            "team": "Team B",
+            "position": "Attacking Midfielder",
+            "notes": "Chance Creator",
+            "photo_path": ""
+        },
+        "8": {
+            "name": "Rodri",
+            "jersey_number": 16,
+            "team": "Team B",
+            "position": "Defensive Midfielder",
+            "notes": "Tactical Pivot & Ball Winner",
+            "photo_path": ""
+        },
+        "9": {
+            "name": "Lamine Yamal",
+            "jersey_number": 19,
+            "team": "Team B",
+            "position": "Forward / Winger",
+            "notes": "Explosive Pace & 1v1",
+            "photo_path": ""
+        },
+        "10": {
+            "name": "Unai Sim\u00f3n",
+            "jersey_number": 23,
+            "team": "Team B",
+            "position": "Goalkeeper",
+            "notes": "Sweeper Keeper",
+            "photo_path": ""
+        }
+    }
+}

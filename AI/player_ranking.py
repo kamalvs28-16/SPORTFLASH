@@ -81,18 +81,18 @@ for rank, (player_id, data) in enumerate(top_players, start=1):
     score = data["performance_score"]
 
     if rank == 1:
-        medal = "🥇"
+        medal = "[#1]"
     elif rank == 2:
-        medal = "🥈"
+        medal = "[#2]"
     elif rank == 3:
-        medal = "🥉"
+        medal = "[#3]"
     else:
-        medal = " "
+        medal = "    "
 
     print(
         f"{medal} Rank {rank}: "
         f"Player {player_id} "
-        f"→ {score:.2f}/100"
+        f"-> {score:.2f}/100"
     )
 
 # --------------------------------------------------
