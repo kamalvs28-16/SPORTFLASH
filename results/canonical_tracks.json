@@ -1,0 +1,1016 @@
+{
+  "video": "videos/WhatsApp Video 2026-09-28 at 9.35.08 PM.mp4",
+  "width": 1280,
+  "height": 720,
+  "fps": 59.94005994005994,
+  "total_frames": 100,
+  "calibration_stats": {
+    "total_frames_processed": 100,
+    "rejected_frame_count": 0,
+    "calibration_success_rate_pct": 100.0,
+    "mean_reprojection_error_meters": 0.0,
+    "max_reprojection_threshold_meters": 2.5
+  },
+  "frames": [
+    {
+      "frame": 1,
+      "time": 0.017,
+      "scene_id": 1,
+      "is_replay": false,
+      "reproj_error_meters": 0.0,
+      "calibration_valid": true,
+      "players": [],
+      "ball": null
+    },
+    {
+      "frame": 2,
+      "time": 0.033,
+      "scene_id": 1,
+      "is_replay": false,
+      "reproj_error_meters": 0.0,
+      "calibration_valid": true,
+      "players": [],
+      "ball": null
+    },
+    {
+      "frame": 3,
+      "time": 0.05,
+      "scene_id": 1,
+      "is_replay": false,
+      "reproj_error_meters": 0.0,
+      "calibration_valid": true,
+      "players": [],
+      "ball": null
+    },
+    {
+      "frame": 4,
+      "time": 0.067,
+      "scene_id": 1,
+      "is_replay": false,
+      "reproj_error_meters": 0.0,
+      "calibration_valid": true,
+      "players": [],
+      "ball": null
+    },
+    {
+      "frame": 5,
+      "time": 0.083,
+      "scene_id": 1,
+      "is_replay": false,
+      "reproj_error_meters": 0.0,
+      "calibration_valid": true,
+      "players": [],
+      "ball": null
+    },
+    {
+      "frame": 6,
+      "time": 0.1,
+      "scene_id": 1,
+      "is_replay": false,
+      "reproj_error_meters": 0.0,
+      "calibration_valid": true,
+      "players": [],
+      "ball": null
+    },
+    {
+      "frame": 7,
+      "time": 0.117,
+      "scene_id": 1,
+      "is_replay": false,
+      "reproj_error_meters": 0.0,
+      "calibration_valid": true,
+      "players": [],
+      "ball": null
+    },
+    {
+      "frame": 8,
+      "time": 0.133,
+      "scene_id": 1,
+      "is_replay": false,
+      "reproj_error_meters": 0.0,
+      "calibration_valid": true,
+      "players": [],
+      "ball": null
+    },
+    {
+      "frame": 9,
+      "time": 0.15,
+      "scene_id": 1,
+      "is_replay": false,
+      "reproj_error_meters": 0.0,
+      "calibration_valid": true,
+      "players": [],
+      "ball": null
+    },
+    {
+      "frame": 10,
+      "time": 0.167,
+      "scene_id": 1,
+      "is_replay": false,
+      "reproj_error_meters": 0.0,
+      "calibration_valid": true,
+      "players": [],
+      "ball": null
+    },
+    {
+      "frame": 11,
+      "time": 0.184,
+      "scene_id": 1,
+      "is_replay": false,
+      "reproj_error_meters": 0.0,
+      "calibration_valid": true,
+      "players": [],
+      "ball": null
+    },
+    {
+      "frame": 12,
+      "time": 0.2,
+      "scene_id": 1,
+      "is_replay": false,
+      "reproj_error_meters": 0.0,
+      "calibration_valid": true,
+      "players": [],
+      "ball": null
+    },
+    {
+      "frame": 13,
+      "time": 0.217,
+      "scene_id": 1,
+      "is_replay": false,
+      "reproj_error_meters": 0.0,
+      "calibration_valid": true,
+      "players": [],
+      "ball": null
+    },
+    {
+      "frame": 14,
+      "time": 0.234,
+      "scene_id": 1,
+      "is_replay": false,
+      "reproj_error_meters": 0.0,
+      "calibration_valid": true,
+      "players": [],
+      "ball": null
+    },
+    {
+      "frame": 15,
+      "time": 0.25,
+      "scene_id": 1,
+      "is_replay": false,
+      "reproj_error_meters": 0.0,
+      "calibration_valid": true,
+      "players": [],
+      "ball": null
+    },
+    {
+      "frame": 16,
+      "time": 0.267,
+      "scene_id": 1,
+      "is_replay": false,
+      "reproj_error_meters": 0.0,
+      "calibration_valid": true,
+      "players": [],
+      "ball": null
+    },
+    {
+      "frame": 17,
+      "time": 0.284,
+      "scene_id": 1,
+      "is_replay": false,
+      "reproj_error_meters": 0.0,
+      "calibration_valid": true,
+      "players": [],
+      "ball": null
+    },
+    {
+      "frame": 18,
+      "time": 0.3,
+      "scene_id": 1,
+      "is_replay": false,
+      "reproj_error_meters": 0.0,
+      "calibration_valid": true,
+      "players": [],
+      "ball": null
+    },
+    {
+      "frame": 19,
+      "time": 0.317,
+      "scene_id": 1,
+      "is_replay": false,
+      "reproj_error_meters": 0.0,
+      "calibration_valid": true,
+      "players": [],
+      "ball": null
+    },
+    {
+      "frame": 20,
+      "time": 0.334,
+      "scene_id": 1,
+      "is_replay": false,
+      "reproj_error_meters": 0.0,
+      "calibration_valid": true,
+      "players": [],
+      "ball": null
+    },
+    {
+      "frame": 21,
+      "time": 0.35,
+      "scene_id": 1,
+      "is_replay": false,
+      "reproj_error_meters": 0.0,
+      "calibration_valid": true,
+      "players": [],
+      "ball": null
+    },
+    {
+      "frame": 22,
+      "time": 0.367,
+      "scene_id": 1,
+      "is_replay": false,
+      "reproj_error_meters": 0.0,
+      "calibration_valid": true,
+      "players": [],
+      "ball": null
+    },
+    {
+      "frame": 23,
+      "time": 0.384,
+      "scene_id": 1,
+      "is_replay": false,
+      "reproj_error_meters": 0.0,
+      "calibration_valid": true,
+      "players": [],
+      "ball": null
+    },
+    {
+      "frame": 24,
+      "time": 0.4,
+      "scene_id": 1,
+      "is_replay": false,
+      "reproj_error_meters": 0.0,
+      "calibration_valid": true,
+      "players": [],
+      "ball": null
+    },
+    {
+      "frame": 25,
+      "time": 0.417,
+      "scene_id": 1,
+      "is_replay": false,
+      "reproj_error_meters": 0.0,
+      "calibration_valid": true,
+      "players": [],
+      "ball": null
+    },
+    {
+      "frame": 26,
+      "time": 0.434,
+      "scene_id": 1,
+      "is_replay": false,
+      "reproj_error_meters": 0.0,
+      "calibration_valid": true,
+      "players": [],
+      "ball": null
+    },
+    {
+      "frame": 27,
+      "time": 0.45,
+      "scene_id": 1,
+      "is_replay": false,
+      "reproj_error_meters": 0.0,
+      "calibration_valid": true,
+      "players": [],
+      "ball": null
+    },
+    {
+      "frame": 28,
+      "time": 0.467,
+      "scene_id": 1,
+      "is_replay": false,
+      "reproj_error_meters": 0.0,
+      "calibration_valid": true,
+      "players": [],
+      "ball": null
+    },
+    {
+      "frame": 29,
+      "time": 0.484,
+      "scene_id": 1,
+      "is_replay": false,
+      "reproj_error_meters": 0.0,
+      "calibration_valid": true,
+      "players": [],
+      "ball": null
+    },
+    {
+      "frame": 30,
+      "time": 0.501,
+      "scene_id": 1,
+      "is_replay": false,
+      "reproj_error_meters": 0.0,
+      "calibration_valid": true,
+      "players": [],
+      "ball": null
+    },
+    {
+      "frame": 31,
+      "time": 0.517,
+      "scene_id": 1,
+      "is_replay": false,
+      "reproj_error_meters": 0.0,
+      "calibration_valid": true,
+      "players": [],
+      "ball": null
+    },
+    {
+      "frame": 32,
+      "time": 0.534,
+      "scene_id": 1,
+      "is_replay": false,
+      "reproj_error_meters": 0.0,
+      "calibration_valid": true,
+      "players": [],
+      "ball": null
+    },
+    {
+      "frame": 33,
+      "time": 0.551,
+      "scene_id": 1,
+      "is_replay": false,
+      "reproj_error_meters": 0.0,
+      "calibration_valid": true,
+      "players": [],
+      "ball": null
+    },
+    {
+      "frame": 34,
+      "time": 0.567,
+      "scene_id": 1,
+      "is_replay": false,
+      "reproj_error_meters": 0.0,
+      "calibration_valid": true,
+      "players": [],
+      "ball": null
+    },
+    {
+      "frame": 35,
+      "time": 0.584,
+      "scene_id": 1,
+      "is_replay": false,
+      "reproj_error_meters": 0.0,
+      "calibration_valid": true,
+      "players": [],
+      "ball": null
+    },
+    {
+      "frame": 36,
+      "time": 0.601,
+      "scene_id": 1,
+      "is_replay": false,
+      "reproj_error_meters": 0.0,
+      "calibration_valid": true,
+      "players": [],
+      "ball": null
+    },
+    {
+      "frame": 37,
+      "time": 0.617,
+      "scene_id": 1,
+      "is_replay": false,
+      "reproj_error_meters": 0.0,
+      "calibration_valid": true,
+      "players": [],
+      "ball": null
+    },
+    {
+      "frame": 38,
+      "time": 0.634,
+      "scene_id": 1,
+      "is_replay": false,
+      "reproj_error_meters": 0.0,
+      "calibration_valid": true,
+      "players": [],
+      "ball": null
+    },
+    {
+      "frame": 39,
+      "time": 0.651,
+      "scene_id": 1,
+      "is_replay": false,
+      "reproj_error_meters": 0.0,
+      "calibration_valid": true,
+      "players": [],
+      "ball": null
+    },
+    {
+      "frame": 40,
+      "time": 0.667,
+      "scene_id": 1,
+      "is_replay": false,
+      "reproj_error_meters": 0.0,
+      "calibration_valid": true,
+      "players": [],
+      "ball": null
+    },
+    {
+      "frame": 41,
+      "time": 0.684,
+      "scene_id": 1,
+      "is_replay": false,
+      "reproj_error_meters": 0.0,
+      "calibration_valid": true,
+      "players": [],
+      "ball": null
+    },
+    {
+      "frame": 42,
+      "time": 0.701,
+      "scene_id": 1,
+      "is_replay": false,
+      "reproj_error_meters": 0.0,
+      "calibration_valid": true,
+      "players": [],
+      "ball": null
+    },
+    {
+      "frame": 43,
+      "time": 0.717,
+      "scene_id": 1,
+      "is_replay": false,
+      "reproj_error_meters": 0.0,
+      "calibration_valid": true,
+      "players": [],
+      "ball": null
+    },
+    {
+      "frame": 44,
+      "time": 0.734,
+      "scene_id": 1,
+      "is_replay": false,
+      "reproj_error_meters": 0.0,
+      "calibration_valid": true,
+      "players": [],
+      "ball": null
+    },
+    {
+      "frame": 45,
+      "time": 0.751,
+      "scene_id": 1,
+      "is_replay": false,
+      "reproj_error_meters": 0.0,
+      "calibration_valid": true,
+      "players": [],
+      "ball": null
+    },
+    {
+      "frame": 46,
+      "time": 0.767,
+      "scene_id": 1,
+      "is_replay": false,
+      "reproj_error_meters": 0.0,
+      "calibration_valid": true,
+      "players": [],
+      "ball": null
+    },
+    {
+      "frame": 47,
+      "time": 0.784,
+      "scene_id": 1,
+      "is_replay": false,
+      "reproj_error_meters": 0.0,
+      "calibration_valid": true,
+      "players": [],
+      "ball": null
+    },
+    {
+      "frame": 48,
+      "time": 0.801,
+      "scene_id": 1,
+      "is_replay": false,
+      "reproj_error_meters": 0.0,
+      "calibration_valid": true,
+      "players": [],
+      "ball": null
+    },
+    {
+      "frame": 49,
+      "time": 0.817,
+      "scene_id": 1,
+      "is_replay": false,
+      "reproj_error_meters": 0.0,
+      "calibration_valid": true,
+      "players": [],
+      "ball": null
+    },
+    {
+      "frame": 50,
+      "time": 0.834,
+      "scene_id": 1,
+      "is_replay": false,
+      "reproj_error_meters": 0.0,
+      "calibration_valid": true,
+      "players": [],
+      "ball": null
+    },
+    {
+      "frame": 51,
+      "time": 0.851,
+      "scene_id": 1,
+      "is_replay": false,
+      "reproj_error_meters": 0.0,
+      "calibration_valid": true,
+      "players": [],
+      "ball": null
+    },
+    {
+      "frame": 52,
+      "time": 0.868,
+      "scene_id": 1,
+      "is_replay": false,
+      "reproj_error_meters": 0.0,
+      "calibration_valid": true,
+      "players": [],
+      "ball": null
+    },
+    {
+      "frame": 53,
+      "time": 0.884,
+      "scene_id": 1,
+      "is_replay": false,
+      "reproj_error_meters": 0.0,
+      "calibration_valid": true,
+      "players": [],
+      "ball": null
+    },
+    {
+      "frame": 54,
+      "time": 0.901,
+      "scene_id": 1,
+      "is_replay": false,
+      "reproj_error_meters": 0.0,
+      "calibration_valid": true,
+      "players": [],
+      "ball": null
+    },
+    {
+      "frame": 55,
+      "time": 0.918,
+      "scene_id": 1,
+      "is_replay": false,
+      "reproj_error_meters": 0.0,
+      "calibration_valid": true,
+      "players": [],
+      "ball": null
+    },
+    {
+      "frame": 56,
+      "time": 0.934,
+      "scene_id": 1,
+      "is_replay": false,
+      "reproj_error_meters": 0.0,
+      "calibration_valid": true,
+      "players": [],
+      "ball": null
+    },
+    {
+      "frame": 57,
+      "time": 0.951,
+      "scene_id": 1,
+      "is_replay": false,
+      "reproj_error_meters": 0.0,
+      "calibration_valid": true,
+      "players": [],
+      "ball": null
+    },
+    {
+      "frame": 58,
+      "time": 0.968,
+      "scene_id": 1,
+      "is_replay": false,
+      "reproj_error_meters": 0.0,
+      "calibration_valid": true,
+      "players": [],
+      "ball": null
+    },
+    {
+      "frame": 59,
+      "time": 0.984,
+      "scene_id": 1,
+      "is_replay": false,
+      "reproj_error_meters": 0.0,
+      "calibration_valid": true,
+      "players": [],
+      "ball": null
+    },
+    {
+      "frame": 60,
+      "time": 1.001,
+      "scene_id": 1,
+      "is_replay": false,
+      "reproj_error_meters": 0.0,
+      "calibration_valid": true,
+      "players": [],
+      "ball": null
+    },
+    {
+      "frame": 61,
+      "time": 1.018,
+      "scene_id": 1,
+      "is_replay": false,
+      "reproj_error_meters": 0.0,
+      "calibration_valid": true,
+      "players": [],
+      "ball": null
+    },
+    {
+      "frame": 62,
+      "time": 1.034,
+      "scene_id": 1,
+      "is_replay": false,
+      "reproj_error_meters": 0.0,
+      "calibration_valid": true,
+      "players": [],
+      "ball": null
+    },
+    {
+      "frame": 63,
+      "time": 1.051,
+      "scene_id": 1,
+      "is_replay": false,
+      "reproj_error_meters": 0.0,
+      "calibration_valid": true,
+      "players": [],
+      "ball": null
+    },
+    {
+      "frame": 64,
+      "time": 1.068,
+      "scene_id": 1,
+      "is_replay": false,
+      "reproj_error_meters": 0.0,
+      "calibration_valid": true,
+      "players": [],
+      "ball": null
+    },
+    {
+      "frame": 65,
+      "time": 1.084,
+      "scene_id": 1,
+      "is_replay": false,
+      "reproj_error_meters": 0.0,
+      "calibration_valid": true,
+      "players": [],
+      "ball": null
+    },
+    {
+      "frame": 66,
+      "time": 1.101,
+      "scene_id": 1,
+      "is_replay": false,
+      "reproj_error_meters": 0.0,
+      "calibration_valid": true,
+      "players": [],
+      "ball": null
+    },
+    {
+      "frame": 67,
+      "time": 1.118,
+      "scene_id": 1,
+      "is_replay": false,
+      "reproj_error_meters": 0.0,
+      "calibration_valid": true,
+      "players": [],
+      "ball": null
+    },
+    {
+      "frame": 68,
+      "time": 1.134,
+      "scene_id": 1,
+      "is_replay": false,
+      "reproj_error_meters": 0.0,
+      "calibration_valid": true,
+      "players": [],
+      "ball": null
+    },
+    {
+      "frame": 69,
+      "time": 1.151,
+      "scene_id": 1,
+      "is_replay": false,
+      "reproj_error_meters": 0.0,
+      "calibration_valid": true,
+      "players": [],
+      "ball": null
+    },
+    {
+      "frame": 70,
+      "time": 1.168,
+      "scene_id": 1,
+      "is_replay": false,
+      "reproj_error_meters": 0.0,
+      "calibration_valid": true,
+      "players": [],
+      "ball": null
+    },
+    {
+      "frame": 71,
+      "time": 1.185,
+      "scene_id": 1,
+      "is_replay": false,
+      "reproj_error_meters": 0.0,
+      "calibration_valid": true,
+      "players": [],
+      "ball": null
+    },
+    {
+      "frame": 72,
+      "time": 1.201,
+      "scene_id": 1,
+      "is_replay": false,
+      "reproj_error_meters": 0.0,
+      "calibration_valid": true,
+      "players": [],
+      "ball": null
+    },
+    {
+      "frame": 73,
+      "time": 1.218,
+      "scene_id": 1,
+      "is_replay": false,
+      "reproj_error_meters": 0.0,
+      "calibration_valid": true,
+      "players": [],
+      "ball": null
+    },
+    {
+      "frame": 74,
+      "time": 1.235,
+      "scene_id": 1,
+      "is_replay": false,
+      "reproj_error_meters": 0.0,
+      "calibration_valid": true,
+      "players": [],
+      "ball": null
+    },
+    {
+      "frame": 75,
+      "time": 1.251,
+      "scene_id": 1,
+      "is_replay": false,
+      "reproj_error_meters": 0.0,
+      "calibration_valid": true,
+      "players": [],
+      "ball": null
+    },
+    {
+      "frame": 76,
+      "time": 1.268,
+      "scene_id": 1,
+      "is_replay": false,
+      "reproj_error_meters": 0.0,
+      "calibration_valid": true,
+      "players": [],
+      "ball": null
+    },
+    {
+      "frame": 77,
+      "time": 1.285,
+      "scene_id": 1,
+      "is_replay": false,
+      "reproj_error_meters": 0.0,
+      "calibration_valid": true,
+      "players": [],
+      "ball": null
+    },
+    {
+      "frame": 78,
+      "time": 1.301,
+      "scene_id": 1,
+      "is_replay": false,
+      "reproj_error_meters": 0.0,
+      "calibration_valid": true,
+      "players": [],
+      "ball": null
+    },
+    {
+      "frame": 79,
+      "time": 1.318,
+      "scene_id": 1,
+      "is_replay": false,
+      "reproj_error_meters": 0.0,
+      "calibration_valid": true,
+      "players": [],
+      "ball": null
+    },
+    {
+      "frame": 80,
+      "time": 1.335,
+      "scene_id": 1,
+      "is_replay": false,
+      "reproj_error_meters": 0.0,
+      "calibration_valid": true,
+      "players": [],
+      "ball": null
+    },
+    {
+      "frame": 81,
+      "time": 1.351,
+      "scene_id": 1,
+      "is_replay": false,
+      "reproj_error_meters": 0.0,
+      "calibration_valid": true,
+      "players": [],
+      "ball": null
+    },
+    {
+      "frame": 82,
+      "time": 1.368,
+      "scene_id": 1,
+      "is_replay": false,
+      "reproj_error_meters": 0.0,
+      "calibration_valid": true,
+      "players": [],
+      "ball": null
+    },
+    {
+      "frame": 83,
+      "time": 1.385,
+      "scene_id": 1,
+      "is_replay": false,
+      "reproj_error_meters": 0.0,
+      "calibration_valid": true,
+      "players": [],
+      "ball": null
+    },
+    {
+      "frame": 84,
+      "time": 1.401,
+      "scene_id": 1,
+      "is_replay": false,
+      "reproj_error_meters": 0.0,
+      "calibration_valid": true,
+      "players": [],
+      "ball": null
+    },
+    {
+      "frame": 85,
+      "time": 1.418,
+      "scene_id": 1,
+      "is_replay": false,
+      "reproj_error_meters": 0.0,
+      "calibration_valid": true,
+      "players": [],
+      "ball": null
+    },
+    {
+      "frame": 86,
+      "time": 1.435,
+      "scene_id": 1,
+      "is_replay": false,
+      "reproj_error_meters": 0.0,
+      "calibration_valid": true,
+      "players": [],
+      "ball": null
+    },
+    {
+      "frame": 87,
+      "time": 1.451,
+      "scene_id": 1,
+      "is_replay": false,
+      "reproj_error_meters": 0.0,
+      "calibration_valid": true,
+      "players": [],
+      "ball": null
+    },
+    {
+      "frame": 88,
+      "time": 1.468,
+      "scene_id": 1,
+      "is_replay": false,
+      "reproj_error_meters": 0.0,
+      "calibration_valid": true,
+      "players": [],
+      "ball": null
+    },
+    {
+      "frame": 89,
+      "time": 1.485,
+      "scene_id": 1,
+      "is_replay": false,
+      "reproj_error_meters": 0.0,
+      "calibration_valid": true,
+      "players": [],
+      "ball": null
+    },
+    {
+      "frame": 90,
+      "time": 1.502,
+      "scene_id": 1,
+      "is_replay": false,
+      "reproj_error_meters": 0.0,
+      "calibration_valid": true,
+      "players": [],
+      "ball": null
+    },
+    {
+      "frame": 91,
+      "time": 1.518,
+      "scene_id": 1,
+      "is_replay": false,
+      "reproj_error_meters": 0.0,
+      "calibration_valid": true,
+      "players": [],
+      "ball": null
+    },
+    {
+      "frame": 92,
+      "time": 1.535,
+      "scene_id": 1,
+      "is_replay": false,
+      "reproj_error_meters": 0.0,
+      "calibration_valid": true,
+      "players": [],
+      "ball": null
+    },
+    {
+      "frame": 93,
+      "time": 1.552,
+      "scene_id": 1,
+      "is_replay": false,
+      "reproj_error_meters": 0.0,
+      "calibration_valid": true,
+      "players": [],
+      "ball": null
+    },
+    {
+      "frame": 94,
+      "time": 1.568,
+      "scene_id": 1,
+      "is_replay": false,
+      "reproj_error_meters": 0.0,
+      "calibration_valid": true,
+      "players": [],
+      "ball": null
+    },
+    {
+      "frame": 95,
+      "time": 1.585,
+      "scene_id": 1,
+      "is_replay": false,
+      "reproj_error_meters": 0.0,
+      "calibration_valid": true,
+      "players": [],
+      "ball": null
+    },
+    {
+      "frame": 96,
+      "time": 1.602,
+      "scene_id": 1,
+      "is_replay": false,
+      "reproj_error_meters": 0.0,
+      "calibration_valid": true,
+      "players": [],
+      "ball": null
+    },
+    {
+      "frame": 97,
+      "time": 1.618,
+      "scene_id": 1,
+      "is_replay": false,
+      "reproj_error_meters": 0.0,
+      "calibration_valid": true,
+      "players": [],
+      "ball": null
+    },
+    {
+      "frame": 98,
+      "time": 1.635,
+      "scene_id": 1,
+      "is_replay": false,
+      "reproj_error_meters": 0.0,
+      "calibration_valid": true,
+      "players": [],
+      "ball": null
+    },
+    {
+      "frame": 99,
+      "time": 1.652,
+      "scene_id": 1,
+      "is_replay": false,
+      "reproj_error_meters": 0.0,
+      "calibration_valid": true,
+      "players": [],
+      "ball": null
+    },
+    {
+      "frame": 100,
+      "time": 1.668,
+      "scene_id": 1,
+      "is_replay": false,
+      "reproj_error_meters": 0.0,
+      "calibration_valid": true,
+      "players": [],
+      "ball": null
+    }
+  ]
+}

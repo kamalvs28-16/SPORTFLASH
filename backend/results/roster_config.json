@@ -22,7 +22,7 @@
             "team": "Team A",
             "position": "Forward / Winger",
             "notes": "Captain & Top Finisher",
-            "photo_path": ""
+            "photo_path": "/static/results/player_photos/player_1.png"
         },
         "2": {
             "name": "Bernardo Silva",
@@ -30,7 +30,7 @@
             "team": "Team A",
             "position": "Right Winger",
             "notes": "Agile Dribbler",
-            "photo_path": ""
+            "photo_path": "/static/results/player_photos/player_2.png"
         },
         "3": {
             "name": "Bruno Fernandes",
@@ -38,7 +38,7 @@
             "team": "Team A",
             "position": "Attacking Midfielder",
             "notes": "Playmaker",
-            "photo_path": ""
+            "photo_path": "/static/results/player_photos/player_3.png"
         },
         "4": {
             "name": "Diogo Costa",
@@ -46,7 +46,7 @@
             "team": "Team A",
             "position": "Goalkeeper",
             "notes": "Shot Stopper",
-            "photo_path": ""
+            "photo_path": "/static/results/player_photos/player_4.png"
         },
         "5": {
             "name": "R\u00faben Dias",
@@ -54,7 +54,7 @@
             "team": "Team A",
             "position": "Center Back",
             "notes": "Defensive Anchor",
-            "photo_path": ""
+            "photo_path": "/static/results/player_photos/player_5.png"
         },
         "6": {
             "name": "Aymeric Laporte",
@@ -62,7 +62,7 @@
             "team": "Team B",
             "position": "Center Back",
             "notes": "Ball Playing Defender",
-            "photo_path": ""
+            "photo_path": "/static/results/player_photos/player_6.png"
         },
         "7": {
             "name": "Dani Olmo",
@@ -70,7 +70,7 @@
             "team": "Team B",
             "position": "Attacking Midfielder",
             "notes": "Chance Creator",
-            "photo_path": ""
+            "photo_path": "/static/results/player_photos/player_7.png"
         },
         "8": {
             "name": "Rodri",
@@ -78,7 +78,7 @@
             "team": "Team B",
             "position": "Defensive Midfielder",
             "notes": "Tactical Pivot & Ball Winner",
-            "photo_path": ""
+            "photo_path": "/static/results/player_photos/player_8.png"
         },
         "9": {
             "name": "Lamine Yamal",
@@ -86,7 +86,7 @@
             "team": "Team B",
             "position": "Forward / Winger",
             "notes": "Explosive Pace & 1v1",
-            "photo_path": ""
+            "photo_path": "/static/results/player_photos/player_9.png"
         },
         "10": {
             "name": "Unai Sim\u00f3n",
@@ -94,7 +94,7 @@
             "team": "Team B",
             "position": "Goalkeeper",
             "notes": "Sweeper Keeper",
-            "photo_path": ""
+            "photo_path": "/static/results/player_photos/player_10.png"
         }
     }
 }
