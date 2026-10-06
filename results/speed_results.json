@@ -1,62 +1,3752 @@
 {
   "1": {
-    "average_speed": 33.14,
-    "maximum_speed": 36.0,
+    "average_speed": 1.3,
+    "maximum_speed": 2.6,
     "unit": "km/h"
   },
   "2": {
-    "average_speed": 33.99,
-    "maximum_speed": 36.0,
+    "average_speed": 12.2,
+    "maximum_speed": 34.2,
     "unit": "km/h"
   },
   "3": {
-    "average_speed": 34.43,
-    "maximum_speed": 36.0,
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
     "unit": "km/h"
   },
   "4": {
-    "average_speed": 34.67,
-    "maximum_speed": 36.0,
+    "average_speed": 5.7,
+    "maximum_speed": 33.9,
     "unit": "km/h"
   },
   "5": {
-    "average_speed": 34.66,
-    "maximum_speed": 36.0,
+    "average_speed": 14.6,
+    "maximum_speed": 35.8,
     "unit": "km/h"
   },
   "6": {
-    "average_speed": 34.8,
-    "maximum_speed": 36.0,
+    "average_speed": 8.8,
+    "maximum_speed": 34.0,
     "unit": "km/h"
   },
   "7": {
-    "average_speed": 34.67,
-    "maximum_speed": 36.0,
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
     "unit": "km/h"
   },
   "8": {
-    "average_speed": 34.4,
-    "maximum_speed": 36.0,
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
     "unit": "km/h"
   },
   "9": {
-    "average_speed": 34.44,
-    "maximum_speed": 36.0,
+    "average_speed": 3.3,
+    "maximum_speed": 26.0,
     "unit": "km/h"
   },
   "10": {
-    "average_speed": 34.38,
-    "maximum_speed": 36.0,
+    "average_speed": 5.3,
+    "maximum_speed": 33.4,
     "unit": "km/h"
   },
   "11": {
-    "average_speed": 34.35,
-    "maximum_speed": 36.0,
+    "average_speed": 5.8,
+    "maximum_speed": 33.5,
     "unit": "km/h"
   },
   "12": {
-    "average_speed": 34.11,
-    "maximum_speed": 36.0,
+    "average_speed": 2.3,
+    "maximum_speed": 22.3,
+    "unit": "km/h"
+  },
+  "13": {
+    "average_speed": 5.9,
+    "maximum_speed": 33.4,
+    "unit": "km/h"
+  },
+  "14": {
+    "average_speed": 8.0,
+    "maximum_speed": 33.9,
+    "unit": "km/h"
+  },
+  "15": {
+    "average_speed": 7.8,
+    "maximum_speed": 33.9,
+    "unit": "km/h"
+  },
+  "16": {
+    "average_speed": 4.9,
+    "maximum_speed": 33.4,
+    "unit": "km/h"
+  },
+  "17": {
+    "average_speed": 3.2,
+    "maximum_speed": 30.4,
+    "unit": "km/h"
+  },
+  "18": {
+    "average_speed": 4.2,
+    "maximum_speed": 31.0,
+    "unit": "km/h"
+  },
+  "19": {
+    "average_speed": 4.1,
+    "maximum_speed": 28.0,
+    "unit": "km/h"
+  },
+  "20": {
+    "average_speed": 1.9,
+    "maximum_speed": 22.5,
+    "unit": "km/h"
+  },
+  "21": {
+    "average_speed": 5.3,
+    "maximum_speed": 33.7,
+    "unit": "km/h"
+  },
+  "22": {
+    "average_speed": 5.3,
+    "maximum_speed": 33.4,
+    "unit": "km/h"
+  },
+  "23": {
+    "average_speed": 1.7,
+    "maximum_speed": 18.9,
+    "unit": "km/h"
+  },
+  "24": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "25": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "26": {
+    "average_speed": 3.4,
+    "maximum_speed": 25.7,
+    "unit": "km/h"
+  },
+  "27": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "28": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "29": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "30": {
+    "average_speed": 0.7,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "31": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "32": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "33": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "34": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "35": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "36": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "37": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "38": {
+    "average_speed": 1.7,
+    "maximum_speed": 17.0,
+    "unit": "km/h"
+  },
+  "39": {
+    "average_speed": 0.7,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "40": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "41": {
+    "average_speed": 1.5,
+    "maximum_speed": 18.4,
+    "unit": "km/h"
+  },
+  "42": {
+    "average_speed": 0.9,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "43": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "44": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "45": {
+    "average_speed": 2.0,
+    "maximum_speed": 17.6,
+    "unit": "km/h"
+  },
+  "46": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "47": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "48": {
+    "average_speed": 2.4,
+    "maximum_speed": 29.0,
+    "unit": "km/h"
+  },
+  "49": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "50": {
+    "average_speed": 2.3,
+    "maximum_speed": 17.0,
+    "unit": "km/h"
+  },
+  "51": {
+    "average_speed": 0.7,
+    "maximum_speed": 2.8,
+    "unit": "km/h"
+  },
+  "52": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "53": {
+    "average_speed": 0.5,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "54": {
+    "average_speed": 0.4,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "55": {
+    "average_speed": 1.1,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "56": {
+    "average_speed": 1.6,
+    "maximum_speed": 16.9,
+    "unit": "km/h"
+  },
+  "57": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "58": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "59": {
+    "average_speed": 1.2,
+    "maximum_speed": 1.1,
+    "unit": "km/h"
+  },
+  "60": {
+    "average_speed": 1.6,
+    "maximum_speed": 17.0,
+    "unit": "km/h"
+  },
+  "61": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "62": {
+    "average_speed": 0.8,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "63": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "64": {
+    "average_speed": 0.8,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "65": {
+    "average_speed": 1.8,
+    "maximum_speed": 16.9,
+    "unit": "km/h"
+  },
+  "66": {
+    "average_speed": 0.8,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "67": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "68": {
+    "average_speed": 0.7,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "69": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "70": {
+    "average_speed": 0.9,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "71": {
+    "average_speed": 0.3,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "72": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "73": {
+    "average_speed": 0.5,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "74": {
+    "average_speed": 1.3,
+    "maximum_speed": 11.2,
+    "unit": "km/h"
+  },
+  "75": {
+    "average_speed": 0.5,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "76": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "77": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "78": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "79": {
+    "average_speed": 1.0,
+    "maximum_speed": 3.3,
+    "unit": "km/h"
+  },
+  "80": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "81": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "82": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "83": {
+    "average_speed": 1.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "84": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "85": {
+    "average_speed": 1.5,
+    "maximum_speed": 6.8,
+    "unit": "km/h"
+  },
+  "86": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "87": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "88": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "89": {
+    "average_speed": 0.6,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "90": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "91": {
+    "average_speed": 1.0,
+    "maximum_speed": 3.9,
+    "unit": "km/h"
+  },
+  "92": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "93": {
+    "average_speed": 0.6,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "94": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "95": {
+    "average_speed": 0.8,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "96": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "97": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "98": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "99": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "100": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "101": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "102": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "103": {
+    "average_speed": 0.6,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "104": {
+    "average_speed": 0.3,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "105": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "106": {
+    "average_speed": 0.4,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "107": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "108": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "109": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "110": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "111": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "112": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "113": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "114": {
+    "average_speed": 1.4,
+    "maximum_speed": 5.6,
+    "unit": "km/h"
+  },
+  "115": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "116": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "117": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "118": {
+    "average_speed": 0.4,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "119": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "120": {
+    "average_speed": 1.6,
+    "maximum_speed": 6.4,
+    "unit": "km/h"
+  },
+  "121": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "122": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "123": {
+    "average_speed": 0.6,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "124": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "125": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "126": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "127": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "128": {
+    "average_speed": 0.7,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "129": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "130": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "131": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "132": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "133": {
+    "average_speed": 0.2,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "134": {
+    "average_speed": 2.1,
+    "maximum_speed": 18.3,
+    "unit": "km/h"
+  },
+  "135": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "136": {
+    "average_speed": 1.5,
+    "maximum_speed": 10.3,
+    "unit": "km/h"
+  },
+  "137": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "138": {
+    "average_speed": 2.4,
+    "maximum_speed": 19.7,
+    "unit": "km/h"
+  },
+  "139": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "140": {
+    "average_speed": 0.2,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "141": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "142": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "143": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "144": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "145": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "146": {
+    "average_speed": 1.1,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "147": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "148": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "149": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "150": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "151": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "152": {
+    "average_speed": 0.8,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "153": {
+    "average_speed": 0.8,
+    "maximum_speed": 2.6,
+    "unit": "km/h"
+  },
+  "154": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "155": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "156": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "157": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "158": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "159": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "160": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "161": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "162": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "163": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "164": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "165": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "166": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "167": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "168": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "169": {
+    "average_speed": 0.7,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "170": {
+    "average_speed": 0.2,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "171": {
+    "average_speed": 1.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "172": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "173": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "174": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "175": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "176": {
+    "average_speed": 0.5,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "177": {
+    "average_speed": 0.8,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "178": {
+    "average_speed": 1.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "179": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "180": {
+    "average_speed": 1.8,
+    "maximum_speed": 8.9,
+    "unit": "km/h"
+  },
+  "181": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "182": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "183": {
+    "average_speed": 0.3,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "184": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "185": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "186": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "187": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "188": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "189": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "190": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "191": {
+    "average_speed": 1.5,
+    "maximum_speed": 2.8,
+    "unit": "km/h"
+  },
+  "192": {
+    "average_speed": 0.8,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "193": {
+    "average_speed": 1.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "194": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "195": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "196": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "197": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "198": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "199": {
+    "average_speed": 3.4,
+    "maximum_speed": 22.3,
+    "unit": "km/h"
+  },
+  "200": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "201": {
+    "average_speed": 2.7,
+    "maximum_speed": 16.9,
+    "unit": "km/h"
+  },
+  "202": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "203": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "204": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "205": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "206": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "207": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "208": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "209": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "210": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "211": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "212": {
+    "average_speed": 2.1,
+    "maximum_speed": 25.3,
+    "unit": "km/h"
+  },
+  "213": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "214": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "215": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "216": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "217": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "218": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "219": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "220": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "221": {
+    "average_speed": 0.9,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "222": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "223": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "224": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "225": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "226": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "227": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "228": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "229": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "230": {
+    "average_speed": 0.6,
+    "maximum_speed": 1.1,
+    "unit": "km/h"
+  },
+  "231": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "232": {
+    "average_speed": 1.3,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "233": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "234": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "235": {
+    "average_speed": 0.6,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "236": {
+    "average_speed": 0.3,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "237": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "238": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "239": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "240": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "241": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "242": {
+    "average_speed": 0.3,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "243": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "244": {
+    "average_speed": 2.0,
+    "maximum_speed": 20.7,
+    "unit": "km/h"
+  },
+  "245": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "246": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "247": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "248": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "249": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "250": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "251": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "252": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "253": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "254": {
+    "average_speed": 0.9,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "255": {
+    "average_speed": 0.2,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "256": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "257": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "258": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "259": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "260": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "261": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "262": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "263": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "264": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "265": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "266": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "267": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "268": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "269": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "270": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "271": {
+    "average_speed": 0.8,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "272": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "273": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "274": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "275": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "276": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "277": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "278": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "279": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "280": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "281": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "282": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "283": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "284": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "285": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "286": {
+    "average_speed": 0.4,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "287": {
+    "average_speed": 0.4,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "288": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "289": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "290": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "291": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "292": {
+    "average_speed": 1.3,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "293": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "294": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "295": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "296": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "297": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "298": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "299": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "300": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "301": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "302": {
+    "average_speed": 2.0,
+    "maximum_speed": 6.8,
+    "unit": "km/h"
+  },
+  "303": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "304": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "305": {
+    "average_speed": 1.9,
+    "maximum_speed": 22.5,
+    "unit": "km/h"
+  },
+  "306": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "307": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "308": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "309": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "310": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "311": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "312": {
+    "average_speed": 0.8,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "313": {
+    "average_speed": 0.3,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "314": {
+    "average_speed": 0.6,
+    "maximum_speed": 0.6,
+    "unit": "km/h"
+  },
+  "315": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "316": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "317": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "318": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "319": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "320": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "321": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "322": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "323": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "324": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "325": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "326": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "327": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "328": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "329": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "330": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "331": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "332": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "333": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "334": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "335": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "336": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "337": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "338": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "339": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "340": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "341": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "342": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "343": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "344": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "345": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "346": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "347": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "348": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "349": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "350": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "351": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "352": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "353": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "354": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "355": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "356": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "357": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "358": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "359": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "360": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "361": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "362": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "363": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "364": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "365": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "366": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "367": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "368": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "369": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "370": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "371": {
+    "average_speed": 3.5,
+    "maximum_speed": 27.9,
+    "unit": "km/h"
+  },
+  "372": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "373": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "374": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "375": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "376": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "377": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "378": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "379": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "380": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "381": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "382": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "383": {
+    "average_speed": 2.7,
+    "maximum_speed": 20.7,
+    "unit": "km/h"
+  },
+  "384": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "385": {
+    "average_speed": 14.4,
+    "maximum_speed": 34.0,
+    "unit": "km/h"
+  },
+  "386": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "387": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "388": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "389": {
+    "average_speed": 2.1,
+    "maximum_speed": 25.9,
+    "unit": "km/h"
+  },
+  "390": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "391": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "392": {
+    "average_speed": 1.9,
+    "maximum_speed": 19.2,
+    "unit": "km/h"
+  },
+  "393": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "394": {
+    "average_speed": 2.9,
+    "maximum_speed": 26.5,
+    "unit": "km/h"
+  },
+  "395": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "396": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "397": {
+    "average_speed": 1.4,
+    "maximum_speed": 5.6,
+    "unit": "km/h"
+  },
+  "398": {
+    "average_speed": 11.8,
+    "maximum_speed": 33.5,
+    "unit": "km/h"
+  },
+  "399": {
+    "average_speed": 0.8,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "400": {
+    "average_speed": 6.6,
+    "maximum_speed": 33.5,
+    "unit": "km/h"
+  },
+  "401": {
+    "average_speed": 1.7,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "402": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "403": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "404": {
+    "average_speed": 3.9,
+    "maximum_speed": 20.4,
+    "unit": "km/h"
+  },
+  "405": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "406": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "407": {
+    "average_speed": 7.7,
+    "maximum_speed": 33.7,
+    "unit": "km/h"
+  },
+  "408": {
+    "average_speed": 0.6,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "409": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "410": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "411": {
+    "average_speed": 6.1,
+    "maximum_speed": 33.5,
+    "unit": "km/h"
+  },
+  "412": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "413": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "414": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "415": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "416": {
+    "average_speed": 3.1,
+    "maximum_speed": 22.3,
+    "unit": "km/h"
+  },
+  "417": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "418": {
+    "average_speed": 0.7,
+    "maximum_speed": 2.8,
+    "unit": "km/h"
+  },
+  "419": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "420": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "421": {
+    "average_speed": 13.6,
+    "maximum_speed": 34.9,
+    "unit": "km/h"
+  },
+  "422": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "423": {
+    "average_speed": 13.4,
+    "maximum_speed": 35.8,
+    "unit": "km/h"
+  },
+  "424": {
+    "average_speed": 13.3,
+    "maximum_speed": 33.9,
+    "unit": "km/h"
+  },
+  "425": {
+    "average_speed": 14.4,
+    "maximum_speed": 33.9,
+    "unit": "km/h"
+  },
+  "426": {
+    "average_speed": 1.2,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "427": {
+    "average_speed": 5.1,
+    "maximum_speed": 33.4,
+    "unit": "km/h"
+  },
+  "428": {
+    "average_speed": 15.4,
+    "maximum_speed": 35.8,
+    "unit": "km/h"
+  },
+  "429": {
+    "average_speed": 2.4,
+    "maximum_speed": 25.6,
+    "unit": "km/h"
+  },
+  "430": {
+    "average_speed": 7.7,
+    "maximum_speed": 27.9,
+    "unit": "km/h"
+  },
+  "431": {
+    "average_speed": 5.0,
+    "maximum_speed": 33.4,
+    "unit": "km/h"
+  },
+  "432": {
+    "average_speed": 7.7,
+    "maximum_speed": 34.4,
+    "unit": "km/h"
+  },
+  "433": {
+    "average_speed": 6.1,
+    "maximum_speed": 33.9,
+    "unit": "km/h"
+  },
+  "434": {
+    "average_speed": 1.7,
+    "maximum_speed": 20.1,
+    "unit": "km/h"
+  },
+  "435": {
+    "average_speed": 1.1,
+    "maximum_speed": 4.2,
+    "unit": "km/h"
+  },
+  "436": {
+    "average_speed": 10.2,
+    "maximum_speed": 35.8,
+    "unit": "km/h"
+  },
+  "437": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "438": {
+    "average_speed": 3.6,
+    "maximum_speed": 26.5,
+    "unit": "km/h"
+  },
+  "439": {
+    "average_speed": 6.4,
+    "maximum_speed": 33.9,
+    "unit": "km/h"
+  },
+  "440": {
+    "average_speed": 1.5,
+    "maximum_speed": 10.2,
+    "unit": "km/h"
+  },
+  "441": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "442": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "443": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "444": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "445": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "446": {
+    "average_speed": 8.7,
+    "maximum_speed": 35.0,
+    "unit": "km/h"
+  },
+  "447": {
+    "average_speed": 5.3,
+    "maximum_speed": 33.5,
+    "unit": "km/h"
+  },
+  "448": {
+    "average_speed": 8.0,
+    "maximum_speed": 35.8,
+    "unit": "km/h"
+  },
+  "449": {
+    "average_speed": 11.8,
+    "maximum_speed": 33.8,
+    "unit": "km/h"
+  },
+  "450": {
+    "average_speed": 4.2,
+    "maximum_speed": 33.5,
+    "unit": "km/h"
+  },
+  "451": {
+    "average_speed": 10.5,
+    "maximum_speed": 33.5,
+    "unit": "km/h"
+  },
+  "452": {
+    "average_speed": 3.1,
+    "maximum_speed": 27.9,
+    "unit": "km/h"
+  },
+  "453": {
+    "average_speed": 3.0,
+    "maximum_speed": 31.5,
+    "unit": "km/h"
+  },
+  "454": {
+    "average_speed": 2.8,
+    "maximum_speed": 27.6,
+    "unit": "km/h"
+  },
+  "455": {
+    "average_speed": 2.4,
+    "maximum_speed": 22.5,
+    "unit": "km/h"
+  },
+  "456": {
+    "average_speed": 3.3,
+    "maximum_speed": 33.4,
+    "unit": "km/h"
+  },
+  "457": {
+    "average_speed": 2.0,
+    "maximum_speed": 17.8,
+    "unit": "km/h"
+  },
+  "458": {
+    "average_speed": 2.7,
+    "maximum_speed": 22.3,
+    "unit": "km/h"
+  },
+  "459": {
+    "average_speed": 2.2,
+    "maximum_speed": 26.9,
+    "unit": "km/h"
+  },
+  "460": {
+    "average_speed": 7.5,
+    "maximum_speed": 35.4,
+    "unit": "km/h"
+  },
+  "461": {
+    "average_speed": 0.6,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "462": {
+    "average_speed": 0.6,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "463": {
+    "average_speed": 6.3,
+    "maximum_speed": 26.5,
+    "unit": "km/h"
+  },
+  "464": {
+    "average_speed": 1.6,
+    "maximum_speed": 11.5,
+    "unit": "km/h"
+  },
+  "465": {
+    "average_speed": 2.4,
+    "maximum_speed": 25.3,
+    "unit": "km/h"
+  },
+  "466": {
+    "average_speed": 6.0,
+    "maximum_speed": 33.5,
+    "unit": "km/h"
+  },
+  "467": {
+    "average_speed": 0.6,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "468": {
+    "average_speed": 1.1,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "469": {
+    "average_speed": 0.6,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "470": {
+    "average_speed": 1.8,
+    "maximum_speed": 21.5,
+    "unit": "km/h"
+  },
+  "471": {
+    "average_speed": 1.2,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "472": {
+    "average_speed": 0.8,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "473": {
+    "average_speed": 5.3,
+    "maximum_speed": 35.8,
+    "unit": "km/h"
+  },
+  "474": {
+    "average_speed": 0.6,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "475": {
+    "average_speed": 0.4,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "476": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "477": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "478": {
+    "average_speed": 0.8,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "479": {
+    "average_speed": 5.6,
+    "maximum_speed": 27.9,
+    "unit": "km/h"
+  },
+  "480": {
+    "average_speed": 0.8,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "481": {
+    "average_speed": 0.6,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "482": {
+    "average_speed": 0.4,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "483": {
+    "average_speed": 1.2,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "484": {
+    "average_speed": 2.2,
+    "maximum_speed": 29.5,
+    "unit": "km/h"
+  },
+  "485": {
+    "average_speed": 0.4,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "486": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "487": {
+    "average_speed": 0.3,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "488": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "489": {
+    "average_speed": 0.4,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "490": {
+    "average_speed": 0.2,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "491": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "492": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "493": {
+    "average_speed": 0.4,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "494": {
+    "average_speed": 0.2,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "495": {
+    "average_speed": 0.2,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "496": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "497": {
+    "average_speed": 0.6,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "498": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "499": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "500": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "501": {
+    "average_speed": 1.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "502": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "503": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "504": {
+    "average_speed": 0.5,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "505": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "506": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "507": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "508": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "509": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "510": {
+    "average_speed": 0.6,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "511": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "512": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "513": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "514": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "515": {
+    "average_speed": 0.8,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "516": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "517": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "518": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "519": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "520": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "521": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "522": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "523": {
+    "average_speed": 2.1,
+    "maximum_speed": 8.4,
+    "unit": "km/h"
+  },
+  "524": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "525": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "526": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "527": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "528": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "529": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "530": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "531": {
+    "average_speed": 0.2,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "532": {
+    "average_speed": 0.4,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "533": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "534": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "535": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "536": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "537": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "538": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "539": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "540": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "541": {
+    "average_speed": 1.5,
+    "maximum_speed": 5.6,
+    "unit": "km/h"
+  },
+  "542": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "543": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "544": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "545": {
+    "average_speed": 0.7,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "546": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "547": {
+    "average_speed": 0.9,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "548": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "549": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "550": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "551": {
+    "average_speed": 1.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "552": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "553": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "554": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "555": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "556": {
+    "average_speed": 1.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "557": {
+    "average_speed": 2.2,
+    "maximum_speed": 8.9,
+    "unit": "km/h"
+  },
+  "558": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "559": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "560": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "561": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "562": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "563": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "564": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "565": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "566": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "567": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "568": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "569": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "570": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "571": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "572": {
+    "average_speed": 0.6,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "573": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "574": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "575": {
+    "average_speed": 1.4,
+    "maximum_speed": 5.6,
+    "unit": "km/h"
+  },
+  "576": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "577": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "578": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "579": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "580": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "581": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "582": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "583": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "584": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "585": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "586": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "587": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "588": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "589": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "590": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "591": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "592": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "593": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "594": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "595": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "596": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "597": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "598": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "599": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "600": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "601": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "602": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "603": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "604": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "605": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "606": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "607": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "608": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "609": {
+    "average_speed": 1.4,
+    "maximum_speed": 1.1,
+    "unit": "km/h"
+  },
+  "610": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "611": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "612": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "613": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "614": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "615": {
+    "average_speed": 2.5,
+    "maximum_speed": 22.2,
+    "unit": "km/h"
+  },
+  "616": {
+    "average_speed": 0.8,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "617": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "618": {
+    "average_speed": 6.1,
+    "maximum_speed": 25.6,
+    "unit": "km/h"
+  },
+  "619": {
+    "average_speed": 19.0,
+    "maximum_speed": 35.8,
+    "unit": "km/h"
+  },
+  "620": {
+    "average_speed": 10.4,
+    "maximum_speed": 33.6,
+    "unit": "km/h"
+  },
+  "621": {
+    "average_speed": 3.7,
+    "maximum_speed": 25.9,
+    "unit": "km/h"
+  },
+  "622": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "623": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "624": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "625": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "626": {
+    "average_speed": 1.7,
+    "maximum_speed": 7.0,
+    "unit": "km/h"
+  },
+  "627": {
+    "average_speed": 0.8,
+    "maximum_speed": 3.2,
+    "unit": "km/h"
+  },
+  "628": {
+    "average_speed": 6.4,
+    "maximum_speed": 33.6,
+    "unit": "km/h"
+  },
+  "629": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "630": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "631": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "632": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "633": {
+    "average_speed": 2.4,
+    "maximum_speed": 20.4,
+    "unit": "km/h"
+  },
+  "634": {
+    "average_speed": 14.5,
+    "maximum_speed": 33.9,
+    "unit": "km/h"
+  },
+  "635": {
+    "average_speed": 10.7,
+    "maximum_speed": 35.8,
+    "unit": "km/h"
+  },
+  "636": {
+    "average_speed": 12.0,
+    "maximum_speed": 34.0,
+    "unit": "km/h"
+  },
+  "637": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "638": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "639": {
+    "average_speed": 17.7,
+    "maximum_speed": 35.8,
+    "unit": "km/h"
+  },
+  "640": {
+    "average_speed": 6.9,
+    "maximum_speed": 28.5,
+    "unit": "km/h"
+  },
+  "641": {
+    "average_speed": 0.8,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "642": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "643": {
+    "average_speed": 1.3,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "644": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "645": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "646": {
+    "average_speed": 1.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "647": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "648": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "649": {
+    "average_speed": 12.8,
+    "maximum_speed": 33.5,
+    "unit": "km/h"
+  },
+  "650": {
+    "average_speed": 3.7,
+    "maximum_speed": 29.5,
+    "unit": "km/h"
+  },
+  "651": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "652": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "653": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "654": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "655": {
+    "average_speed": 2.1,
+    "maximum_speed": 8.5,
+    "unit": "km/h"
+  },
+  "656": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "657": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "658": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "659": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "660": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "661": {
+    "average_speed": 11.1,
+    "maximum_speed": 33.4,
+    "unit": "km/h"
+  },
+  "662": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "663": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "664": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "665": {
+    "average_speed": 10.3,
+    "maximum_speed": 34.0,
+    "unit": "km/h"
+  },
+  "666": {
+    "average_speed": 2.1,
+    "maximum_speed": 8.4,
+    "unit": "km/h"
+  },
+  "667": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "668": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "669": {
+    "average_speed": 12.0,
+    "maximum_speed": 33.4,
+    "unit": "km/h"
+  },
+  "670": {
+    "average_speed": 8.1,
+    "maximum_speed": 25.7,
+    "unit": "km/h"
+  },
+  "671": {
+    "average_speed": 8.9,
+    "maximum_speed": 33.4,
+    "unit": "km/h"
+  },
+  "672": {
+    "average_speed": 15.3,
+    "maximum_speed": 35.5,
+    "unit": "km/h"
+  },
+  "673": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "674": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "675": {
+    "average_speed": 4.3,
+    "maximum_speed": 28.9,
+    "unit": "km/h"
+  },
+  "676": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "677": {
+    "average_speed": 1.9,
+    "maximum_speed": 14.1,
+    "unit": "km/h"
+  },
+  "678": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "679": {
+    "average_speed": 4.7,
+    "maximum_speed": 26.5,
+    "unit": "km/h"
+  },
+  "680": {
+    "average_speed": 11.0,
+    "maximum_speed": 33.4,
+    "unit": "km/h"
+  },
+  "681": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "682": {
+    "average_speed": 0.5,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "683": {
+    "average_speed": 7.4,
+    "maximum_speed": 33.4,
+    "unit": "km/h"
+  },
+  "684": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "685": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "686": {
+    "average_speed": 10.4,
+    "maximum_speed": 34.5,
+    "unit": "km/h"
+  },
+  "687": {
+    "average_speed": 1.5,
+    "maximum_speed": 5.6,
+    "unit": "km/h"
+  },
+  "688": {
+    "average_speed": 4.1,
+    "maximum_speed": 25.5,
+    "unit": "km/h"
+  },
+  "689": {
+    "average_speed": 2.0,
+    "maximum_speed": 19.0,
+    "unit": "km/h"
+  },
+  "690": {
+    "average_speed": 0.2,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "691": {
+    "average_speed": 1.7,
+    "maximum_speed": 9.5,
+    "unit": "km/h"
+  },
+  "692": {
+    "average_speed": 0.7,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "693": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "694": {
+    "average_speed": 1.6,
+    "maximum_speed": 8.9,
+    "unit": "km/h"
+  },
+  "695": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "696": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "697": {
+    "average_speed": 0.5,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "698": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "699": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "700": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "701": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "702": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "703": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "704": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "705": {
+    "average_speed": 0.7,
+    "maximum_speed": 2.8,
+    "unit": "km/h"
+  },
+  "706": {
+    "average_speed": 1.3,
+    "maximum_speed": 11.4,
+    "unit": "km/h"
+  },
+  "707": {
+    "average_speed": 0.5,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "708": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "709": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "710": {
+    "average_speed": 1.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "711": {
+    "average_speed": 12.9,
+    "maximum_speed": 32.7,
+    "unit": "km/h"
+  },
+  "712": {
+    "average_speed": 6.3,
+    "maximum_speed": 35.8,
+    "unit": "km/h"
+  },
+  "713": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "714": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "715": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "716": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "717": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "718": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "719": {
+    "average_speed": 1.1,
+    "maximum_speed": 11.2,
+    "unit": "km/h"
+  },
+  "720": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "721": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "722": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "723": {
+    "average_speed": 2.0,
+    "maximum_speed": 5.4,
+    "unit": "km/h"
+  },
+  "724": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "725": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "726": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "727": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "728": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "729": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "730": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "731": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "732": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "733": {
+    "average_speed": 26.3,
+    "maximum_speed": 33.8,
+    "unit": "km/h"
+  },
+  "734": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "735": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "736": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "737": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "738": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "739": {
+    "average_speed": 3.2,
+    "maximum_speed": 15.6,
+    "unit": "km/h"
+  },
+  "740": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "741": {
+    "average_speed": 2.6,
+    "maximum_speed": 14.1,
+    "unit": "km/h"
+  },
+  "742": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "743": {
+    "average_speed": 3.1,
+    "maximum_speed": 17.0,
+    "unit": "km/h"
+  },
+  "744": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "745": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "746": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "747": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "748": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "749": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
+    "unit": "km/h"
+  },
+  "750": {
+    "average_speed": 0.0,
+    "maximum_speed": 0.0,
     "unit": "km/h"
   }
 }
